@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticsscriptmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/syntheticsscriptmonitor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/syntheticsscriptmonitor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/synthetics_script_monitor newrelic_synthetics_script_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/synthetics_script_monitor newrelic_synthetics_script_monitor}.
 type SyntheticsScriptMonitor interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -22,7 +22,7 @@ type SyntheticsScriptMonitor interface {
 	SetBrowsers(val *[]*string)
 	BrowsersInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -50,9 +50,9 @@ type SyntheticsScriptMonitor interface {
 	SetEnableScreenshotOnFailureAndScript(val interface{})
 	EnableScreenshotOnFailureAndScriptInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -62,9 +62,9 @@ type SyntheticsScriptMonitor interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LocationPrivate() SyntheticsScriptMonitorLocationPrivateList
 	LocationPrivateInput() interface{}
 	LocationsPublic() *[]*string
@@ -81,9 +81,9 @@ type SyntheticsScriptMonitor interface {
 	PeriodInMinutes() *float64
 	PeriodInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type SyntheticsScriptMonitor interface {
 	Tag() SyntheticsScriptMonitorTagList
 	TagInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -127,7 +127,7 @@ type SyntheticsScriptMonitor interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -145,9 +145,9 @@ type SyntheticsScriptMonitor interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -197,7 +197,7 @@ type SyntheticsScriptMonitor interface {
 
 // The jsii proxy struct for SyntheticsScriptMonitor
 type jsiiProxy_SyntheticsScriptMonitor struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_SyntheticsScriptMonitor) AccountId() *float64 {
@@ -240,8 +240,8 @@ func (j *jsiiProxy_SyntheticsScriptMonitor) BrowsersInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitor) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SyntheticsScriptMonitor) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -370,8 +370,8 @@ func (j *jsiiProxy_SyntheticsScriptMonitor) EnableScreenshotOnFailureAndScriptIn
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitor) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SyntheticsScriptMonitor) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -430,8 +430,8 @@ func (j *jsiiProxy_SyntheticsScriptMonitor) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitor) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SyntheticsScriptMonitor) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -550,8 +550,8 @@ func (j *jsiiProxy_SyntheticsScriptMonitor) PeriodInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitor) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SyntheticsScriptMonitor) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -700,8 +700,8 @@ func (j *jsiiProxy_SyntheticsScriptMonitor) TagInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitor) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SyntheticsScriptMonitor) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -771,7 +771,7 @@ func (j *jsiiProxy_SyntheticsScriptMonitor) UseUnsupportedLegacyRuntimeInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/synthetics_script_monitor newrelic_synthetics_script_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/synthetics_script_monitor newrelic_synthetics_script_monitor} Resource.
 func NewSyntheticsScriptMonitor(scope constructs.Construct, id *string, config *SyntheticsScriptMonitorConfig) SyntheticsScriptMonitor {
 	_init_.Initialize()
 
@@ -781,7 +781,7 @@ func NewSyntheticsScriptMonitor(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_SyntheticsScriptMonitor{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -789,12 +789,12 @@ func NewSyntheticsScriptMonitor(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/synthetics_script_monitor newrelic_synthetics_script_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/synthetics_script_monitor newrelic_synthetics_script_monitor} Resource.
 func NewSyntheticsScriptMonitor_Override(s SyntheticsScriptMonitor, scope constructs.Construct, id *string, config *SyntheticsScriptMonitorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -896,7 +896,7 @@ func (j *jsiiProxy_SyntheticsScriptMonitor)SetEnableScreenshotOnFailureAndScript
 	)
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitor)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SyntheticsScriptMonitor)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -915,7 +915,7 @@ func (j *jsiiProxy_SyntheticsScriptMonitor)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitor)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SyntheticsScriptMonitor)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -959,7 +959,7 @@ func (j *jsiiProxy_SyntheticsScriptMonitor)SetPeriod(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitor)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SyntheticsScriptMonitor)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1055,17 +1055,17 @@ func (j *jsiiProxy_SyntheticsScriptMonitor)SetUseUnsupportedLegacyRuntime(val in
 	)
 }
 
-// Generates CDKTF code for importing a SyntheticsScriptMonitor resource upon running "cdktf plan <stack-name>".
-func SyntheticsScriptMonitor_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SyntheticsScriptMonitor resource upon running "cdktn plan <stack-name>".
+func SyntheticsScriptMonitor_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSyntheticsScriptMonitor_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1100,7 +1100,7 @@ func SyntheticsScriptMonitor_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1119,7 +1119,7 @@ func SyntheticsScriptMonitor_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1138,7 +1138,7 @@ func SyntheticsScriptMonitor_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1151,7 +1151,7 @@ func SyntheticsScriptMonitor_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
 		"tfResourceType",
 		&returns,
 	)
@@ -1196,11 +1196,11 @@ func (s *jsiiProxy_SyntheticsScriptMonitor) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsScriptMonitor) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SyntheticsScriptMonitor) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1337,7 +1337,7 @@ func (s *jsiiProxy_SyntheticsScriptMonitor) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsScriptMonitor) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SyntheticsScriptMonitor) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1348,11 +1348,11 @@ func (s *jsiiProxy_SyntheticsScriptMonitor) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (s *jsiiProxy_SyntheticsScriptMonitor) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SyntheticsScriptMonitor) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

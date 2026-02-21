@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
@@ -7,7 +7,7 @@ package onedashboard
 type OneDashboardPageWidgetStackedBarTooltip struct {
 	// Tooltip display mode.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/one_dashboard#mode OneDashboard#mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard#mode OneDashboard#mode}
 	Mode *string `field:"required" json:"mode" yaml:"mode"`
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationchannel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationChannel.NotificationChannel",
+		"@cdktn/provider-newrelic.notificationChannel.NotificationChannel",
 		reflect.TypeOf((*NotificationChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -83,20 +83,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationChannel{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationChannel.NotificationChannelConfig",
+		"@cdktn/provider-newrelic.notificationChannel.NotificationChannelConfig",
 		reflect.TypeOf((*NotificationChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationChannel.NotificationChannelProperty",
+		"@cdktn/provider-newrelic.notificationChannel.NotificationChannelProperty",
 		reflect.TypeOf((*NotificationChannelProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationChannel.NotificationChannelPropertyList",
+		"@cdktn/provider-newrelic.notificationChannel.NotificationChannelPropertyList",
 		reflect.TypeOf((*NotificationChannelPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,12 +113,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationChannelPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationChannel.NotificationChannelPropertyOutputReference",
+		"@cdktn/provider-newrelic.notificationChannel.NotificationChannelPropertyOutputReference",
 		reflect.TypeOf((*NotificationChannelPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,16 +155,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationChannelPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationChannel.NotificationChannelTimeouts",
+		"@cdktn/provider-newrelic.notificationChannel.NotificationChannelTimeouts",
 		reflect.TypeOf((*NotificationChannelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationChannel.NotificationChannelTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.notificationChannel.NotificationChannelTimeoutsOutputReference",
 		reflect.TypeOf((*NotificationChannelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -197,7 +197,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationChannelTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

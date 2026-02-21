@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package infraalertcondition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/infraalertcondition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/infraalertcondition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type InfraAlertConditionCriticalOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type InfraAlertConditionCriticalOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeFunction() *string
 	SetTimeFunction(val *string)
 	TimeFunctionInput() *string
@@ -54,7 +54,7 @@ type InfraAlertConditionCriticalOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type InfraAlertConditionCriticalOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTimeFunction()
 	ResetValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type InfraAlertConditionCriticalOutputReference interface {
 
 // The jsii proxy struct for InfraAlertConditionCriticalOutputReference
 type jsiiProxy_InfraAlertConditionCriticalOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_InfraAlertConditionCriticalOutputReference) ComplexObjectIndex() interface{} {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_InfraAlertConditionCriticalOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_InfraAlertConditionCriticalOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_InfraAlertConditionCriticalOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_InfraAlertConditionCriticalOutputReference) ValueInput() *flo
 }
 
 
-func NewInfraAlertConditionCriticalOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) InfraAlertConditionCriticalOutputReference {
+func NewInfraAlertConditionCriticalOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) InfraAlertConditionCriticalOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewInfraAlertConditionCriticalOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -230,7 +230,7 @@ func NewInfraAlertConditionCriticalOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_InfraAlertConditionCriticalOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.infraAlertCondition.InfraAlertConditionCriticalOutputReference",
+		"@cdktn/provider-newrelic.infraAlertCondition.InfraAlertConditionCriticalOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -238,11 +238,11 @@ func NewInfraAlertConditionCriticalOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewInfraAlertConditionCriticalOutputReference_Override(i InfraAlertConditionCriticalOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewInfraAlertConditionCriticalOutputReference_Override(i InfraAlertConditionCriticalOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.infraAlertCondition.InfraAlertConditionCriticalOutputReference",
+		"@cdktn/provider-newrelic.infraAlertCondition.InfraAlertConditionCriticalOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)
@@ -303,7 +303,7 @@ func (j *jsiiProxy_InfraAlertConditionCriticalOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_InfraAlertConditionCriticalOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_InfraAlertConditionCriticalOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -493,8 +493,8 @@ func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -506,11 +506,11 @@ func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -538,7 +538,7 @@ func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) ResetValue() {
 	)
 }
 
-func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_InfraAlertConditionCriticalOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

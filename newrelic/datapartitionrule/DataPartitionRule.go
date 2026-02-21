@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapartitionrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/datapartitionrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datapartitionrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/data_partition_rule newrelic_data_partition_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/data_partition_rule newrelic_data_partition_rule}.
 type DataPartitionRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -30,7 +30,7 @@ type DataPartitionRule interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	Deleted() cdktf.IResolvable
+	Deleted() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -42,9 +42,9 @@ type DataPartitionRule interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,18 +53,18 @@ type DataPartitionRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Nrql() *string
 	SetNrql(val *string)
 	NrqlInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type DataPartitionRule interface {
 	SetTargetDataPartition(val *string)
 	TargetDataPartitionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type DataPartitionRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type DataPartitionRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -151,7 +151,7 @@ type DataPartitionRule interface {
 
 // The jsii proxy struct for DataPartitionRule
 type jsiiProxy_DataPartitionRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataPartitionRule) AccountId() *float64 {
@@ -174,8 +174,8 @@ func (j *jsiiProxy_DataPartitionRule) AccountIdInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataPartitionRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataPartitionRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -214,8 +214,8 @@ func (j *jsiiProxy_DataPartitionRule) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataPartitionRule) Deleted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataPartitionRule) Deleted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deleted",
@@ -274,8 +274,8 @@ func (j *jsiiProxy_DataPartitionRule) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataPartitionRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataPartitionRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -324,8 +324,8 @@ func (j *jsiiProxy_DataPartitionRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataPartitionRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataPartitionRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -364,8 +364,8 @@ func (j *jsiiProxy_DataPartitionRule) NrqlInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataPartitionRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataPartitionRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -434,8 +434,8 @@ func (j *jsiiProxy_DataPartitionRule) TargetDataPartitionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataPartitionRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataPartitionRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -485,7 +485,7 @@ func (j *jsiiProxy_DataPartitionRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
 func NewDataPartitionRule(scope constructs.Construct, id *string, config *DataPartitionRuleConfig) DataPartitionRule {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewDataPartitionRule(scope constructs.Construct, id *string, config *DataPa
 	j := jsiiProxy_DataPartitionRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRule",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewDataPartitionRule(scope constructs.Construct, id *string, config *DataPa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
 func NewDataPartitionRule_Override(d DataPartitionRule, scope constructs.Construct, id *string, config *DataPartitionRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRule",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRule",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -577,7 +577,7 @@ func (j *jsiiProxy_DataPartitionRule)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_DataPartitionRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataPartitionRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -596,7 +596,7 @@ func (j *jsiiProxy_DataPartitionRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataPartitionRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataPartitionRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -618,7 +618,7 @@ func (j *jsiiProxy_DataPartitionRule)SetNrql(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataPartitionRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataPartitionRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -659,17 +659,17 @@ func (j *jsiiProxy_DataPartitionRule)SetTargetDataPartition(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataPartitionRule resource upon running "cdktf plan <stack-name>".
-func DataPartitionRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataPartitionRule resource upon running "cdktn plan <stack-name>".
+func DataPartitionRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataPartitionRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRule",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func DataPartitionRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRule",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func DataPartitionRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRule",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func DataPartitionRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRule",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func DataPartitionRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRule",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRule",
 		"tfResourceType",
 		&returns,
 	)
@@ -800,11 +800,11 @@ func (d *jsiiProxy_DataPartitionRule) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (d *jsiiProxy_DataPartitionRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPartitionRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -941,7 +941,7 @@ func (d *jsiiProxy_DataPartitionRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DataPartitionRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataPartitionRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -952,11 +952,11 @@ func (d *jsiiProxy_DataPartitionRule) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (d *jsiiProxy_DataPartitionRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPartitionRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

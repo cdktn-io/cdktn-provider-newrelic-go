@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workload
@@ -7,7 +7,7 @@ package workload
 type WorkloadStatusConfigAutomaticRemainingEntitiesRule struct {
 	// remaining_entities_rule_rollup block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/workload#remaining_entities_rule_rollup Workload#remaining_entities_rule_rollup}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workload#remaining_entities_rule_rollup Workload#remaining_entities_rule_rollup}
 	RemainingEntitiesRuleRollup *WorkloadStatusConfigAutomaticRemainingEntitiesRuleRemainingEntitiesRuleRollup `field:"required" json:"remainingEntitiesRuleRollup" yaml:"remainingEntitiesRuleRollup"`
 }
 

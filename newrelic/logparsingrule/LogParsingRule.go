@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logparsingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/logparsingrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/logparsingrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/log_parsing_rule newrelic_log_parsing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/log_parsing_rule newrelic_log_parsing_rule}.
 type LogParsingRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -22,7 +22,7 @@ type LogParsingRule interface {
 	SetAttribute(val *string)
 	AttributeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -33,7 +33,7 @@ type LogParsingRule interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	Deleted() cdktf.IResolvable
+	Deleted() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -42,9 +42,9 @@ type LogParsingRule interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type LogParsingRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Lucene() *string
 	SetLucene(val *string)
 	LuceneInput() *string
@@ -74,9 +74,9 @@ type LogParsingRule interface {
 	SetNrql(val *string)
 	NrqlInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type LogParsingRule interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type LogParsingRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -115,9 +115,9 @@ type LogParsingRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -154,7 +154,7 @@ type LogParsingRule interface {
 
 // The jsii proxy struct for LogParsingRule
 type jsiiProxy_LogParsingRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LogParsingRule) AccountId() *float64 {
@@ -197,8 +197,8 @@ func (j *jsiiProxy_LogParsingRule) AttributeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogParsingRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LogParsingRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -237,8 +237,8 @@ func (j *jsiiProxy_LogParsingRule) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LogParsingRule) Deleted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_LogParsingRule) Deleted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deleted",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_LogParsingRule) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LogParsingRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LogParsingRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -347,8 +347,8 @@ func (j *jsiiProxy_LogParsingRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogParsingRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LogParsingRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -447,8 +447,8 @@ func (j *jsiiProxy_LogParsingRule) NrqlInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogParsingRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LogParsingRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -477,8 +477,8 @@ func (j *jsiiProxy_LogParsingRule) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LogParsingRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LogParsingRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -508,7 +508,7 @@ func (j *jsiiProxy_LogParsingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/log_parsing_rule newrelic_log_parsing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/log_parsing_rule newrelic_log_parsing_rule} Resource.
 func NewLogParsingRule(scope constructs.Construct, id *string, config *LogParsingRuleConfig) LogParsingRule {
 	_init_.Initialize()
 
@@ -518,7 +518,7 @@ func NewLogParsingRule(scope constructs.Construct, id *string, config *LogParsin
 	j := jsiiProxy_LogParsingRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.logParsingRule.LogParsingRule",
+		"@cdktn/provider-newrelic.logParsingRule.LogParsingRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -526,12 +526,12 @@ func NewLogParsingRule(scope constructs.Construct, id *string, config *LogParsin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/log_parsing_rule newrelic_log_parsing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/log_parsing_rule newrelic_log_parsing_rule} Resource.
 func NewLogParsingRule_Override(l LogParsingRule, scope constructs.Construct, id *string, config *LogParsingRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.logParsingRule.LogParsingRule",
+		"@cdktn/provider-newrelic.logParsingRule.LogParsingRule",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -600,7 +600,7 @@ func (j *jsiiProxy_LogParsingRule)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_LogParsingRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LogParsingRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -630,7 +630,7 @@ func (j *jsiiProxy_LogParsingRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LogParsingRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LogParsingRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -685,7 +685,7 @@ func (j *jsiiProxy_LogParsingRule)SetNrql(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LogParsingRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LogParsingRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -704,17 +704,17 @@ func (j *jsiiProxy_LogParsingRule)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a LogParsingRule resource upon running "cdktf plan <stack-name>".
-func LogParsingRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LogParsingRule resource upon running "cdktn plan <stack-name>".
+func LogParsingRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLogParsingRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.logParsingRule.LogParsingRule",
+		"@cdktn/provider-newrelic.logParsingRule.LogParsingRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -749,7 +749,7 @@ func LogParsingRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.logParsingRule.LogParsingRule",
+		"@cdktn/provider-newrelic.logParsingRule.LogParsingRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func LogParsingRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.logParsingRule.LogParsingRule",
+		"@cdktn/provider-newrelic.logParsingRule.LogParsingRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func LogParsingRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.logParsingRule.LogParsingRule",
+		"@cdktn/provider-newrelic.logParsingRule.LogParsingRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func LogParsingRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.logParsingRule.LogParsingRule",
+		"@cdktn/provider-newrelic.logParsingRule.LogParsingRule",
 		"tfResourceType",
 		&returns,
 	)
@@ -845,11 +845,11 @@ func (l *jsiiProxy_LogParsingRule) GetAnyMapAttribute(terraformAttribute *string
 	return returns
 }
 
-func (l *jsiiProxy_LogParsingRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogParsingRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -986,7 +986,7 @@ func (l *jsiiProxy_LogParsingRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LogParsingRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LogParsingRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -997,11 +997,11 @@ func (l *jsiiProxy_LogParsingRule) ImportFrom(id *string, provider cdktf.Terrafo
 	)
 }
 
-func (l *jsiiProxy_LogParsingRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogParsingRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

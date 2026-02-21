@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -51,7 +51,7 @@ func (n *jsiiProxy_NrqlAlertConditionWarningOutputReference) validatePutPredicti
 	return nil
 }
 
-func (n *jsiiProxy_NrqlAlertConditionWarningOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NrqlAlertConditionWarningOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NrqlAlertConditionWarningOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_NrqlAlertConditionWarningOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NrqlAlertConditionWarningOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_NrqlAlertConditionWarningOutputReference) validateSetTimeFunc
 	return nil
 }
 
-func validateNewNrqlAlertConditionWarningOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNrqlAlertConditionWarningOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

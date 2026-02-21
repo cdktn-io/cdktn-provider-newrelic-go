@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudazureintegrations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/cloudazureintegrations/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudazureintegrations/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_azure_integrations newrelic_cloud_azure_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_azure_integrations newrelic_cloud_azure_integrations}.
 type CloudAzureIntegrations interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -27,7 +27,7 @@ type CloudAzureIntegrations interface {
 	AutoDiscovery() CloudAzureIntegrationsAutoDiscoveryOutputReference
 	AutoDiscoveryInput() *CloudAzureIntegrationsAutoDiscovery
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -57,9 +57,9 @@ type CloudAzureIntegrations interface {
 	Firewalls() CloudAzureIntegrationsFirewallsOutputReference
 	FirewallsInput() *CloudAzureIntegrationsFirewalls
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -74,9 +74,9 @@ type CloudAzureIntegrations interface {
 	KeyVault() CloudAzureIntegrationsKeyVaultOutputReference
 	KeyVaultInput() *CloudAzureIntegrationsKeyVault
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LinkedAccountId() *float64
 	SetLinkedAccountId(val *float64)
 	LinkedAccountIdInput() *float64
@@ -103,9 +103,9 @@ type CloudAzureIntegrations interface {
 	PowerBiDedicated() CloudAzureIntegrationsPowerBiDedicatedOutputReference
 	PowerBiDedicatedInput() *CloudAzureIntegrationsPowerBiDedicated
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -123,7 +123,7 @@ type CloudAzureIntegrations interface {
 	Storage() CloudAzureIntegrationsStorageOutputReference
 	StorageInput() *CloudAzureIntegrationsStorage
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -144,7 +144,7 @@ type CloudAzureIntegrations interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -162,9 +162,9 @@ type CloudAzureIntegrations interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -265,7 +265,7 @@ type CloudAzureIntegrations interface {
 
 // The jsii proxy struct for CloudAzureIntegrations
 type jsiiProxy_CloudAzureIntegrations struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CloudAzureIntegrations) AccountId() *float64 {
@@ -368,8 +368,8 @@ func (j *jsiiProxy_CloudAzureIntegrations) AutoDiscoveryInput() *CloudAzureInteg
 	return returns
 }
 
-func (j *jsiiProxy_CloudAzureIntegrations) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CloudAzureIntegrations) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -558,8 +558,8 @@ func (j *jsiiProxy_CloudAzureIntegrations) FirewallsInput() *CloudAzureIntegrati
 	return returns
 }
 
-func (j *jsiiProxy_CloudAzureIntegrations) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CloudAzureIntegrations) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -668,8 +668,8 @@ func (j *jsiiProxy_CloudAzureIntegrations) KeyVaultInput() *CloudAzureIntegratio
 	return returns
 }
 
-func (j *jsiiProxy_CloudAzureIntegrations) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CloudAzureIntegrations) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -908,8 +908,8 @@ func (j *jsiiProxy_CloudAzureIntegrations) PowerBiDedicatedInput() *CloudAzureIn
 	return returns
 }
 
-func (j *jsiiProxy_CloudAzureIntegrations) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CloudAzureIntegrations) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1038,8 +1038,8 @@ func (j *jsiiProxy_CloudAzureIntegrations) StorageInput() *CloudAzureIntegration
 	return returns
 }
 
-func (j *jsiiProxy_CloudAzureIntegrations) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CloudAzureIntegrations) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1149,7 +1149,7 @@ func (j *jsiiProxy_CloudAzureIntegrations) VpnGatewayInput() *CloudAzureIntegrat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_azure_integrations newrelic_cloud_azure_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_azure_integrations newrelic_cloud_azure_integrations} Resource.
 func NewCloudAzureIntegrations(scope constructs.Construct, id *string, config *CloudAzureIntegrationsConfig) CloudAzureIntegrations {
 	_init_.Initialize()
 
@@ -1159,7 +1159,7 @@ func NewCloudAzureIntegrations(scope constructs.Construct, id *string, config *C
 	j := jsiiProxy_CloudAzureIntegrations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1167,12 +1167,12 @@ func NewCloudAzureIntegrations(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_azure_integrations newrelic_cloud_azure_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_azure_integrations newrelic_cloud_azure_integrations} Resource.
 func NewCloudAzureIntegrations_Override(c CloudAzureIntegrations, scope constructs.Construct, id *string, config *CloudAzureIntegrationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1219,7 +1219,7 @@ func (j *jsiiProxy_CloudAzureIntegrations)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_CloudAzureIntegrations)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CloudAzureIntegrations)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1238,7 +1238,7 @@ func (j *jsiiProxy_CloudAzureIntegrations)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudAzureIntegrations)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CloudAzureIntegrations)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1260,7 +1260,7 @@ func (j *jsiiProxy_CloudAzureIntegrations)SetLinkedAccountId(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_CloudAzureIntegrations)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CloudAzureIntegrations)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1279,17 +1279,17 @@ func (j *jsiiProxy_CloudAzureIntegrations)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a CloudAzureIntegrations resource upon running "cdktf plan <stack-name>".
-func CloudAzureIntegrations_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CloudAzureIntegrations resource upon running "cdktn plan <stack-name>".
+func CloudAzureIntegrations_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCloudAzureIntegrations_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1324,7 +1324,7 @@ func CloudAzureIntegrations_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1343,7 +1343,7 @@ func CloudAzureIntegrations_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1362,7 +1362,7 @@ func CloudAzureIntegrations_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1375,7 +1375,7 @@ func CloudAzureIntegrations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
 		"tfResourceType",
 		&returns,
 	)
@@ -1420,11 +1420,11 @@ func (c *jsiiProxy_CloudAzureIntegrations) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (c *jsiiProxy_CloudAzureIntegrations) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAzureIntegrations) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1561,7 +1561,7 @@ func (c *jsiiProxy_CloudAzureIntegrations) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CloudAzureIntegrations) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CloudAzureIntegrations) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1572,11 +1572,11 @@ func (c *jsiiProxy_CloudAzureIntegrations) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (c *jsiiProxy_CloudAzureIntegrations) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAzureIntegrations) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticssecurecredential
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
 		reflect.TypeOf((*SyntheticsSecureCredential)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -78,20 +78,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsSecureCredential{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredentialConfig",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredentialConfig",
 		reflect.TypeOf((*SyntheticsSecureCredentialConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredentialTimeouts",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredentialTimeouts",
 		reflect.TypeOf((*SyntheticsSecureCredentialTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredentialTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredentialTimeoutsOutputReference",
 		reflect.TypeOf((*SyntheticsSecureCredentialTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -121,7 +121,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsSecureCredentialTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

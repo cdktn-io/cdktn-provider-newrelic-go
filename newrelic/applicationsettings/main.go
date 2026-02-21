@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationsettings
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettings",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettings",
 		reflect.TypeOf((*ApplicationSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,20 +97,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationSettings{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsConfig",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsConfig",
 		reflect.TypeOf((*ApplicationSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsErrorCollector",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsErrorCollector",
 		reflect.TypeOf((*ApplicationSettingsErrorCollector)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsErrorCollectorList",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsErrorCollectorList",
 		reflect.TypeOf((*ApplicationSettingsErrorCollectorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -127,12 +127,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationSettingsErrorCollectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsErrorCollectorOutputReference",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsErrorCollectorOutputReference",
 		reflect.TypeOf((*ApplicationSettingsErrorCollectorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,20 +171,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationSettingsErrorCollectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracer",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracer",
 		reflect.TypeOf((*ApplicationSettingsTransactionTracer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerExplainQueryPlans",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerExplainQueryPlans",
 		reflect.TypeOf((*ApplicationSettingsTransactionTracerExplainQueryPlans)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerExplainQueryPlansList",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerExplainQueryPlansList",
 		reflect.TypeOf((*ApplicationSettingsTransactionTracerExplainQueryPlansList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -201,12 +201,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationSettingsTransactionTracerExplainQueryPlansList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerExplainQueryPlansOutputReference",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerExplainQueryPlansOutputReference",
 		reflect.TypeOf((*ApplicationSettingsTransactionTracerExplainQueryPlansOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -239,12 +239,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationSettingsTransactionTracerExplainQueryPlansOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerList",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerList",
 		reflect.TypeOf((*ApplicationSettingsTransactionTracerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -261,12 +261,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationSettingsTransactionTracerList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerOutputReference",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerOutputReference",
 		reflect.TypeOf((*ApplicationSettingsTransactionTracerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -310,16 +310,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationSettingsTransactionTracerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerSql",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerSql",
 		reflect.TypeOf((*ApplicationSettingsTransactionTracerSql)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerSqlOutputReference",
+		"@cdktn/provider-newrelic.applicationSettings.ApplicationSettingsTransactionTracerSqlOutputReference",
 		reflect.TypeOf((*ApplicationSettingsTransactionTracerSqlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -348,7 +348,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationSettingsTransactionTracerSqlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

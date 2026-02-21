@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
@@ -7,15 +7,15 @@ package onedashboard
 type OneDashboardPageWidgetBillboardBillboardSettings struct {
 	// grid_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/one_dashboard#grid_options OneDashboard#grid_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard#grid_options OneDashboard#grid_options}
 	GridOptions *OneDashboardPageWidgetBillboardBillboardSettingsGridOptions `field:"optional" json:"gridOptions" yaml:"gridOptions"`
 	// link block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/one_dashboard#link OneDashboard#link}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard#link OneDashboard#link}
 	Link *OneDashboardPageWidgetBillboardBillboardSettingsLink `field:"optional" json:"link" yaml:"link"`
 	// visual block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/one_dashboard#visual OneDashboard#visual}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard#visual OneDashboard#visual}
 	Visual *OneDashboardPageWidgetBillboardBillboardSettingsVisual `field:"optional" json:"visual" yaml:"visual"`
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramNrqlQueryList) validateGetPara
 	return nil
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHistogramNrqlQueryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramNrqlQueryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramNrqlQueryList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetHistogramNrqlQueryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OneDashboardPageWidgetHistogramNrqlQueryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramNrqlQueryList) validateSetWrap
 	return nil
 }
 
-func validateNewOneDashboardPageWidgetHistogramNrqlQueryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOneDashboardPageWidgetHistogramNrqlQueryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

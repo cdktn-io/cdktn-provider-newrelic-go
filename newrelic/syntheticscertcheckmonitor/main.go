@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticscertcheckmonitor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitor",
+		"@cdktn/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitor",
 		reflect.TypeOf((*SyntheticsCertCheckMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -95,20 +95,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsCertCheckMonitor{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorConfig",
+		"@cdktn/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorConfig",
 		reflect.TypeOf((*SyntheticsCertCheckMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTag",
+		"@cdktn/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTag",
 		reflect.TypeOf((*SyntheticsCertCheckMonitorTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTagList",
+		"@cdktn/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTagList",
 		reflect.TypeOf((*SyntheticsCertCheckMonitorTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -125,12 +125,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsCertCheckMonitorTagList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTagOutputReference",
+		"@cdktn/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTagOutputReference",
 		reflect.TypeOf((*SyntheticsCertCheckMonitorTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,7 +161,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

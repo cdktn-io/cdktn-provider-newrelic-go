@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateGetParameters(i
 	return nil
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateResolveParamete
 
 func (j *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetJsonColors:
 		val := val.(*[]*OneDashboardPageWidgetJsonColors)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateSetInternalValu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetJsonColors; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetJsonColors; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetJsonColorsList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewOneDashboardPageWidgetJsonColorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOneDashboardPageWidgetJsonColorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

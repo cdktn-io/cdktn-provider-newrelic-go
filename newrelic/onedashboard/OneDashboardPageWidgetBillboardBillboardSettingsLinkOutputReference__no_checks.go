@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputRef
 	return nil
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputRef
 	return nil
 }
 
-func validateNewOneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

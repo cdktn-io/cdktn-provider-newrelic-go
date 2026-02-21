@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OneDashboardPageWidgetHistogramList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramList) validateGetParameters(in
 	return nil
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHistogramList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramList) validateResolveParameter
 
 func (j *jsiiProxy_OneDashboardPageWidgetHistogramList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetHistogram:
 		val := val.(*[]*OneDashboardPageWidgetHistogram)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramList) validateSetInternalValue
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetHistogram; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetHistogram; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetHistogramList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OneDashboardPageWidgetHistogramList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewOneDashboardPageWidgetHistogramListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOneDashboardPageWidgetHistogramListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

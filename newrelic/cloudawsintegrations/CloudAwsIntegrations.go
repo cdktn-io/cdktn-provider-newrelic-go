@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudawsintegrations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/cloudawsintegrations/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudawsintegrations/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations}.
 type CloudAwsIntegrations interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -67,7 +67,7 @@ type CloudAwsIntegrations interface {
 	Billing() CloudAwsIntegrationsBillingOutputReference
 	BillingInput() *CloudAwsIntegrationsBilling
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Cloudfront() CloudAwsIntegrationsCloudfrontOutputReference
 	CloudfrontInput() *CloudAwsIntegrationsCloudfront
 	Cloudtrail() CloudAwsIntegrationsCloudtrailOutputReference
@@ -109,9 +109,9 @@ type CloudAwsIntegrations interface {
 	Emr() CloudAwsIntegrationsEmrOutputReference
 	EmrInput() *CloudAwsIntegrationsEmr
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -132,18 +132,18 @@ type CloudAwsIntegrations interface {
 	Lambda() CloudAwsIntegrationsLambdaOutputReference
 	LambdaInput() *CloudAwsIntegrationsLambda
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LinkedAccountId() *float64
 	SetLinkedAccountId(val *float64)
 	LinkedAccountIdInput() *float64
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -158,6 +158,8 @@ type CloudAwsIntegrations interface {
 	Route53Input() *CloudAwsIntegrationsRoute53
 	S3() CloudAwsIntegrationsS3OutputReference
 	S3Input() *CloudAwsIntegrationsS3
+	SecurityHub() CloudAwsIntegrationsSecurityHubOutputReference
+	SecurityHubInput() *CloudAwsIntegrationsSecurityHub
 	Ses() CloudAwsIntegrationsSesOutputReference
 	SesInput() *CloudAwsIntegrationsSes
 	Sns() CloudAwsIntegrationsSnsOutputReference
@@ -165,7 +167,7 @@ type CloudAwsIntegrations interface {
 	Sqs() CloudAwsIntegrationsSqsOutputReference
 	SqsInput() *CloudAwsIntegrationsSqs
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -184,7 +186,7 @@ type CloudAwsIntegrations interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -202,9 +204,9 @@ type CloudAwsIntegrations interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -266,6 +268,7 @@ type CloudAwsIntegrations interface {
 	PutRedshift(value *CloudAwsIntegrationsRedshift)
 	PutRoute53(value *CloudAwsIntegrationsRoute53)
 	PutS3(value *CloudAwsIntegrationsS3)
+	PutSecurityHub(value *CloudAwsIntegrationsSecurityHub)
 	PutSes(value *CloudAwsIntegrationsSes)
 	PutSns(value *CloudAwsIntegrationsSns)
 	PutSqs(value *CloudAwsIntegrationsSqs)
@@ -324,6 +327,7 @@ type CloudAwsIntegrations interface {
 	ResetRedshift()
 	ResetRoute53()
 	ResetS3()
+	ResetSecurityHub()
 	ResetSes()
 	ResetSns()
 	ResetSqs()
@@ -345,7 +349,7 @@ type CloudAwsIntegrations interface {
 
 // The jsii proxy struct for CloudAwsIntegrations
 type jsiiProxy_CloudAwsIntegrations struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CloudAwsIntegrations) AccountId() *float64 {
@@ -848,8 +852,8 @@ func (j *jsiiProxy_CloudAwsIntegrations) BillingInput() *CloudAwsIntegrationsBil
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsIntegrations) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CloudAwsIntegrations) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -1158,8 +1162,8 @@ func (j *jsiiProxy_CloudAwsIntegrations) EmrInput() *CloudAwsIntegrationsEmr {
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsIntegrations) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CloudAwsIntegrations) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -1328,8 +1332,8 @@ func (j *jsiiProxy_CloudAwsIntegrations) LambdaInput() *CloudAwsIntegrationsLamb
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsIntegrations) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CloudAwsIntegrations) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -1368,8 +1372,8 @@ func (j *jsiiProxy_CloudAwsIntegrations) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsIntegrations) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CloudAwsIntegrations) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1478,6 +1482,26 @@ func (j *jsiiProxy_CloudAwsIntegrations) S3Input() *CloudAwsIntegrationsS3 {
 	return returns
 }
 
+func (j *jsiiProxy_CloudAwsIntegrations) SecurityHub() CloudAwsIntegrationsSecurityHubOutputReference {
+	var returns CloudAwsIntegrationsSecurityHubOutputReference
+	_jsii_.Get(
+		j,
+		"securityHub",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudAwsIntegrations) SecurityHubInput() *CloudAwsIntegrationsSecurityHub {
+	var returns *CloudAwsIntegrationsSecurityHub
+	_jsii_.Get(
+		j,
+		"securityHubInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudAwsIntegrations) Ses() CloudAwsIntegrationsSesOutputReference {
 	var returns CloudAwsIntegrationsSesOutputReference
 	_jsii_.Get(
@@ -1538,8 +1562,8 @@ func (j *jsiiProxy_CloudAwsIntegrations) SqsInput() *CloudAwsIntegrationsSqs {
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsIntegrations) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CloudAwsIntegrations) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1629,7 +1653,7 @@ func (j *jsiiProxy_CloudAwsIntegrations) XRayInput() *CloudAwsIntegrationsXRay {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations} Resource.
 func NewCloudAwsIntegrations(scope constructs.Construct, id *string, config *CloudAwsIntegrationsConfig) CloudAwsIntegrations {
 	_init_.Initialize()
 
@@ -1639,7 +1663,7 @@ func NewCloudAwsIntegrations(scope constructs.Construct, id *string, config *Clo
 	j := jsiiProxy_CloudAwsIntegrations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1647,12 +1671,12 @@ func NewCloudAwsIntegrations(scope constructs.Construct, id *string, config *Clo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations} Resource.
 func NewCloudAwsIntegrations_Override(c CloudAwsIntegrations, scope constructs.Construct, id *string, config *CloudAwsIntegrationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1699,7 +1723,7 @@ func (j *jsiiProxy_CloudAwsIntegrations)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_CloudAwsIntegrations)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CloudAwsIntegrations)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1718,7 +1742,7 @@ func (j *jsiiProxy_CloudAwsIntegrations)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudAwsIntegrations)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CloudAwsIntegrations)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1740,7 +1764,7 @@ func (j *jsiiProxy_CloudAwsIntegrations)SetLinkedAccountId(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_CloudAwsIntegrations)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CloudAwsIntegrations)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1759,17 +1783,17 @@ func (j *jsiiProxy_CloudAwsIntegrations)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a CloudAwsIntegrations resource upon running "cdktf plan <stack-name>".
-func CloudAwsIntegrations_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CloudAwsIntegrations resource upon running "cdktn plan <stack-name>".
+func CloudAwsIntegrations_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCloudAwsIntegrations_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1804,7 +1828,7 @@ func CloudAwsIntegrations_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1823,7 +1847,7 @@ func CloudAwsIntegrations_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1842,7 +1866,7 @@ func CloudAwsIntegrations_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1855,7 +1879,7 @@ func CloudAwsIntegrations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
 		"tfResourceType",
 		&returns,
 	)
@@ -1900,11 +1924,11 @@ func (c *jsiiProxy_CloudAwsIntegrations) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsIntegrations) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsIntegrations) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -2041,7 +2065,7 @@ func (c *jsiiProxy_CloudAwsIntegrations) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsIntegrations) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CloudAwsIntegrations) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -2052,11 +2076,11 @@ func (c *jsiiProxy_CloudAwsIntegrations) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (c *jsiiProxy_CloudAwsIntegrations) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsIntegrations) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -2629,6 +2653,17 @@ func (c *jsiiProxy_CloudAwsIntegrations) PutS3(value *CloudAwsIntegrationsS3) {
 	)
 }
 
+func (c *jsiiProxy_CloudAwsIntegrations) PutSecurityHub(value *CloudAwsIntegrationsSecurityHub) {
+	if err := c.validatePutSecurityHubParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSecurityHub",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudAwsIntegrations) PutSes(value *CloudAwsIntegrationsSes) {
 	if err := c.validatePutSesParameters(value); err != nil {
 		panic(err)
@@ -3091,6 +3126,14 @@ func (c *jsiiProxy_CloudAwsIntegrations) ResetS3() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetS3",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudAwsIntegrations) ResetSecurityHub() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSecurityHub",
 		nil, // no parameters
 	)
 }

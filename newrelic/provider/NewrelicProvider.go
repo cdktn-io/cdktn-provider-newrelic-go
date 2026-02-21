@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/provider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/provider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs newrelic}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs newrelic}.
 type NewrelicProvider interface {
-	cdktf.TerraformProvider
+	cdktn.TerraformProvider
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -34,7 +34,7 @@ type NewrelicProvider interface {
 	SetCacertFile(val *string)
 	CacertFileInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type NewrelicProvider interface {
 	SetSyntheticsApiUrl(val *string)
 	SyntheticsApiUrlInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformProviderSource() *string
 	// Experimental.
@@ -112,7 +112,7 @@ type NewrelicProvider interface {
 
 // The jsii proxy struct for NewrelicProvider
 type jsiiProxy_NewrelicProvider struct {
-	internal.Type__cdktfTerraformProvider
+	internal.Type__cdktnTerraformProvider
 }
 
 func (j *jsiiProxy_NewrelicProvider) AccountId() *float64 {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_NewrelicProvider) CacertFileInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NewrelicProvider) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NewrelicProvider) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -465,8 +465,8 @@ func (j *jsiiProxy_NewrelicProvider) SyntheticsApiUrlInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NewrelicProvider) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NewrelicProvider) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -496,7 +496,7 @@ func (j *jsiiProxy_NewrelicProvider) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs newrelic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs newrelic} Resource.
 func NewNewrelicProvider(scope constructs.Construct, id *string, config *NewrelicProviderConfig) NewrelicProvider {
 	_init_.Initialize()
 
@@ -506,7 +506,7 @@ func NewNewrelicProvider(scope constructs.Construct, id *string, config *Newreli
 	j := jsiiProxy_NewrelicProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.provider.NewrelicProvider",
+		"@cdktn/provider-newrelic.provider.NewrelicProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -514,12 +514,12 @@ func NewNewrelicProvider(scope constructs.Construct, id *string, config *Newreli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs newrelic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs newrelic} Resource.
 func NewNewrelicProvider_Override(n NewrelicProvider, scope constructs.Construct, id *string, config *NewrelicProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.provider.NewrelicProvider",
+		"@cdktn/provider-newrelic.provider.NewrelicProvider",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -640,17 +640,17 @@ func (j *jsiiProxy_NewrelicProvider)SetSyntheticsApiUrl(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a NewrelicProvider resource upon running "cdktf plan <stack-name>".
-func NewrelicProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NewrelicProvider resource upon running "cdktn plan <stack-name>".
+func NewrelicProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNewrelicProvider_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.provider.NewrelicProvider",
+		"@cdktn/provider-newrelic.provider.NewrelicProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -685,7 +685,7 @@ func NewrelicProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.provider.NewrelicProvider",
+		"@cdktn/provider-newrelic.provider.NewrelicProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -704,7 +704,7 @@ func NewrelicProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.provider.NewrelicProvider",
+		"@cdktn/provider-newrelic.provider.NewrelicProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func NewrelicProvider_IsTerraformProvider(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.provider.NewrelicProvider",
+		"@cdktn/provider-newrelic.provider.NewrelicProvider",
 		"isTerraformProvider",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func NewrelicProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.provider.NewrelicProvider",
+		"@cdktn/provider-newrelic.provider.NewrelicProvider",
 		"tfResourceType",
 		&returns,
 	)

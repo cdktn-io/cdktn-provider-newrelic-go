@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nrqlalertcondition
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
 		reflect.TypeOf((*NrqlAlertCondition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -158,20 +158,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertCondition{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionConfig",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionConfig",
 		reflect.TypeOf((*NrqlAlertConditionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionCritical",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionCritical",
 		reflect.TypeOf((*NrqlAlertConditionCritical)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionCriticalOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionCriticalOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionCriticalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,16 +222,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionCriticalOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionCriticalPrediction",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionCriticalPrediction",
 		reflect.TypeOf((*NrqlAlertConditionCriticalPrediction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionCriticalPredictionOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionCriticalPredictionOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionCriticalPredictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -264,16 +264,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionCriticalPredictionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionNrql",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionNrql",
 		reflect.TypeOf((*NrqlAlertConditionNrql)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionNrqlOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionNrqlOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionNrqlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,20 +311,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionNrqlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionOutlierConfiguration",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionOutlierConfiguration",
 		reflect.TypeOf((*NrqlAlertConditionOutlierConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionOutlierConfigurationDbscan",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionOutlierConfigurationDbscan",
 		reflect.TypeOf((*NrqlAlertConditionOutlierConfigurationDbscan)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionOutlierConfigurationDbscanOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionOutlierConfigurationDbscanOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionOutlierConfigurationDbscanOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -358,12 +358,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionOutlierConfigurationDbscanOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionOutlierConfigurationOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionOutlierConfigurationOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionOutlierConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -393,16 +393,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionOutlierConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTerm",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTerm",
 		reflect.TypeOf((*NrqlAlertConditionTerm)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTermList",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTermList",
 		reflect.TypeOf((*NrqlAlertConditionTermList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -419,12 +419,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionTermList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTermOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTermOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionTermOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -478,16 +478,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionTermOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTermPrediction",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTermPrediction",
 		reflect.TypeOf((*NrqlAlertConditionTermPrediction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTermPredictionOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTermPredictionOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionTermPredictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -520,16 +520,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionTermPredictionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTimeouts",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTimeouts",
 		reflect.TypeOf((*NrqlAlertConditionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionTimeoutsOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -559,16 +559,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionWarning",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionWarning",
 		reflect.TypeOf((*NrqlAlertConditionWarning)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionWarningOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionWarningOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionWarningOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -619,16 +619,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionWarningOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionWarningPrediction",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionWarningPrediction",
 		reflect.TypeOf((*NrqlAlertConditionWarningPrediction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionWarningPredictionOutputReference",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertConditionWarningPredictionOutputReference",
 		reflect.TypeOf((*NrqlAlertConditionWarningPredictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -661,7 +661,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertConditionWarningPredictionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package obfuscationrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.obfuscationRule.ObfuscationRule",
+		"@cdktn/provider-newrelic.obfuscationRule.ObfuscationRule",
 		reflect.TypeOf((*ObfuscationRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -76,16 +76,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ObfuscationRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.obfuscationRule.ObfuscationRuleAction",
+		"@cdktn/provider-newrelic.obfuscationRule.ObfuscationRuleAction",
 		reflect.TypeOf((*ObfuscationRuleAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.obfuscationRule.ObfuscationRuleActionList",
+		"@cdktn/provider-newrelic.obfuscationRule.ObfuscationRuleActionList",
 		reflect.TypeOf((*ObfuscationRuleActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,12 +102,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ObfuscationRuleActionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.obfuscationRule.ObfuscationRuleActionOutputReference",
+		"@cdktn/provider-newrelic.obfuscationRule.ObfuscationRuleActionOutputReference",
 		reflect.TypeOf((*ObfuscationRuleActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
@@ -140,12 +140,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ObfuscationRuleActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.obfuscationRule.ObfuscationRuleConfig",
+		"@cdktn/provider-newrelic.obfuscationRule.ObfuscationRuleConfig",
 		reflect.TypeOf((*ObfuscationRuleConfig)(nil)).Elem(),
 	)
 }

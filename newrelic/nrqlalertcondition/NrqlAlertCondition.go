@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nrqlalertcondition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/nrqlalertcondition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/nrqlalertcondition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition}.
 type NrqlAlertCondition interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -34,7 +34,7 @@ type NrqlAlertCondition interface {
 	SetBaselineDirection(val *string)
 	BaselineDirectionInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CloseViolationsOnExpiration() interface{}
 	SetCloseViolationsOnExpiration(val interface{})
 	CloseViolationsOnExpirationInput() interface{}
@@ -74,9 +74,9 @@ type NrqlAlertCondition interface {
 	SetFillValue(val *float64)
 	FillValueInput() *float64
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -88,9 +88,9 @@ type NrqlAlertCondition interface {
 	SetIgnoreOnExpectedTermination(val interface{})
 	IgnoreOnExpectedTerminationInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -107,9 +107,9 @@ type NrqlAlertCondition interface {
 	SetPolicyId(val *float64)
 	PolicyIdInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -131,7 +131,7 @@ type NrqlAlertCondition interface {
 	Term() NrqlAlertConditionTermList
 	TermInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -160,7 +160,7 @@ type NrqlAlertCondition interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -178,9 +178,9 @@ type NrqlAlertCondition interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -248,7 +248,7 @@ type NrqlAlertCondition interface {
 
 // The jsii proxy struct for NrqlAlertCondition
 type jsiiProxy_NrqlAlertCondition struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NrqlAlertCondition) AccountId() *float64 {
@@ -371,8 +371,8 @@ func (j *jsiiProxy_NrqlAlertCondition) BaselineDirectionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NrqlAlertCondition) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NrqlAlertCondition) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -591,8 +591,8 @@ func (j *jsiiProxy_NrqlAlertCondition) FillValueInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_NrqlAlertCondition) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NrqlAlertCondition) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -661,8 +661,8 @@ func (j *jsiiProxy_NrqlAlertCondition) IgnoreOnExpectedTerminationInput() interf
 	return returns
 }
 
-func (j *jsiiProxy_NrqlAlertCondition) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NrqlAlertCondition) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -781,8 +781,8 @@ func (j *jsiiProxy_NrqlAlertCondition) PolicyIdInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_NrqlAlertCondition) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NrqlAlertCondition) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -911,8 +911,8 @@ func (j *jsiiProxy_NrqlAlertCondition) TermInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_NrqlAlertCondition) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NrqlAlertCondition) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1062,7 +1062,7 @@ func (j *jsiiProxy_NrqlAlertCondition) WarningInput() *NrqlAlertConditionWarning
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition} Resource.
 func NewNrqlAlertCondition(scope constructs.Construct, id *string, config *NrqlAlertConditionConfig) NrqlAlertCondition {
 	_init_.Initialize()
 
@@ -1072,7 +1072,7 @@ func NewNrqlAlertCondition(scope constructs.Construct, id *string, config *NrqlA
 	j := jsiiProxy_NrqlAlertCondition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1080,12 +1080,12 @@ func NewNrqlAlertCondition(scope constructs.Construct, id *string, config *NrqlA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition} Resource.
 func NewNrqlAlertCondition_Override(n NrqlAlertCondition, scope constructs.Construct, id *string, config *NrqlAlertConditionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -1264,7 +1264,7 @@ func (j *jsiiProxy_NrqlAlertCondition)SetFillValue(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_NrqlAlertCondition)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NrqlAlertCondition)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1294,7 +1294,7 @@ func (j *jsiiProxy_NrqlAlertCondition)SetIgnoreOnExpectedTermination(val interfa
 	)
 }
 
-func (j *jsiiProxy_NrqlAlertCondition)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NrqlAlertCondition)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1338,7 +1338,7 @@ func (j *jsiiProxy_NrqlAlertCondition)SetPolicyId(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_NrqlAlertCondition)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NrqlAlertCondition)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1445,17 +1445,17 @@ func (j *jsiiProxy_NrqlAlertCondition)SetViolationTimeLimitSeconds(val *float64)
 	)
 }
 
-// Generates CDKTF code for importing a NrqlAlertCondition resource upon running "cdktf plan <stack-name>".
-func NrqlAlertCondition_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NrqlAlertCondition resource upon running "cdktn plan <stack-name>".
+func NrqlAlertCondition_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNrqlAlertCondition_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1490,7 +1490,7 @@ func NrqlAlertCondition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1509,7 +1509,7 @@ func NrqlAlertCondition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1528,7 +1528,7 @@ func NrqlAlertCondition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1541,7 +1541,7 @@ func NrqlAlertCondition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
+		"@cdktn/provider-newrelic.nrqlAlertCondition.NrqlAlertCondition",
 		"tfResourceType",
 		&returns,
 	)
@@ -1586,11 +1586,11 @@ func (n *jsiiProxy_NrqlAlertCondition) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (n *jsiiProxy_NrqlAlertCondition) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NrqlAlertCondition) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1727,7 +1727,7 @@ func (n *jsiiProxy_NrqlAlertCondition) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NrqlAlertCondition) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NrqlAlertCondition) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1738,11 +1738,11 @@ func (n *jsiiProxy_NrqlAlertCondition) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (n *jsiiProxy_NrqlAlertCondition) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NrqlAlertCondition) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

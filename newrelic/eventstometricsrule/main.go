@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventstometricsrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.eventsToMetricsRule.EventsToMetricsRule",
+		"@cdktn/provider-newrelic.eventsToMetricsRule.EventsToMetricsRule",
 		reflect.TypeOf((*EventsToMetricsRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -75,12 +75,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventsToMetricsRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.eventsToMetricsRule.EventsToMetricsRuleConfig",
+		"@cdktn/provider-newrelic.eventsToMetricsRule.EventsToMetricsRuleConfig",
 		reflect.TypeOf((*EventsToMetricsRuleConfig)(nil)).Elem(),
 	)
 }

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/workload/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/workload/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WorkloadStatusConfigAutomaticOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -44,15 +44,15 @@ type WorkloadStatusConfigAutomaticOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,16 +68,16 @@ type WorkloadStatusConfigAutomaticOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutRemainingEntitiesRule(value *WorkloadStatusConfigAutomaticRemainingEntitiesRule)
 	PutRule(value interface{})
 	ResetRemainingEntitiesRule()
 	ResetRule()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type WorkloadStatusConfigAutomaticOutputReference interface {
 
 // The jsii proxy struct for WorkloadStatusConfigAutomaticOutputReference
 type jsiiProxy_WorkloadStatusConfigAutomaticOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) ComplexObjectIndex() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) TerraformResour
 }
 
 
-func NewWorkloadStatusConfigAutomaticOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WorkloadStatusConfigAutomaticOutputReference {
+func NewWorkloadStatusConfigAutomaticOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WorkloadStatusConfigAutomaticOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWorkloadStatusConfigAutomaticOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -230,7 +230,7 @@ func NewWorkloadStatusConfigAutomaticOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_WorkloadStatusConfigAutomaticOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -238,11 +238,11 @@ func NewWorkloadStatusConfigAutomaticOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewWorkloadStatusConfigAutomaticOutputReference_Override(w WorkloadStatusConfigAutomaticOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWorkloadStatusConfigAutomaticOutputReference_Override(w WorkloadStatusConfigAutomaticOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)
@@ -303,7 +303,7 @@ func (j *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -343,11 +343,11 @@ func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -471,8 +471,8 @@ func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -484,11 +484,11 @@ func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) InterpolationAs
 	return returns
 }
 
-func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -538,7 +538,7 @@ func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) ResetRule() {
 	)
 }
 
-func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WorkloadStatusConfigAutomaticOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

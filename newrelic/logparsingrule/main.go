@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logparsingrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.logParsingRule.LogParsingRule",
+		"@cdktn/provider-newrelic.logParsingRule.LogParsingRule",
 		reflect.TypeOf((*LogParsingRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -81,12 +81,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LogParsingRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.logParsingRule.LogParsingRuleConfig",
+		"@cdktn/provider-newrelic.logParsingRule.LogParsingRuleConfig",
 		reflect.TypeOf((*LogParsingRuleConfig)(nil)).Elem(),
 	)
 }

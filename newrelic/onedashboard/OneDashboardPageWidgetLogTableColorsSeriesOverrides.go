@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
@@ -7,11 +7,11 @@ package onedashboard
 type OneDashboardPageWidgetLogTableColorsSeriesOverrides struct {
 	// Color code.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/one_dashboard#color OneDashboard#color}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard#color OneDashboard#color}
 	Color *string `field:"optional" json:"color" yaml:"color"`
 	// Series name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/one_dashboard#series_name OneDashboard#series_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard#series_name OneDashboard#series_name}
 	SeriesName *string `field:"optional" json:"seriesName" yaml:"seriesName"`
 }
 

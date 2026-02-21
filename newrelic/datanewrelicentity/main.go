@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datanewrelicentity
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicEntity.DataNewrelicEntity",
+		"@cdktn/provider-newrelic.dataNewrelicEntity.DataNewrelicEntity",
 		reflect.TypeOf((*DataNewrelicEntity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -80,20 +80,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicEntity{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.dataNewrelicEntity.DataNewrelicEntityConfig",
+		"@cdktn/provider-newrelic.dataNewrelicEntity.DataNewrelicEntityConfig",
 		reflect.TypeOf((*DataNewrelicEntityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.dataNewrelicEntity.DataNewrelicEntityTag",
+		"@cdktn/provider-newrelic.dataNewrelicEntity.DataNewrelicEntityTag",
 		reflect.TypeOf((*DataNewrelicEntityTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicEntity.DataNewrelicEntityTagList",
+		"@cdktn/provider-newrelic.dataNewrelicEntity.DataNewrelicEntityTagList",
 		reflect.TypeOf((*DataNewrelicEntityTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,12 +110,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicEntityTagList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicEntity.DataNewrelicEntityTagOutputReference",
+		"@cdktn/provider-newrelic.dataNewrelicEntity.DataNewrelicEntityTagOutputReference",
 		reflect.TypeOf((*DataNewrelicEntityTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,7 +146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicEntityTagOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudgcpintegrations
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrations",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrations",
 		reflect.TypeOf((*CloudGcpIntegrations)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -170,16 +170,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrations{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsAlloyDb",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsAlloyDb",
 		reflect.TypeOf((*CloudGcpIntegrationsAlloyDb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsAlloyDbOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsAlloyDbOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsAlloyDbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -209,16 +209,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsAlloyDbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsAppEngine",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsAppEngine",
 		reflect.TypeOf((*CloudGcpIntegrationsAppEngine)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsAppEngineOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsAppEngineOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsAppEngineOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -248,16 +248,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsAppEngineOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsBigQuery",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsBigQuery",
 		reflect.TypeOf((*CloudGcpIntegrationsBigQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsBigQueryOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsBigQueryOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsBigQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -290,16 +290,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsBigQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsBigTable",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsBigTable",
 		reflect.TypeOf((*CloudGcpIntegrationsBigTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsBigTableOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsBigTableOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsBigTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -329,16 +329,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsBigTableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsComposer",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsComposer",
 		reflect.TypeOf((*CloudGcpIntegrationsComposer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsComposerOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsComposerOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsComposerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -368,20 +368,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsComposerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsConfig",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsConfig",
 		reflect.TypeOf((*CloudGcpIntegrationsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataFlow",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataFlow",
 		reflect.TypeOf((*CloudGcpIntegrationsDataFlow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataFlowOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataFlowOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsDataFlowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -411,16 +411,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsDataFlowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataProc",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataProc",
 		reflect.TypeOf((*CloudGcpIntegrationsDataProc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataProcOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataProcOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsDataProcOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -450,16 +450,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsDataProcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataStore",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataStore",
 		reflect.TypeOf((*CloudGcpIntegrationsDataStore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataStoreOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsDataStoreOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsDataStoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -489,16 +489,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsDataStoreOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseDatabase",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseDatabase",
 		reflect.TypeOf((*CloudGcpIntegrationsFireBaseDatabase)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseDatabaseOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseDatabaseOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsFireBaseDatabaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -528,16 +528,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsFireBaseDatabaseOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseHosting",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseHosting",
 		reflect.TypeOf((*CloudGcpIntegrationsFireBaseHosting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseHostingOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseHostingOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsFireBaseHostingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -567,16 +567,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsFireBaseHostingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseStorage",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseStorage",
 		reflect.TypeOf((*CloudGcpIntegrationsFireBaseStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseStorageOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireBaseStorageOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsFireBaseStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -606,16 +606,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsFireBaseStorageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireStore",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireStore",
 		reflect.TypeOf((*CloudGcpIntegrationsFireStore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireStoreOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFireStoreOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsFireStoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -645,16 +645,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsFireStoreOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFunctions",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFunctions",
 		reflect.TypeOf((*CloudGcpIntegrationsFunctions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFunctionsOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsFunctionsOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsFunctionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -684,16 +684,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsFunctionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsInterconnect",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsInterconnect",
 		reflect.TypeOf((*CloudGcpIntegrationsInterconnect)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsInterconnectOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsInterconnectOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsInterconnectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -723,16 +723,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsInterconnectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsKubernetes",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsKubernetes",
 		reflect.TypeOf((*CloudGcpIntegrationsKubernetes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsKubernetesOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsKubernetesOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsKubernetesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -762,16 +762,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsKubernetesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsLoadBalancing",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsLoadBalancing",
 		reflect.TypeOf((*CloudGcpIntegrationsLoadBalancing)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsLoadBalancingOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsLoadBalancingOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsLoadBalancingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -801,16 +801,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsLoadBalancingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsMemCache",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsMemCache",
 		reflect.TypeOf((*CloudGcpIntegrationsMemCache)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsMemCacheOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsMemCacheOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsMemCacheOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -840,16 +840,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsMemCacheOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsPubSub",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsPubSub",
 		reflect.TypeOf((*CloudGcpIntegrationsPubSub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsPubSubOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsPubSubOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsPubSubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -882,16 +882,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsPubSubOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRedis",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRedis",
 		reflect.TypeOf((*CloudGcpIntegrationsRedis)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRedisOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRedisOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsRedisOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -921,16 +921,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsRedisOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRouter",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRouter",
 		reflect.TypeOf((*CloudGcpIntegrationsRouter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRouterOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRouterOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsRouterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -960,16 +960,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsRouterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRun",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRun",
 		reflect.TypeOf((*CloudGcpIntegrationsRun)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRunOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsRunOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsRunOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -999,16 +999,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsRunOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsSpanner",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsSpanner",
 		reflect.TypeOf((*CloudGcpIntegrationsSpanner)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsSpannerOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsSpannerOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsSpannerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1041,16 +1041,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsSpannerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsSql",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsSql",
 		reflect.TypeOf((*CloudGcpIntegrationsSql)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsSqlOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsSqlOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsSqlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1080,16 +1080,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsSqlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsStorage",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsStorage",
 		reflect.TypeOf((*CloudGcpIntegrationsStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsStorageOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsStorageOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1122,16 +1122,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsStorageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVirtualMachines",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVirtualMachines",
 		reflect.TypeOf((*CloudGcpIntegrationsVirtualMachines)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVirtualMachinesOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVirtualMachinesOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsVirtualMachinesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1161,16 +1161,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsVirtualMachinesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVpcAccess",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVpcAccess",
 		reflect.TypeOf((*CloudGcpIntegrationsVpcAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVpcAccessOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVpcAccessOutputReference",
 		reflect.TypeOf((*CloudGcpIntegrationsVpcAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1200,7 +1200,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

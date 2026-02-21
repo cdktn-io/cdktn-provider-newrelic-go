@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package insightsevent
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.insightsEvent.InsightsEvent",
+		"@cdktn/provider-newrelic.insightsEvent.InsightsEvent",
 		reflect.TypeOf((*InsightsEvent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -64,24 +64,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InsightsEvent{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.insightsEvent.InsightsEventConfig",
+		"@cdktn/provider-newrelic.insightsEvent.InsightsEventConfig",
 		reflect.TypeOf((*InsightsEventConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.insightsEvent.InsightsEventEvent",
+		"@cdktn/provider-newrelic.insightsEvent.InsightsEventEvent",
 		reflect.TypeOf((*InsightsEventEvent)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.insightsEvent.InsightsEventEventAttribute",
+		"@cdktn/provider-newrelic.insightsEvent.InsightsEventEventAttribute",
 		reflect.TypeOf((*InsightsEventEventAttribute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.insightsEvent.InsightsEventEventAttributeList",
+		"@cdktn/provider-newrelic.insightsEvent.InsightsEventEventAttributeList",
 		reflect.TypeOf((*InsightsEventEventAttributeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -98,12 +98,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InsightsEventEventAttributeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.insightsEvent.InsightsEventEventAttributeOutputReference",
+		"@cdktn/provider-newrelic.insightsEvent.InsightsEventEventAttributeOutputReference",
 		reflect.TypeOf((*InsightsEventEventAttributeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,12 +137,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InsightsEventEventAttributeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.insightsEvent.InsightsEventEventList",
+		"@cdktn/provider-newrelic.insightsEvent.InsightsEventEventList",
 		reflect.TypeOf((*InsightsEventEventList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -159,12 +159,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InsightsEventEventList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.insightsEvent.InsightsEventEventOutputReference",
+		"@cdktn/provider-newrelic.insightsEvent.InsightsEventEventOutputReference",
 		reflect.TypeOf((*InsightsEventEventOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
@@ -199,7 +199,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InsightsEventEventOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

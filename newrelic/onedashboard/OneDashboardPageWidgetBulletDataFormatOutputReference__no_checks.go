@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetBulletDataFormatOutputReference) valida
 	return nil
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetBulletDataFormatOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OneDashboardPageWidgetBulletDataFormatOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetBulletDataFormatOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetBulletDataFormatOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OneDashboardPageWidgetBulletDataFormatOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetBulletDataFormatOutputReference) valida
 	return nil
 }
 
-func validateNewOneDashboardPageWidgetBulletDataFormatOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOneDashboardPageWidgetBulletDataFormatOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

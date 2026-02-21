@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertchannel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertChannel.AlertChannel",
+		"@cdktn/provider-newrelic.alertChannel.AlertChannel",
 		reflect.TypeOf((*AlertChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -72,20 +72,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertChannel{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertChannel.AlertChannelConfig",
+		"@cdktn/provider-newrelic.alertChannel.AlertChannelConfig",
 		reflect.TypeOf((*AlertChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertChannel.AlertChannelConfigA",
+		"@cdktn/provider-newrelic.alertChannel.AlertChannelConfigA",
 		reflect.TypeOf((*AlertChannelConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertChannel.AlertChannelConfigAOutputReference",
+		"@cdktn/provider-newrelic.alertChannel.AlertChannelConfigAOutputReference",
 		reflect.TypeOf((*AlertChannelConfigAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
@@ -175,7 +175,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertChannelConfigAOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

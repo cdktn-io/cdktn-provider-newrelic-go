@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/alertchannel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/alertchannel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AlertChannelConfigAOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApiKey() *string
 	SetApiKey(val *string)
 	ApiKeyInput() *string
@@ -94,9 +94,9 @@ type AlertChannelConfigAOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Url() *string
 	SetUrl(val *string)
 	UrlInput() *string
@@ -108,7 +108,7 @@ type AlertChannelConfigAOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -124,9 +124,9 @@ type AlertChannelConfigAOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetApiKey()
 	ResetAuthPassword()
 	ResetAuthType()
@@ -150,7 +150,7 @@ type AlertChannelConfigAOutputReference interface {
 	ResetUserId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -160,7 +160,7 @@ type AlertChannelConfigAOutputReference interface {
 
 // The jsii proxy struct for AlertChannelConfigAOutputReference
 type jsiiProxy_AlertChannelConfigAOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AlertChannelConfigAOutputReference) ApiKey() *string {
@@ -603,8 +603,8 @@ func (j *jsiiProxy_AlertChannelConfigAOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_AlertChannelConfigAOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AlertChannelConfigAOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -654,7 +654,7 @@ func (j *jsiiProxy_AlertChannelConfigAOutputReference) UserIdInput() *string {
 }
 
 
-func NewAlertChannelConfigAOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AlertChannelConfigAOutputReference {
+func NewAlertChannelConfigAOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AlertChannelConfigAOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAlertChannelConfigAOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -663,7 +663,7 @@ func NewAlertChannelConfigAOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_AlertChannelConfigAOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.alertChannel.AlertChannelConfigAOutputReference",
+		"@cdktn/provider-newrelic.alertChannel.AlertChannelConfigAOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -671,11 +671,11 @@ func NewAlertChannelConfigAOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewAlertChannelConfigAOutputReference_Override(a AlertChannelConfigAOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAlertChannelConfigAOutputReference_Override(a AlertChannelConfigAOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.alertChannel.AlertChannelConfigAOutputReference",
+		"@cdktn/provider-newrelic.alertChannel.AlertChannelConfigAOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)
@@ -934,7 +934,7 @@ func (j *jsiiProxy_AlertChannelConfigAOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_AlertChannelConfigAOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AlertChannelConfigAOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -996,11 +996,11 @@ func (a *jsiiProxy_AlertChannelConfigAOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (a *jsiiProxy_AlertChannelConfigAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertChannelConfigAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1124,8 +1124,8 @@ func (a *jsiiProxy_AlertChannelConfigAOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (a *jsiiProxy_AlertChannelConfigAOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AlertChannelConfigAOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1137,11 +1137,11 @@ func (a *jsiiProxy_AlertChannelConfigAOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (a *jsiiProxy_AlertChannelConfigAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertChannelConfigAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1321,7 +1321,7 @@ func (a *jsiiProxy_AlertChannelConfigAOutputReference) ResetUserId() {
 	)
 }
 
-func (a *jsiiProxy_AlertChannelConfigAOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AlertChannelConfigAOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

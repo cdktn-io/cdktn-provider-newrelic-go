@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/onedashboard/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/onedashboard/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OneDashboardPageWidgetHistogramDataFormatOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type OneDashboardPageWidgetHistogramDataFormatOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -57,7 +57,7 @@ type OneDashboardPageWidgetHistogramDataFormatOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,14 +73,14 @@ type OneDashboardPageWidgetHistogramDataFormatOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFormat()
 	ResetPrecision()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type OneDashboardPageWidgetHistogramDataFormatOutputReference interface {
 
 // The jsii proxy struct for OneDashboardPageWidgetHistogramDataFormatOutputReference
 type jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) ComplexObjectIndex() interface{} {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) Typ
 }
 
 
-func NewOneDashboardPageWidgetHistogramDataFormatOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OneDashboardPageWidgetHistogramDataFormatOutputReference {
+func NewOneDashboardPageWidgetHistogramDataFormatOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OneDashboardPageWidgetHistogramDataFormatOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOneDashboardPageWidgetHistogramDataFormatOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -253,7 +253,7 @@ func NewOneDashboardPageWidgetHistogramDataFormatOutputReference(terraformResour
 	j := jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormatOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -261,11 +261,11 @@ func NewOneDashboardPageWidgetHistogramDataFormatOutputReference(terraformResour
 	return &j
 }
 
-func NewOneDashboardPageWidgetHistogramDataFormatOutputReference_Override(o OneDashboardPageWidgetHistogramDataFormatOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewOneDashboardPageWidgetHistogramDataFormatOutputReference_Override(o OneDashboardPageWidgetHistogramDataFormatOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormatOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		o,
 	)
@@ -348,7 +348,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) Get
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -527,8 +527,8 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) Get
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -540,11 +540,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) Int
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -572,7 +572,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) Res
 	)
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

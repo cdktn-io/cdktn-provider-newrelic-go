@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package entitytags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/entitytags/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/entitytags/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/entity_tags newrelic_entity_tags}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/entity_tags newrelic_entity_tags}.
 type EntityTags interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type EntityTags interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,15 +46,15 @@ type EntityTags interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -64,7 +64,7 @@ type EntityTags interface {
 	Tag() EntityTagsTagList
 	TagInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type EntityTags interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -97,9 +97,9 @@ type EntityTags interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,11 +136,11 @@ type EntityTags interface {
 
 // The jsii proxy struct for EntityTags
 type jsiiProxy_EntityTags struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_EntityTags) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_EntityTags) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -189,8 +189,8 @@ func (j *jsiiProxy_EntityTags) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_EntityTags) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_EntityTags) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_EntityTags) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EntityTags) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_EntityTags) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -279,8 +279,8 @@ func (j *jsiiProxy_EntityTags) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_EntityTags) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_EntityTags) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_EntityTags) TagInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_EntityTags) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_EntityTags) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -380,7 +380,7 @@ func (j *jsiiProxy_EntityTags) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/entity_tags newrelic_entity_tags} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/entity_tags newrelic_entity_tags} Resource.
 func NewEntityTags(scope constructs.Construct, id *string, config *EntityTagsConfig) EntityTags {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewEntityTags(scope constructs.Construct, id *string, config *EntityTagsCon
 	j := jsiiProxy_EntityTags{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.entityTags.EntityTags",
+		"@cdktn/provider-newrelic.entityTags.EntityTags",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewEntityTags(scope constructs.Construct, id *string, config *EntityTagsCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/entity_tags newrelic_entity_tags} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/entity_tags newrelic_entity_tags} Resource.
 func NewEntityTags_Override(e EntityTags, scope constructs.Construct, id *string, config *EntityTagsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.entityTags.EntityTags",
+		"@cdktn/provider-newrelic.entityTags.EntityTags",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -439,7 +439,7 @@ func (j *jsiiProxy_EntityTags)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_EntityTags)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_EntityTags)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -469,7 +469,7 @@ func (j *jsiiProxy_EntityTags)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EntityTags)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_EntityTags)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -480,7 +480,7 @@ func (j *jsiiProxy_EntityTags)SetLifecycle(val *cdktf.TerraformResourceLifecycle
 	)
 }
 
-func (j *jsiiProxy_EntityTags)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_EntityTags)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -499,17 +499,17 @@ func (j *jsiiProxy_EntityTags)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a EntityTags resource upon running "cdktf plan <stack-name>".
-func EntityTags_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a EntityTags resource upon running "cdktn plan <stack-name>".
+func EntityTags_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEntityTags_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.entityTags.EntityTags",
+		"@cdktn/provider-newrelic.entityTags.EntityTags",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -544,7 +544,7 @@ func EntityTags_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.entityTags.EntityTags",
+		"@cdktn/provider-newrelic.entityTags.EntityTags",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func EntityTags_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.entityTags.EntityTags",
+		"@cdktn/provider-newrelic.entityTags.EntityTags",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func EntityTags_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.entityTags.EntityTags",
+		"@cdktn/provider-newrelic.entityTags.EntityTags",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func EntityTags_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.entityTags.EntityTags",
+		"@cdktn/provider-newrelic.entityTags.EntityTags",
 		"tfResourceType",
 		&returns,
 	)
@@ -640,11 +640,11 @@ func (e *jsiiProxy_EntityTags) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (e *jsiiProxy_EntityTags) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EntityTags) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -781,7 +781,7 @@ func (e *jsiiProxy_EntityTags) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_EntityTags) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_EntityTags) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -792,11 +792,11 @@ func (e *jsiiProxy_EntityTags) ImportFrom(id *string, provider cdktf.TerraformPr
 	)
 }
 
-func (e *jsiiProxy_EntityTags) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EntityTags) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

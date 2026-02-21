@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudawsgovcloudintegrations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/cloudawsgovcloudintegrations/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudawsgovcloudintegrations/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudAwsGovcloudIntegrationsApiGatewayOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AwsRegions() *[]*string
 	SetAwsRegions(val *[]*string)
 	AwsRegionsInput() *[]*string
@@ -52,15 +52,15 @@ type CloudAwsGovcloudIntegrationsApiGatewayOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type CloudAwsGovcloudIntegrationsApiGatewayOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAwsRegions()
 	ResetMetricsPollingInterval()
 	ResetStagePrefixes()
@@ -86,7 +86,7 @@ type CloudAwsGovcloudIntegrationsApiGatewayOutputReference interface {
 	ResetTagValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type CloudAwsGovcloudIntegrationsApiGatewayOutputReference interface {
 
 // The jsii proxy struct for CloudAwsGovcloudIntegrationsApiGatewayOutputReference
 type jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) AwsRegions() *[]*string {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) Terraf
 }
 
 
-func NewCloudAwsGovcloudIntegrationsApiGatewayOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CloudAwsGovcloudIntegrationsApiGatewayOutputReference {
+func NewCloudAwsGovcloudIntegrationsApiGatewayOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudAwsGovcloudIntegrationsApiGatewayOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudAwsGovcloudIntegrationsApiGatewayOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -279,7 +279,7 @@ func NewCloudAwsGovcloudIntegrationsApiGatewayOutputReference(terraformResource 
 	j := jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudIntegrations.CloudAwsGovcloudIntegrationsApiGatewayOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudIntegrations.CloudAwsGovcloudIntegrationsApiGatewayOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -287,11 +287,11 @@ func NewCloudAwsGovcloudIntegrationsApiGatewayOutputReference(terraformResource 
 	return &j
 }
 
-func NewCloudAwsGovcloudIntegrationsApiGatewayOutputReference_Override(c CloudAwsGovcloudIntegrationsApiGatewayOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudAwsGovcloudIntegrationsApiGatewayOutputReference_Override(c CloudAwsGovcloudIntegrationsApiGatewayOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudIntegrations.CloudAwsGovcloudIntegrationsApiGatewayOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudIntegrations.CloudAwsGovcloudIntegrationsApiGatewayOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)
@@ -396,7 +396,7 @@ func (j *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) GetAny
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -564,8 +564,8 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) GetStr
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -577,11 +577,11 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) Interp
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -633,7 +633,7 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) ResetT
 	)
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudAwsGovcloudIntegrationsApiGatewayOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

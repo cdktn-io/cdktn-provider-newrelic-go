@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudawsintegrations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/cloudawsintegrations/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudawsintegrations/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudAwsIntegrationsSqsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AwsRegions() *[]*string
 	SetAwsRegions(val *[]*string)
 	AwsRegionsInput() *[]*string
@@ -58,15 +58,15 @@ type CloudAwsIntegrationsSqsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type CloudAwsIntegrationsSqsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAwsRegions()
 	ResetFetchExtendedInventory()
 	ResetFetchTags()
@@ -94,7 +94,7 @@ type CloudAwsIntegrationsSqsOutputReference interface {
 	ResetTagValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type CloudAwsIntegrationsSqsOutputReference interface {
 
 // The jsii proxy struct for CloudAwsIntegrationsSqsOutputReference
 type jsiiProxy_CloudAwsIntegrationsSqsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) AwsRegions() *[]*string {
@@ -307,8 +307,8 @@ func (j *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) TerraformResource() c
 }
 
 
-func NewCloudAwsIntegrationsSqsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CloudAwsIntegrationsSqsOutputReference {
+func NewCloudAwsIntegrationsSqsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudAwsIntegrationsSqsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudAwsIntegrationsSqsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -327,7 +327,7 @@ func NewCloudAwsIntegrationsSqsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_CloudAwsIntegrationsSqsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSqsOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSqsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -335,11 +335,11 @@ func NewCloudAwsIntegrationsSqsOutputReference(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewCloudAwsIntegrationsSqsOutputReference_Override(c CloudAwsIntegrationsSqsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudAwsIntegrationsSqsOutputReference_Override(c CloudAwsIntegrationsSqsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSqsOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSqsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)
@@ -466,7 +466,7 @@ func (j *jsiiProxy_CloudAwsIntegrationsSqsOutputReference)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_CloudAwsIntegrationsSqsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudAwsIntegrationsSqsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -506,11 +506,11 @@ func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) GetAnyMapAttribute(te
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -634,8 +634,8 @@ func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) GetStringMapAttribute
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -647,11 +647,11 @@ func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) InterpolationAsList()
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -719,7 +719,7 @@ func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) ResetTagValue() {
 	)
 }
 
-func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudAwsIntegrationsSqsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

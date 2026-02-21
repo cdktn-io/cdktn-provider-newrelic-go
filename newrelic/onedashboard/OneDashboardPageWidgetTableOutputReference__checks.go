@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutColors
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetTableColors:
 		value := value.(*[]*OneDashboardPageWidgetTableColors)
@@ -117,7 +117,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutColors
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetTableColors; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetTableColors; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutDataFo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetTableDataFormat:
 		value := value.(*[]*OneDashboardPageWidgetTableDataFormat)
@@ -148,7 +148,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutDataFo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetTableDataFormat; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetTableDataFormat; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -171,7 +171,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutNrqlQu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetTableNrqlQuery:
 		value := value.(*[]*OneDashboardPageWidgetTableNrqlQuery)
@@ -190,7 +190,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutNrqlQu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetTableNrqlQuery; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetTableNrqlQuery; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -202,7 +202,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutNullVa
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetTableNullValues:
 		value := value.(*[]*OneDashboardPageWidgetTableNullValues)
@@ -221,7 +221,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutNullVa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetTableNullValues; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetTableNullValues; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -233,7 +233,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutThresh
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetTableThreshold:
 		value := value.(*[]*OneDashboardPageWidgetTableThreshold)
@@ -252,7 +252,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutThresh
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetTableThreshold; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetTableThreshold; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -264,7 +264,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutUnitsP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetTableUnits:
 		value := value.(*[]*OneDashboardPageWidgetTableUnits)
@@ -283,14 +283,14 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validatePutUnitsP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetTableUnits; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetTableUnits; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -380,11 +380,11 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetFacetS
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -400,11 +400,11 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetFilter
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -428,11 +428,11 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetIgnore
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -441,7 +441,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetIgnore
 
 func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *OneDashboardPageWidgetTable:
 		val := val.(*OneDashboardPageWidgetTable)
@@ -456,7 +456,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetIntern
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *OneDashboardPageWidgetTable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *OneDashboardPageWidgetTable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -472,11 +472,11 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetLegend
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -515,7 +515,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -555,7 +555,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) validateSetYAxisL
 	return nil
 }
 
-func validateNewOneDashboardPageWidgetTableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOneDashboardPageWidgetTableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

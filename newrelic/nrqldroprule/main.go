@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nrqldroprule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRule",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRule",
 		reflect.TypeOf((*NrqlDropRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -77,20 +77,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlDropRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRuleConfig",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRuleConfig",
 		reflect.TypeOf((*NrqlDropRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRuleTimeouts",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRuleTimeouts",
 		reflect.TypeOf((*NrqlDropRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRuleTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRuleTimeoutsOutputReference",
 		reflect.TypeOf((*NrqlDropRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlDropRuleTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

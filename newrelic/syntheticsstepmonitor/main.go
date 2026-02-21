@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticsstepmonitor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitor",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitor",
 		reflect.TypeOf((*SyntheticsStepMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -105,20 +105,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsStepMonitor{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorConfig",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorConfig",
 		reflect.TypeOf((*SyntheticsStepMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorLocationPrivate",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorLocationPrivate",
 		reflect.TypeOf((*SyntheticsStepMonitorLocationPrivate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorLocationPrivateList",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorLocationPrivateList",
 		reflect.TypeOf((*SyntheticsStepMonitorLocationPrivateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -135,12 +135,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsStepMonitorLocationPrivateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorLocationPrivateOutputReference",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorLocationPrivateOutputReference",
 		reflect.TypeOf((*SyntheticsStepMonitorLocationPrivateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -172,16 +172,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsStepMonitorLocationPrivateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorSteps",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorSteps",
 		reflect.TypeOf((*SyntheticsStepMonitorSteps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorStepsList",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorStepsList",
 		reflect.TypeOf((*SyntheticsStepMonitorStepsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -198,12 +198,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsStepMonitorStepsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorStepsOutputReference",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorStepsOutputReference",
 		reflect.TypeOf((*SyntheticsStepMonitorStepsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -237,16 +237,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsStepMonitorStepsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorTag",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorTag",
 		reflect.TypeOf((*SyntheticsStepMonitorTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorTagList",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorTagList",
 		reflect.TypeOf((*SyntheticsStepMonitorTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -263,12 +263,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsStepMonitorTagList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorTagOutputReference",
+		"@cdktn/provider-newrelic.syntheticsStepMonitor.SyntheticsStepMonitorTagOutputReference",
 		reflect.TypeOf((*SyntheticsStepMonitorTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -299,7 +299,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsStepMonitorTagOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nrqldroprule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/nrqldroprule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/nrqldroprule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule}.
 type NrqlDropRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -22,7 +22,7 @@ type NrqlDropRule interface {
 	SetAction(val *string)
 	ActionInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type NrqlDropRule interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type NrqlDropRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Nrql() *string
@@ -62,9 +62,9 @@ type NrqlDropRule interface {
 	NrqlInput() *string
 	PipelineCloudRuleEntityId() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -73,7 +73,7 @@ type NrqlDropRule interface {
 	RawOverrides() interface{}
 	RuleId() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type NrqlDropRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -106,9 +106,9 @@ type NrqlDropRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -146,7 +146,7 @@ type NrqlDropRule interface {
 
 // The jsii proxy struct for NrqlDropRule
 type jsiiProxy_NrqlDropRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NrqlDropRule) AccountId() *float64 {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_NrqlDropRule) ActionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NrqlDropRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NrqlDropRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_NrqlDropRule) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NrqlDropRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NrqlDropRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_NrqlDropRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NrqlDropRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NrqlDropRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -359,8 +359,8 @@ func (j *jsiiProxy_NrqlDropRule) PipelineCloudRuleEntityId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NrqlDropRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NrqlDropRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_NrqlDropRule) RuleId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NrqlDropRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NrqlDropRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -450,7 +450,7 @@ func (j *jsiiProxy_NrqlDropRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
 func NewNrqlDropRule(scope constructs.Construct, id *string, config *NrqlDropRuleConfig) NrqlDropRule {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewNrqlDropRule(scope constructs.Construct, id *string, config *NrqlDropRul
 	j := jsiiProxy_NrqlDropRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRule",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewNrqlDropRule(scope constructs.Construct, id *string, config *NrqlDropRul
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
 func NewNrqlDropRule_Override(n NrqlDropRule, scope constructs.Construct, id *string, config *NrqlDropRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRule",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRule",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -542,7 +542,7 @@ func (j *jsiiProxy_NrqlDropRule)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NrqlDropRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NrqlDropRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -561,7 +561,7 @@ func (j *jsiiProxy_NrqlDropRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NrqlDropRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NrqlDropRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -583,7 +583,7 @@ func (j *jsiiProxy_NrqlDropRule)SetNrql(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NrqlDropRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NrqlDropRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -602,17 +602,17 @@ func (j *jsiiProxy_NrqlDropRule)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a NrqlDropRule resource upon running "cdktf plan <stack-name>".
-func NrqlDropRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NrqlDropRule resource upon running "cdktn plan <stack-name>".
+func NrqlDropRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNrqlDropRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRule",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -647,7 +647,7 @@ func NrqlDropRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRule",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func NrqlDropRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRule",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func NrqlDropRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRule",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func NrqlDropRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRule",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRule",
 		"tfResourceType",
 		&returns,
 	)
@@ -743,11 +743,11 @@ func (n *jsiiProxy_NrqlDropRule) GetAnyMapAttribute(terraformAttribute *string) 
 	return returns
 }
 
-func (n *jsiiProxy_NrqlDropRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NrqlDropRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -884,7 +884,7 @@ func (n *jsiiProxy_NrqlDropRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NrqlDropRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NrqlDropRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -895,11 +895,11 @@ func (n *jsiiProxy_NrqlDropRule) ImportFrom(id *string, provider cdktf.Terraform
 	)
 }
 
-func (n *jsiiProxy_NrqlDropRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NrqlDropRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

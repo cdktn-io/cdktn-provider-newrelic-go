@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticssecurecredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/syntheticssecurecredential/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/syntheticssecurecredential/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential}.
 type SyntheticsSecureCredential interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type SyntheticsSecureCredential interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,15 +55,15 @@ type SyntheticsSecureCredential interface {
 	SetLastUpdated(val *string)
 	LastUpdatedInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type SyntheticsSecureCredential interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type SyntheticsSecureCredential interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type SyntheticsSecureCredential interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,7 +148,7 @@ type SyntheticsSecureCredential interface {
 
 // The jsii proxy struct for SyntheticsSecureCredential
 type jsiiProxy_SyntheticsSecureCredential struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_SyntheticsSecureCredential) AccountId() *float64 {
@@ -171,8 +171,8 @@ func (j *jsiiProxy_SyntheticsSecureCredential) AccountIdInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsSecureCredential) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SyntheticsSecureCredential) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_SyntheticsSecureCredential) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsSecureCredential) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SyntheticsSecureCredential) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -331,8 +331,8 @@ func (j *jsiiProxy_SyntheticsSecureCredential) LastUpdatedInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsSecureCredential) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SyntheticsSecureCredential) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_SyntheticsSecureCredential) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsSecureCredential) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SyntheticsSecureCredential) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -381,8 +381,8 @@ func (j *jsiiProxy_SyntheticsSecureCredential) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsSecureCredential) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SyntheticsSecureCredential) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -452,7 +452,7 @@ func (j *jsiiProxy_SyntheticsSecureCredential) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
 func NewSyntheticsSecureCredential(scope constructs.Construct, id *string, config *SyntheticsSecureCredentialConfig) SyntheticsSecureCredential {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewSyntheticsSecureCredential(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_SyntheticsSecureCredential{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewSyntheticsSecureCredential(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
 func NewSyntheticsSecureCredential_Override(s SyntheticsSecureCredential, scope constructs.Construct, id *string, config *SyntheticsSecureCredentialConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -533,7 +533,7 @@ func (j *jsiiProxy_SyntheticsSecureCredential)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SyntheticsSecureCredential)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SyntheticsSecureCredential)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -574,7 +574,7 @@ func (j *jsiiProxy_SyntheticsSecureCredential)SetLastUpdated(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SyntheticsSecureCredential)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SyntheticsSecureCredential)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -585,7 +585,7 @@ func (j *jsiiProxy_SyntheticsSecureCredential)SetLifecycle(val *cdktf.TerraformR
 	)
 }
 
-func (j *jsiiProxy_SyntheticsSecureCredential)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SyntheticsSecureCredential)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -615,17 +615,17 @@ func (j *jsiiProxy_SyntheticsSecureCredential)SetValue(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a SyntheticsSecureCredential resource upon running "cdktf plan <stack-name>".
-func SyntheticsSecureCredential_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SyntheticsSecureCredential resource upon running "cdktn plan <stack-name>".
+func SyntheticsSecureCredential_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSyntheticsSecureCredential_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func SyntheticsSecureCredential_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func SyntheticsSecureCredential_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func SyntheticsSecureCredential_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func SyntheticsSecureCredential_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
+		"@cdktn/provider-newrelic.syntheticsSecureCredential.SyntheticsSecureCredential",
 		"tfResourceType",
 		&returns,
 	)
@@ -756,11 +756,11 @@ func (s *jsiiProxy_SyntheticsSecureCredential) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsSecureCredential) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SyntheticsSecureCredential) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -897,7 +897,7 @@ func (s *jsiiProxy_SyntheticsSecureCredential) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsSecureCredential) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SyntheticsSecureCredential) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -908,11 +908,11 @@ func (s *jsiiProxy_SyntheticsSecureCredential) ImportFrom(id *string, provider c
 	)
 }
 
-func (s *jsiiProxy_SyntheticsSecureCredential) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SyntheticsSecureCredential) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

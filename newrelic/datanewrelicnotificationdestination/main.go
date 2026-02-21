@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datanewrelicnotificationdestination
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
 		reflect.TypeOf((*DataNewrelicNotificationDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -68,20 +68,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicNotificationDestination{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationConfig",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationConfig",
 		reflect.TypeOf((*DataNewrelicNotificationDestinationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationProperty",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationProperty",
 		reflect.TypeOf((*DataNewrelicNotificationDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationPropertyList",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationPropertyList",
 		reflect.TypeOf((*DataNewrelicNotificationDestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,12 +97,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicNotificationDestinationPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationPropertyOutputReference",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationPropertyOutputReference",
 		reflect.TypeOf((*DataNewrelicNotificationDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,16 +133,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicNotificationDestinationPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrl",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrl",
 		reflect.TypeOf((*DataNewrelicNotificationDestinationSecureUrl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrlList",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrlList",
 		reflect.TypeOf((*DataNewrelicNotificationDestinationSecureUrlList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -159,12 +159,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicNotificationDestinationSecureUrlList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrlOutputReference",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrlOutputReference",
 		reflect.TypeOf((*DataNewrelicNotificationDestinationSecureUrlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -193,7 +193,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

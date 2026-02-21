@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workload
@@ -7,15 +7,15 @@ package workload
 type WorkloadStatusConfigAutomaticRule struct {
 	// rollup block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/workload#rollup Workload#rollup}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workload#rollup Workload#rollup}
 	Rollup *WorkloadStatusConfigAutomaticRuleRollup `field:"required" json:"rollup" yaml:"rollup"`
 	// A list of entity GUIDs composing the rule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/workload#entity_guids Workload#entity_guids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workload#entity_guids Workload#entity_guids}
 	EntityGuids *[]*string `field:"optional" json:"entityGuids" yaml:"entityGuids"`
 	// nrql_query block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/workload#nrql_query Workload#nrql_query}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workload#nrql_query Workload#nrql_query}
 	NrqlQuery interface{} `field:"optional" json:"nrqlQuery" yaml:"nrqlQuery"`
 }
 

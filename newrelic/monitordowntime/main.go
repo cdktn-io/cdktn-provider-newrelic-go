@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitordowntime
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntime",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntime",
 		reflect.TypeOf((*MonitorDowntime)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -88,20 +88,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitorDowntime{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntimeConfig",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntimeConfig",
 		reflect.TypeOf((*MonitorDowntimeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntimeEndRepeat",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntimeEndRepeat",
 		reflect.TypeOf((*MonitorDowntimeEndRepeat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntimeEndRepeatOutputReference",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntimeEndRepeatOutputReference",
 		reflect.TypeOf((*MonitorDowntimeEndRepeatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -134,20 +134,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitorDowntimeEndRepeatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntimeFrequency",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntimeFrequency",
 		reflect.TypeOf((*MonitorDowntimeFrequency)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyDaysOfWeek",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyDaysOfWeek",
 		reflect.TypeOf((*MonitorDowntimeFrequencyDaysOfWeek)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyDaysOfWeekOutputReference",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyDaysOfWeekOutputReference",
 		reflect.TypeOf((*MonitorDowntimeFrequencyDaysOfWeekOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -178,12 +178,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitorDowntimeFrequencyDaysOfWeekOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyOutputReference",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyOutputReference",
 		reflect.TypeOf((*MonitorDowntimeFrequencyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -217,7 +217,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitorDowntimeFrequencyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputRefer
 	return nil
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

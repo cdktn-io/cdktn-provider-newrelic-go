@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/onedashboard/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/onedashboard/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OneDashboardPageWidgetAreaTooltipOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type OneDashboardPageWidgetAreaTooltipOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type OneDashboardPageWidgetAreaTooltipOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type OneDashboardPageWidgetAreaTooltipOutputReference interface {
 
 // The jsii proxy struct for OneDashboardPageWidgetAreaTooltipOutputReference
 type jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) TerraformRe
 }
 
 
-func NewOneDashboardPageWidgetAreaTooltipOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OneDashboardPageWidgetAreaTooltipOutputReference {
+func NewOneDashboardPageWidgetAreaTooltipOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OneDashboardPageWidgetAreaTooltipOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOneDashboardPageWidgetAreaTooltipOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -182,7 +182,7 @@ func NewOneDashboardPageWidgetAreaTooltipOutputReference(terraformResource cdktf
 	j := jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaTooltipOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaTooltipOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -190,11 +190,11 @@ func NewOneDashboardPageWidgetAreaTooltipOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewOneDashboardPageWidgetAreaTooltipOutputReference_Override(o OneDashboardPageWidgetAreaTooltipOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOneDashboardPageWidgetAreaTooltipOutputReference_Override(o OneDashboardPageWidgetAreaTooltipOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaTooltipOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaTooltipOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)
@@ -255,7 +255,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -423,8 +423,8 @@ func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) GetStringMa
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -436,11 +436,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) Interpolati
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -452,7 +452,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) Interpolati
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicelevel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/servicelevel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/servicelevel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceLevelEventsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -44,9 +44,9 @@ type ServiceLevelEventsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ValidEvents() ServiceLevelEventsValidEventsOutputReference
 	ValidEventsInput() *ServiceLevelEventsValidEvents
 	// Experimental.
@@ -54,7 +54,7 @@ type ServiceLevelEventsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,9 +70,9 @@ type ServiceLevelEventsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBadEvents(value *ServiceLevelEventsBadEvents)
 	PutGoodEvents(value *ServiceLevelEventsGoodEvents)
 	PutValidEvents(value *ServiceLevelEventsValidEvents)
@@ -80,7 +80,7 @@ type ServiceLevelEventsOutputReference interface {
 	ResetGoodEvents()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type ServiceLevelEventsOutputReference interface {
 
 // The jsii proxy struct for ServiceLevelEventsOutputReference
 type jsiiProxy_ServiceLevelEventsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceLevelEventsOutputReference) AccountId() *float64 {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_ServiceLevelEventsOutputReference) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_ServiceLevelEventsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceLevelEventsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_ServiceLevelEventsOutputReference) ValidEventsInput() *Servic
 }
 
 
-func NewServiceLevelEventsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServiceLevelEventsOutputReference {
+func NewServiceLevelEventsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServiceLevelEventsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceLevelEventsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -253,7 +253,7 @@ func NewServiceLevelEventsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_ServiceLevelEventsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -261,11 +261,11 @@ func NewServiceLevelEventsOutputReference(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewServiceLevelEventsOutputReference_Override(s ServiceLevelEventsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServiceLevelEventsOutputReference_Override(s ServiceLevelEventsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)
@@ -326,7 +326,7 @@ func (j *jsiiProxy_ServiceLevelEventsOutputReference)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_ServiceLevelEventsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceLevelEventsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_ServiceLevelEventsOutputReference) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (s *jsiiProxy_ServiceLevelEventsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceLevelEventsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_ServiceLevelEventsOutputReference) GetStringMapAttribute(terr
 	return returns
 }
 
-func (s *jsiiProxy_ServiceLevelEventsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceLevelEventsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_ServiceLevelEventsOutputReference) InterpolationAsList() cdkt
 	return returns
 }
 
-func (s *jsiiProxy_ServiceLevelEventsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceLevelEventsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -572,7 +572,7 @@ func (s *jsiiProxy_ServiceLevelEventsOutputReference) ResetGoodEvents() {
 	)
 }
 
-func (s *jsiiProxy_ServiceLevelEventsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceLevelEventsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

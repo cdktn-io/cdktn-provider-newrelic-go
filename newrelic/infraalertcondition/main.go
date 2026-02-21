@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package infraalertcondition
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.infraAlertCondition.InfraAlertCondition",
+		"@cdktn/provider-newrelic.infraAlertCondition.InfraAlertCondition",
 		reflect.TypeOf((*InfraAlertCondition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -108,20 +108,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InfraAlertCondition{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.infraAlertCondition.InfraAlertConditionConfig",
+		"@cdktn/provider-newrelic.infraAlertCondition.InfraAlertConditionConfig",
 		reflect.TypeOf((*InfraAlertConditionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.infraAlertCondition.InfraAlertConditionCritical",
+		"@cdktn/provider-newrelic.infraAlertCondition.InfraAlertConditionCritical",
 		reflect.TypeOf((*InfraAlertConditionCritical)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.infraAlertCondition.InfraAlertConditionCriticalOutputReference",
+		"@cdktn/provider-newrelic.infraAlertCondition.InfraAlertConditionCriticalOutputReference",
 		reflect.TypeOf((*InfraAlertConditionCriticalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -156,16 +156,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InfraAlertConditionCriticalOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.infraAlertCondition.InfraAlertConditionWarning",
+		"@cdktn/provider-newrelic.infraAlertCondition.InfraAlertConditionWarning",
 		reflect.TypeOf((*InfraAlertConditionWarning)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.infraAlertCondition.InfraAlertConditionWarningOutputReference",
+		"@cdktn/provider-newrelic.infraAlertCondition.InfraAlertConditionWarningOutputReference",
 		reflect.TypeOf((*InfraAlertConditionWarningOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -200,7 +200,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InfraAlertConditionWarningOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

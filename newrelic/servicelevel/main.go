@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicelevel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevel",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevel",
 		reflect.TypeOf((*ServiceLevel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,24 +76,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevel{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelConfig",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelConfig",
 		reflect.TypeOf((*ServiceLevelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEvents",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEvents",
 		reflect.TypeOf((*ServiceLevelEvents)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsBadEvents",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsBadEvents",
 		reflect.TypeOf((*ServiceLevelEventsBadEvents)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsBadEventsOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsBadEventsOutputReference",
 		reflect.TypeOf((*ServiceLevelEventsBadEventsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,16 +129,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelEventsBadEventsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsBadEventsSelect",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsBadEventsSelect",
 		reflect.TypeOf((*ServiceLevelEventsBadEventsSelect)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsBadEventsSelectOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsBadEventsSelectOutputReference",
 		reflect.TypeOf((*ServiceLevelEventsBadEventsSelectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
@@ -173,16 +173,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelEventsBadEventsSelectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsGoodEvents",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsGoodEvents",
 		reflect.TypeOf((*ServiceLevelEventsGoodEvents)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsGoodEventsOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsGoodEventsOutputReference",
 		reflect.TypeOf((*ServiceLevelEventsGoodEventsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -218,16 +218,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelEventsGoodEventsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsGoodEventsSelect",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsGoodEventsSelect",
 		reflect.TypeOf((*ServiceLevelEventsGoodEventsSelect)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsGoodEventsSelectOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsGoodEventsSelectOutputReference",
 		reflect.TypeOf((*ServiceLevelEventsGoodEventsSelectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
@@ -262,12 +262,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelEventsGoodEventsSelectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsOutputReference",
 		reflect.TypeOf((*ServiceLevelEventsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -307,16 +307,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelEventsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsValidEvents",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsValidEvents",
 		reflect.TypeOf((*ServiceLevelEventsValidEvents)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsValidEventsOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsValidEventsOutputReference",
 		reflect.TypeOf((*ServiceLevelEventsValidEventsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -352,16 +352,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelEventsValidEventsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsValidEventsSelect",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsValidEventsSelect",
 		reflect.TypeOf((*ServiceLevelEventsValidEventsSelect)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelEventsValidEventsSelectOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelEventsValidEventsSelectOutputReference",
 		reflect.TypeOf((*ServiceLevelEventsValidEventsSelectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
@@ -396,16 +396,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelEventsValidEventsSelectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelObjective",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelObjective",
 		reflect.TypeOf((*ServiceLevelObjective)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelObjectiveOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelObjectiveOutputReference",
 		reflect.TypeOf((*ServiceLevelObjectiveOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -443,16 +443,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelObjectiveOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelObjectiveTimeWindow",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelObjectiveTimeWindow",
 		reflect.TypeOf((*ServiceLevelObjectiveTimeWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelObjectiveTimeWindowOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelObjectiveTimeWindowOutputReference",
 		reflect.TypeOf((*ServiceLevelObjectiveTimeWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -482,16 +482,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelObjectiveTimeWindowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelObjectiveTimeWindowRolling",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelObjectiveTimeWindowRolling",
 		reflect.TypeOf((*ServiceLevelObjectiveTimeWindowRolling)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.serviceLevel.ServiceLevelObjectiveTimeWindowRollingOutputReference",
+		"@cdktn/provider-newrelic.serviceLevel.ServiceLevelObjectiveTimeWindowRollingOutputReference",
 		reflect.TypeOf((*ServiceLevelObjectiveTimeWindowRollingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -522,7 +522,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceLevelObjectiveTimeWindowRollingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

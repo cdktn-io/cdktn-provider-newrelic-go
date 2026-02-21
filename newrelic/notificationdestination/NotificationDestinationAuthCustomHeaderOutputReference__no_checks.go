@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) valid
 	return nil
 }
 
-func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) valid
 	return nil
 }
 
-func validateNewNotificationDestinationAuthCustomHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNotificationDestinationAuthCustomHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

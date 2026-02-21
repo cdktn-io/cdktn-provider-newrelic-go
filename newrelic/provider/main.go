@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package provider
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.provider.NewrelicProvider",
+		"@cdktn/provider-newrelic.provider.NewrelicProvider",
 		reflect.TypeOf((*NewrelicProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -76,12 +76,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NewrelicProvider{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformProvider)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformProvider)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.provider.NewrelicProviderConfig",
+		"@cdktn/provider-newrelic.provider.NewrelicProviderConfig",
 		reflect.TypeOf((*NewrelicProviderConfig)(nil)).Elem(),
 	)
 }

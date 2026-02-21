@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudawsgovcloudlinkaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/cloudawsgovcloudlinkaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudawsgovcloudlinkaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account}.
 type CloudAwsGovcloudLinkAccount interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -22,7 +22,7 @@ type CloudAwsGovcloudLinkAccount interface {
 	SetArn(val *string)
 	ArnInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type CloudAwsGovcloudLinkAccount interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type CloudAwsGovcloudLinkAccount interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MetricCollectionMode() *string
 	SetMetricCollectionMode(val *string)
 	MetricCollectionModeInput() *string
@@ -61,9 +61,9 @@ type CloudAwsGovcloudLinkAccount interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type CloudAwsGovcloudLinkAccount interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type CloudAwsGovcloudLinkAccount interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type CloudAwsGovcloudLinkAccount interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -140,7 +140,7 @@ type CloudAwsGovcloudLinkAccount interface {
 
 // The jsii proxy struct for CloudAwsGovcloudLinkAccount
 type jsiiProxy_CloudAwsGovcloudLinkAccount struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) AccountId() *float64 {
@@ -183,8 +183,8 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) ArnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -233,8 +233,8 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -343,8 +343,8 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -373,8 +373,8 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -404,7 +404,7 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
 func NewCloudAwsGovcloudLinkAccount(scope constructs.Construct, id *string, config *CloudAwsGovcloudLinkAccountConfig) CloudAwsGovcloudLinkAccount {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewCloudAwsGovcloudLinkAccount(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_CloudAwsGovcloudLinkAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewCloudAwsGovcloudLinkAccount(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
 func NewCloudAwsGovcloudLinkAccount_Override(c CloudAwsGovcloudLinkAccount, scope constructs.Construct, id *string, config *CloudAwsGovcloudLinkAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -485,7 +485,7 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -504,7 +504,7 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -537,7 +537,7 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -556,17 +556,17 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount)SetProvisioners(val *[]interface{
 	)
 }
 
-// Generates CDKTF code for importing a CloudAwsGovcloudLinkAccount resource upon running "cdktf plan <stack-name>".
-func CloudAwsGovcloudLinkAccount_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CloudAwsGovcloudLinkAccount resource upon running "cdktn plan <stack-name>".
+func CloudAwsGovcloudLinkAccount_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCloudAwsGovcloudLinkAccount_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func CloudAwsGovcloudLinkAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func CloudAwsGovcloudLinkAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func CloudAwsGovcloudLinkAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func CloudAwsGovcloudLinkAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudLinkAccount.CloudAwsGovcloudLinkAccount",
 		"tfResourceType",
 		&returns,
 	)
@@ -697,11 +697,11 @@ func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -838,7 +838,7 @@ func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -849,11 +849,11 @@ func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) ImportFrom(id *string, provider 
 	)
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

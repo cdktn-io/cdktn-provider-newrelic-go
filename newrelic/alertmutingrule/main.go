@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertmutingrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRule",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRule",
 		reflect.TypeOf((*AlertMutingRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -81,20 +81,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertMutingRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRuleCondition",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRuleCondition",
 		reflect.TypeOf((*AlertMutingRuleCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRuleConditionConditions",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRuleConditionConditions",
 		reflect.TypeOf((*AlertMutingRuleConditionConditions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRuleConditionConditionsList",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRuleConditionConditionsList",
 		reflect.TypeOf((*AlertMutingRuleConditionConditionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,12 +111,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertMutingRuleConditionConditionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRuleConditionConditionsOutputReference",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRuleConditionConditionsOutputReference",
 		reflect.TypeOf((*AlertMutingRuleConditionConditionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
@@ -149,12 +149,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertMutingRuleConditionConditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRuleConditionOutputReference",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRuleConditionOutputReference",
 		reflect.TypeOf((*AlertMutingRuleConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,20 +186,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertMutingRuleConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRuleConfig",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRuleConfig",
 		reflect.TypeOf((*AlertMutingRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRuleSchedule",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRuleSchedule",
 		reflect.TypeOf((*AlertMutingRuleSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRuleScheduleOutputReference",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRuleScheduleOutputReference",
 		reflect.TypeOf((*AlertMutingRuleScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -246,7 +246,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertMutingRuleScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

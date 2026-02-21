@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationchannel
@@ -7,19 +7,19 @@ package notificationchannel
 type NotificationChannelProperty struct {
 	// Notification property key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/notification_channel#key NotificationChannel#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/notification_channel#key NotificationChannel#key}
 	Key *string `field:"required" json:"key" yaml:"key"`
 	// Notification property value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/notification_channel#value NotificationChannel#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/notification_channel#value NotificationChannel#value}
 	Value *string `field:"required" json:"value" yaml:"value"`
 	// Notification property display key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/notification_channel#display_value NotificationChannel#display_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/notification_channel#display_value NotificationChannel#display_value}
 	DisplayValue *string `field:"optional" json:"displayValue" yaml:"displayValue"`
 	// Notification property label.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/notification_channel#label NotificationChannel#label}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/notification_channel#label NotificationChannel#label}
 	Label *string `field:"optional" json:"label" yaml:"label"`
 }
 

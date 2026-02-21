@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudocilinkaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudOciLinkAccount.CloudOciLinkAccount",
+		"@cdktn/provider-newrelic.cloudOciLinkAccount.CloudOciLinkAccount",
 		reflect.TypeOf((*CloudOciLinkAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -96,12 +96,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudOciLinkAccount{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudOciLinkAccount.CloudOciLinkAccountConfig",
+		"@cdktn/provider-newrelic.cloudOciLinkAccount.CloudOciLinkAccountConfig",
 		reflect.TypeOf((*CloudOciLinkAccountConfig)(nil)).Elem(),
 	)
 }

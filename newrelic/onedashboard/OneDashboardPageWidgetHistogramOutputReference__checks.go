@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutCo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetHistogramColors:
 		value := value.(*[]*OneDashboardPageWidgetHistogramColors)
@@ -117,7 +117,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutCo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetHistogramColors; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetHistogramColors; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutDa
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetHistogramDataFormat:
 		value := value.(*[]*OneDashboardPageWidgetHistogramDataFormat)
@@ -148,7 +148,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutDa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetHistogramDataFormat; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetHistogramDataFormat; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -171,7 +171,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutNr
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetHistogramNrqlQuery:
 		value := value.(*[]*OneDashboardPageWidgetHistogramNrqlQuery)
@@ -190,7 +190,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutNr
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetHistogramNrqlQuery; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetHistogramNrqlQuery; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -202,7 +202,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutNu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetHistogramNullValues:
 		value := value.(*[]*OneDashboardPageWidgetHistogramNullValues)
@@ -221,7 +221,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutNu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetHistogramNullValues; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetHistogramNullValues; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -233,7 +233,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutUn
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*OneDashboardPageWidgetHistogramUnits:
 		value := value.(*[]*OneDashboardPageWidgetHistogramUnits)
@@ -252,14 +252,14 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutUn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OneDashboardPageWidgetHistogramUnits; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OneDashboardPageWidgetHistogramUnits; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -349,11 +349,11 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetFa
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -377,11 +377,11 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetIg
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -390,7 +390,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetIg
 
 func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *OneDashboardPageWidgetHistogram:
 		val := val.(*OneDashboardPageWidgetHistogram)
@@ -405,7 +405,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *OneDashboardPageWidgetHistogram; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *OneDashboardPageWidgetHistogram; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -421,11 +421,11 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetLe
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -456,7 +456,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -496,7 +496,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateSetYA
 	return nil
 }
 
-func validateNewOneDashboardPageWidgetHistogramOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOneDashboardPageWidgetHistogramOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

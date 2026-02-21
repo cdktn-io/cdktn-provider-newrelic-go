@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/onedashboard/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/onedashboard/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) OneDashboardPageWidgetHistogramNullValuesSeriesOverridesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList interface {
 
 // The jsii proxy struct for OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList
 type jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList)
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList)
 }
 
 
-func NewOneDashboardPageWidgetHistogramNullValuesSeriesOverridesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList {
+func NewOneDashboardPageWidgetHistogramNullValuesSeriesOverridesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList {
 	_init_.Initialize()
 
 	if err := validateNewOneDashboardPageWidgetHistogramNullValuesSeriesOverridesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewOneDashboardPageWidgetHistogramNullValuesSeriesOverridesList(terraformRe
 	j := jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewOneDashboardPageWidgetHistogramNullValuesSeriesOverridesList(terraformRe
 	return &j
 }
 
-func NewOneDashboardPageWidgetHistogramNullValuesSeriesOverridesList_Override(o OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewOneDashboardPageWidgetHistogramNullValuesSeriesOverridesList_Override(o OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList)
 	)
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList)
 	)
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := o.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		o,
@@ -231,7 +231,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList)
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

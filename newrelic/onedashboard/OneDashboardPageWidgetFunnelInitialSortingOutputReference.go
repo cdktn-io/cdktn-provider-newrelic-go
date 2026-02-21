@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/onedashboard/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/onedashboard/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OneDashboardPageWidgetFunnelInitialSortingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type OneDashboardPageWidgetFunnelInitialSortingOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type OneDashboardPageWidgetFunnelInitialSortingOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type OneDashboardPageWidgetFunnelInitialSortingOutputReference interface {
 
 // The jsii proxy struct for OneDashboardPageWidgetFunnelInitialSortingOutputReference
 type jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) Te
 }
 
 
-func NewOneDashboardPageWidgetFunnelInitialSortingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OneDashboardPageWidgetFunnelInitialSortingOutputReference {
+func NewOneDashboardPageWidgetFunnelInitialSortingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OneDashboardPageWidgetFunnelInitialSortingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOneDashboardPageWidgetFunnelInitialSortingOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -205,7 +205,7 @@ func NewOneDashboardPageWidgetFunnelInitialSortingOutputReference(terraformResou
 	j := jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelInitialSortingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -213,11 +213,11 @@ func NewOneDashboardPageWidgetFunnelInitialSortingOutputReference(terraformResou
 	return &j
 }
 
-func NewOneDashboardPageWidgetFunnelInitialSortingOutputReference_Override(o OneDashboardPageWidgetFunnelInitialSortingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOneDashboardPageWidgetFunnelInitialSortingOutputReference_Override(o OneDashboardPageWidgetFunnelInitialSortingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelInitialSortingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)
@@ -289,7 +289,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) Ge
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -457,8 +457,8 @@ func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) Ge
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -470,11 +470,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) In
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -486,7 +486,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) In
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nrqldroprule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/nrqldroprule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/nrqldroprule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NrqlDropRuleTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type NrqlDropRuleTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type NrqlDropRuleTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetRead()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type NrqlDropRuleTimeoutsOutputReference interface {
 
 // The jsii proxy struct for NrqlDropRuleTimeoutsOutputReference
 type jsiiProxy_NrqlDropRuleTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) TerraformResource() cdkt
 }
 
 
-func NewNrqlDropRuleTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NrqlDropRuleTimeoutsOutputReference {
+func NewNrqlDropRuleTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NrqlDropRuleTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNrqlDropRuleTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -183,7 +183,7 @@ func NewNrqlDropRuleTimeoutsOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_NrqlDropRuleTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRuleTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -191,11 +191,11 @@ func NewNrqlDropRuleTimeoutsOutputReference(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewNrqlDropRuleTimeoutsOutputReference_Override(n NrqlDropRuleTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNrqlDropRuleTimeoutsOutputReference_Override(n NrqlDropRuleTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.nrqlDropRule.NrqlDropRuleTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.nrqlDropRule.NrqlDropRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)
@@ -256,7 +256,7 @@ func (j *jsiiProxy_NrqlDropRuleTimeoutsOutputReference)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_NrqlDropRuleTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NrqlDropRuleTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -424,8 +424,8 @@ func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) GetStringMapAttribute(te
 	return returns
 }
 
-func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -437,11 +437,11 @@ func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) InterpolationAsList() cd
 	return returns
 }
 
-func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -461,7 +461,7 @@ func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) ResetRead() {
 	)
 }
 
-func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NrqlDropRuleTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

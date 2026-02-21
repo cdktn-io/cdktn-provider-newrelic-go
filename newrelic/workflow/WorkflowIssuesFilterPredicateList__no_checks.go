@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (w *jsiiProxy_WorkflowIssuesFilterPredicateList) validateGetParameters(inde
 	return nil
 }
 
-func (w *jsiiProxy_WorkflowIssuesFilterPredicateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkflowIssuesFilterPredicateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WorkflowIssuesFilterPredicateList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_WorkflowIssuesFilterPredicateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkflowIssuesFilterPredicateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WorkflowIssuesFilterPredicateList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewWorkflowIssuesFilterPredicateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWorkflowIssuesFilterPredicateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

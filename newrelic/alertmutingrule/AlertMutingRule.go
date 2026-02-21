@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertmutingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/alertmutingrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/alertmutingrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/alert_muting_rule newrelic_alert_muting_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/alert_muting_rule newrelic_alert_muting_rule}.
 type AlertMutingRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
@@ -22,7 +22,7 @@ type AlertMutingRule interface {
 	SetActionOnMutingRuleWindowEnded(val *string)
 	ActionOnMutingRuleWindowEndedInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() AlertMutingRuleConditionOutputReference
 	ConditionInput() *AlertMutingRuleCondition
 	// Experimental.
@@ -46,9 +46,9 @@ type AlertMutingRule interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,18 +57,18 @@ type AlertMutingRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type AlertMutingRule interface {
 	Schedule() AlertMutingRuleScheduleOutputReference
 	ScheduleInput() *AlertMutingRuleSchedule
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type AlertMutingRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,9 +109,9 @@ type AlertMutingRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -151,7 +151,7 @@ type AlertMutingRule interface {
 
 // The jsii proxy struct for AlertMutingRule
 type jsiiProxy_AlertMutingRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AlertMutingRule) AccountId() *float64 {
@@ -194,8 +194,8 @@ func (j *jsiiProxy_AlertMutingRule) ActionOnMutingRuleWindowEndedInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_AlertMutingRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AlertMutingRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_AlertMutingRule) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_AlertMutingRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AlertMutingRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -354,8 +354,8 @@ func (j *jsiiProxy_AlertMutingRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AlertMutingRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AlertMutingRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -394,8 +394,8 @@ func (j *jsiiProxy_AlertMutingRule) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_AlertMutingRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AlertMutingRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -444,8 +444,8 @@ func (j *jsiiProxy_AlertMutingRule) ScheduleInput() *AlertMutingRuleSchedule {
 	return returns
 }
 
-func (j *jsiiProxy_AlertMutingRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AlertMutingRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -475,7 +475,7 @@ func (j *jsiiProxy_AlertMutingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/alert_muting_rule newrelic_alert_muting_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/alert_muting_rule newrelic_alert_muting_rule} Resource.
 func NewAlertMutingRule(scope constructs.Construct, id *string, config *AlertMutingRuleConfig) AlertMutingRule {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewAlertMutingRule(scope constructs.Construct, id *string, config *AlertMut
 	j := jsiiProxy_AlertMutingRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRule",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewAlertMutingRule(scope constructs.Construct, id *string, config *AlertMut
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/alert_muting_rule newrelic_alert_muting_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/alert_muting_rule newrelic_alert_muting_rule} Resource.
 func NewAlertMutingRule_Override(a AlertMutingRule, scope constructs.Construct, id *string, config *AlertMutingRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRule",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRule",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -578,7 +578,7 @@ func (j *jsiiProxy_AlertMutingRule)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_AlertMutingRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AlertMutingRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -597,7 +597,7 @@ func (j *jsiiProxy_AlertMutingRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AlertMutingRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AlertMutingRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -619,7 +619,7 @@ func (j *jsiiProxy_AlertMutingRule)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AlertMutingRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AlertMutingRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -638,17 +638,17 @@ func (j *jsiiProxy_AlertMutingRule)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a AlertMutingRule resource upon running "cdktf plan <stack-name>".
-func AlertMutingRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AlertMutingRule resource upon running "cdktn plan <stack-name>".
+func AlertMutingRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAlertMutingRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRule",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func AlertMutingRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRule",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func AlertMutingRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRule",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func AlertMutingRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRule",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func AlertMutingRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.alertMutingRule.AlertMutingRule",
+		"@cdktn/provider-newrelic.alertMutingRule.AlertMutingRule",
 		"tfResourceType",
 		&returns,
 	)
@@ -779,11 +779,11 @@ func (a *jsiiProxy_AlertMutingRule) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (a *jsiiProxy_AlertMutingRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertMutingRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -920,7 +920,7 @@ func (a *jsiiProxy_AlertMutingRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_AlertMutingRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AlertMutingRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -931,11 +931,11 @@ func (a *jsiiProxy_AlertMutingRule) ImportFrom(id *string, provider cdktf.Terraf
 	)
 }
 
-func (a *jsiiProxy_AlertMutingRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertMutingRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticsscriptmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/syntheticsscriptmonitor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/syntheticsscriptmonitor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SyntheticsScriptMonitorLocationPrivateList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type SyntheticsScriptMonitorLocationPrivateList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type SyntheticsScriptMonitorLocationPrivateList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) SyntheticsScriptMonitorLocationPrivateOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type SyntheticsScriptMonitorLocationPrivateList interface {
 
 // The jsii proxy struct for SyntheticsScriptMonitorLocationPrivateList
 type jsiiProxy_SyntheticsScriptMonitorLocationPrivateList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) WrapsSet() *bool 
 }
 
 
-func NewSyntheticsScriptMonitorLocationPrivateList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SyntheticsScriptMonitorLocationPrivateList {
+func NewSyntheticsScriptMonitorLocationPrivateList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SyntheticsScriptMonitorLocationPrivateList {
 	_init_.Initialize()
 
 	if err := validateNewSyntheticsScriptMonitorLocationPrivateListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewSyntheticsScriptMonitorLocationPrivateList(terraformResource cdktf.IInte
 	j := jsiiProxy_SyntheticsScriptMonitorLocationPrivateList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivateList",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewSyntheticsScriptMonitorLocationPrivateList(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewSyntheticsScriptMonitorLocationPrivateList_Override(s SyntheticsScriptMonitorLocationPrivateList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewSyntheticsScriptMonitorLocationPrivateList_Override(s SyntheticsScriptMonitorLocationPrivateList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivateList",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList)SetWrapsSet(val *b
 	)
 }
 
-func (s *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (s *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := s.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		s,
@@ -231,7 +231,7 @@ func (s *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) Get(index *float6
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SyntheticsScriptMonitorLocationPrivateList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

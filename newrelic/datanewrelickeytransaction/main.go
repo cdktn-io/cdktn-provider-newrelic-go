@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datanewrelickeytransaction
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicKeyTransaction.DataNewrelicKeyTransaction",
+		"@cdktn/provider-newrelic.dataNewrelicKeyTransaction.DataNewrelicKeyTransaction",
 		reflect.TypeOf((*DataNewrelicKeyTransaction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -63,12 +63,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicKeyTransaction{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.dataNewrelicKeyTransaction.DataNewrelicKeyTransactionConfig",
+		"@cdktn/provider-newrelic.dataNewrelicKeyTransaction.DataNewrelicKeyTransactionConfig",
 		reflect.TypeOf((*DataNewrelicKeyTransactionConfig)(nil)).Elem(),
 	)
 }

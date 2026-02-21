@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/onedashboard/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/onedashboard/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OneDashboardPageWidgetTableOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Colors() OneDashboardPageWidgetTableColorsList
 	ColorsInput() interface{}
 	Column() *float64
@@ -75,9 +75,9 @@ type OneDashboardPageWidgetTableOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Threshold() OneDashboardPageWidgetTableThresholdList
 	ThresholdInput() interface{}
 	Title() *string
@@ -99,7 +99,7 @@ type OneDashboardPageWidgetTableOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -115,9 +115,9 @@ type OneDashboardPageWidgetTableOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutColors(value interface{})
 	PutDataFormat(value interface{})
 	PutInitialSorting(value *OneDashboardPageWidgetTableInitialSorting)
@@ -143,7 +143,7 @@ type OneDashboardPageWidgetTableOutputReference interface {
 	ResetYAxisLeftMin()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -153,7 +153,7 @@ type OneDashboardPageWidgetTableOutputReference interface {
 
 // The jsii proxy struct for OneDashboardPageWidgetTableOutputReference
 type jsiiProxy_OneDashboardPageWidgetTableOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) Colors() OneDashboardPageWidgetTableColorsList {
@@ -506,8 +506,8 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -637,7 +637,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference) YAxisLeftMinInput
 }
 
 
-func NewOneDashboardPageWidgetTableOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OneDashboardPageWidgetTableOutputReference {
+func NewOneDashboardPageWidgetTableOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OneDashboardPageWidgetTableOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOneDashboardPageWidgetTableOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -646,7 +646,7 @@ func NewOneDashboardPageWidgetTableOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_OneDashboardPageWidgetTableOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -654,11 +654,11 @@ func NewOneDashboardPageWidgetTableOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewOneDashboardPageWidgetTableOutputReference_Override(o OneDashboardPageWidgetTableOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewOneDashboardPageWidgetTableOutputReference_Override(o OneDashboardPageWidgetTableOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		o,
 	)
@@ -807,7 +807,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OneDashboardPageWidgetTableOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -891,11 +891,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -1019,8 +1019,8 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -1032,11 +1032,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -1253,7 +1253,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) ResetYAxisLeftMin
 	)
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OneDashboardPageWidgetTableOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

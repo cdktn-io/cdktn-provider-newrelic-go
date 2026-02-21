@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (s *jsiiProxy_SyntheticsScriptMonitorTagOutputReference) validateInterpolat
 	return nil
 }
 
-func (s *jsiiProxy_SyntheticsScriptMonitorTagOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SyntheticsScriptMonitorTagOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SyntheticsScriptMonitorTagOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_SyntheticsScriptMonitorTagOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SyntheticsScriptMonitorTagOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SyntheticsScriptMonitorTagOutputReference) validateSetValuesP
 	return nil
 }
 
-func validateNewSyntheticsScriptMonitorTagOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSyntheticsScriptMonitorTagOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

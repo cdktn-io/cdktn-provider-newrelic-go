@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workflow
@@ -7,15 +7,15 @@ package workflow
 type WorkflowIssuesFilter struct {
 	// (Required) Filter's name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/workflow#name Workflow#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workflow#name Workflow#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// (Required) The type of the filter. One of: (FILTER, VIEW).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/workflow#type Workflow#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workflow#type Workflow#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// predicate block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/workflow#predicate Workflow#predicate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workflow#predicate Workflow#predicate}
 	Predicate interface{} `field:"optional" json:"predicate" yaml:"predicate"`
 }
 

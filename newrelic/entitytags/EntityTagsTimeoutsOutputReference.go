@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package entitytags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/entitytags/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/entitytags/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EntityTagsTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type EntityTagsTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type EntityTagsTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type EntityTagsTimeoutsOutputReference interface {
 
 // The jsii proxy struct for EntityTagsTimeoutsOutputReference
 type jsiiProxy_EntityTagsTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EntityTagsTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_EntityTagsTimeoutsOutputReference) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_EntityTagsTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EntityTagsTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_EntityTagsTimeoutsOutputReference) TerraformResource() cdktf.
 }
 
 
-func NewEntityTagsTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EntityTagsTimeoutsOutputReference {
+func NewEntityTagsTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EntityTagsTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEntityTagsTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -183,7 +183,7 @@ func NewEntityTagsTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_EntityTagsTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.entityTags.EntityTagsTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.entityTags.EntityTagsTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -191,11 +191,11 @@ func NewEntityTagsTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewEntityTagsTimeoutsOutputReference_Override(e EntityTagsTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEntityTagsTimeoutsOutputReference_Override(e EntityTagsTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.entityTags.EntityTagsTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.entityTags.EntityTagsTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)
@@ -256,7 +256,7 @@ func (j *jsiiProxy_EntityTagsTimeoutsOutputReference)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_EntityTagsTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EntityTagsTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -424,8 +424,8 @@ func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) GetStringMapAttribute(terr
 	return returns
 }
 
-func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -437,11 +437,11 @@ func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) InterpolationAsList() cdkt
 	return returns
 }
 
-func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -461,7 +461,7 @@ func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) ResetCreate() {
 	)
 }
 
-func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EntityTagsTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

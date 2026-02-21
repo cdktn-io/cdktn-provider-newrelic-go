@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -263,6 +263,10 @@ func (c *jsiiProxy_CloudAwsIntegrations) validatePutS3Parameters(value *CloudAws
 	return nil
 }
 
+func (c *jsiiProxy_CloudAwsIntegrations) validatePutSecurityHubParameters(value *CloudAwsIntegrationsSecurityHub) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAwsIntegrations) validatePutSesParameters(value *CloudAwsIntegrationsSes) error {
 	return nil
 }
@@ -319,7 +323,7 @@ func (j *jsiiProxy_CloudAwsIntegrations) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_CloudAwsIntegrations) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudAwsIntegrations) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

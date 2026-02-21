@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudawsgovcloudintegrations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/cloudawsgovcloudintegrations/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudawsgovcloudintegrations/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudAwsGovcloudIntegrationsRedShiftOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AwsRegions() *[]*string
 	SetAwsRegions(val *[]*string)
 	AwsRegionsInput() *[]*string
@@ -49,15 +49,15 @@ type CloudAwsGovcloudIntegrationsRedShiftOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type CloudAwsGovcloudIntegrationsRedShiftOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAwsRegions()
 	ResetMetricsPollingInterval()
 	ResetTagKey()
 	ResetTagValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type CloudAwsGovcloudIntegrationsRedShiftOutputReference interface {
 
 // The jsii proxy struct for CloudAwsGovcloudIntegrationsRedShiftOutputReference
 type jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) AwsRegions() *[]*string {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) Terrafor
 }
 
 
-func NewCloudAwsGovcloudIntegrationsRedShiftOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CloudAwsGovcloudIntegrationsRedShiftOutputReference {
+func NewCloudAwsGovcloudIntegrationsRedShiftOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudAwsGovcloudIntegrationsRedShiftOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudAwsGovcloudIntegrationsRedShiftOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -255,7 +255,7 @@ func NewCloudAwsGovcloudIntegrationsRedShiftOutputReference(terraformResource cd
 	j := jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudIntegrations.CloudAwsGovcloudIntegrationsRedShiftOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudIntegrations.CloudAwsGovcloudIntegrationsRedShiftOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,11 +263,11 @@ func NewCloudAwsGovcloudIntegrationsRedShiftOutputReference(terraformResource cd
 	return &j
 }
 
-func NewCloudAwsGovcloudIntegrationsRedShiftOutputReference_Override(c CloudAwsGovcloudIntegrationsRedShiftOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudAwsGovcloudIntegrationsRedShiftOutputReference_Override(c CloudAwsGovcloudIntegrationsRedShiftOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAwsGovcloudIntegrations.CloudAwsGovcloudIntegrationsRedShiftOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsGovcloudIntegrations.CloudAwsGovcloudIntegrationsRedShiftOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)
@@ -361,7 +361,7 @@ func (j *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) GetAnyMa
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -529,8 +529,8 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) GetStrin
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -542,11 +542,11 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) Interpol
 	return returns
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -590,7 +590,7 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) ResetTag
 	)
 }
 
-func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudAwsGovcloudIntegrationsRedShiftOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

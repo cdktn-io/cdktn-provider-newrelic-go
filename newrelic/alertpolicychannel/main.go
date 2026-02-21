@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertpolicychannel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertPolicyChannel.AlertPolicyChannel",
+		"@cdktn/provider-newrelic.alertPolicyChannel.AlertPolicyChannel",
 		reflect.TypeOf((*AlertPolicyChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -72,20 +72,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertPolicyChannel{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertPolicyChannel.AlertPolicyChannelConfig",
+		"@cdktn/provider-newrelic.alertPolicyChannel.AlertPolicyChannelConfig",
 		reflect.TypeOf((*AlertPolicyChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertPolicyChannel.AlertPolicyChannelTimeouts",
+		"@cdktn/provider-newrelic.alertPolicyChannel.AlertPolicyChannelTimeouts",
 		reflect.TypeOf((*AlertPolicyChannelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertPolicyChannel.AlertPolicyChannelTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.alertPolicyChannel.AlertPolicyChannelTimeoutsOutputReference",
 		reflect.TypeOf((*AlertPolicyChannelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -115,7 +115,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertPolicyChannelTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/notificationdestination/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/notificationdestination/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NotificationDestinationAuthCustomHeaderOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type NotificationDestinationAuthCustomHeaderOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	SetValue(val *string)
 	ValueInput() *string
@@ -51,7 +51,7 @@ type NotificationDestinationAuthCustomHeaderOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type NotificationDestinationAuthCustomHeaderOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type NotificationDestinationAuthCustomHeaderOutputReference interface {
 
 // The jsii proxy struct for NotificationDestinationAuthCustomHeaderOutputReference
 type jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) Value
 }
 
 
-func NewNotificationDestinationAuthCustomHeaderOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NotificationDestinationAuthCustomHeaderOutputReference {
+func NewNotificationDestinationAuthCustomHeaderOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NotificationDestinationAuthCustomHeaderOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNotificationDestinationAuthCustomHeaderOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -205,7 +205,7 @@ func NewNotificationDestinationAuthCustomHeaderOutputReference(terraformResource
 	j := jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeaderOutputReference",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeaderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -213,11 +213,11 @@ func NewNotificationDestinationAuthCustomHeaderOutputReference(terraformResource
 	return &j
 }
 
-func NewNotificationDestinationAuthCustomHeaderOutputReference_Override(n NotificationDestinationAuthCustomHeaderOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNotificationDestinationAuthCustomHeaderOutputReference_Override(n NotificationDestinationAuthCustomHeaderOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeaderOutputReference",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeaderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)
@@ -278,7 +278,7 @@ func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) GetAn
 	return returns
 }
 
-func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -457,8 +457,8 @@ func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) GetSt
 	return returns
 }
 
-func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -470,11 +470,11 @@ func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) Inter
 	return returns
 }
 
-func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -486,7 +486,7 @@ func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) Inter
 	return returns
 }
 
-func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

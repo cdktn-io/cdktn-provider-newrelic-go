@@ -1,10 +1,10 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudgcplinkaccount
 
 import (
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudGcpLinkAccountConfig struct {
@@ -13,28 +13,28 @@ type CloudGcpLinkAccountConfig struct {
 	// Experimental.
 	Count interface{} `field:"optional" json:"count" yaml:"count"`
 	// Experimental.
-	DependsOn *[]cdktf.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
 	// Experimental.
-	ForEach cdktf.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
 	// Experimental.
-	Lifecycle *cdktf.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
 	// Experimental.
-	Provider cdktf.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// name of the linked account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_gcp_link_account#name CloudGcpLinkAccount#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_gcp_link_account#name CloudGcpLinkAccount#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// project id of the Gcp account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_gcp_link_account#project_id CloudGcpLinkAccount#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_gcp_link_account#project_id CloudGcpLinkAccount#project_id}
 	ProjectId *string `field:"required" json:"projectId" yaml:"projectId"`
 	// accountID of newrelic account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_gcp_link_account#account_id CloudGcpLinkAccount#account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_gcp_link_account#account_id CloudGcpLinkAccount#account_id}
 	AccountId *float64 `field:"optional" json:"accountId" yaml:"accountId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/cloud_gcp_link_account#id CloudGcpLinkAccount#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/cloud_gcp_link_account#id CloudGcpLinkAccount#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

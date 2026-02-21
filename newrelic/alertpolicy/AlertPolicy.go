@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/alertpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/alertpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/alert_policy newrelic_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/alert_policy newrelic_alert_policy}.
 type AlertPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ChannelIds() *[]*float64
 	SetChannelIds(val *[]*float64)
 	ChannelIdsInput() *[]*float64
@@ -38,9 +38,9 @@ type AlertPolicy interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,18 +52,18 @@ type AlertPolicy interface {
 	SetIncidentPreference(val *string)
 	IncidentPreferenceInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type AlertPolicy interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type AlertPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type AlertPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -141,7 +141,7 @@ type AlertPolicy interface {
 
 // The jsii proxy struct for AlertPolicy
 type jsiiProxy_AlertPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AlertPolicy) AccountId() *float64 {
@@ -164,8 +164,8 @@ func (j *jsiiProxy_AlertPolicy) AccountIdInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_AlertPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AlertPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -234,8 +234,8 @@ func (j *jsiiProxy_AlertPolicy) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_AlertPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AlertPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_AlertPolicy) IncidentPreferenceInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AlertPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AlertPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -344,8 +344,8 @@ func (j *jsiiProxy_AlertPolicy) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_AlertPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AlertPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -374,8 +374,8 @@ func (j *jsiiProxy_AlertPolicy) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_AlertPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AlertPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -405,7 +405,7 @@ func (j *jsiiProxy_AlertPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/alert_policy newrelic_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/alert_policy newrelic_alert_policy} Resource.
 func NewAlertPolicy(scope constructs.Construct, id *string, config *AlertPolicyConfig) AlertPolicy {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewAlertPolicy(scope constructs.Construct, id *string, config *AlertPolicyC
 	j := jsiiProxy_AlertPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.alertPolicy.AlertPolicy",
+		"@cdktn/provider-newrelic.alertPolicy.AlertPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewAlertPolicy(scope constructs.Construct, id *string, config *AlertPolicyC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/alert_policy newrelic_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/alert_policy newrelic_alert_policy} Resource.
 func NewAlertPolicy_Override(a AlertPolicy, scope constructs.Construct, id *string, config *AlertPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.alertPolicy.AlertPolicy",
+		"@cdktn/provider-newrelic.alertPolicy.AlertPolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -486,7 +486,7 @@ func (j *jsiiProxy_AlertPolicy)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_AlertPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AlertPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -516,7 +516,7 @@ func (j *jsiiProxy_AlertPolicy)SetIncidentPreference(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AlertPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AlertPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -538,7 +538,7 @@ func (j *jsiiProxy_AlertPolicy)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AlertPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AlertPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -557,17 +557,17 @@ func (j *jsiiProxy_AlertPolicy)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a AlertPolicy resource upon running "cdktf plan <stack-name>".
-func AlertPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AlertPolicy resource upon running "cdktn plan <stack-name>".
+func AlertPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAlertPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.alertPolicy.AlertPolicy",
+		"@cdktn/provider-newrelic.alertPolicy.AlertPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -602,7 +602,7 @@ func AlertPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.alertPolicy.AlertPolicy",
+		"@cdktn/provider-newrelic.alertPolicy.AlertPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -621,7 +621,7 @@ func AlertPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.alertPolicy.AlertPolicy",
+		"@cdktn/provider-newrelic.alertPolicy.AlertPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func AlertPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.alertPolicy.AlertPolicy",
+		"@cdktn/provider-newrelic.alertPolicy.AlertPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func AlertPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.alertPolicy.AlertPolicy",
+		"@cdktn/provider-newrelic.alertPolicy.AlertPolicy",
 		"tfResourceType",
 		&returns,
 	)
@@ -698,11 +698,11 @@ func (a *jsiiProxy_AlertPolicy) GetAnyMapAttribute(terraformAttribute *string) *
 	return returns
 }
 
-func (a *jsiiProxy_AlertPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -839,7 +839,7 @@ func (a *jsiiProxy_AlertPolicy) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_AlertPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AlertPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -850,11 +850,11 @@ func (a *jsiiProxy_AlertPolicy) ImportFrom(id *string, provider cdktf.TerraformP
 	)
 }
 
-func (a *jsiiProxy_AlertPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

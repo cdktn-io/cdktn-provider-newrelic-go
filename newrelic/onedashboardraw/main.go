@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboardraw
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
 		reflect.TypeOf((*OneDashboardRaw)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -77,20 +77,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardRaw{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRawConfig",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRawConfig",
 		reflect.TypeOf((*OneDashboardRawConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRawPage",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRawPage",
 		reflect.TypeOf((*OneDashboardRawPage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRawPageList",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRawPageList",
 		reflect.TypeOf((*OneDashboardRawPageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -107,12 +107,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardRawPageList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRawPageOutputReference",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRawPageOutputReference",
 		reflect.TypeOf((*OneDashboardRawPageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,16 +149,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardRawPageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRawPageWidget",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRawPageWidget",
 		reflect.TypeOf((*OneDashboardRawPageWidget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRawPageWidgetList",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRawPageWidgetList",
 		reflect.TypeOf((*OneDashboardRawPageWidgetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -175,12 +175,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardRawPageWidgetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRawPageWidgetOutputReference",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRawPageWidgetOutputReference",
 		reflect.TypeOf((*OneDashboardRawPageWidgetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "column", GoGetter: "Column"},
@@ -227,7 +227,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardRawPageWidgetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

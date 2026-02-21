@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -55,7 +55,7 @@ func (a *jsiiProxy_ApplicationSettingsTransactionTracerOutputReference) validate
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationSettingsTransactionTracerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationSettingsTransactionTracerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApplicationSettingsTransactionTracerOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationSettingsTransactionTracerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationSettingsTransactionTracerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ApplicationSettingsTransactionTracerOutputReference) validate
 	return nil
 }
 
-func validateNewApplicationSettingsTransactionTracerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApplicationSettingsTransactionTracerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -1,26 +1,26 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datanewrelicnotificationdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/datanewrelicnotificationdestination/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datanewrelicnotificationdestination/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/notification_destination newrelic_notification_destination}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/notification_destination newrelic_notification_destination}.
 type DataNewrelicNotificationDestination interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
-	Active() cdktf.IResolvable
+	Active() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type DataNewrelicNotificationDestination interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,9 +44,9 @@ type DataNewrelicNotificationDestination interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -54,16 +54,16 @@ type DataNewrelicNotificationDestination interface {
 	Node() constructs.Node
 	Property() DataNewrelicNotificationDestinationPropertyList
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	SecureUrl() DataNewrelicNotificationDestinationSecureUrlList
 	SecureUrlInput() interface{}
 	Status() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type DataNewrelicNotificationDestination interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -90,7 +90,7 @@ type DataNewrelicNotificationDestination interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -118,7 +118,7 @@ type DataNewrelicNotificationDestination interface {
 
 // The jsii proxy struct for DataNewrelicNotificationDestination
 type jsiiProxy_DataNewrelicNotificationDestination struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataNewrelicNotificationDestination) AccountId() *float64 {
@@ -141,8 +141,8 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) AccountIdInput() *float6
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestination) Active() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataNewrelicNotificationDestination) Active() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"active",
@@ -151,8 +151,8 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) Active() cdktf.IResolvab
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestination) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataNewrelicNotificationDestination) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -191,8 +191,8 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestination) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataNewrelicNotificationDestination) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -251,8 +251,8 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestination) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataNewrelicNotificationDestination) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -301,8 +301,8 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) Property() DataNewrelicN
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestination) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataNewrelicNotificationDestination) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) Status() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestination) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataNewrelicNotificationDestination) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -392,7 +392,7 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
 func NewDataNewrelicNotificationDestination(scope constructs.Construct, id *string, config *DataNewrelicNotificationDestinationConfig) DataNewrelicNotificationDestination {
 	_init_.Initialize()
 
@@ -402,7 +402,7 @@ func NewDataNewrelicNotificationDestination(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataNewrelicNotificationDestination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -410,12 +410,12 @@ func NewDataNewrelicNotificationDestination(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
 func NewDataNewrelicNotificationDestination_Override(d DataNewrelicNotificationDestination, scope constructs.Construct, id *string, config *DataNewrelicNotificationDestinationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestination)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataNewrelicNotificationDestination)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -470,7 +470,7 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestination)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataNewrelicNotificationDestination)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -492,7 +492,7 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestination)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataNewrelicNotificationDestination)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -500,17 +500,17 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination)SetProvider(val cdktf.Ter
 	)
 }
 
-// Generates CDKTF code for importing a DataNewrelicNotificationDestination resource upon running "cdktf plan <stack-name>".
-func DataNewrelicNotificationDestination_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataNewrelicNotificationDestination resource upon running "cdktn plan <stack-name>".
+func DataNewrelicNotificationDestination_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataNewrelicNotificationDestination_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -545,7 +545,7 @@ func DataNewrelicNotificationDestination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -564,7 +564,7 @@ func DataNewrelicNotificationDestination_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataNewrelicNotificationDestination_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataNewrelicNotificationDestination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestination",
 		"tfResourceType",
 		&returns,
 	)
@@ -630,11 +630,11 @@ func (d *jsiiProxy_DataNewrelicNotificationDestination) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicNotificationDestination) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataNewrelicNotificationDestination) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -758,11 +758,11 @@ func (d *jsiiProxy_DataNewrelicNotificationDestination) GetStringMapAttribute(te
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicNotificationDestination) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataNewrelicNotificationDestination) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

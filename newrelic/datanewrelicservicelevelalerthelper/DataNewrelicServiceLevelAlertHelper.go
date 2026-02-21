@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datanewrelicservicelevelalerthelper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/datanewrelicservicelevelalerthelper/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datanewrelicservicelevelalerthelper/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper}.
 type DataNewrelicServiceLevelAlertHelper interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AlertType() *string
 	SetAlertType(val *string)
 	AlertTypeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type DataNewrelicServiceLevelAlertHelper interface {
 	SetDependsOn(val *[]*string)
 	EvaluationPeriod() *float64
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,16 +52,16 @@ type DataNewrelicServiceLevelAlertHelper interface {
 	SetIsBadEvents(val interface{})
 	IsBadEventsInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Nrql() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	SliGuid() *string
@@ -74,7 +74,7 @@ type DataNewrelicServiceLevelAlertHelper interface {
 	SetSloTarget(val *float64)
 	SloTargetInput() *float64
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type DataNewrelicServiceLevelAlertHelper interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,7 +102,7 @@ type DataNewrelicServiceLevelAlertHelper interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -129,7 +129,7 @@ type DataNewrelicServiceLevelAlertHelper interface {
 
 // The jsii proxy struct for DataNewrelicServiceLevelAlertHelper
 type jsiiProxy_DataNewrelicServiceLevelAlertHelper struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) AlertType() *string {
@@ -152,8 +152,8 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) AlertTypeInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) EvaluationPeriod() *floa
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -312,8 +312,8 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) IsBadEventsInput() inter
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -342,8 +342,8 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) Nrql() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -422,8 +422,8 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) SloTargetInput() *float6
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) ToleratedBudgetConsumpti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper} Data Source.
 func NewDataNewrelicServiceLevelAlertHelper(scope constructs.Construct, id *string, config *DataNewrelicServiceLevelAlertHelperConfig) DataNewrelicServiceLevelAlertHelper {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewDataNewrelicServiceLevelAlertHelper(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataNewrelicServiceLevelAlertHelper{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
+		"@cdktn/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewDataNewrelicServiceLevelAlertHelper(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper} Data Source.
 func NewDataNewrelicServiceLevelAlertHelper_Override(d DataNewrelicServiceLevelAlertHelper, scope constructs.Construct, id *string, config *DataNewrelicServiceLevelAlertHelperConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
+		"@cdktn/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -554,7 +554,7 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -584,7 +584,7 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetIsBadEvents(val interf
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -595,7 +595,7 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetLifecycle(val *cdktf.T
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -636,17 +636,17 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper)SetSloTarget(val *float64
 	)
 }
 
-// Generates CDKTF code for importing a DataNewrelicServiceLevelAlertHelper resource upon running "cdktf plan <stack-name>".
-func DataNewrelicServiceLevelAlertHelper_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataNewrelicServiceLevelAlertHelper resource upon running "cdktn plan <stack-name>".
+func DataNewrelicServiceLevelAlertHelper_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataNewrelicServiceLevelAlertHelper_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
+		"@cdktn/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func DataNewrelicServiceLevelAlertHelper_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
+		"@cdktn/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func DataNewrelicServiceLevelAlertHelper_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
+		"@cdktn/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func DataNewrelicServiceLevelAlertHelper_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
+		"@cdktn/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func DataNewrelicServiceLevelAlertHelper_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
+		"@cdktn/provider-newrelic.dataNewrelicServiceLevelAlertHelper.DataNewrelicServiceLevelAlertHelper",
 		"tfResourceType",
 		&returns,
 	)
@@ -766,11 +766,11 @@ func (d *jsiiProxy_DataNewrelicServiceLevelAlertHelper) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicServiceLevelAlertHelper) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataNewrelicServiceLevelAlertHelper) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -894,11 +894,11 @@ func (d *jsiiProxy_DataNewrelicServiceLevelAlertHelper) GetStringMapAttribute(te
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicServiceLevelAlertHelper) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataNewrelicServiceLevelAlertHelper) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

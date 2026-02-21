@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitordowntime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/monitordowntime/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/monitordowntime/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorDowntimeFrequencyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type MonitorDowntimeFrequencyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type MonitorDowntimeFrequencyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDaysOfWeek(value *MonitorDowntimeFrequencyDaysOfWeek)
 	ResetDaysOfMonth()
 	ResetDaysOfWeek()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type MonitorDowntimeFrequencyOutputReference interface {
 
 // The jsii proxy struct for MonitorDowntimeFrequencyOutputReference
 type jsiiProxy_MonitorDowntimeFrequencyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorDowntimeFrequencyOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_MonitorDowntimeFrequencyOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_MonitorDowntimeFrequencyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorDowntimeFrequencyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_MonitorDowntimeFrequencyOutputReference) TerraformResource() 
 }
 
 
-func NewMonitorDowntimeFrequencyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MonitorDowntimeFrequencyOutputReference {
+func NewMonitorDowntimeFrequencyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MonitorDowntimeFrequencyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorDowntimeFrequencyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -207,7 +207,7 @@ func NewMonitorDowntimeFrequencyOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_MonitorDowntimeFrequencyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyOutputReference",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -215,11 +215,11 @@ func NewMonitorDowntimeFrequencyOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewMonitorDowntimeFrequencyOutputReference_Override(m MonitorDowntimeFrequencyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMonitorDowntimeFrequencyOutputReference_Override(m MonitorDowntimeFrequencyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyOutputReference",
+		"@cdktn/provider-newrelic.monitorDowntime.MonitorDowntimeFrequencyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)
@@ -280,7 +280,7 @@ func (j *jsiiProxy_MonitorDowntimeFrequencyOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_MonitorDowntimeFrequencyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorDowntimeFrequencyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -448,8 +448,8 @@ func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -461,11 +461,11 @@ func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -504,7 +504,7 @@ func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) ResetDaysOfWeek() {
 	)
 }
 
-func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorDowntimeFrequencyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

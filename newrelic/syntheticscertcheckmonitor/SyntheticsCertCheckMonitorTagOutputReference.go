@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticscertcheckmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/syntheticscertcheckmonitor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/syntheticscertcheckmonitor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SyntheticsCertCheckMonitorTagOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type SyntheticsCertCheckMonitorTagOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	SetValues(val *[]*string)
 	ValuesInput() *[]*string
@@ -51,7 +51,7 @@ type SyntheticsCertCheckMonitorTagOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type SyntheticsCertCheckMonitorTagOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type SyntheticsCertCheckMonitorTagOutputReference interface {
 
 // The jsii proxy struct for SyntheticsCertCheckMonitorTagOutputReference
 type jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) ValuesInput() *
 }
 
 
-func NewSyntheticsCertCheckMonitorTagOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SyntheticsCertCheckMonitorTagOutputReference {
+func NewSyntheticsCertCheckMonitorTagOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SyntheticsCertCheckMonitorTagOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSyntheticsCertCheckMonitorTagOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -205,7 +205,7 @@ func NewSyntheticsCertCheckMonitorTagOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTagOutputReference",
+		"@cdktn/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -213,11 +213,11 @@ func NewSyntheticsCertCheckMonitorTagOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewSyntheticsCertCheckMonitorTagOutputReference_Override(s SyntheticsCertCheckMonitorTagOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSyntheticsCertCheckMonitorTagOutputReference_Override(s SyntheticsCertCheckMonitorTagOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTagOutputReference",
+		"@cdktn/provider-newrelic.syntheticsCertCheckMonitor.SyntheticsCertCheckMonitorTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)
@@ -278,7 +278,7 @@ func (j *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -457,8 +457,8 @@ func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -470,11 +470,11 @@ func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) InterpolationAs
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -486,7 +486,7 @@ func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) InterpolationFo
 	return returns
 }
 
-func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SyntheticsCertCheckMonitorTagOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

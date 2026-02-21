@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datanewrelictestgrokpattern
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/datanewrelictestgrokpattern/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datanewrelictestgrokpattern/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern}.
 type DataNewrelicTestGrokPattern interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -31,9 +31,9 @@ type DataNewrelicTestGrokPattern interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -45,22 +45,22 @@ type DataNewrelicTestGrokPattern interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogLines() *[]*string
 	SetLogLines(val *[]*string)
 	LogLinesInput() *[]*string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type DataNewrelicTestGrokPattern interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,7 +87,7 @@ type DataNewrelicTestGrokPattern interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -112,7 +112,7 @@ type DataNewrelicTestGrokPattern interface {
 
 // The jsii proxy struct for DataNewrelicTestGrokPattern
 type jsiiProxy_DataNewrelicTestGrokPattern struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataNewrelicTestGrokPattern) AccountId() *float64 {
@@ -135,8 +135,8 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern) AccountIdInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicTestGrokPattern) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataNewrelicTestGrokPattern) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -175,8 +175,8 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicTestGrokPattern) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataNewrelicTestGrokPattern) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -245,8 +245,8 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicTestGrokPattern) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataNewrelicTestGrokPattern) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -285,8 +285,8 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicTestGrokPattern) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataNewrelicTestGrokPattern) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -305,8 +305,8 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicTestGrokPattern) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataNewrelicTestGrokPattern) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern) TestGrok() DataNewrelicTestGrokP
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern} Data Source.
 func NewDataNewrelicTestGrokPattern(scope constructs.Construct, id *string, config *DataNewrelicTestGrokPatternConfig) DataNewrelicTestGrokPattern {
 	_init_.Initialize()
 
@@ -356,7 +356,7 @@ func NewDataNewrelicTestGrokPattern(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataNewrelicTestGrokPattern{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
+		"@cdktn/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -364,12 +364,12 @@ func NewDataNewrelicTestGrokPattern(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern} Data Source.
 func NewDataNewrelicTestGrokPattern_Override(d DataNewrelicTestGrokPattern, scope constructs.Construct, id *string, config *DataNewrelicTestGrokPatternConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
+		"@cdktn/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -457,7 +457,7 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetLogLines(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -465,17 +465,17 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern)SetProvider(val cdktf.TerraformPr
 	)
 }
 
-// Generates CDKTF code for importing a DataNewrelicTestGrokPattern resource upon running "cdktf plan <stack-name>".
-func DataNewrelicTestGrokPattern_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataNewrelicTestGrokPattern resource upon running "cdktn plan <stack-name>".
+func DataNewrelicTestGrokPattern_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataNewrelicTestGrokPattern_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
+		"@cdktn/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func DataNewrelicTestGrokPattern_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
+		"@cdktn/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func DataNewrelicTestGrokPattern_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
+		"@cdktn/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func DataNewrelicTestGrokPattern_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
+		"@cdktn/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataNewrelicTestGrokPattern_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
+		"@cdktn/provider-newrelic.dataNewrelicTestGrokPattern.DataNewrelicTestGrokPattern",
 		"tfResourceType",
 		&returns,
 	)
@@ -595,11 +595,11 @@ func (d *jsiiProxy_DataNewrelicTestGrokPattern) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicTestGrokPattern) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataNewrelicTestGrokPattern) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -723,11 +723,11 @@ func (d *jsiiProxy_DataNewrelicTestGrokPattern) GetStringMapAttribute(terraformA
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicTestGrokPattern) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataNewrelicTestGrokPattern) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

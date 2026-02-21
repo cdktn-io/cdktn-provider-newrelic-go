@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudgcpintegrations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/cloudgcpintegrations/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudgcpintegrations/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudGcpIntegrationsVpcAccessOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type CloudGcpIntegrationsVpcAccessOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type CloudGcpIntegrationsVpcAccessOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMetricsPollingInterval()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type CloudGcpIntegrationsVpcAccessOutputReference interface {
 
 // The jsii proxy struct for CloudGcpIntegrationsVpcAccessOutputReference
 type jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) TerraformResour
 }
 
 
-func NewCloudGcpIntegrationsVpcAccessOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CloudGcpIntegrationsVpcAccessOutputReference {
+func NewCloudGcpIntegrationsVpcAccessOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudGcpIntegrationsVpcAccessOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudGcpIntegrationsVpcAccessOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -183,7 +183,7 @@ func NewCloudGcpIntegrationsVpcAccessOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVpcAccessOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVpcAccessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -191,11 +191,11 @@ func NewCloudGcpIntegrationsVpcAccessOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewCloudGcpIntegrationsVpcAccessOutputReference_Override(c CloudGcpIntegrationsVpcAccessOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudGcpIntegrationsVpcAccessOutputReference_Override(c CloudGcpIntegrationsVpcAccessOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVpcAccessOutputReference",
+		"@cdktn/provider-newrelic.cloudGcpIntegrations.CloudGcpIntegrationsVpcAccessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)
@@ -256,7 +256,7 @@ func (j *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -424,8 +424,8 @@ func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -437,11 +437,11 @@ func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) InterpolationAs
 	return returns
 }
 
-func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,7 +461,7 @@ func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) ResetMetricsPol
 	)
 }
 
-func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudGcpIntegrationsVpcAccessOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

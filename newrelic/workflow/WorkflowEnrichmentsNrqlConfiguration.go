@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workflow
@@ -7,7 +7,7 @@ package workflow
 type WorkflowEnrichmentsNrqlConfiguration struct {
 	// enrichment's NRQL query.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/workflow#query Workflow#query}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workflow#query Workflow#query}
 	Query *string `field:"required" json:"query" yaml:"query"`
 }
 

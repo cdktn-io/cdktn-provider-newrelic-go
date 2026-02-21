@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudazureintegrations
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrations",
 		reflect.TypeOf((*CloudAzureIntegrations)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -198,16 +198,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrations{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsApiManagement",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsApiManagement",
 		reflect.TypeOf((*CloudAzureIntegrationsApiManagement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsApiManagementOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsApiManagementOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsApiManagementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -240,16 +240,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsApiManagementOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAppGateway",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAppGateway",
 		reflect.TypeOf((*CloudAzureIntegrationsAppGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAppGatewayOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAppGatewayOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsAppGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -282,16 +282,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsAppGatewayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAppService",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAppService",
 		reflect.TypeOf((*CloudAzureIntegrationsAppService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAppServiceOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAppServiceOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsAppServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -324,16 +324,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsAppServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAutoDiscovery",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAutoDiscovery",
 		reflect.TypeOf((*CloudAzureIntegrationsAutoDiscovery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAutoDiscoveryOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsAutoDiscoveryOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsAutoDiscoveryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -366,20 +366,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsAutoDiscoveryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsConfig",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsConfig",
 		reflect.TypeOf((*CloudAzureIntegrationsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsContainers",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsContainers",
 		reflect.TypeOf((*CloudAzureIntegrationsContainers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsContainersOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsContainersOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsContainersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -412,16 +412,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsContainersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsCosmosDb",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsCosmosDb",
 		reflect.TypeOf((*CloudAzureIntegrationsCosmosDb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsCosmosDbOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsCosmosDbOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsCosmosDbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -454,16 +454,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsCosmosDbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsCostManagement",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsCostManagement",
 		reflect.TypeOf((*CloudAzureIntegrationsCostManagement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsCostManagementOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsCostManagementOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsCostManagementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -496,16 +496,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsCostManagementOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsDataFactory",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsDataFactory",
 		reflect.TypeOf((*CloudAzureIntegrationsDataFactory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsDataFactoryOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsDataFactoryOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsDataFactoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -538,16 +538,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsDataFactoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsEventHub",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsEventHub",
 		reflect.TypeOf((*CloudAzureIntegrationsEventHub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsEventHubOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsEventHubOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsEventHubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -580,16 +580,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsEventHubOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsExpressRoute",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsExpressRoute",
 		reflect.TypeOf((*CloudAzureIntegrationsExpressRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsExpressRouteOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsExpressRouteOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsExpressRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -622,16 +622,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsExpressRouteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFirewalls",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFirewalls",
 		reflect.TypeOf((*CloudAzureIntegrationsFirewalls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFirewallsOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFirewallsOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsFirewallsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -664,16 +664,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsFirewallsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFrontDoor",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFrontDoor",
 		reflect.TypeOf((*CloudAzureIntegrationsFrontDoor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFrontDoorOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFrontDoorOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsFrontDoorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -706,16 +706,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsFrontDoorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFunctions",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFunctions",
 		reflect.TypeOf((*CloudAzureIntegrationsFunctions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFunctionsOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsFunctionsOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsFunctionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -748,16 +748,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsFunctionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsKeyVault",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsKeyVault",
 		reflect.TypeOf((*CloudAzureIntegrationsKeyVault)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsKeyVaultOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsKeyVaultOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsKeyVaultOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -790,16 +790,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsKeyVaultOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsLoadBalancer",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsLoadBalancer",
 		reflect.TypeOf((*CloudAzureIntegrationsLoadBalancer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsLoadBalancerOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsLoadBalancerOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsLoadBalancerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -832,16 +832,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsLoadBalancerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsLogicApps",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsLogicApps",
 		reflect.TypeOf((*CloudAzureIntegrationsLogicApps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsLogicAppsOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsLogicAppsOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsLogicAppsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -874,16 +874,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsLogicAppsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMachineLearning",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMachineLearning",
 		reflect.TypeOf((*CloudAzureIntegrationsMachineLearning)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMachineLearningOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMachineLearningOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsMachineLearningOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -916,16 +916,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsMachineLearningOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMariaDb",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMariaDb",
 		reflect.TypeOf((*CloudAzureIntegrationsMariaDb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMariaDbOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMariaDbOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsMariaDbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -958,16 +958,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsMariaDbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMonitor",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMonitor",
 		reflect.TypeOf((*CloudAzureIntegrationsMonitor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMonitorOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMonitorOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsMonitorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1012,20 +1012,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsMonitorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMysql",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMysql",
 		reflect.TypeOf((*CloudAzureIntegrationsMysql)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMysqlFlexible",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMysqlFlexible",
 		reflect.TypeOf((*CloudAzureIntegrationsMysqlFlexible)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMysqlFlexibleOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMysqlFlexibleOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsMysqlFlexibleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1058,12 +1058,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsMysqlFlexibleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMysqlOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsMysqlOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsMysqlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1096,20 +1096,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsMysqlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPostgresql",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPostgresql",
 		reflect.TypeOf((*CloudAzureIntegrationsPostgresql)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPostgresqlFlexible",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPostgresqlFlexible",
 		reflect.TypeOf((*CloudAzureIntegrationsPostgresqlFlexible)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPostgresqlFlexibleOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPostgresqlFlexibleOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsPostgresqlFlexibleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1142,12 +1142,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsPostgresqlFlexibleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPostgresqlOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPostgresqlOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsPostgresqlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1180,16 +1180,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsPostgresqlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPowerBiDedicated",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPowerBiDedicated",
 		reflect.TypeOf((*CloudAzureIntegrationsPowerBiDedicated)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPowerBiDedicatedOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsPowerBiDedicatedOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsPowerBiDedicatedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1222,16 +1222,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsPowerBiDedicatedOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsRedisCache",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsRedisCache",
 		reflect.TypeOf((*CloudAzureIntegrationsRedisCache)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsRedisCacheOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsRedisCacheOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsRedisCacheOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1264,16 +1264,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsServiceBus",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsServiceBus",
 		reflect.TypeOf((*CloudAzureIntegrationsServiceBus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsServiceBusOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsServiceBusOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsServiceBusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1306,20 +1306,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsServiceBusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsSql",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsSql",
 		reflect.TypeOf((*CloudAzureIntegrationsSql)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsSqlManaged",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsSqlManaged",
 		reflect.TypeOf((*CloudAzureIntegrationsSqlManaged)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsSqlManagedOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsSqlManagedOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsSqlManagedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1352,12 +1352,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsSqlManagedOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsSqlOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsSqlOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsSqlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1390,16 +1390,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsSqlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsStorage",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsStorage",
 		reflect.TypeOf((*CloudAzureIntegrationsStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsStorageOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsStorageOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1432,16 +1432,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsStorageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVirtualMachine",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVirtualMachine",
 		reflect.TypeOf((*CloudAzureIntegrationsVirtualMachine)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVirtualMachineOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVirtualMachineOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsVirtualMachineOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1474,16 +1474,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsVirtualMachineOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVirtualNetworks",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVirtualNetworks",
 		reflect.TypeOf((*CloudAzureIntegrationsVirtualNetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVirtualNetworksOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVirtualNetworksOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsVirtualNetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1516,16 +1516,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsVirtualNetworksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVms",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVms",
 		reflect.TypeOf((*CloudAzureIntegrationsVms)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVmsOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVmsOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsVmsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1558,16 +1558,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsVmsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVpnGateway",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVpnGateway",
 		reflect.TypeOf((*CloudAzureIntegrationsVpnGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVpnGatewayOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsVpnGatewayOutputReference",
 		reflect.TypeOf((*CloudAzureIntegrationsVpnGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1600,7 +1600,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrationsVpnGatewayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

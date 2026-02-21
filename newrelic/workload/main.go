@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workload
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.Workload",
+		"@cdktn/provider-newrelic.workload.Workload",
 		reflect.TypeOf((*Workload)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -91,20 +91,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Workload{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workload.WorkloadConfig",
+		"@cdktn/provider-newrelic.workload.WorkloadConfig",
 		reflect.TypeOf((*WorkloadConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workload.WorkloadEntitySearchQuery",
+		"@cdktn/provider-newrelic.workload.WorkloadEntitySearchQuery",
 		reflect.TypeOf((*WorkloadEntitySearchQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadEntitySearchQueryList",
+		"@cdktn/provider-newrelic.workload.WorkloadEntitySearchQueryList",
 		reflect.TypeOf((*WorkloadEntitySearchQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,12 +121,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadEntitySearchQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadEntitySearchQueryOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadEntitySearchQueryOutputReference",
 		reflect.TypeOf((*WorkloadEntitySearchQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,16 +155,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadEntitySearchQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomatic",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomatic",
 		reflect.TypeOf((*WorkloadStatusConfigAutomatic)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticOutputReference",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -201,16 +201,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadStatusConfigAutomaticOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRemainingEntitiesRule",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRemainingEntitiesRule",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRemainingEntitiesRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRemainingEntitiesRuleOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRemainingEntitiesRuleOutputReference",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRemainingEntitiesRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -240,16 +240,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadStatusConfigAutomaticRemainingEntitiesRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRemainingEntitiesRuleRemainingEntitiesRuleRollup",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRemainingEntitiesRuleRemainingEntitiesRuleRollup",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRemainingEntitiesRuleRemainingEntitiesRuleRollup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRemainingEntitiesRuleRemainingEntitiesRuleRollupOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRemainingEntitiesRuleRemainingEntitiesRuleRollupOutputReference",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRemainingEntitiesRuleRemainingEntitiesRuleRollupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -286,16 +286,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadStatusConfigAutomaticRemainingEntitiesRuleRemainingEntitiesRuleRollupOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRule",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRule",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleList",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleList",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -312,16 +312,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadStatusConfigAutomaticRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleNrqlQuery",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleNrqlQuery",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRuleNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleNrqlQueryList",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleNrqlQueryList",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRuleNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -338,12 +338,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadStatusConfigAutomaticRuleNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleNrqlQueryOutputReference",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRuleNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -372,12 +372,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadStatusConfigAutomaticRuleNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleOutputReference",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -414,16 +414,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadStatusConfigAutomaticRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleRollup",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleRollup",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRuleRollup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleRollupOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigAutomaticRuleRollupOutputReference",
 		reflect.TypeOf((*WorkloadStatusConfigAutomaticRuleRollupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -458,16 +458,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadStatusConfigAutomaticRuleRollupOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigStatic",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigStatic",
 		reflect.TypeOf((*WorkloadStatusConfigStatic)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workload.WorkloadStatusConfigStaticOutputReference",
+		"@cdktn/provider-newrelic.workload.WorkloadStatusConfigStaticOutputReference",
 		reflect.TypeOf((*WorkloadStatusConfigStaticOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -504,7 +504,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkloadStatusConfigStaticOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

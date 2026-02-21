@@ -1,10 +1,10 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datanewrelicuser
 
 import (
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataNewrelicUserConfig struct {
@@ -13,26 +13,26 @@ type DataNewrelicUserConfig struct {
 	// Experimental.
 	Count interface{} `field:"optional" json:"count" yaml:"count"`
 	// Experimental.
-	DependsOn *[]cdktf.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
 	// Experimental.
-	ForEach cdktf.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
 	// Experimental.
-	Lifecycle *cdktf.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
 	// Experimental.
-	Provider cdktf.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the Authentication Domain the user being queried would belong to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/user#authentication_domain_id DataNewrelicUser#authentication_domain_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/user#authentication_domain_id DataNewrelicUser#authentication_domain_id}
 	AuthenticationDomainId *string `field:"required" json:"authenticationDomainId" yaml:"authenticationDomainId"`
 	// The email ID of the user to be queried.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/user#email_id DataNewrelicUser#email_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/user#email_id DataNewrelicUser#email_id}
 	EmailId *string `field:"optional" json:"emailId" yaml:"emailId"`
 	// The name of the user to be queried.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/data-sources/user#name DataNewrelicUser#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/user#name DataNewrelicUser#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

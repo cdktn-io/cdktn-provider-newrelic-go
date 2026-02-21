@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationdestination
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestination",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestination",
 		reflect.TypeOf((*NotificationDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -97,16 +97,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationDestination{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationAuthBasic",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationAuthBasic",
 		reflect.TypeOf((*NotificationDestinationAuthBasic)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationAuthBasicOutputReference",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationAuthBasicOutputReference",
 		reflect.TypeOf((*NotificationDestinationAuthBasicOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,16 +137,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationDestinationAuthBasicOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeader",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeader",
 		reflect.TypeOf((*NotificationDestinationAuthCustomHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeaderList",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeaderList",
 		reflect.TypeOf((*NotificationDestinationAuthCustomHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -163,12 +163,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationDestinationAuthCustomHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeaderOutputReference",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationAuthCustomHeaderOutputReference",
 		reflect.TypeOf((*NotificationDestinationAuthCustomHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -199,16 +199,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationDestinationAuthCustomHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationAuthToken",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationAuthToken",
 		reflect.TypeOf((*NotificationDestinationAuthToken)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationAuthTokenOutputReference",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationAuthTokenOutputReference",
 		reflect.TypeOf((*NotificationDestinationAuthTokenOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -240,20 +240,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationDestinationAuthTokenOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationConfig",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationConfig",
 		reflect.TypeOf((*NotificationDestinationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationProperty",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationProperty",
 		reflect.TypeOf((*NotificationDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationPropertyList",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationPropertyList",
 		reflect.TypeOf((*NotificationDestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -270,12 +270,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationDestinationPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationPropertyOutputReference",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationPropertyOutputReference",
 		reflect.TypeOf((*NotificationDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -312,16 +312,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationDestinationPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationSecureUrl",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationSecureUrl",
 		reflect.TypeOf((*NotificationDestinationSecureUrl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationSecureUrlOutputReference",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationSecureUrlOutputReference",
 		reflect.TypeOf((*NotificationDestinationSecureUrlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -352,16 +352,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationDestinationSecureUrlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationTimeouts",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationTimeouts",
 		reflect.TypeOf((*NotificationDestinationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.notificationDestination.NotificationDestinationTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.notificationDestination.NotificationDestinationTimeoutsOutputReference",
 		reflect.TypeOf((*NotificationDestinationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -394,7 +394,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationDestinationTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package group
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/group/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/group/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/group newrelic_group}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/group newrelic_group}.
 type Group interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthenticationDomainId() *string
 	SetAuthenticationDomainId(val *string)
 	AuthenticationDomainIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type Group interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,18 +46,18 @@ type Group interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type Group interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type Group interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,9 +99,9 @@ type Group interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,7 +136,7 @@ type Group interface {
 
 // The jsii proxy struct for Group
 type jsiiProxy_Group struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Group) AuthenticationDomainId() *string {
@@ -159,8 +159,8 @@ func (j *jsiiProxy_Group) AuthenticationDomainIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Group) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Group) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -209,8 +209,8 @@ func (j *jsiiProxy_Group) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Group) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Group) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_Group) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Group) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Group) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_Group) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_Group) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Group) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_Group) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Group) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Group) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -380,7 +380,7 @@ func (j *jsiiProxy_Group) UserIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/group newrelic_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/group newrelic_group} Resource.
 func NewGroup(scope constructs.Construct, id *string, config *GroupConfig) Group {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewGroup(scope constructs.Construct, id *string, config *GroupConfig) Group
 	j := jsiiProxy_Group{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.group.Group",
+		"@cdktn/provider-newrelic.group.Group",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewGroup(scope constructs.Construct, id *string, config *GroupConfig) Group
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/group newrelic_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/group newrelic_group} Resource.
 func NewGroup_Override(g Group, scope constructs.Construct, id *string, config *GroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.group.Group",
+		"@cdktn/provider-newrelic.group.Group",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -450,7 +450,7 @@ func (j *jsiiProxy_Group)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_Group)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Group)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -469,7 +469,7 @@ func (j *jsiiProxy_Group)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Group)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Group)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -491,7 +491,7 @@ func (j *jsiiProxy_Group)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Group)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Group)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -521,17 +521,17 @@ func (j *jsiiProxy_Group)SetUserIds(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>".
-func Group_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Group resource upon running "cdktn plan <stack-name>".
+func Group_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.group.Group",
+		"@cdktn/provider-newrelic.group.Group",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func Group_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.group.Group",
+		"@cdktn/provider-newrelic.group.Group",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func Group_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.group.Group",
+		"@cdktn/provider-newrelic.group.Group",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func Group_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.group.Group",
+		"@cdktn/provider-newrelic.group.Group",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func Group_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.group.Group",
+		"@cdktn/provider-newrelic.group.Group",
 		"tfResourceType",
 		&returns,
 	)
@@ -662,11 +662,11 @@ func (g *jsiiProxy_Group) GetAnyMapAttribute(terraformAttribute *string) *map[st
 	return returns
 }
 
-func (g *jsiiProxy_Group) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_Group) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -803,7 +803,7 @@ func (g *jsiiProxy_Group) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_Group) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_Group) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -814,11 +814,11 @@ func (g *jsiiProxy_Group) ImportFrom(id *string, provider cdktf.TerraformProvide
 	)
 }
 
-func (g *jsiiProxy_Group) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_Group) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

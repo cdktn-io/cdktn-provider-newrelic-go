@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package entitytags
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.entityTags.EntityTags",
+		"@cdktn/provider-newrelic.entityTags.EntityTags",
 		reflect.TypeOf((*EntityTags)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,20 +70,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EntityTags{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.entityTags.EntityTagsConfig",
+		"@cdktn/provider-newrelic.entityTags.EntityTagsConfig",
 		reflect.TypeOf((*EntityTagsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.entityTags.EntityTagsTag",
+		"@cdktn/provider-newrelic.entityTags.EntityTagsTag",
 		reflect.TypeOf((*EntityTagsTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.entityTags.EntityTagsTagList",
+		"@cdktn/provider-newrelic.entityTags.EntityTagsTagList",
 		reflect.TypeOf((*EntityTagsTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,12 +100,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EntityTagsTagList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.entityTags.EntityTagsTagOutputReference",
+		"@cdktn/provider-newrelic.entityTags.EntityTagsTagOutputReference",
 		reflect.TypeOf((*EntityTagsTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,16 +136,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EntityTagsTagOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.entityTags.EntityTagsTimeouts",
+		"@cdktn/provider-newrelic.entityTags.EntityTagsTimeouts",
 		reflect.TypeOf((*EntityTagsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.entityTags.EntityTagsTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.entityTags.EntityTagsTimeoutsOutputReference",
 		reflect.TypeOf((*EntityTagsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -175,7 +175,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EntityTagsTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

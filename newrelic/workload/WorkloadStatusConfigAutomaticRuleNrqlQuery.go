@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workload
@@ -7,7 +7,7 @@ package workload
 type WorkloadStatusConfigAutomaticRuleNrqlQuery struct {
 	// The entity search query that is used to perform the search of a group of entities.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/workload#query Workload#query}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workload#query Workload#query}
 	Query *string `field:"required" json:"query" yaml:"query"`
 }
 

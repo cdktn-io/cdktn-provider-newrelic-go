@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticsmonitor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsMonitor.SyntheticsMonitor",
+		"@cdktn/provider-newrelic.syntheticsMonitor.SyntheticsMonitor",
 		reflect.TypeOf((*SyntheticsMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -131,20 +131,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsMonitor{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsMonitor.SyntheticsMonitorConfig",
+		"@cdktn/provider-newrelic.syntheticsMonitor.SyntheticsMonitorConfig",
 		reflect.TypeOf((*SyntheticsMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsMonitor.SyntheticsMonitorCustomHeader",
+		"@cdktn/provider-newrelic.syntheticsMonitor.SyntheticsMonitorCustomHeader",
 		reflect.TypeOf((*SyntheticsMonitorCustomHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsMonitor.SyntheticsMonitorCustomHeaderList",
+		"@cdktn/provider-newrelic.syntheticsMonitor.SyntheticsMonitorCustomHeaderList",
 		reflect.TypeOf((*SyntheticsMonitorCustomHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,12 +161,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsMonitorCustomHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsMonitor.SyntheticsMonitorCustomHeaderOutputReference",
+		"@cdktn/provider-newrelic.syntheticsMonitor.SyntheticsMonitorCustomHeaderOutputReference",
 		reflect.TypeOf((*SyntheticsMonitorCustomHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -199,16 +199,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsMonitorCustomHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsMonitor.SyntheticsMonitorTag",
+		"@cdktn/provider-newrelic.syntheticsMonitor.SyntheticsMonitorTag",
 		reflect.TypeOf((*SyntheticsMonitorTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsMonitor.SyntheticsMonitorTagList",
+		"@cdktn/provider-newrelic.syntheticsMonitor.SyntheticsMonitorTagList",
 		reflect.TypeOf((*SyntheticsMonitorTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -225,12 +225,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsMonitorTagList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsMonitor.SyntheticsMonitorTagOutputReference",
+		"@cdktn/provider-newrelic.syntheticsMonitor.SyntheticsMonitorTagOutputReference",
 		reflect.TypeOf((*SyntheticsMonitorTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -261,7 +261,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsMonitorTagOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

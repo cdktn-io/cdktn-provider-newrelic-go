@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datanewrelicnotificationdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/datanewrelicnotificationdestination/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datanewrelicnotificationdestination/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataNewrelicNotificationDestinationSecureUrlOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type DataNewrelicNotificationDestinationSecureUrlOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataNewrelicNotificationDestinationSecureUrlOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataNewrelicNotificationDestinationSecureUrlOutputReference interface {
 
 // The jsii proxy struct for DataNewrelicNotificationDestinationSecureUrlOutputReference
 type jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) 
 }
 
 
-func NewDataNewrelicNotificationDestinationSecureUrlOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataNewrelicNotificationDestinationSecureUrlOutputReference {
+func NewDataNewrelicNotificationDestinationSecureUrlOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataNewrelicNotificationDestinationSecureUrlOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataNewrelicNotificationDestinationSecureUrlOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -182,7 +182,7 @@ func NewDataNewrelicNotificationDestinationSecureUrlOutputReference(terraformRes
 	j := jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrlOutputReference",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrlOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -190,11 +190,11 @@ func NewDataNewrelicNotificationDestinationSecureUrlOutputReference(terraformRes
 	return &j
 }
 
-func NewDataNewrelicNotificationDestinationSecureUrlOutputReference_Override(d DataNewrelicNotificationDestinationSecureUrlOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataNewrelicNotificationDestinationSecureUrlOutputReference_Override(d DataNewrelicNotificationDestinationSecureUrlOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrlOutputReference",
+		"@cdktn/provider-newrelic.dataNewrelicNotificationDestination.DataNewrelicNotificationDestinationSecureUrlOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -255,7 +255,7 @@ func (j *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -423,8 +423,8 @@ func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -436,11 +436,11 @@ func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -452,7 +452,7 @@ func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataNewrelicNotificationDestinationSecureUrlOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workflow
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.Workflow",
+		"@cdktn/provider-newrelic.workflow.Workflow",
 		reflect.TypeOf((*Workflow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -90,20 +90,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Workflow{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workflow.WorkflowConfig",
+		"@cdktn/provider-newrelic.workflow.WorkflowConfig",
 		reflect.TypeOf((*WorkflowConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workflow.WorkflowDestination",
+		"@cdktn/provider-newrelic.workflow.WorkflowDestination",
 		reflect.TypeOf((*WorkflowDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowDestinationList",
+		"@cdktn/provider-newrelic.workflow.WorkflowDestinationList",
 		reflect.TypeOf((*WorkflowDestinationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,12 +120,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowDestinationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowDestinationOutputReference",
+		"@cdktn/provider-newrelic.workflow.WorkflowDestinationOutputReference",
 		reflect.TypeOf((*WorkflowDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelId", GoGetter: "ChannelId"},
@@ -162,24 +162,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowDestinationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workflow.WorkflowEnrichments",
+		"@cdktn/provider-newrelic.workflow.WorkflowEnrichments",
 		reflect.TypeOf((*WorkflowEnrichments)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workflow.WorkflowEnrichmentsNrql",
+		"@cdktn/provider-newrelic.workflow.WorkflowEnrichmentsNrql",
 		reflect.TypeOf((*WorkflowEnrichmentsNrql)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workflow.WorkflowEnrichmentsNrqlConfiguration",
+		"@cdktn/provider-newrelic.workflow.WorkflowEnrichmentsNrqlConfiguration",
 		reflect.TypeOf((*WorkflowEnrichmentsNrqlConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowEnrichmentsNrqlConfigurationList",
+		"@cdktn/provider-newrelic.workflow.WorkflowEnrichmentsNrqlConfigurationList",
 		reflect.TypeOf((*WorkflowEnrichmentsNrqlConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -196,12 +196,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowEnrichmentsNrqlConfigurationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowEnrichmentsNrqlConfigurationOutputReference",
+		"@cdktn/provider-newrelic.workflow.WorkflowEnrichmentsNrqlConfigurationOutputReference",
 		reflect.TypeOf((*WorkflowEnrichmentsNrqlConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -230,12 +230,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowEnrichmentsNrqlConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowEnrichmentsNrqlList",
+		"@cdktn/provider-newrelic.workflow.WorkflowEnrichmentsNrqlList",
 		reflect.TypeOf((*WorkflowEnrichmentsNrqlList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -252,12 +252,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowEnrichmentsNrqlList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowEnrichmentsNrqlOutputReference",
+		"@cdktn/provider-newrelic.workflow.WorkflowEnrichmentsNrqlOutputReference",
 		reflect.TypeOf((*WorkflowEnrichmentsNrqlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -292,12 +292,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowEnrichmentsNrqlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowEnrichmentsOutputReference",
+		"@cdktn/provider-newrelic.workflow.WorkflowEnrichmentsOutputReference",
 		reflect.TypeOf((*WorkflowEnrichmentsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -327,16 +327,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowEnrichmentsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workflow.WorkflowIssuesFilter",
+		"@cdktn/provider-newrelic.workflow.WorkflowIssuesFilter",
 		reflect.TypeOf((*WorkflowIssuesFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowIssuesFilterOutputReference",
+		"@cdktn/provider-newrelic.workflow.WorkflowIssuesFilterOutputReference",
 		reflect.TypeOf((*WorkflowIssuesFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -372,16 +372,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowIssuesFilterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.workflow.WorkflowIssuesFilterPredicate",
+		"@cdktn/provider-newrelic.workflow.WorkflowIssuesFilterPredicate",
 		reflect.TypeOf((*WorkflowIssuesFilterPredicate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowIssuesFilterPredicateList",
+		"@cdktn/provider-newrelic.workflow.WorkflowIssuesFilterPredicateList",
 		reflect.TypeOf((*WorkflowIssuesFilterPredicateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -398,12 +398,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowIssuesFilterPredicateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.workflow.WorkflowIssuesFilterPredicateOutputReference",
+		"@cdktn/provider-newrelic.workflow.WorkflowIssuesFilterPredicateOutputReference",
 		reflect.TypeOf((*WorkflowIssuesFilterPredicateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
@@ -436,7 +436,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WorkflowIssuesFilterPredicateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

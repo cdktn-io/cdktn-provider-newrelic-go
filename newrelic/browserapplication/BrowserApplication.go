@@ -1,26 +1,26 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package browserapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/browserapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/browserapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/browser_application newrelic_browser_application}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/browser_application newrelic_browser_application}.
 type BrowserApplication interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
 	ApplicationId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -42,9 +42,9 @@ type BrowserApplication interface {
 	SetDistributedTracingEnabled(val interface{})
 	DistributedTracingEnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,9 +55,9 @@ type BrowserApplication interface {
 	IdInput() *string
 	JsConfig() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoaderType() *string
 	SetLoaderType(val *string)
 	LoaderTypeInput() *string
@@ -67,9 +67,9 @@ type BrowserApplication interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,11 +77,13 @@ type BrowserApplication interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeouts() BrowserApplicationTimeoutsOutputReference
+	TimeoutsInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -90,7 +92,7 @@ type BrowserApplication interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +110,9 @@ type BrowserApplication interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -125,6 +127,7 @@ type BrowserApplication interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutTimeouts(value *BrowserApplicationTimeouts)
 	ResetAccountId()
 	ResetCookiesEnabled()
 	ResetDistributedTracingEnabled()
@@ -133,6 +136,7 @@ type BrowserApplication interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -148,7 +152,7 @@ type BrowserApplication interface {
 
 // The jsii proxy struct for BrowserApplication
 type jsiiProxy_BrowserApplication struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_BrowserApplication) AccountId() *float64 {
@@ -181,8 +185,8 @@ func (j *jsiiProxy_BrowserApplication) ApplicationId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BrowserApplication) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_BrowserApplication) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -271,8 +275,8 @@ func (j *jsiiProxy_BrowserApplication) DistributedTracingEnabledInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_BrowserApplication) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_BrowserApplication) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -341,8 +345,8 @@ func (j *jsiiProxy_BrowserApplication) JsConfig() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BrowserApplication) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_BrowserApplication) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -401,8 +405,8 @@ func (j *jsiiProxy_BrowserApplication) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_BrowserApplication) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_BrowserApplication) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -431,8 +435,8 @@ func (j *jsiiProxy_BrowserApplication) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_BrowserApplication) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_BrowserApplication) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -461,8 +465,28 @@ func (j *jsiiProxy_BrowserApplication) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BrowserApplication) Timeouts() BrowserApplicationTimeoutsOutputReference {
+	var returns BrowserApplicationTimeoutsOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/browser_application newrelic_browser_application} Resource.
+func (j *jsiiProxy_BrowserApplication) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/browser_application newrelic_browser_application} Resource.
 func NewBrowserApplication(scope constructs.Construct, id *string, config *BrowserApplicationConfig) BrowserApplication {
 	_init_.Initialize()
 
@@ -472,7 +496,7 @@ func NewBrowserApplication(scope constructs.Construct, id *string, config *Brows
 	j := jsiiProxy_BrowserApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.browserApplication.BrowserApplication",
+		"@cdktn/provider-newrelic.browserApplication.BrowserApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +504,12 @@ func NewBrowserApplication(scope constructs.Construct, id *string, config *Brows
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/browser_application newrelic_browser_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/browser_application newrelic_browser_application} Resource.
 func NewBrowserApplication_Override(b BrowserApplication, scope constructs.Construct, id *string, config *BrowserApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.browserApplication.BrowserApplication",
+		"@cdktn/provider-newrelic.browserApplication.BrowserApplication",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -554,7 +578,7 @@ func (j *jsiiProxy_BrowserApplication)SetDistributedTracingEnabled(val interface
 	)
 }
 
-func (j *jsiiProxy_BrowserApplication)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_BrowserApplication)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -573,7 +597,7 @@ func (j *jsiiProxy_BrowserApplication)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BrowserApplication)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_BrowserApplication)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -606,7 +630,7 @@ func (j *jsiiProxy_BrowserApplication)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BrowserApplication)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_BrowserApplication)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -625,17 +649,17 @@ func (j *jsiiProxy_BrowserApplication)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a BrowserApplication resource upon running "cdktf plan <stack-name>".
-func BrowserApplication_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a BrowserApplication resource upon running "cdktn plan <stack-name>".
+func BrowserApplication_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateBrowserApplication_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.browserApplication.BrowserApplication",
+		"@cdktn/provider-newrelic.browserApplication.BrowserApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +694,7 @@ func BrowserApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.browserApplication.BrowserApplication",
+		"@cdktn/provider-newrelic.browserApplication.BrowserApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +713,7 @@ func BrowserApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.browserApplication.BrowserApplication",
+		"@cdktn/provider-newrelic.browserApplication.BrowserApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +732,7 @@ func BrowserApplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.browserApplication.BrowserApplication",
+		"@cdktn/provider-newrelic.browserApplication.BrowserApplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +745,7 @@ func BrowserApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.browserApplication.BrowserApplication",
+		"@cdktn/provider-newrelic.browserApplication.BrowserApplication",
 		"tfResourceType",
 		&returns,
 	)
@@ -766,11 +790,11 @@ func (b *jsiiProxy_BrowserApplication) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (b *jsiiProxy_BrowserApplication) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BrowserApplication) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -907,7 +931,7 @@ func (b *jsiiProxy_BrowserApplication) HasResourceMove() interface{} {
 	return returns
 }
 
-func (b *jsiiProxy_BrowserApplication) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (b *jsiiProxy_BrowserApplication) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := b.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -918,11 +942,11 @@ func (b *jsiiProxy_BrowserApplication) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (b *jsiiProxy_BrowserApplication) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BrowserApplication) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -978,6 +1002,17 @@ func (b *jsiiProxy_BrowserApplication) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (b *jsiiProxy_BrowserApplication) PutTimeouts(value *BrowserApplicationTimeouts) {
+	if err := b.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BrowserApplication) ResetAccountId() {
 	_jsii_.InvokeVoid(
 		b,
@@ -1022,6 +1057,14 @@ func (b *jsiiProxy_BrowserApplication) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BrowserApplication) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetTimeouts",
 		nil, // no parameters
 	)
 }

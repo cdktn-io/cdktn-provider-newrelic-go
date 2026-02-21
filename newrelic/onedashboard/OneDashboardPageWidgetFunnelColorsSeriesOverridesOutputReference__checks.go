@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputRefere
 	return nil
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputRefere
 
 func (j *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *OneDashboardPageWidgetFunnelColorsSeriesOverrides:
 		val := val.(*OneDashboardPageWidgetFunnelColorsSeriesOverrides)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *OneDashboardPageWidgetFunnelColorsSeriesOverrides; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *OneDashboardPageWidgetFunnelColorsSeriesOverrides; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputRefere
 	return nil
 }
 
-func validateNewOneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

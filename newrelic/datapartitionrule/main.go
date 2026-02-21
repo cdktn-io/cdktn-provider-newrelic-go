@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapartitionrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRule",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRule",
 		reflect.TypeOf((*DataPartitionRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -80,20 +80,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPartitionRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRuleConfig",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRuleConfig",
 		reflect.TypeOf((*DataPartitionRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRuleTimeouts",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRuleTimeouts",
 		reflect.TypeOf((*DataPartitionRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataPartitionRule.DataPartitionRuleTimeoutsOutputReference",
+		"@cdktn/provider-newrelic.dataPartitionRule.DataPartitionRuleTimeoutsOutputReference",
 		reflect.TypeOf((*DataPartitionRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,7 +123,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPartitionRuleTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

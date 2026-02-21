@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudazureintegrations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/cloudazureintegrations/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudazureintegrations/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudAzureIntegrationsRedisCacheOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type CloudAzureIntegrationsRedisCacheOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type CloudAzureIntegrationsRedisCacheOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMetricsPollingInterval()
 	ResetResourceGroups()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type CloudAzureIntegrationsRedisCacheOutputReference interface {
 
 // The jsii proxy struct for CloudAzureIntegrationsRedisCacheOutputReference
 type jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) TerraformRes
 }
 
 
-func NewCloudAzureIntegrationsRedisCacheOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CloudAzureIntegrationsRedisCacheOutputReference {
+func NewCloudAzureIntegrationsRedisCacheOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudAzureIntegrationsRedisCacheOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudAzureIntegrationsRedisCacheOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -207,7 +207,7 @@ func NewCloudAzureIntegrationsRedisCacheOutputReference(terraformResource cdktf.
 	j := jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsRedisCacheOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsRedisCacheOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -215,11 +215,11 @@ func NewCloudAzureIntegrationsRedisCacheOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewCloudAzureIntegrationsRedisCacheOutputReference_Override(c CloudAzureIntegrationsRedisCacheOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudAzureIntegrationsRedisCacheOutputReference_Override(c CloudAzureIntegrationsRedisCacheOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsRedisCacheOutputReference",
+		"@cdktn/provider-newrelic.cloudAzureIntegrations.CloudAzureIntegrationsRedisCacheOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)
@@ -291,7 +291,7 @@ func (j *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -459,8 +459,8 @@ func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) GetStringMap
 	return returns
 }
 
-func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -472,11 +472,11 @@ func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) Interpolatio
 	return returns
 }
 
-func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -504,7 +504,7 @@ func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) ResetResourc
 	)
 }
 
-func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudAzureIntegrationsRedisCacheOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

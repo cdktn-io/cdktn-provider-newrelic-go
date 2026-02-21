@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertcondition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/alertcondition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/alertcondition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AlertConditionTermOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type AlertConditionTermOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Threshold() *float64
 	SetThreshold(val *float64)
 	ThresholdInput() *float64
@@ -60,7 +60,7 @@ type AlertConditionTermOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,14 +76,14 @@ type AlertConditionTermOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetOperator()
 	ResetPriority()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,7 +93,7 @@ type AlertConditionTermOutputReference interface {
 
 // The jsii proxy struct for AlertConditionTermOutputReference
 type jsiiProxy_AlertConditionTermOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AlertConditionTermOutputReference) ComplexObjectIndex() interface{} {
@@ -216,8 +216,8 @@ func (j *jsiiProxy_AlertConditionTermOutputReference) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_AlertConditionTermOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AlertConditionTermOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -267,7 +267,7 @@ func (j *jsiiProxy_AlertConditionTermOutputReference) TimeFunctionInput() *strin
 }
 
 
-func NewAlertConditionTermOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AlertConditionTermOutputReference {
+func NewAlertConditionTermOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AlertConditionTermOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAlertConditionTermOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -276,7 +276,7 @@ func NewAlertConditionTermOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_AlertConditionTermOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.alertCondition.AlertConditionTermOutputReference",
+		"@cdktn/provider-newrelic.alertCondition.AlertConditionTermOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -284,11 +284,11 @@ func NewAlertConditionTermOutputReference(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewAlertConditionTermOutputReference_Override(a AlertConditionTermOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAlertConditionTermOutputReference_Override(a AlertConditionTermOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.alertCondition.AlertConditionTermOutputReference",
+		"@cdktn/provider-newrelic.alertCondition.AlertConditionTermOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)
@@ -371,7 +371,7 @@ func (j *jsiiProxy_AlertConditionTermOutputReference)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_AlertConditionTermOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AlertConditionTermOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -433,11 +433,11 @@ func (a *jsiiProxy_AlertConditionTermOutputReference) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (a *jsiiProxy_AlertConditionTermOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertConditionTermOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -561,8 +561,8 @@ func (a *jsiiProxy_AlertConditionTermOutputReference) GetStringMapAttribute(terr
 	return returns
 }
 
-func (a *jsiiProxy_AlertConditionTermOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AlertConditionTermOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -574,11 +574,11 @@ func (a *jsiiProxy_AlertConditionTermOutputReference) InterpolationAsList() cdkt
 	return returns
 }
 
-func (a *jsiiProxy_AlertConditionTermOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertConditionTermOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -606,7 +606,7 @@ func (a *jsiiProxy_AlertConditionTermOutputReference) ResetPriority() {
 	)
 }
 
-func (a *jsiiProxy_AlertConditionTermOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AlertConditionTermOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

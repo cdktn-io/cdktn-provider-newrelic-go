@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudawsintegrations
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrations",
 		reflect.TypeOf((*CloudAwsIntegrations)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -183,6 +183,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putRedshift", GoMethod: "PutRedshift"},
 			_jsii_.MemberMethod{JsiiMethod: "putRoute53", GoMethod: "PutRoute53"},
 			_jsii_.MemberMethod{JsiiMethod: "putS3", GoMethod: "PutS3"},
+			_jsii_.MemberMethod{JsiiMethod: "putSecurityHub", GoMethod: "PutSecurityHub"},
 			_jsii_.MemberMethod{JsiiMethod: "putSes", GoMethod: "PutSes"},
 			_jsii_.MemberMethod{JsiiMethod: "putSns", GoMethod: "PutSns"},
 			_jsii_.MemberMethod{JsiiMethod: "putSqs", GoMethod: "PutSqs"},
@@ -244,6 +245,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetRedshift", GoMethod: "ResetRedshift"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRoute53", GoMethod: "ResetRoute53"},
 			_jsii_.MemberMethod{JsiiMethod: "resetS3", GoMethod: "ResetS3"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSecurityHub", GoMethod: "ResetSecurityHub"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSes", GoMethod: "ResetSes"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSns", GoMethod: "ResetSns"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSqs", GoMethod: "ResetSqs"},
@@ -254,6 +256,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "route53Input", GoGetter: "Route53Input"},
 			_jsii_.MemberProperty{JsiiProperty: "s3", GoGetter: "S3"},
 			_jsii_.MemberProperty{JsiiProperty: "s3Input", GoGetter: "S3Input"},
+			_jsii_.MemberProperty{JsiiProperty: "securityHub", GoGetter: "SecurityHub"},
+			_jsii_.MemberProperty{JsiiProperty: "securityHubInput", GoGetter: "SecurityHubInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ses", GoGetter: "Ses"},
 			_jsii_.MemberProperty{JsiiProperty: "sesInput", GoGetter: "SesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "sns", GoGetter: "Sns"},
@@ -278,16 +282,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrations{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAlb",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAlb",
 		reflect.TypeOf((*CloudAwsIntegrationsAlb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAlbOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAlbOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAlbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -335,16 +339,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAlbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsApiGateway",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsApiGateway",
 		reflect.TypeOf((*CloudAwsIntegrationsApiGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsApiGatewayOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsApiGatewayOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsApiGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -386,16 +390,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsApiGatewayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAutoScaling",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAutoScaling",
 		reflect.TypeOf((*CloudAwsIntegrationsAutoScaling)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAutoScalingOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAutoScalingOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAutoScalingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -428,16 +432,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAutoScalingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAppSync",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAppSync",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsAppSync)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAppSyncOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAppSyncOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsAppSyncOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -470,16 +474,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsAppSyncOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAthena",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAthena",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsAthena)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAthenaOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAthenaOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsAthenaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -512,16 +516,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsAthenaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAutoDiscovery",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAutoDiscovery",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsAutoDiscovery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAutoDiscoveryOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsAutoDiscoveryOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsAutoDiscoveryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -554,16 +558,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsAutoDiscoveryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsCognito",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsCognito",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsCognito)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsCognitoOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsCognitoOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsCognitoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -596,16 +600,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsCognitoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsConnect",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsConnect",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsConnect)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsConnectOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsConnectOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsConnectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -638,16 +642,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsConnectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsDirectConnect",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsDirectConnect",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsDirectConnect)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsDirectConnectOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsDirectConnectOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsDirectConnectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -680,16 +684,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsDirectConnectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsFsx",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsFsx",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsFsx)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsFsxOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsFsxOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsFsxOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -722,16 +726,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsFsxOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsGlue",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsGlue",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsGlue)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsGlueOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsGlueOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsGlueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -764,16 +768,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsGlueOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsKinesisAnalytics",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsKinesisAnalytics",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsKinesisAnalytics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsKinesisAnalyticsOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsKinesisAnalyticsOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsKinesisAnalyticsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -806,16 +810,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsKinesisAnalyticsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMediaConvert",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMediaConvert",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsMediaConvert)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMediaConvertOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMediaConvertOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsMediaConvertOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -848,16 +852,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsMediaConvertOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMediaPackageVod",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMediaPackageVod",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsMediaPackageVod)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMediaPackageVodOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMediaPackageVodOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsMediaPackageVodOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -890,16 +894,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsMediaPackageVodOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMq",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMq",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsMq)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMqOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMqOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsMqOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -932,16 +936,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsMqOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMsk",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMsk",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsMsk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMskOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsMskOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsMskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -974,16 +978,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsMskOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsNeptune",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsNeptune",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsNeptune)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsNeptuneOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsNeptuneOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsNeptuneOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1016,16 +1020,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsNeptuneOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsQldb",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsQldb",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsQldb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsQldbOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsQldbOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsQldbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1058,16 +1062,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsQldbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsRoute53Resolver",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsRoute53Resolver",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsRoute53Resolver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsRoute53ResolverOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsRoute53ResolverOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsRoute53ResolverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1100,16 +1104,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsRoute53ResolverOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsStates",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsStates",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsStates)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsStatesOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsStatesOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsStatesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1142,16 +1146,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsStatesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsTransitGateway",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsTransitGateway",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsTransitGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsTransitGatewayOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsTransitGatewayOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsTransitGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1184,16 +1188,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsTransitGatewayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsWaf",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsWaf",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsWaf)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsWafOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsWafOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsWafOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1226,16 +1230,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsWafOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsWafv2",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsWafv2",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsWafv2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsWafv2OutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsAwsWafv2OutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsAwsWafv2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1268,16 +1272,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsAwsWafv2OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsBilling",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsBilling",
 		reflect.TypeOf((*CloudAwsIntegrationsBilling)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsBillingOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsBillingOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsBillingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1307,16 +1311,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsBillingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsCloudfront",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsCloudfront",
 		reflect.TypeOf((*CloudAwsIntegrationsCloudfront)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsCloudfrontOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsCloudfrontOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsCloudfrontOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1358,16 +1362,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsCloudfrontOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsCloudtrail",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsCloudtrail",
 		reflect.TypeOf((*CloudAwsIntegrationsCloudtrail)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsCloudtrailOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsCloudtrailOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsCloudtrailOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1400,20 +1404,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsCloudtrailOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsConfig",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsConfig",
 		reflect.TypeOf((*CloudAwsIntegrationsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsDocDb",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsDocDb",
 		reflect.TypeOf((*CloudAwsIntegrationsDocDb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsDocDbOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsDocDbOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsDocDbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1446,16 +1450,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsDocDbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsDynamodb",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsDynamodb",
 		reflect.TypeOf((*CloudAwsIntegrationsDynamodb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsDynamodbOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsDynamodbOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsDynamodbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1500,16 +1504,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsDynamodbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEbs",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEbs",
 		reflect.TypeOf((*CloudAwsIntegrationsEbs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEbsOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEbsOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsEbsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1551,16 +1555,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsEbsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEc2",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEc2",
 		reflect.TypeOf((*CloudAwsIntegrationsEc2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEc2OutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEc2OutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsEc2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1605,16 +1609,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsEc2OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEcs",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEcs",
 		reflect.TypeOf((*CloudAwsIntegrationsEcs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEcsOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEcsOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsEcsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1656,16 +1660,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsEcsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEfs",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEfs",
 		reflect.TypeOf((*CloudAwsIntegrationsEfs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEfsOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEfsOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsEfsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1707,16 +1711,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsEfsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticache",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticache",
 		reflect.TypeOf((*CloudAwsIntegrationsElasticache)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticacheOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticacheOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsElasticacheOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1758,16 +1762,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsElasticacheOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticbeanstalk",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticbeanstalk",
 		reflect.TypeOf((*CloudAwsIntegrationsElasticbeanstalk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticbeanstalkOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticbeanstalkOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsElasticbeanstalkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1812,16 +1816,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsElasticbeanstalkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticsearch",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticsearch",
 		reflect.TypeOf((*CloudAwsIntegrationsElasticsearch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticsearchOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElasticsearchOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsElasticsearchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1863,16 +1867,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsElasticsearchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElb",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElb",
 		reflect.TypeOf((*CloudAwsIntegrationsElb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElbOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsElbOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsElbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1911,16 +1915,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsElbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEmr",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEmr",
 		reflect.TypeOf((*CloudAwsIntegrationsEmr)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEmrOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsEmrOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsEmrOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -1962,16 +1966,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsEmrOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsHealth",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsHealth",
 		reflect.TypeOf((*CloudAwsIntegrationsHealth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsHealthOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsHealthOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsHealthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2001,16 +2005,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsHealthOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsIam",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsIam",
 		reflect.TypeOf((*CloudAwsIntegrationsIam)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsIamOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsIamOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsIamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2046,16 +2050,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsIamOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsIot",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsIot",
 		reflect.TypeOf((*CloudAwsIntegrationsIot)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsIotOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsIotOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsIotOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2088,20 +2092,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsIotOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsKinesis",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsKinesis",
 		reflect.TypeOf((*CloudAwsIntegrationsKinesis)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsKinesisFirehose",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsKinesisFirehose",
 		reflect.TypeOf((*CloudAwsIntegrationsKinesisFirehose)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsKinesisFirehoseOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsKinesisFirehoseOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsKinesisFirehoseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2134,12 +2138,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsKinesisFirehoseOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsKinesisOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsKinesisOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsKinesisOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2184,16 +2188,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsKinesisOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsLambda",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsLambda",
 		reflect.TypeOf((*CloudAwsIntegrationsLambda)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsLambdaOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsLambdaOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsLambdaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2235,16 +2239,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsLambdaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRds",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRds",
 		reflect.TypeOf((*CloudAwsIntegrationsRds)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRdsOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRdsOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsRdsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2286,16 +2290,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsRdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRedshift",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRedshift",
 		reflect.TypeOf((*CloudAwsIntegrationsRedshift)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRedshiftOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRedshiftOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsRedshiftOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2334,16 +2338,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsRedshiftOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRoute53",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRoute53",
 		reflect.TypeOf((*CloudAwsIntegrationsRoute53)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRoute53OutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsRoute53OutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsRoute53OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2376,16 +2380,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsRoute53OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsS3",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsS3",
 		reflect.TypeOf((*CloudAwsIntegrationsS3)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsS3OutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsS3OutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsS3OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2427,16 +2431,58 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsS3OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSes",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSecurityHub",
+		reflect.TypeOf((*CloudAwsIntegrationsSecurityHub)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSecurityHubOutputReference",
+		reflect.TypeOf((*CloudAwsIntegrationsSecurityHubOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
+			_jsii_.MemberProperty{JsiiProperty: "awsRegionsInput", GoGetter: "AwsRegionsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "metricsPollingInterval", GoGetter: "MetricsPollingInterval"},
+			_jsii_.MemberProperty{JsiiProperty: "metricsPollingIntervalInput", GoGetter: "MetricsPollingIntervalInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAwsRegions", GoMethod: "ResetAwsRegions"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMetricsPollingInterval", GoMethod: "ResetMetricsPollingInterval"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudAwsIntegrationsSecurityHubOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSes",
 		reflect.TypeOf((*CloudAwsIntegrationsSes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSesOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSesOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsSesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2469,16 +2515,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsSesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSns",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSns",
 		reflect.TypeOf((*CloudAwsIntegrationsSns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSnsOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSnsOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsSnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2514,16 +2560,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsSnsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSqs",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSqs",
 		reflect.TypeOf((*CloudAwsIntegrationsSqs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSqsOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsSqsOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsSqsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2571,16 +2617,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsSqsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsTrustedAdvisor",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsTrustedAdvisor",
 		reflect.TypeOf((*CloudAwsIntegrationsTrustedAdvisor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsTrustedAdvisorOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsTrustedAdvisorOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsTrustedAdvisorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2610,16 +2656,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsTrustedAdvisorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsVpc",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsVpc",
 		reflect.TypeOf((*CloudAwsIntegrationsVpc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsVpcOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsVpcOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsVpcOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2664,16 +2710,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsVpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsXRay",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsXRay",
 		reflect.TypeOf((*CloudAwsIntegrationsXRay)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsXRayOutputReference",
+		"@cdktn/provider-newrelic.cloudAwsIntegrations.CloudAwsIntegrationsXRayOutputReference",
 		reflect.TypeOf((*CloudAwsIntegrationsXRayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegions", GoGetter: "AwsRegions"},
@@ -2706,7 +2752,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAwsIntegrationsXRayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

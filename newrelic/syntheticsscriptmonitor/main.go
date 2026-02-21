@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticsscriptmonitor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitor",
 		reflect.TypeOf((*SyntheticsScriptMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -116,20 +116,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsScriptMonitor{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorConfig",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorConfig",
 		reflect.TypeOf((*SyntheticsScriptMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivate",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivate",
 		reflect.TypeOf((*SyntheticsScriptMonitorLocationPrivate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivateList",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivateList",
 		reflect.TypeOf((*SyntheticsScriptMonitorLocationPrivateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -146,12 +146,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsScriptMonitorLocationPrivateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivateOutputReference",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorLocationPrivateOutputReference",
 		reflect.TypeOf((*SyntheticsScriptMonitorLocationPrivateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -183,16 +183,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsScriptMonitorLocationPrivateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorTag",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorTag",
 		reflect.TypeOf((*SyntheticsScriptMonitorTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorTagList",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorTagList",
 		reflect.TypeOf((*SyntheticsScriptMonitorTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -209,12 +209,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsScriptMonitorTagList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorTagOutputReference",
+		"@cdktn/provider-newrelic.syntheticsScriptMonitor.SyntheticsScriptMonitorTagOutputReference",
 		reflect.TypeOf((*SyntheticsScriptMonitorTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -245,7 +245,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsScriptMonitorTagOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/onedashboard/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/onedashboard/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference interfac
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Unit() *string
 	SetUnit(val *string)
 	UnitInput() *string
@@ -51,7 +51,7 @@ type OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference interfac
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference interfac
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSeriesName()
 	ResetUnit()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference interfac
 
 // The jsii proxy struct for OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference
 type jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputRefe
 }
 
 
-func NewOneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference {
+func NewOneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -207,7 +207,7 @@ func NewOneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference(terra
 	j := jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -215,11 +215,11 @@ func NewOneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference(terra
 	return &j
 }
 
-func NewOneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference_Override(o OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewOneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference_Override(o OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		o,
 	)
@@ -280,7 +280,7 @@ func (j *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputRefe
 	)
 }
 
-func (j *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputRefe
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -459,8 +459,8 @@ func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputRefe
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -472,11 +472,11 @@ func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputRefe
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -504,7 +504,7 @@ func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputRefe
 	)
 }
 
-func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

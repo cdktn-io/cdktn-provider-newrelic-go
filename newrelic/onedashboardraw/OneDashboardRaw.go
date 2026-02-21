@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboardraw
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-newrelic-go/newrelic/v13/onedashboardraw/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/onedashboardraw/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/one_dashboard_raw newrelic_one_dashboard_raw}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard_raw newrelic_one_dashboard_raw}.
 type OneDashboardRaw interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountId() *float64
 	SetAccountId(val *float64)
 	AccountIdInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type OneDashboardRaw interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,9 +50,9 @@ type OneDashboardRaw interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -65,9 +65,9 @@ type OneDashboardRaw interface {
 	SetPermissions(val *string)
 	PermissionsInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type OneDashboardRaw interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type OneDashboardRaw interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -106,9 +106,9 @@ type OneDashboardRaw interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -146,7 +146,7 @@ type OneDashboardRaw interface {
 
 // The jsii proxy struct for OneDashboardRaw
 type jsiiProxy_OneDashboardRaw struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_OneDashboardRaw) AccountId() *float64 {
@@ -169,8 +169,8 @@ func (j *jsiiProxy_OneDashboardRaw) AccountIdInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardRaw) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_OneDashboardRaw) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_OneDashboardRaw) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardRaw) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_OneDashboardRaw) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_OneDashboardRaw) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardRaw) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_OneDashboardRaw) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -389,8 +389,8 @@ func (j *jsiiProxy_OneDashboardRaw) PermissionsInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardRaw) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_OneDashboardRaw) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -419,8 +419,8 @@ func (j *jsiiProxy_OneDashboardRaw) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_OneDashboardRaw) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_OneDashboardRaw) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -450,7 +450,7 @@ func (j *jsiiProxy_OneDashboardRaw) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/one_dashboard_raw newrelic_one_dashboard_raw} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard_raw newrelic_one_dashboard_raw} Resource.
 func NewOneDashboardRaw(scope constructs.Construct, id *string, config *OneDashboardRawConfig) OneDashboardRaw {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewOneDashboardRaw(scope constructs.Construct, id *string, config *OneDashb
 	j := jsiiProxy_OneDashboardRaw{}
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewOneDashboardRaw(scope constructs.Construct, id *string, config *OneDashb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.76.3/docs/resources/one_dashboard_raw newrelic_one_dashboard_raw} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard_raw newrelic_one_dashboard_raw} Resource.
 func NewOneDashboardRaw_Override(o OneDashboardRaw, scope constructs.Construct, id *string, config *OneDashboardRawConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -531,7 +531,7 @@ func (j *jsiiProxy_OneDashboardRaw)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OneDashboardRaw)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_OneDashboardRaw)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -550,7 +550,7 @@ func (j *jsiiProxy_OneDashboardRaw)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OneDashboardRaw)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_OneDashboardRaw)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -583,7 +583,7 @@ func (j *jsiiProxy_OneDashboardRaw)SetPermissions(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OneDashboardRaw)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_OneDashboardRaw)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -602,17 +602,17 @@ func (j *jsiiProxy_OneDashboardRaw)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a OneDashboardRaw resource upon running "cdktf plan <stack-name>".
-func OneDashboardRaw_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a OneDashboardRaw resource upon running "cdktn plan <stack-name>".
+func OneDashboardRaw_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateOneDashboardRaw_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -647,7 +647,7 @@ func OneDashboardRaw_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func OneDashboardRaw_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func OneDashboardRaw_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func OneDashboardRaw_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
+		"@cdktn/provider-newrelic.oneDashboardRaw.OneDashboardRaw",
 		"tfResourceType",
 		&returns,
 	)
@@ -743,11 +743,11 @@ func (o *jsiiProxy_OneDashboardRaw) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardRaw) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardRaw) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -884,7 +884,7 @@ func (o *jsiiProxy_OneDashboardRaw) HasResourceMove() interface{} {
 	return returns
 }
 
-func (o *jsiiProxy_OneDashboardRaw) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (o *jsiiProxy_OneDashboardRaw) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := o.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -895,11 +895,11 @@ func (o *jsiiProxy_OneDashboardRaw) ImportFrom(id *string, provider cdktf.Terraf
 	)
 }
 
-func (o *jsiiProxy_OneDashboardRaw) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OneDashboardRaw) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,

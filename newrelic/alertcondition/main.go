@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertcondition
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertCondition.AlertCondition",
+		"@cdktn/provider-newrelic.alertCondition.AlertCondition",
 		reflect.TypeOf((*AlertCondition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,20 +96,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertCondition{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertCondition.AlertConditionConfig",
+		"@cdktn/provider-newrelic.alertCondition.AlertConditionConfig",
 		reflect.TypeOf((*AlertConditionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.alertCondition.AlertConditionTerm",
+		"@cdktn/provider-newrelic.alertCondition.AlertConditionTerm",
 		reflect.TypeOf((*AlertConditionTerm)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertCondition.AlertConditionTermList",
+		"@cdktn/provider-newrelic.alertCondition.AlertConditionTermList",
 		reflect.TypeOf((*AlertConditionTermList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -126,12 +126,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertConditionTermList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.alertCondition.AlertConditionTermOutputReference",
+		"@cdktn/provider-newrelic.alertCondition.AlertConditionTermOutputReference",
 		reflect.TypeOf((*AlertConditionTermOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,7 +170,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertConditionTermOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

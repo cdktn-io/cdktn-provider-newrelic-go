@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datanewrelicapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.dataNewrelicApplication.DataNewrelicApplication",
+		"@cdktn/provider-newrelic.dataNewrelicApplication.DataNewrelicApplication",
 		reflect.TypeOf((*DataNewrelicApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -57,12 +57,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataNewrelicApplication{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.dataNewrelicApplication.DataNewrelicApplicationConfig",
+		"@cdktn/provider-newrelic.dataNewrelicApplication.DataNewrelicApplicationConfig",
 		reflect.TypeOf((*DataNewrelicApplicationConfig)(nil)).Elem(),
 	)
 }

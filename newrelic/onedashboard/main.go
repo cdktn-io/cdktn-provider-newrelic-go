@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package onedashboard
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboard",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboard",
 		reflect.TypeOf((*OneDashboard)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -81,20 +81,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboard{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardConfig",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardConfig",
 		reflect.TypeOf((*OneDashboardConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPage",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPage",
 		reflect.TypeOf((*OneDashboardPage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageList",
 		reflect.TypeOf((*OneDashboardPageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,12 +111,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageOutputReference",
 		reflect.TypeOf((*OneDashboardPageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,20 +205,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetArea",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetArea",
 		reflect.TypeOf((*OneDashboardPageWidgetArea)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColors",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -235,12 +235,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -274,16 +274,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -300,12 +300,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -338,16 +338,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -364,12 +364,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -406,16 +406,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -446,12 +446,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaList",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -468,16 +468,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -494,12 +494,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -531,16 +531,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -557,12 +557,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -596,16 +596,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -622,12 +622,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -660,12 +660,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -750,16 +750,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaTooltip",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaTooltip",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaTooltip)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaTooltipOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaTooltipOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaTooltipOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -788,16 +788,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaTooltipOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -814,12 +814,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -853,16 +853,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -879,12 +879,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetAreaUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetAreaUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -917,20 +917,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetAreaUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBar",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBar",
 		reflect.TypeOf((*OneDashboardPageWidgetBar)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColors",
 		reflect.TypeOf((*OneDashboardPageWidgetBarColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetBarColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -947,12 +947,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -986,16 +986,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetBarColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBarColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1012,12 +1012,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -1050,16 +1050,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetBarDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetBarDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1076,12 +1076,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1118,16 +1118,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetBarInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1158,12 +1158,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarList",
 		reflect.TypeOf((*OneDashboardPageWidgetBarList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1180,16 +1180,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetBarNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetBarNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1206,12 +1206,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -1243,16 +1243,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetBarNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBarNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1269,12 +1269,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1308,16 +1308,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetBarNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBarNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1334,12 +1334,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1372,12 +1372,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -1464,16 +1464,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetBarUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetBarUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1490,12 +1490,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1529,16 +1529,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetBarUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBarUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1555,12 +1555,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBarUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBarUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1593,24 +1593,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBarUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboard",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboard",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboard)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettings",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettings",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardBillboardSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsGridOptions",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsGridOptions",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardBillboardSettingsGridOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsGridOptionsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsGridOptionsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardBillboardSettingsGridOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columns", GoGetter: "Columns"},
@@ -1646,16 +1646,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsGridOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsLink",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsLink",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardBillboardSettingsLink)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1691,12 +1691,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsLinkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardBillboardSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1735,16 +1735,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsVisual",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsVisual",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardBillboardSettingsVisual)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsVisualOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardBillboardSettingsVisualOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardBillboardSettingsVisualOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alignment", GoGetter: "Alignment"},
@@ -1777,16 +1777,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardBillboardSettingsVisualOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColors",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1803,12 +1803,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -1842,16 +1842,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1868,12 +1868,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -1906,16 +1906,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1932,12 +1932,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1974,16 +1974,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2014,12 +2014,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardList",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2036,16 +2036,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2062,12 +2062,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -2099,16 +2099,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2125,12 +2125,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2164,16 +2164,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2190,12 +2190,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2228,12 +2228,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "billboardSettings", GoGetter: "BillboardSettings"},
@@ -2324,16 +2324,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2350,12 +2350,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2389,16 +2389,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2415,12 +2415,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2453,20 +2453,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBillboardUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBullet",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBullet",
 		reflect.TypeOf((*OneDashboardPageWidgetBullet)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColors",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2483,12 +2483,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -2522,16 +2522,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2548,12 +2548,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -2586,16 +2586,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2612,12 +2612,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2654,16 +2654,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2694,12 +2694,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletList",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2716,16 +2716,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2742,12 +2742,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -2779,16 +2779,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2805,12 +2805,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2844,16 +2844,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2870,12 +2870,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2908,12 +2908,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -2996,16 +2996,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3022,12 +3022,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3061,16 +3061,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3087,12 +3087,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetBulletUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetBulletUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3125,20 +3125,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetBulletUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnel",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnel",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnel)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColors",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3155,12 +3155,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -3194,16 +3194,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3220,12 +3220,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -3258,16 +3258,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3284,12 +3284,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3326,16 +3326,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3366,12 +3366,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelList",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3388,16 +3388,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3414,12 +3414,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -3451,16 +3451,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3477,12 +3477,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3516,16 +3516,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3542,12 +3542,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3580,12 +3580,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -3666,16 +3666,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3692,12 +3692,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3731,16 +3731,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3757,12 +3757,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetFunnelUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetFunnelUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3795,20 +3795,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetFunnelUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmap",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmap",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmap)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColors",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3825,12 +3825,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -3864,16 +3864,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3890,12 +3890,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -3928,16 +3928,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3954,12 +3954,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3996,16 +3996,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4036,12 +4036,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapList",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4058,16 +4058,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4084,12 +4084,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -4121,16 +4121,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4147,12 +4147,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4186,16 +4186,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4212,12 +4212,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4250,12 +4250,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -4342,16 +4342,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4368,12 +4368,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4407,16 +4407,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4433,12 +4433,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHeatmapUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHeatmapUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4471,20 +4471,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHeatmapUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogram",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogram",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogram)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColors",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4501,12 +4501,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -4540,16 +4540,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4566,12 +4566,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -4604,16 +4604,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4630,12 +4630,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4672,16 +4672,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4712,12 +4712,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramList",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4734,16 +4734,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4760,12 +4760,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -4797,16 +4797,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4823,12 +4823,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4862,16 +4862,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4888,12 +4888,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4926,12 +4926,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -5012,16 +5012,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5038,12 +5038,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5077,16 +5077,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5103,12 +5103,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetHistogramUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetHistogramUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5141,20 +5141,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetHistogramUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJson",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJson",
 		reflect.TypeOf((*OneDashboardPageWidgetJson)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColors",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5171,12 +5171,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -5210,16 +5210,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5236,12 +5236,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -5274,16 +5274,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5300,12 +5300,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5342,16 +5342,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5382,12 +5382,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonList",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5404,16 +5404,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5430,12 +5430,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -5467,16 +5467,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5493,12 +5493,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5532,16 +5532,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5558,12 +5558,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5596,12 +5596,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -5682,16 +5682,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5708,12 +5708,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5747,16 +5747,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5773,12 +5773,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetJsonUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetJsonUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5811,20 +5811,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetJsonUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLine",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLine",
 		reflect.TypeOf((*OneDashboardPageWidgetLine)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColors",
 		reflect.TypeOf((*OneDashboardPageWidgetLineColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5841,12 +5841,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -5880,16 +5880,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetLineColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5906,12 +5906,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -5944,16 +5944,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetLineDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5970,12 +5970,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6012,16 +6012,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetLineInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6052,12 +6052,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6074,16 +6074,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetLineNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6100,12 +6100,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -6137,16 +6137,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetLineNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6163,12 +6163,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6202,16 +6202,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetLineNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6228,12 +6228,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6266,12 +6266,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -6370,16 +6370,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineThreshold",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineThreshold",
 		reflect.TypeOf((*OneDashboardPageWidgetLineThreshold)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineThresholdList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineThresholdList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineThresholdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6396,12 +6396,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineThresholdList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineThresholdOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineThresholdOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineThresholdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6440,16 +6440,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineThresholdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineTooltip",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineTooltip",
 		reflect.TypeOf((*OneDashboardPageWidgetLineTooltip)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineTooltipOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineTooltipOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineTooltipOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6478,16 +6478,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineTooltipOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetLineUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6504,12 +6504,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6543,16 +6543,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetLineUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetLineUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6569,12 +6569,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6607,16 +6607,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineYAxisRight",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineYAxisRight",
 		reflect.TypeOf((*OneDashboardPageWidgetLineYAxisRight)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineYAxisRightOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLineYAxisRightOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLineYAxisRightOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6655,20 +6655,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLineYAxisRightOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTable",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTable",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColors",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6685,12 +6685,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -6724,16 +6724,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6750,12 +6750,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -6788,16 +6788,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6814,12 +6814,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6856,16 +6856,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6896,12 +6896,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableList",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6918,16 +6918,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6944,12 +6944,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -6981,16 +6981,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7007,12 +7007,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7046,16 +7046,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7072,12 +7072,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7110,12 +7110,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -7196,16 +7196,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7222,12 +7222,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7261,16 +7261,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7287,12 +7287,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetLogTableUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetLogTableUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7325,20 +7325,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetLogTableUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdown",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdown",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdown)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColors",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7355,12 +7355,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -7394,16 +7394,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7420,12 +7420,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -7458,16 +7458,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7484,12 +7484,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7526,16 +7526,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7566,12 +7566,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownList",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7588,16 +7588,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7614,12 +7614,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7653,16 +7653,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7679,12 +7679,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7717,12 +7717,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -7802,16 +7802,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7828,12 +7828,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7867,16 +7867,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7893,12 +7893,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetMarkdownUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetMarkdownUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -7931,20 +7931,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetMarkdownUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPie",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPie",
 		reflect.TypeOf((*OneDashboardPageWidgetPie)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColors",
 		reflect.TypeOf((*OneDashboardPageWidgetPieColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetPieColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -7961,12 +7961,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -8000,16 +8000,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetPieColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetPieColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8026,12 +8026,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -8064,16 +8064,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetPieDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetPieDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8090,12 +8090,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8132,16 +8132,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetPieInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8172,12 +8172,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieList",
 		reflect.TypeOf((*OneDashboardPageWidgetPieList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8194,16 +8194,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetPieNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetPieNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8220,12 +8220,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -8257,16 +8257,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetPieNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetPieNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8283,12 +8283,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8322,16 +8322,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetPieNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetPieNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8348,12 +8348,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8386,12 +8386,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -8478,16 +8478,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetPieUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetPieUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8504,12 +8504,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8543,16 +8543,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetPieUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetPieUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8569,12 +8569,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetPieUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetPieUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8607,20 +8607,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetPieUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBar",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBar",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBar)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColors",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8637,12 +8637,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -8676,16 +8676,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8702,12 +8702,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -8740,16 +8740,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8766,12 +8766,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8808,16 +8808,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8848,12 +8848,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarList",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8870,16 +8870,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8896,12 +8896,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -8933,16 +8933,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -8959,12 +8959,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8998,16 +8998,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9024,12 +9024,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -9062,12 +9062,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -9152,16 +9152,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarTooltip",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarTooltip",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarTooltip)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarTooltipOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarTooltipOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarTooltipOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -9190,16 +9190,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarTooltipOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9216,12 +9216,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -9255,16 +9255,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9281,12 +9281,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetStackedBarUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetStackedBarUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -9319,20 +9319,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetStackedBarUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTable",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTable",
 		reflect.TypeOf((*OneDashboardPageWidgetTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColors",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColors",
 		reflect.TypeOf((*OneDashboardPageWidgetTableColors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableColorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9349,12 +9349,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableColorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableColorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -9388,16 +9388,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableColorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetTableColorsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableColorsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9414,12 +9414,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableColorsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableColorsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableColorsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},
@@ -9452,16 +9452,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableColorsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableDataFormat",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableDataFormat",
 		reflect.TypeOf((*OneDashboardPageWidgetTableDataFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableDataFormatList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableDataFormatList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableDataFormatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9478,12 +9478,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableDataFormatList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableDataFormatOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableDataFormatOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableDataFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -9520,16 +9520,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableDataFormatOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableInitialSorting",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableInitialSorting",
 		reflect.TypeOf((*OneDashboardPageWidgetTableInitialSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableInitialSortingOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableInitialSortingOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableInitialSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -9560,12 +9560,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableInitialSortingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9582,16 +9582,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNrqlQuery",
 		reflect.TypeOf((*OneDashboardPageWidgetTableNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNrqlQueryList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNrqlQueryList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableNrqlQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9608,12 +9608,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableNrqlQueryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -9645,16 +9645,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValues",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValues",
 		reflect.TypeOf((*OneDashboardPageWidgetTableNullValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableNullValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9671,12 +9671,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableNullValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableNullValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -9710,16 +9710,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableNullValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetTableNullValuesSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableNullValuesSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9736,12 +9736,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableNullValuesSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableNullValuesSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableNullValuesSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -9774,12 +9774,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableNullValuesSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -9870,16 +9870,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableThreshold",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableThreshold",
 		reflect.TypeOf((*OneDashboardPageWidgetTableThreshold)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableThresholdList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableThresholdList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableThresholdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9896,12 +9896,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableThresholdList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableThresholdOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableThresholdOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableThresholdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnName", GoGetter: "ColumnName"},
@@ -9940,16 +9940,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableThresholdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnits",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnits",
 		reflect.TypeOf((*OneDashboardPageWidgetTableUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -9966,12 +9966,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableUnitsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -10005,16 +10005,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableUnitsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsSeriesOverrides",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsSeriesOverrides",
 		reflect.TypeOf((*OneDashboardPageWidgetTableUnitsSeriesOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsSeriesOverridesList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsSeriesOverridesList",
 		reflect.TypeOf((*OneDashboardPageWidgetTableUnitsSeriesOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -10031,12 +10031,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableUnitsSeriesOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsSeriesOverridesOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardPageWidgetTableUnitsSeriesOverridesOutputReference",
 		reflect.TypeOf((*OneDashboardPageWidgetTableUnitsSeriesOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -10069,20 +10069,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardPageWidgetTableUnitsSeriesOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariable",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariable",
 		reflect.TypeOf((*OneDashboardVariable)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableItem",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableItem",
 		reflect.TypeOf((*OneDashboardVariableItem)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableItemList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableItemList",
 		reflect.TypeOf((*OneDashboardVariableItemList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -10099,12 +10099,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardVariableItemList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableItemOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableItemOutputReference",
 		reflect.TypeOf((*OneDashboardVariableItemOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -10136,12 +10136,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardVariableItemOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableList",
 		reflect.TypeOf((*OneDashboardVariableList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -10158,16 +10158,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardVariableList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableNrqlQuery",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableNrqlQuery",
 		reflect.TypeOf((*OneDashboardVariableNrqlQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableNrqlQueryOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableNrqlQueryOutputReference",
 		reflect.TypeOf((*OneDashboardVariableNrqlQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountIds", GoGetter: "AccountIds"},
@@ -10199,16 +10199,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardVariableNrqlQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableOptions",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableOptions",
 		reflect.TypeOf((*OneDashboardVariableOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableOptionsList",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableOptionsList",
 		reflect.TypeOf((*OneDashboardVariableOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -10225,12 +10225,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardVariableOptionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableOptionsOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableOptionsOutputReference",
 		reflect.TypeOf((*OneDashboardVariableOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -10266,12 +10266,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardVariableOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-newrelic.oneDashboard.OneDashboardVariableOutputReference",
+		"@cdktn/provider-newrelic.oneDashboard.OneDashboardVariableOutputReference",
 		reflect.TypeOf((*OneDashboardVariableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -10324,7 +10324,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboardVariableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
