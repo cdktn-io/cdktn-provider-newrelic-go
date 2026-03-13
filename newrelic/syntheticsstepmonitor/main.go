@@ -102,6 +102,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "useUnsupportedLegacyRuntime", GoGetter: "UseUnsupportedLegacyRuntime"},
 			_jsii_.MemberProperty{JsiiProperty: "useUnsupportedLegacyRuntimeInput", GoGetter: "UseUnsupportedLegacyRuntimeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsStepMonitor{}

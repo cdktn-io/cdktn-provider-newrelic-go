@@ -7,7 +7,7 @@ package onedashboard
 type OneDashboardPageWidgetAreaTooltip struct {
 	// Tooltip display mode.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/one_dashboard#mode OneDashboard#mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/one_dashboard#mode OneDashboard#mode}
 	Mode *string `field:"required" json:"mode" yaml:"mode"`
 }
 

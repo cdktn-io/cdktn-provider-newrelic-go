@@ -78,6 +78,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "variable", GoGetter: "Variable"},
 			_jsii_.MemberProperty{JsiiProperty: "variableInput", GoGetter: "VariableInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_OneDashboard{}

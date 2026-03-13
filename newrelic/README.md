@@ -1,6 +1,6 @@
-# CDKTN Go bindings for newrelic/newrelic provider version 3.80.2
+# CDKTN Go bindings for newrelic/newrelic provider version 3.80.3
 
-This repo builds and publishes the [Terraform newrelic provider](https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs) bindings for [CDK Terrain](https://cdktn.io).
+This repo builds and publishes the [Terraform newrelic provider](https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs) bindings for [CDK Terrain](https://cdktn.io).
 
 ## Go Package
 
@@ -23,7 +23,7 @@ This project is explicitly not tracking the Terraform newrelic provider version 
 These are the upstream dependencies:
 
 * [CDK Terrain](https://cdktn.io) - Last official release
-* [Terraform newrelic provider](https://registry.terraform.io/providers/newrelic/newrelic/3.80.2)
+* [Terraform newrelic provider](https://registry.terraform.io/providers/newrelic/newrelic/3.80.3)
 * [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.

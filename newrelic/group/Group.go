@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/group newrelic_group}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/group newrelic_group}.
 type Group interface {
 	cdktn.TerraformResource
 	AuthenticationDomainId() *string
@@ -132,6 +132,15 @@ type Group interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Group
@@ -380,7 +389,7 @@ func (j *jsiiProxy_Group) UserIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/group newrelic_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/group newrelic_group} Resource.
 func NewGroup(scope constructs.Construct, id *string, config *GroupConfig) Group {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewGroup(scope constructs.Construct, id *string, config *GroupConfig) Group
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/group newrelic_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/group newrelic_group} Resource.
 func NewGroup_Override(g Group, scope constructs.Construct, id *string, config *GroupConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (g *jsiiProxy_Group) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_Group) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

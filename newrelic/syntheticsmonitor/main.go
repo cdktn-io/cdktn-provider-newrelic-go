@@ -128,6 +128,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validationStringInput", GoGetter: "ValidationStringInput"},
 			_jsii_.MemberProperty{JsiiProperty: "verifySsl", GoGetter: "VerifySsl"},
 			_jsii_.MemberProperty{JsiiProperty: "verifySslInput", GoGetter: "VerifySslInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsMonitor{}

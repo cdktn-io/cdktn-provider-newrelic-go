@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition}.
 type NrqlAlertCondition interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -244,6 +244,15 @@ type NrqlAlertCondition interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NrqlAlertCondition
@@ -1062,7 +1071,7 @@ func (j *jsiiProxy_NrqlAlertCondition) WarningInput() *NrqlAlertConditionWarning
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition} Resource.
 func NewNrqlAlertCondition(scope constructs.Construct, id *string, config *NrqlAlertConditionConfig) NrqlAlertCondition {
 	_init_.Initialize()
 
@@ -1080,7 +1089,7 @@ func NewNrqlAlertCondition(scope constructs.Construct, id *string, config *NrqlA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/nrql_alert_condition newrelic_nrql_alert_condition} Resource.
 func NewNrqlAlertCondition_Override(n NrqlAlertCondition, scope constructs.Construct, id *string, config *NrqlAlertConditionConfig) {
 	_init_.Initialize()
 
@@ -2176,6 +2185,24 @@ func (n *jsiiProxy_NrqlAlertCondition) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NrqlAlertCondition) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

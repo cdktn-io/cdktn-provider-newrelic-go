@@ -83,6 +83,10 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_DataNewrelicNotificationDestination) validateSetExactNameParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataNewrelicNotificationDestination) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/application_settings newrelic_application_settings}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/application_settings newrelic_application_settings}.
 type ApplicationSettings interface {
 	cdktn.TerraformResource
 	AppApdexThreshold() *float64
@@ -167,6 +167,15 @@ type ApplicationSettings interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApplicationSettings
@@ -585,7 +594,7 @@ func (j *jsiiProxy_ApplicationSettings) UseServerSideConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/application_settings newrelic_application_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/application_settings newrelic_application_settings} Resource.
 func NewApplicationSettings(scope constructs.Construct, id *string, config *ApplicationSettingsConfig) ApplicationSettings {
 	_init_.Initialize()
 
@@ -603,7 +612,7 @@ func NewApplicationSettings(scope constructs.Construct, id *string, config *Appl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/application_settings newrelic_application_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/application_settings newrelic_application_settings} Resource.
 func NewApplicationSettings_Override(a ApplicationSettings, scope constructs.Construct, id *string, config *ApplicationSettingsConfig) {
 	_init_.Initialize()
 
@@ -1343,6 +1352,24 @@ func (a *jsiiProxy_ApplicationSettings) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApplicationSettings) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

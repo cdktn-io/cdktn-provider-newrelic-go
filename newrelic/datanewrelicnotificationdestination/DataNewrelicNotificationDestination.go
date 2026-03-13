@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/notification_destination newrelic_notification_destination}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/notification_destination newrelic_notification_destination}.
 type DataNewrelicNotificationDestination interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -31,6 +31,9 @@ type DataNewrelicNotificationDestination interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	ExactName() *string
+	SetExactName(val *string)
+	ExactNameInput() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -96,6 +99,7 @@ type DataNewrelicNotificationDestination interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSecureUrl(value interface{})
 	ResetAccountId()
+	ResetExactName()
 	ResetId()
 	ResetName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -114,6 +118,15 @@ type DataNewrelicNotificationDestination interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataNewrelicNotificationDestination
@@ -186,6 +199,26 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataNewrelicNotificationDestination) ExactName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exactName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataNewrelicNotificationDestination) ExactNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exactNameInput",
 		&returns,
 	)
 	return returns
@@ -392,7 +425,7 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
 func NewDataNewrelicNotificationDestination(scope constructs.Construct, id *string, config *DataNewrelicNotificationDestinationConfig) DataNewrelicNotificationDestination {
 	_init_.Initialize()
 
@@ -410,7 +443,7 @@ func NewDataNewrelicNotificationDestination(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
 func NewDataNewrelicNotificationDestination_Override(d DataNewrelicNotificationDestination, scope constructs.Construct, id *string, config *DataNewrelicNotificationDestinationConfig) {
 	_init_.Initialize()
 
@@ -447,6 +480,17 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination)SetDependsOn(val *[]*stri
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataNewrelicNotificationDestination)SetExactName(val *string) {
+	if err := j.validateSetExactNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"exactName",
 		val,
 	)
 }
@@ -804,6 +848,14 @@ func (d *jsiiProxy_DataNewrelicNotificationDestination) ResetAccountId() {
 	)
 }
 
+func (d *jsiiProxy_DataNewrelicNotificationDestination) ResetExactName() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetExactName",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DataNewrelicNotificationDestination) ResetId() {
 	_jsii_.InvokeVoid(
 		d,
@@ -908,6 +960,24 @@ func (d *jsiiProxy_DataNewrelicNotificationDestination) ToTerraform() interface{
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataNewrelicNotificationDestination) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

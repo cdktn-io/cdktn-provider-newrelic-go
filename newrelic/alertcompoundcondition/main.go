@@ -85,6 +85,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerExpression", GoGetter: "TriggerExpression"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerExpressionInput", GoGetter: "TriggerExpressionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertCompoundCondition{}

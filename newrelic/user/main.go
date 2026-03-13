@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userType", GoGetter: "UserType"},
 			_jsii_.MemberProperty{JsiiProperty: "userTypeInput", GoGetter: "UserTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_User{}

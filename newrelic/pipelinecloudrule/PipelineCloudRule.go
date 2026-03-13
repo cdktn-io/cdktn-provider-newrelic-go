@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule}.
 type PipelineCloudRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -136,6 +136,15 @@ type PipelineCloudRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PipelineCloudRule
@@ -404,7 +413,7 @@ func (j *jsiiProxy_PipelineCloudRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule} Resource.
 func NewPipelineCloudRule(scope constructs.Construct, id *string, config *PipelineCloudRuleConfig) PipelineCloudRule {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewPipelineCloudRule(scope constructs.Construct, id *string, config *Pipeli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule} Resource.
 func NewPipelineCloudRule_Override(p PipelineCloudRule, scope constructs.Construct, id *string, config *PipelineCloudRuleConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (p *jsiiProxy_PipelineCloudRule) ToTerraform() interface{} {
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PipelineCloudRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

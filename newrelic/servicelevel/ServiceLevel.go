@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/service_level newrelic_service_level}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/service_level newrelic_service_level}.
 type ServiceLevel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -140,6 +140,15 @@ type ServiceLevel interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ServiceLevel
@@ -448,7 +457,7 @@ func (j *jsiiProxy_ServiceLevel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/service_level newrelic_service_level} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/service_level newrelic_service_level} Resource.
 func NewServiceLevel(scope constructs.Construct, id *string, config *ServiceLevelConfig) ServiceLevel {
 	_init_.Initialize()
 
@@ -466,7 +475,7 @@ func NewServiceLevel(scope constructs.Construct, id *string, config *ServiceLeve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/service_level newrelic_service_level} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/service_level newrelic_service_level} Resource.
 func NewServiceLevel_Override(s ServiceLevel, scope constructs.Construct, id *string, config *ServiceLevelConfig) {
 	_init_.Initialize()
 
@@ -1060,6 +1069,24 @@ func (s *jsiiProxy_ServiceLevel) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ServiceLevel) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

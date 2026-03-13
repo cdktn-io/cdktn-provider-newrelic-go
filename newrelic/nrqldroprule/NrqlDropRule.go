@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule}.
 type NrqlDropRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -142,6 +142,15 @@ type NrqlDropRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NrqlDropRule
@@ -450,7 +459,7 @@ func (j *jsiiProxy_NrqlDropRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
 func NewNrqlDropRule(scope constructs.Construct, id *string, config *NrqlDropRuleConfig) NrqlDropRule {
 	_init_.Initialize()
 
@@ -468,7 +477,7 @@ func NewNrqlDropRule(scope constructs.Construct, id *string, config *NrqlDropRul
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
 func NewNrqlDropRule_Override(n NrqlDropRule, scope constructs.Construct, id *string, config *NrqlDropRuleConfig) {
 	_init_.Initialize()
 
@@ -1078,6 +1087,24 @@ func (n *jsiiProxy_NrqlDropRule) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NrqlDropRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

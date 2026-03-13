@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/alert_compound_condition newrelic_alert_compound_condition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/alert_compound_condition newrelic_alert_compound_condition}.
 type AlertCompoundCondition interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -157,6 +157,15 @@ type AlertCompoundCondition interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AlertCompoundCondition
@@ -545,7 +554,7 @@ func (j *jsiiProxy_AlertCompoundCondition) TriggerExpressionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
 func NewAlertCompoundCondition(scope constructs.Construct, id *string, config *AlertCompoundConditionConfig) AlertCompoundCondition {
 	_init_.Initialize()
 
@@ -563,7 +572,7 @@ func NewAlertCompoundCondition(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
 func NewAlertCompoundCondition_Override(a AlertCompoundCondition, scope constructs.Construct, id *string, config *AlertCompoundConditionConfig) {
 	_init_.Initialize()
 
@@ -1244,6 +1253,24 @@ func (a *jsiiProxy_AlertCompoundCondition) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AlertCompoundCondition) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

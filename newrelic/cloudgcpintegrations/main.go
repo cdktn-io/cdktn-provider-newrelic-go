@@ -167,6 +167,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachinesInput", GoGetter: "VirtualMachinesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcAccess", GoGetter: "VpcAccess"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcAccessInput", GoGetter: "VpcAccessInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpIntegrations{}

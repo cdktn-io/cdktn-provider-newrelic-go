@@ -155,6 +155,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "violationTimeLimitSecondsInput", GoGetter: "ViolationTimeLimitSecondsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "warning", GoGetter: "Warning"},
 			_jsii_.MemberProperty{JsiiProperty: "warningInput", GoGetter: "WarningInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NrqlAlertCondition{}

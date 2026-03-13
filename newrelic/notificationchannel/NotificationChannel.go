@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/notification_channel newrelic_notification_channel}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/notification_channel newrelic_notification_channel}.
 type NotificationChannel interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -150,6 +150,15 @@ type NotificationChannel interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NotificationChannel
@@ -508,7 +517,7 @@ func (j *jsiiProxy_NotificationChannel) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/notification_channel newrelic_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/notification_channel newrelic_notification_channel} Resource.
 func NewNotificationChannel(scope constructs.Construct, id *string, config *NotificationChannelConfig) NotificationChannel {
 	_init_.Initialize()
 
@@ -526,7 +535,7 @@ func NewNotificationChannel(scope constructs.Construct, id *string, config *Noti
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/notification_channel newrelic_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/notification_channel newrelic_notification_channel} Resource.
 func NewNotificationChannel_Override(n NotificationChannel, scope constructs.Construct, id *string, config *NotificationChannelConfig) {
 	_init_.Initialize()
 
@@ -1169,6 +1178,24 @@ func (n *jsiiProxy_NotificationChannel) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NotificationChannel) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

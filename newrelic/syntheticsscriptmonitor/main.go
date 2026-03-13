@@ -113,6 +113,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "useUnsupportedLegacyRuntime", GoGetter: "UseUnsupportedLegacyRuntime"},
 			_jsii_.MemberProperty{JsiiProperty: "useUnsupportedLegacyRuntimeInput", GoGetter: "UseUnsupportedLegacyRuntimeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SyntheticsScriptMonitor{}

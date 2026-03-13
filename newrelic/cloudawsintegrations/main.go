@@ -277,6 +277,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustedAdvisorInput", GoGetter: "TrustedAdvisorInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpc", GoGetter: "Vpc"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcInput", GoGetter: "VpcInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "xRay", GoGetter: "XRay"},
 			_jsii_.MemberProperty{JsiiProperty: "xRayInput", GoGetter: "XRayInput"},
 		},

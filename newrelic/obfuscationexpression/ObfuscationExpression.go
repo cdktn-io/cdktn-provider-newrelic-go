@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/obfuscation_expression newrelic_obfuscation_expression}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/obfuscation_expression newrelic_obfuscation_expression}.
 type ObfuscationExpression interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -136,6 +136,15 @@ type ObfuscationExpression interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ObfuscationExpression
@@ -404,7 +413,7 @@ func (j *jsiiProxy_ObfuscationExpression) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
 func NewObfuscationExpression(scope constructs.Construct, id *string, config *ObfuscationExpressionConfig) ObfuscationExpression {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewObfuscationExpression(scope constructs.Construct, id *string, config *Ob
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
 func NewObfuscationExpression_Override(o ObfuscationExpression, scope constructs.Construct, id *string, config *ObfuscationExpressionConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (o *jsiiProxy_ObfuscationExpression) ToTerraform() interface{} {
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_ObfuscationExpression) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

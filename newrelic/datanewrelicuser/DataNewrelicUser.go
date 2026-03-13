@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/user newrelic_user}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/user newrelic_user}.
 type DataNewrelicUser interface {
 	cdktn.TerraformDataSource
 	AuthenticationDomainId() *string
@@ -105,6 +105,15 @@ type DataNewrelicUser interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataNewrelicUser
@@ -323,7 +332,7 @@ func (j *jsiiProxy_DataNewrelicUser) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/user newrelic_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/user newrelic_user} Data Source.
 func NewDataNewrelicUser(scope constructs.Construct, id *string, config *DataNewrelicUserConfig) DataNewrelicUser {
 	_init_.Initialize()
 
@@ -341,7 +350,7 @@ func NewDataNewrelicUser(scope constructs.Construct, id *string, config *DataNew
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/data-sources/user newrelic_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/user newrelic_user} Data Source.
 func NewDataNewrelicUser_Override(d DataNewrelicUser, scope constructs.Construct, id *string, config *DataNewrelicUserConfig) {
 	_init_.Initialize()
 
@@ -812,6 +821,24 @@ func (d *jsiiProxy_DataNewrelicUser) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataNewrelicUser) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

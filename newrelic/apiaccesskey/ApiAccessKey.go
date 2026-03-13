@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/api_access_key newrelic_api_access_key}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/api_access_key newrelic_api_access_key}.
 type ApiAccessKey interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -146,6 +146,15 @@ type ApiAccessKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiAccessKey
@@ -464,7 +473,7 @@ func (j *jsiiProxy_ApiAccessKey) UserIdInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/api_access_key newrelic_api_access_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/api_access_key newrelic_api_access_key} Resource.
 func NewApiAccessKey(scope constructs.Construct, id *string, config *ApiAccessKeyConfig) ApiAccessKey {
 	_init_.Initialize()
 
@@ -482,7 +491,7 @@ func NewApiAccessKey(scope constructs.Construct, id *string, config *ApiAccessKe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/api_access_key newrelic_api_access_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/api_access_key newrelic_api_access_key} Resource.
 func NewApiAccessKey_Override(a ApiAccessKey, scope constructs.Construct, id *string, config *ApiAccessKeyConfig) {
 	_init_.Initialize()
 
@@ -1119,6 +1128,24 @@ func (a *jsiiProxy_ApiAccessKey) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiAccessKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

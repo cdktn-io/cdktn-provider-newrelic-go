@@ -94,6 +94,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transactionTracerInput", GoGetter: "TransactionTracerInput"},
 			_jsii_.MemberProperty{JsiiProperty: "useServerSideConfig", GoGetter: "UseServerSideConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "useServerSideConfigInput", GoGetter: "UseServerSideConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationSettings{}

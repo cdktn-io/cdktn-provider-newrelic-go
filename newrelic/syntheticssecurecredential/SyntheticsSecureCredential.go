@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential}.
 type SyntheticsSecureCredential interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -144,6 +144,15 @@ type SyntheticsSecureCredential interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SyntheticsSecureCredential
@@ -452,7 +461,7 @@ func (j *jsiiProxy_SyntheticsSecureCredential) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
 func NewSyntheticsSecureCredential(scope constructs.Construct, id *string, config *SyntheticsSecureCredentialConfig) SyntheticsSecureCredential {
 	_init_.Initialize()
 
@@ -470,7 +479,7 @@ func NewSyntheticsSecureCredential(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
 func NewSyntheticsSecureCredential_Override(s SyntheticsSecureCredential, scope constructs.Construct, id *string, config *SyntheticsSecureCredentialConfig) {
 	_init_.Initialize()
 
@@ -1099,6 +1108,24 @@ func (s *jsiiProxy_SyntheticsSecureCredential) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SyntheticsSecureCredential) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

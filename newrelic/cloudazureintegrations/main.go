@@ -195,6 +195,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vmsInput", GoGetter: "VmsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnGateway", GoGetter: "VpnGateway"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnGatewayInput", GoGetter: "VpnGatewayInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAzureIntegrations{}

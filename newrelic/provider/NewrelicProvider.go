@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs newrelic}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs newrelic}.
 type NewrelicProvider interface {
 	cdktn.TerraformProvider
 	AccountId() *float64
@@ -108,6 +108,15 @@ type NewrelicProvider interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NewrelicProvider
@@ -496,7 +505,7 @@ func (j *jsiiProxy_NewrelicProvider) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs newrelic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs newrelic} Resource.
 func NewNewrelicProvider(scope constructs.Construct, id *string, config *NewrelicProviderConfig) NewrelicProvider {
 	_init_.Initialize()
 
@@ -514,7 +523,7 @@ func NewNewrelicProvider(scope constructs.Construct, id *string, config *Newreli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs newrelic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs newrelic} Resource.
 func NewNewrelicProvider_Override(n NewrelicProvider, scope constructs.Construct, id *string, config *NewrelicProviderConfig) {
 	_init_.Initialize()
 
@@ -941,6 +950,24 @@ func (n *jsiiProxy_NewrelicProvider) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NewrelicProvider) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

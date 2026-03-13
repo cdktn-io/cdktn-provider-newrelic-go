@@ -93,6 +93,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userDefinedValueFunctionInput", GoGetter: "UserDefinedValueFunctionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "violationCloseTimer", GoGetter: "ViolationCloseTimer"},
 			_jsii_.MemberProperty{JsiiProperty: "violationCloseTimerInput", GoGetter: "ViolationCloseTimerInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertCondition{}

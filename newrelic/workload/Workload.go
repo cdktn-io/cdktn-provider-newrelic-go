@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workload newrelic_workload}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/workload newrelic_workload}.
 type Workload interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -157,6 +157,15 @@ type Workload interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for Workload
@@ -545,7 +554,7 @@ func (j *jsiiProxy_Workload) WorkloadId() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workload newrelic_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/workload newrelic_workload} Resource.
 func NewWorkload(scope constructs.Construct, id *string, config *WorkloadConfig) Workload {
 	_init_.Initialize()
 
@@ -563,7 +572,7 @@ func NewWorkload(scope constructs.Construct, id *string, config *WorkloadConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.2/docs/resources/workload newrelic_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/workload newrelic_workload} Resource.
 func NewWorkload_Override(w Workload, scope constructs.Construct, id *string, config *WorkloadConfig) {
 	_init_.Initialize()
 
@@ -1238,6 +1247,24 @@ func (w *jsiiProxy_Workload) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_Workload) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

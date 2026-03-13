@@ -105,6 +105,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "warningInput", GoGetter: "WarningInput"},
 			_jsii_.MemberProperty{JsiiProperty: "where", GoGetter: "Where"},
 			_jsii_.MemberProperty{JsiiProperty: "whereInput", GoGetter: "WhereInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_InfraAlertCondition{}
