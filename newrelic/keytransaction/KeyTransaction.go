@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/key_transaction newrelic_key_transaction}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/key_transaction newrelic_key_transaction}.
 type KeyTransaction interface {
 	cdktn.TerraformResource
 	ApdexIndex() *float64
@@ -456,7 +456,7 @@ func (j *jsiiProxy_KeyTransaction) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/key_transaction newrelic_key_transaction} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/key_transaction newrelic_key_transaction} Resource.
 func NewKeyTransaction(scope constructs.Construct, id *string, config *KeyTransactionConfig) KeyTransaction {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewKeyTransaction(scope constructs.Construct, id *string, config *KeyTransa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/key_transaction newrelic_key_transaction} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/key_transaction newrelic_key_transaction} Resource.
 func NewKeyTransaction_Override(k KeyTransaction, scope constructs.Construct, id *string, config *KeyTransactionConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (o *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) validateInterpo
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) validatePutChartStylesParameters(value *OneDashboardPageWidgetHeatmapChartStyles) error {
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) validatePutColorsParameters(value interface{}) error {
 	return nil
 }

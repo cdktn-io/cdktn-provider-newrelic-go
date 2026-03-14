@@ -47,6 +47,10 @@ func (o *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) validateInte
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) validatePutChartStylesParameters(value *OneDashboardPageWidgetStackedBarChartStyles) error {
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) validatePutColorsParameters(value interface{}) error {
 	return nil
 }

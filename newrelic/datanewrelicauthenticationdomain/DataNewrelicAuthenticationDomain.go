@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/authentication_domain newrelic_authentication_domain}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/authentication_domain newrelic_authentication_domain}.
 type DataNewrelicAuthenticationDomain interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -284,7 +284,7 @@ func (j *jsiiProxy_DataNewrelicAuthenticationDomain) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/authentication_domain newrelic_authentication_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/authentication_domain newrelic_authentication_domain} Data Source.
 func NewDataNewrelicAuthenticationDomain(scope constructs.Construct, id *string, config *DataNewrelicAuthenticationDomainConfig) DataNewrelicAuthenticationDomain {
 	_init_.Initialize()
 
@@ -302,7 +302,7 @@ func NewDataNewrelicAuthenticationDomain(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/authentication_domain newrelic_authentication_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/authentication_domain newrelic_authentication_domain} Data Source.
 func NewDataNewrelicAuthenticationDomain_Override(d DataNewrelicAuthenticationDomain, scope constructs.Construct, id *string, config *DataNewrelicAuthenticationDomainConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_broken_links_monitor newrelic_synthetics_broken_links_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/synthetics_broken_links_monitor newrelic_synthetics_broken_links_monitor}.
 type SyntheticsBrokenLinksMonitor interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -612,7 +612,7 @@ func (j *jsiiProxy_SyntheticsBrokenLinksMonitor) UseUnsupportedLegacyRuntimeInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_broken_links_monitor newrelic_synthetics_broken_links_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/synthetics_broken_links_monitor newrelic_synthetics_broken_links_monitor} Resource.
 func NewSyntheticsBrokenLinksMonitor(scope constructs.Construct, id *string, config *SyntheticsBrokenLinksMonitorConfig) SyntheticsBrokenLinksMonitor {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewSyntheticsBrokenLinksMonitor(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_broken_links_monitor newrelic_synthetics_broken_links_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/synthetics_broken_links_monitor newrelic_synthetics_broken_links_monitor} Resource.
 func NewSyntheticsBrokenLinksMonitor_Override(s SyntheticsBrokenLinksMonitor, scope constructs.Construct, id *string, config *SyntheticsBrokenLinksMonitorConfig) {
 	_init_.Initialize()
 

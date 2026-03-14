@@ -47,6 +47,10 @@ func (o *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) validateInterpol
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) validatePutChartStylesParameters(value *OneDashboardPageWidgetFunnelChartStyles) error {
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) validatePutColorsParameters(value interface{}) error {
 	return nil
 }

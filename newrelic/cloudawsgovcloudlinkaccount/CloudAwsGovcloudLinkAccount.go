@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account}.
 type CloudAwsGovcloudLinkAccount interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -413,7 +413,7 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
 func NewCloudAwsGovcloudLinkAccount(scope constructs.Construct, id *string, config *CloudAwsGovcloudLinkAccountConfig) CloudAwsGovcloudLinkAccount {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewCloudAwsGovcloudLinkAccount(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
 func NewCloudAwsGovcloudLinkAccount_Override(c CloudAwsGovcloudLinkAccount, scope constructs.Construct, id *string, config *CloudAwsGovcloudLinkAccountConfig) {
 	_init_.Initialize()
 

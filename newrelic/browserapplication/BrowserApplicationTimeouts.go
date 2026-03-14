@@ -5,9 +5,9 @@ package browserapplication
 
 
 type BrowserApplicationTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/browser_application#create BrowserApplication#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/browser_application#create BrowserApplication#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/browser_application#read BrowserApplication#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/browser_application#read BrowserApplication#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

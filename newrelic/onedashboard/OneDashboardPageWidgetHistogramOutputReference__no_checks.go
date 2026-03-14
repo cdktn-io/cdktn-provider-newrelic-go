@@ -47,6 +47,10 @@ func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validateInter
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutChartStylesParameters(value *OneDashboardPageWidgetHistogramChartStyles) error {
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetHistogramOutputReference) validatePutColorsParameters(value interface{}) error {
 	return nil
 }

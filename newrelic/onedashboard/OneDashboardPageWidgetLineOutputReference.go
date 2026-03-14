@@ -13,6 +13,8 @@ import (
 
 type OneDashboardPageWidgetLineOutputReference interface {
 	cdktn.ComplexObject
+	ChartStyles() OneDashboardPageWidgetLineChartStylesOutputReference
+	ChartStylesInput() *OneDashboardPageWidgetLineChartStyles
 	Colors() OneDashboardPageWidgetLineColorsList
 	ColorsInput() interface{}
 	Column() *float64
@@ -122,6 +124,7 @@ type OneDashboardPageWidgetLineOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutChartStyles(value *OneDashboardPageWidgetLineChartStyles)
 	PutColors(value interface{})
 	PutDataFormat(value interface{})
 	PutInitialSorting(value *OneDashboardPageWidgetLineInitialSorting)
@@ -131,6 +134,7 @@ type OneDashboardPageWidgetLineOutputReference interface {
 	PutTooltip(value *OneDashboardPageWidgetLineTooltip)
 	PutUnits(value interface{})
 	PutYAxisRight(value *OneDashboardPageWidgetLineYAxisRight)
+	ResetChartStyles()
 	ResetColors()
 	ResetDataFormat()
 	ResetFacetShowOtherSeries()
@@ -162,6 +166,26 @@ type OneDashboardPageWidgetLineOutputReference interface {
 // The jsii proxy struct for OneDashboardPageWidgetLineOutputReference
 type jsiiProxy_OneDashboardPageWidgetLineOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_OneDashboardPageWidgetLineOutputReference) ChartStyles() OneDashboardPageWidgetLineChartStylesOutputReference {
+	var returns OneDashboardPageWidgetLineChartStylesOutputReference
+	_jsii_.Get(
+		j,
+		"chartStyles",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OneDashboardPageWidgetLineOutputReference) ChartStylesInput() *OneDashboardPageWidgetLineChartStyles {
+	var returns *OneDashboardPageWidgetLineChartStyles
+	_jsii_.Get(
+		j,
+		"chartStylesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetLineOutputReference) Colors() OneDashboardPageWidgetLineColorsList {
@@ -1096,6 +1120,17 @@ func (o *jsiiProxy_OneDashboardPageWidgetLineOutputReference) InterpolationForAt
 	return returns
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetLineOutputReference) PutChartStyles(value *OneDashboardPageWidgetLineChartStyles) {
+	if err := o.validatePutChartStylesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putChartStyles",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetLineOutputReference) PutColors(value interface{}) {
 	if err := o.validatePutColorsParameters(value); err != nil {
 		panic(err)
@@ -1192,6 +1227,14 @@ func (o *jsiiProxy_OneDashboardPageWidgetLineOutputReference) PutYAxisRight(valu
 		o,
 		"putYAxisRight",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OneDashboardPageWidgetLineOutputReference) ResetChartStyles() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetChartStyles",
+		nil, // no parameters
 	)
 }
 

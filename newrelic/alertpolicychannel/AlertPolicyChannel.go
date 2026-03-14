@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/alert_policy_channel newrelic_alert_policy_channel}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/alert_policy_channel newrelic_alert_policy_channel}.
 type AlertPolicyChannel interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -413,7 +413,7 @@ func (j *jsiiProxy_AlertPolicyChannel) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/alert_policy_channel newrelic_alert_policy_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/alert_policy_channel newrelic_alert_policy_channel} Resource.
 func NewAlertPolicyChannel(scope constructs.Construct, id *string, config *AlertPolicyChannelConfig) AlertPolicyChannel {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewAlertPolicyChannel(scope constructs.Construct, id *string, config *Alert
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/alert_policy_channel newrelic_alert_policy_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/alert_policy_channel newrelic_alert_policy_channel} Resource.
 func NewAlertPolicyChannel_Override(a AlertPolicyChannel, scope constructs.Construct, id *string, config *AlertPolicyChannelConfig) {
 	_init_.Initialize()
 

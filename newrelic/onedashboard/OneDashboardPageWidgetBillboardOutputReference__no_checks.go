@@ -51,6 +51,10 @@ func (o *jsiiProxy_OneDashboardPageWidgetBillboardOutputReference) validatePutBi
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetBillboardOutputReference) validatePutChartStylesParameters(value *OneDashboardPageWidgetBillboardChartStyles) error {
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetBillboardOutputReference) validatePutColorsParameters(value interface{}) error {
 	return nil
 }

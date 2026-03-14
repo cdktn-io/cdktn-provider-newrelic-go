@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/application newrelic_application}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/application newrelic_application}.
 type DataNewrelicApplication interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataNewrelicApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/application newrelic_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/application newrelic_application} Data Source.
 func NewDataNewrelicApplication(scope constructs.Construct, id *string, config *DataNewrelicApplicationConfig) DataNewrelicApplication {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataNewrelicApplication(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/application newrelic_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/application newrelic_application} Data Source.
 func NewDataNewrelicApplication_Override(d DataNewrelicApplication, scope constructs.Construct, id *string, config *DataNewrelicApplicationConfig) {
 	_init_.Initialize()
 

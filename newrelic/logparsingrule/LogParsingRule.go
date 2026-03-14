@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/log_parsing_rule newrelic_log_parsing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/log_parsing_rule newrelic_log_parsing_rule}.
 type LogParsingRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -517,7 +517,7 @@ func (j *jsiiProxy_LogParsingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/log_parsing_rule newrelic_log_parsing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/log_parsing_rule newrelic_log_parsing_rule} Resource.
 func NewLogParsingRule(scope constructs.Construct, id *string, config *LogParsingRuleConfig) LogParsingRule {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewLogParsingRule(scope constructs.Construct, id *string, config *LogParsin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/log_parsing_rule newrelic_log_parsing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/log_parsing_rule newrelic_log_parsing_rule} Resource.
 func NewLogParsingRule_Override(l LogParsingRule, scope constructs.Construct, id *string, config *LogParsingRuleConfig) {
 	_init_.Initialize()
 

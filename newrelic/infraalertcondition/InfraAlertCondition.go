@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/infra_alert_condition newrelic_infra_alert_condition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/infra_alert_condition newrelic_infra_alert_condition}.
 type InfraAlertCondition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -709,7 +709,7 @@ func (j *jsiiProxy_InfraAlertCondition) WhereInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/infra_alert_condition newrelic_infra_alert_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/infra_alert_condition newrelic_infra_alert_condition} Resource.
 func NewInfraAlertCondition(scope constructs.Construct, id *string, config *InfraAlertConditionConfig) InfraAlertCondition {
 	_init_.Initialize()
 
@@ -727,7 +727,7 @@ func NewInfraAlertCondition(scope constructs.Construct, id *string, config *Infr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/infra_alert_condition newrelic_infra_alert_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/infra_alert_condition newrelic_infra_alert_condition} Resource.
 func NewInfraAlertCondition_Override(i InfraAlertCondition, scope constructs.Construct, id *string, config *InfraAlertConditionConfig) {
 	_init_.Initialize()
 

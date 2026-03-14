@@ -47,6 +47,10 @@ func (o *jsiiProxy_OneDashboardPageWidgetLogTableOutputReference) validateInterp
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetLogTableOutputReference) validatePutChartStylesParameters(value *OneDashboardPageWidgetLogTableChartStyles) error {
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetLogTableOutputReference) validatePutColorsParameters(value interface{}) error {
 	return nil
 }

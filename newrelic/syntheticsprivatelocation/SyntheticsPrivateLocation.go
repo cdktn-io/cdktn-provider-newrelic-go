@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_private_location newrelic_synthetics_private_location}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/synthetics_private_location newrelic_synthetics_private_location}.
 type SyntheticsPrivateLocation interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -457,7 +457,7 @@ func (j *jsiiProxy_SyntheticsPrivateLocation) VerifiedScriptExecutionInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_private_location newrelic_synthetics_private_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/synthetics_private_location newrelic_synthetics_private_location} Resource.
 func NewSyntheticsPrivateLocation(scope constructs.Construct, id *string, config *SyntheticsPrivateLocationConfig) SyntheticsPrivateLocation {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewSyntheticsPrivateLocation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_private_location newrelic_synthetics_private_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/synthetics_private_location newrelic_synthetics_private_location} Resource.
 func NewSyntheticsPrivateLocation_Override(s SyntheticsPrivateLocation, scope constructs.Construct, id *string, config *SyntheticsPrivateLocationConfig) {
 	_init_.Initialize()
 

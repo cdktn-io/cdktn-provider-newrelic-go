@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/entity_tags newrelic_entity_tags}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/entity_tags newrelic_entity_tags}.
 type EntityTags interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_EntityTags) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/entity_tags newrelic_entity_tags} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/entity_tags newrelic_entity_tags} Resource.
 func NewEntityTags(scope constructs.Construct, id *string, config *EntityTagsConfig) EntityTags {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewEntityTags(scope constructs.Construct, id *string, config *EntityTagsCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/entity_tags newrelic_entity_tags} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/entity_tags newrelic_entity_tags} Resource.
 func NewEntityTags_Override(e EntityTags, scope constructs.Construct, id *string, config *EntityTagsConfig) {
 	_init_.Initialize()
 

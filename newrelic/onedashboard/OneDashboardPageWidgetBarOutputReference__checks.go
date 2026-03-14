@@ -93,6 +93,17 @@ func (o *jsiiProxy_OneDashboardPageWidgetBarOutputReference) validateInterpolati
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetBarOutputReference) validatePutChartStylesParameters(value *OneDashboardPageWidgetBarChartStyles) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetBarOutputReference) validatePutColorsParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

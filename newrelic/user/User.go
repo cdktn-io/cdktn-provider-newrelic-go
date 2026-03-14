@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/user newrelic_user}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/user newrelic_user}.
 type User interface {
 	cdktn.TerraformResource
 	AuthenticationDomainId() *string
@@ -412,7 +412,7 @@ func (j *jsiiProxy_User) UserTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/user newrelic_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/user newrelic_user} Resource.
 func NewUser(scope constructs.Construct, id *string, config *UserConfig) User {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewUser(scope constructs.Construct, id *string, config *UserConfig) User {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/user newrelic_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/user newrelic_user} Resource.
 func NewUser_Override(u User, scope constructs.Construct, id *string, config *UserConfig) {
 	_init_.Initialize()
 

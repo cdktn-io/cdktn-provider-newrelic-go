@@ -47,6 +47,10 @@ func (o *jsiiProxy_OneDashboardPageWidgetBarOutputReference) validateInterpolati
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetBarOutputReference) validatePutChartStylesParameters(value *OneDashboardPageWidgetBarChartStyles) error {
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetBarOutputReference) validatePutColorsParameters(value interface{}) error {
 	return nil
 }

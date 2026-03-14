@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/group newrelic_group}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/group newrelic_group}.
 type DataNewrelicGroup interface {
 	cdktn.TerraformDataSource
 	AuthenticationDomainId() *string
@@ -318,7 +318,7 @@ func (j *jsiiProxy_DataNewrelicGroup) UserIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/group newrelic_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/group newrelic_group} Data Source.
 func NewDataNewrelicGroup(scope constructs.Construct, id *string, config *DataNewrelicGroupConfig) DataNewrelicGroup {
 	_init_.Initialize()
 
@@ -336,7 +336,7 @@ func NewDataNewrelicGroup(scope constructs.Construct, id *string, config *DataNe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/group newrelic_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/group newrelic_group} Data Source.
 func NewDataNewrelicGroup_Override(d DataNewrelicGroup, scope constructs.Construct, id *string, config *DataNewrelicGroupConfig) {
 	_init_.Initialize()
 

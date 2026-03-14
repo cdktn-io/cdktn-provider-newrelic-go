@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations}.
 type CloudAwsIntegrations interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -1662,7 +1662,7 @@ func (j *jsiiProxy_CloudAwsIntegrations) XRayInput() *CloudAwsIntegrationsXRay {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations} Resource.
 func NewCloudAwsIntegrations(scope constructs.Construct, id *string, config *CloudAwsIntegrationsConfig) CloudAwsIntegrations {
 	_init_.Initialize()
 
@@ -1680,7 +1680,7 @@ func NewCloudAwsIntegrations(scope constructs.Construct, id *string, config *Clo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/cloud_aws_integrations newrelic_cloud_aws_integrations} Resource.
 func NewCloudAwsIntegrations_Override(c CloudAwsIntegrations, scope constructs.Construct, id *string, config *CloudAwsIntegrationsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/cloud_account newrelic_cloud_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/cloud_account newrelic_cloud_account}.
 type DataNewrelicCloudAccount interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -344,7 +344,7 @@ func (j *jsiiProxy_DataNewrelicCloudAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/cloud_account newrelic_cloud_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/cloud_account newrelic_cloud_account} Data Source.
 func NewDataNewrelicCloudAccount(scope constructs.Construct, id *string, config *DataNewrelicCloudAccountConfig) DataNewrelicCloudAccount {
 	_init_.Initialize()
 
@@ -362,7 +362,7 @@ func NewDataNewrelicCloudAccount(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/data-sources/cloud_account newrelic_cloud_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/data-sources/cloud_account newrelic_cloud_account} Data Source.
 func NewDataNewrelicCloudAccount_Override(d DataNewrelicCloudAccount, scope constructs.Construct, id *string, config *DataNewrelicCloudAccountConfig) {
 	_init_.Initialize()
 

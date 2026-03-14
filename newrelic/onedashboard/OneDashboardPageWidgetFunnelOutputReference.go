@@ -13,6 +13,8 @@ import (
 
 type OneDashboardPageWidgetFunnelOutputReference interface {
 	cdktn.ComplexObject
+	ChartStyles() OneDashboardPageWidgetFunnelChartStylesOutputReference
+	ChartStylesInput() *OneDashboardPageWidgetFunnelChartStyles
 	Colors() OneDashboardPageWidgetFunnelColorsList
 	ColorsInput() interface{}
 	Column() *float64
@@ -110,12 +112,14 @@ type OneDashboardPageWidgetFunnelOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutChartStyles(value *OneDashboardPageWidgetFunnelChartStyles)
 	PutColors(value interface{})
 	PutDataFormat(value interface{})
 	PutInitialSorting(value *OneDashboardPageWidgetFunnelInitialSorting)
 	PutNrqlQuery(value interface{})
 	PutNullValues(value interface{})
 	PutUnits(value interface{})
+	ResetChartStyles()
 	ResetColors()
 	ResetDataFormat()
 	ResetFacetShowOtherSeries()
@@ -142,6 +146,26 @@ type OneDashboardPageWidgetFunnelOutputReference interface {
 // The jsii proxy struct for OneDashboardPageWidgetFunnelOutputReference
 type jsiiProxy_OneDashboardPageWidgetFunnelOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) ChartStyles() OneDashboardPageWidgetFunnelChartStylesOutputReference {
+	var returns OneDashboardPageWidgetFunnelChartStylesOutputReference
+	_jsii_.Get(
+		j,
+		"chartStyles",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) ChartStylesInput() *OneDashboardPageWidgetFunnelChartStyles {
+	var returns *OneDashboardPageWidgetFunnelChartStyles
+	_jsii_.Get(
+		j,
+		"chartStylesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) Colors() OneDashboardPageWidgetFunnelColorsList {
@@ -954,6 +978,17 @@ func (o *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) InterpolationFor
 	return returns
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) PutChartStyles(value *OneDashboardPageWidgetFunnelChartStyles) {
+	if err := o.validatePutChartStylesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putChartStyles",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) PutColors(value interface{}) {
 	if err := o.validatePutColorsParameters(value); err != nil {
 		panic(err)
@@ -1017,6 +1052,14 @@ func (o *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) PutUnits(value i
 		o,
 		"putUnits",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OneDashboardPageWidgetFunnelOutputReference) ResetChartStyles() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetChartStyles",
+		nil, // no parameters
 	)
 }
 

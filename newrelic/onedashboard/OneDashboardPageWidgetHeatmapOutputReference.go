@@ -13,6 +13,8 @@ import (
 
 type OneDashboardPageWidgetHeatmapOutputReference interface {
 	cdktn.ComplexObject
+	ChartStyles() OneDashboardPageWidgetHeatmapChartStylesOutputReference
+	ChartStylesInput() *OneDashboardPageWidgetHeatmapChartStyles
 	Colors() OneDashboardPageWidgetHeatmapColorsList
 	ColorsInput() interface{}
 	Column() *float64
@@ -116,12 +118,14 @@ type OneDashboardPageWidgetHeatmapOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutChartStyles(value *OneDashboardPageWidgetHeatmapChartStyles)
 	PutColors(value interface{})
 	PutDataFormat(value interface{})
 	PutInitialSorting(value *OneDashboardPageWidgetHeatmapInitialSorting)
 	PutNrqlQuery(value interface{})
 	PutNullValues(value interface{})
 	PutUnits(value interface{})
+	ResetChartStyles()
 	ResetColors()
 	ResetDataFormat()
 	ResetFacetShowOtherSeries()
@@ -150,6 +154,26 @@ type OneDashboardPageWidgetHeatmapOutputReference interface {
 // The jsii proxy struct for OneDashboardPageWidgetHeatmapOutputReference
 type jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) ChartStyles() OneDashboardPageWidgetHeatmapChartStylesOutputReference {
+	var returns OneDashboardPageWidgetHeatmapChartStylesOutputReference
+	_jsii_.Get(
+		j,
+		"chartStyles",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) ChartStylesInput() *OneDashboardPageWidgetHeatmapChartStyles {
+	var returns *OneDashboardPageWidgetHeatmapChartStyles
+	_jsii_.Get(
+		j,
+		"chartStylesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) Colors() OneDashboardPageWidgetHeatmapColorsList {
@@ -1024,6 +1048,17 @@ func (o *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) InterpolationFo
 	return returns
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) PutChartStyles(value *OneDashboardPageWidgetHeatmapChartStyles) {
+	if err := o.validatePutChartStylesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putChartStyles",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) PutColors(value interface{}) {
 	if err := o.validatePutColorsParameters(value); err != nil {
 		panic(err)
@@ -1087,6 +1122,14 @@ func (o *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) PutUnits(value 
 		o,
 		"putUnits",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OneDashboardPageWidgetHeatmapOutputReference) ResetChartStyles() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetChartStyles",
+		nil, // no parameters
 	)
 }
 

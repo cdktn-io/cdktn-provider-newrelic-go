@@ -13,6 +13,8 @@ import (
 
 type OneDashboardPageWidgetStackedBarOutputReference interface {
 	cdktn.ComplexObject
+	ChartStyles() OneDashboardPageWidgetStackedBarChartStylesOutputReference
+	ChartStylesInput() *OneDashboardPageWidgetStackedBarChartStyles
 	Colors() OneDashboardPageWidgetStackedBarColorsList
 	ColorsInput() interface{}
 	Column() *float64
@@ -112,6 +114,7 @@ type OneDashboardPageWidgetStackedBarOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutChartStyles(value *OneDashboardPageWidgetStackedBarChartStyles)
 	PutColors(value interface{})
 	PutDataFormat(value interface{})
 	PutInitialSorting(value *OneDashboardPageWidgetStackedBarInitialSorting)
@@ -119,6 +122,7 @@ type OneDashboardPageWidgetStackedBarOutputReference interface {
 	PutNullValues(value interface{})
 	PutTooltip(value *OneDashboardPageWidgetStackedBarTooltip)
 	PutUnits(value interface{})
+	ResetChartStyles()
 	ResetColors()
 	ResetDataFormat()
 	ResetFacetShowOtherSeries()
@@ -146,6 +150,26 @@ type OneDashboardPageWidgetStackedBarOutputReference interface {
 // The jsii proxy struct for OneDashboardPageWidgetStackedBarOutputReference
 type jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) ChartStyles() OneDashboardPageWidgetStackedBarChartStylesOutputReference {
+	var returns OneDashboardPageWidgetStackedBarChartStylesOutputReference
+	_jsii_.Get(
+		j,
+		"chartStyles",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) ChartStylesInput() *OneDashboardPageWidgetStackedBarChartStyles {
+	var returns *OneDashboardPageWidgetStackedBarChartStyles
+	_jsii_.Get(
+		j,
+		"chartStylesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) Colors() OneDashboardPageWidgetStackedBarColorsList {
@@ -978,6 +1002,17 @@ func (o *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) Interpolatio
 	return returns
 }
 
+func (o *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) PutChartStyles(value *OneDashboardPageWidgetStackedBarChartStyles) {
+	if err := o.validatePutChartStylesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putChartStyles",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) PutColors(value interface{}) {
 	if err := o.validatePutColorsParameters(value); err != nil {
 		panic(err)
@@ -1052,6 +1087,14 @@ func (o *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) PutUnits(val
 		o,
 		"putUnits",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OneDashboardPageWidgetStackedBarOutputReference) ResetChartStyles() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetChartStyles",
+		nil, // no parameters
 	)
 }
 

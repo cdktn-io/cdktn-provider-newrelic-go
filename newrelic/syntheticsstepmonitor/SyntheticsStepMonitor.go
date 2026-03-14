@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_step_monitor newrelic_synthetics_step_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/synthetics_step_monitor newrelic_synthetics_step_monitor}.
 type SyntheticsStepMonitor interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -684,7 +684,7 @@ func (j *jsiiProxy_SyntheticsStepMonitor) UseUnsupportedLegacyRuntimeInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_step_monitor newrelic_synthetics_step_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/synthetics_step_monitor newrelic_synthetics_step_monitor} Resource.
 func NewSyntheticsStepMonitor(scope constructs.Construct, id *string, config *SyntheticsStepMonitorConfig) SyntheticsStepMonitor {
 	_init_.Initialize()
 
@@ -702,7 +702,7 @@ func NewSyntheticsStepMonitor(scope constructs.Construct, id *string, config *Sy
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/synthetics_step_monitor newrelic_synthetics_step_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/synthetics_step_monitor newrelic_synthetics_step_monitor} Resource.
 func NewSyntheticsStepMonitor_Override(s SyntheticsStepMonitor, scope constructs.Construct, id *string, config *SyntheticsStepMonitorConfig) {
 	_init_.Initialize()
 

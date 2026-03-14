@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/data_partition_rule newrelic_data_partition_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/data_partition_rule newrelic_data_partition_rule}.
 type DataPartitionRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -494,7 +494,7 @@ func (j *jsiiProxy_DataPartitionRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
 func NewDataPartitionRule(scope constructs.Construct, id *string, config *DataPartitionRuleConfig) DataPartitionRule {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewDataPartitionRule(scope constructs.Construct, id *string, config *DataPa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.80.3/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
 func NewDataPartitionRule_Override(d DataPartitionRule, scope constructs.Construct, id *string, config *DataPartitionRuleConfig) {
 	_init_.Initialize()
 
