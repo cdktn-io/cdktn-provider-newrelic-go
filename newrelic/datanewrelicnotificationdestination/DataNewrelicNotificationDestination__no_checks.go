@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataNewrelicNotificationDestination) validateOverrideLogicalI
 	return nil
 }
 
+func (d *jsiiProxy_DataNewrelicNotificationDestination) validatePutScopeParameters(value *DataNewrelicNotificationDestinationScope) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataNewrelicNotificationDestination) validatePutSecureUrlParameters(value interface{}) error {
 	return nil
 }

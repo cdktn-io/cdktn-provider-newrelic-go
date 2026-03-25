@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/notification_destination newrelic_notification_destination}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.82.0/docs/resources/notification_destination newrelic_notification_destination}.
 type NotificationDestination interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -77,6 +77,8 @@ type NotificationDestination interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Scope() NotificationDestinationScopeOutputReference
+	ScopeInput() *NotificationDestinationScope
 	SecureUrl() NotificationDestinationSecureUrlOutputReference
 	SecureUrlInput() *NotificationDestinationSecureUrl
 	Status() *string
@@ -138,6 +140,7 @@ type NotificationDestination interface {
 	PutAuthCustomHeader(value interface{})
 	PutAuthToken(value *NotificationDestinationAuthToken)
 	PutProperty(value interface{})
+	PutScope(value *NotificationDestinationScope)
 	PutSecureUrl(value *NotificationDestinationSecureUrl)
 	PutTimeouts(value *NotificationDestinationTimeouts)
 	ResetAccountId()
@@ -149,6 +152,7 @@ type NotificationDestination interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetScope()
 	ResetSecureUrl()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -488,6 +492,26 @@ func (j *jsiiProxy_NotificationDestination) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_NotificationDestination) Scope() NotificationDestinationScopeOutputReference {
+	var returns NotificationDestinationScopeOutputReference
+	_jsii_.Get(
+		j,
+		"scope",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NotificationDestination) ScopeInput() *NotificationDestinationScope {
+	var returns *NotificationDestinationScope
+	_jsii_.Get(
+		j,
+		"scopeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NotificationDestination) SecureUrl() NotificationDestinationSecureUrlOutputReference {
 	var returns NotificationDestinationSecureUrlOutputReference
 	_jsii_.Get(
@@ -589,7 +613,7 @@ func (j *jsiiProxy_NotificationDestination) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/notification_destination newrelic_notification_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.82.0/docs/resources/notification_destination newrelic_notification_destination} Resource.
 func NewNotificationDestination(scope constructs.Construct, id *string, config *NotificationDestinationConfig) NotificationDestination {
 	_init_.Initialize()
 
@@ -607,7 +631,7 @@ func NewNotificationDestination(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.81.0/docs/resources/notification_destination newrelic_notification_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.82.0/docs/resources/notification_destination newrelic_notification_destination} Resource.
 func NewNotificationDestination_Override(n NotificationDestination, scope constructs.Construct, id *string, config *NotificationDestinationConfig) {
 	_init_.Initialize()
 
@@ -1138,6 +1162,17 @@ func (n *jsiiProxy_NotificationDestination) PutProperty(value interface{}) {
 	)
 }
 
+func (n *jsiiProxy_NotificationDestination) PutScope(value *NotificationDestinationScope) {
+	if err := n.validatePutScopeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putScope",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NotificationDestination) PutSecureUrl(value *NotificationDestinationSecureUrl) {
 	if err := n.validatePutSecureUrlParameters(value); err != nil {
 		panic(err)
@@ -1212,6 +1247,14 @@ func (n *jsiiProxy_NotificationDestination) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NotificationDestination) ResetScope() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetScope",
 		nil, // no parameters
 	)
 }

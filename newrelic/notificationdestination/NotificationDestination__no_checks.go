@@ -91,6 +91,10 @@ func (n *jsiiProxy_NotificationDestination) validatePutPropertyParameters(value 
 	return nil
 }
 
+func (n *jsiiProxy_NotificationDestination) validatePutScopeParameters(value *NotificationDestinationScope) error {
+	return nil
+}
+
 func (n *jsiiProxy_NotificationDestination) validatePutSecureUrlParameters(value *NotificationDestinationSecureUrl) error {
 	return nil
 }
