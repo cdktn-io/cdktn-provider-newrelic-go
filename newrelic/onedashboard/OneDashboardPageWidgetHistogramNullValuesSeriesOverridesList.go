@@ -22,14 +22,17 @@ type OneDashboardPageWidgetHistogramNullValuesSeriesOverridesList interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
-	// The attribute on the parent resource this class is referencing.
+	// Experimental.
 	TerraformAttribute() *string
+	// Experimental.
 	SetTerraformAttribute(val *string)
-	// The parent resource.
+	// Experimental.
 	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
-	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+	// Experimental.
 	WrapsSet() *bool
+	// Experimental.
 	SetWrapsSet(val *bool)
 	// Creating an iterator for this complex list.
 	//
