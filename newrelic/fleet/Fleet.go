@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.0/docs/resources/fleet newrelic_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.1/docs/resources/fleet newrelic_fleet}.
 type Fleet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -63,9 +63,6 @@ type Fleet interface {
 	OrganizationId() *string
 	SetOrganizationId(val *string)
 	OrganizationIdInput() *string
-	Product() *string
-	SetProduct(val *string)
-	ProductInput() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -135,7 +132,6 @@ type Fleet interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetProduct()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -384,26 +380,6 @@ func (j *jsiiProxy_Fleet) OrganizationIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Fleet) Product() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"product",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Fleet) ProductInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"productInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_Fleet) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -485,7 +461,7 @@ func (j *jsiiProxy_Fleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.0/docs/resources/fleet newrelic_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.1/docs/resources/fleet newrelic_fleet} Resource.
 func NewFleet(scope constructs.Construct, id *string, config *FleetConfig) Fleet {
 	_init_.Initialize()
 
@@ -503,7 +479,7 @@ func NewFleet(scope constructs.Construct, id *string, config *FleetConfig) Fleet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.0/docs/resources/fleet newrelic_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.1/docs/resources/fleet newrelic_fleet} Resource.
 func NewFleet_Override(f Fleet, scope constructs.Construct, id *string, config *FleetConfig) {
 	_init_.Initialize()
 
@@ -625,17 +601,6 @@ func (j *jsiiProxy_Fleet)SetOrganizationId(val *string) {
 	_jsii_.Set(
 		j,
 		"organizationId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_Fleet)SetProduct(val *string) {
-	if err := j.validateSetProductParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"product",
 		val,
 	)
 }
@@ -1059,14 +1024,6 @@ func (f *jsiiProxy_Fleet) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (f *jsiiProxy_Fleet) ResetProduct() {
-	_jsii_.InvokeVoid(
-		f,
-		"resetProduct",
 		nil, // no parameters
 	)
 }

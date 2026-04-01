@@ -7,7 +7,7 @@ package onedashboard
 type OneDashboardPageWidgetHistogramChartStylesGradient struct {
 	// Enable or disable gradient effect.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.0/docs/resources/one_dashboard#enabled OneDashboard#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.1/docs/resources/one_dashboard#enabled OneDashboard#enabled}
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
 }
 

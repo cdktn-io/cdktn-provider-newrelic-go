@@ -127,10 +127,6 @@ func (j *jsiiProxy_Fleet) validateSetOrganizationIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_Fleet) validateSetProductParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_Fleet) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }
