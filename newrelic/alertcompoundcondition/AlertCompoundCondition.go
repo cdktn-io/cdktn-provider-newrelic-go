@@ -5,14 +5,14 @@ package alertcompoundcondition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/alertcompoundcondition/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/alertcompoundcondition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_compound_condition newrelic_alert_compound_condition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_compound_condition newrelic_alert_compound_condition}.
 type AlertCompoundCondition interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -554,7 +554,7 @@ func (j *jsiiProxy_AlertCompoundCondition) TriggerExpressionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
 func NewAlertCompoundCondition(scope constructs.Construct, id *string, config *AlertCompoundConditionConfig) AlertCompoundCondition {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewAlertCompoundCondition(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
 func NewAlertCompoundCondition_Override(a AlertCompoundCondition, scope constructs.Construct, id *string, config *AlertCompoundConditionConfig) {
 	_init_.Initialize()
 

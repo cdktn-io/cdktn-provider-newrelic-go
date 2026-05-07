@@ -5,14 +5,14 @@ package alertpolicychannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/alertpolicychannel/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/alertpolicychannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_policy_channel newrelic_alert_policy_channel}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_policy_channel newrelic_alert_policy_channel}.
 type AlertPolicyChannel interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -413,7 +413,7 @@ func (j *jsiiProxy_AlertPolicyChannel) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_policy_channel newrelic_alert_policy_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_policy_channel newrelic_alert_policy_channel} Resource.
 func NewAlertPolicyChannel(scope constructs.Construct, id *string, config *AlertPolicyChannelConfig) AlertPolicyChannel {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewAlertPolicyChannel(scope constructs.Construct, id *string, config *Alert
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_policy_channel newrelic_alert_policy_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_policy_channel newrelic_alert_policy_channel} Resource.
 func NewAlertPolicyChannel_Override(a AlertPolicyChannel, scope constructs.Construct, id *string, config *AlertPolicyChannelConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datanewrelicalertpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datanewrelicalertpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/datanewrelicalertpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/alert_policy newrelic_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/alert_policy newrelic_alert_policy}.
 type DataNewrelicAlertPolicy interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -31,6 +31,7 @@ type DataNewrelicAlertPolicy interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	EntityGuid() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -191,6 +192,16 @@ func (j *jsiiProxy_DataNewrelicAlertPolicy) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataNewrelicAlertPolicy) EntityGuid() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"entityGuid",
 		&returns,
 	)
 	return returns
@@ -367,7 +378,7 @@ func (j *jsiiProxy_DataNewrelicAlertPolicy) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/alert_policy newrelic_alert_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/alert_policy newrelic_alert_policy} Data Source.
 func NewDataNewrelicAlertPolicy(scope constructs.Construct, id *string, config *DataNewrelicAlertPolicyConfig) DataNewrelicAlertPolicy {
 	_init_.Initialize()
 
@@ -385,7 +396,7 @@ func NewDataNewrelicAlertPolicy(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/alert_policy newrelic_alert_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/alert_policy newrelic_alert_policy} Data Source.
 func NewDataNewrelicAlertPolicy_Override(d DataNewrelicAlertPolicy, scope constructs.Construct, id *string, config *DataNewrelicAlertPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datapartitionrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datapartitionrule/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/datapartitionrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/data_partition_rule newrelic_data_partition_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/data_partition_rule newrelic_data_partition_rule}.
 type DataPartitionRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -494,7 +494,7 @@ func (j *jsiiProxy_DataPartitionRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
 func NewDataPartitionRule(scope constructs.Construct, id *string, config *DataPartitionRuleConfig) DataPartitionRule {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewDataPartitionRule(scope constructs.Construct, id *string, config *DataPa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/data_partition_rule newrelic_data_partition_rule} Resource.
 func NewDataPartitionRule_Override(d DataPartitionRule, scope constructs.Construct, id *string, config *DataPartitionRuleConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datanewrelicauthenticationdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datanewrelicauthenticationdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/datanewrelicauthenticationdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/authentication_domain newrelic_authentication_domain}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/authentication_domain newrelic_authentication_domain}.
 type DataNewrelicAuthenticationDomain interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -284,7 +284,7 @@ func (j *jsiiProxy_DataNewrelicAuthenticationDomain) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/authentication_domain newrelic_authentication_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/authentication_domain newrelic_authentication_domain} Data Source.
 func NewDataNewrelicAuthenticationDomain(scope constructs.Construct, id *string, config *DataNewrelicAuthenticationDomainConfig) DataNewrelicAuthenticationDomain {
 	_init_.Initialize()
 
@@ -302,7 +302,7 @@ func NewDataNewrelicAuthenticationDomain(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/authentication_domain newrelic_authentication_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/authentication_domain newrelic_authentication_domain} Data Source.
 func NewDataNewrelicAuthenticationDomain_Override(d DataNewrelicAuthenticationDomain, scope constructs.Construct, id *string, config *DataNewrelicAuthenticationDomainConfig) {
 	_init_.Initialize()
 

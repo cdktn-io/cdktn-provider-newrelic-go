@@ -5,14 +5,14 @@ package cloudawsgovcloudintegrations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudawsgovcloudintegrations/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/cloudawsgovcloudintegrations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/cloud_aws_govcloud_integrations newrelic_cloud_aws_govcloud_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/cloud_aws_govcloud_integrations newrelic_cloud_aws_govcloud_integrations}.
 type CloudAwsGovcloudIntegrations interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -846,7 +846,7 @@ func (j *jsiiProxy_CloudAwsGovcloudIntegrations) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/cloud_aws_govcloud_integrations newrelic_cloud_aws_govcloud_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/cloud_aws_govcloud_integrations newrelic_cloud_aws_govcloud_integrations} Resource.
 func NewCloudAwsGovcloudIntegrations(scope constructs.Construct, id *string, config *CloudAwsGovcloudIntegrationsConfig) CloudAwsGovcloudIntegrations {
 	_init_.Initialize()
 
@@ -864,7 +864,7 @@ func NewCloudAwsGovcloudIntegrations(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/cloud_aws_govcloud_integrations newrelic_cloud_aws_govcloud_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/cloud_aws_govcloud_integrations newrelic_cloud_aws_govcloud_integrations} Resource.
 func NewCloudAwsGovcloudIntegrations_Override(c CloudAwsGovcloudIntegrations, scope constructs.Construct, id *string, config *CloudAwsGovcloudIntegrationsConfig) {
 	_init_.Initialize()
 

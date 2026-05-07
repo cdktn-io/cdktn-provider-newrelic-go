@@ -5,14 +5,14 @@ package workflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/workflow/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/workflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/workflow newrelic_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/workflow newrelic_workflow}.
 type Workflow interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -564,7 +564,7 @@ func (j *jsiiProxy_Workflow) WorkflowId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/workflow newrelic_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/workflow newrelic_workflow} Resource.
 func NewWorkflow(scope constructs.Construct, id *string, config *WorkflowConfig) Workflow {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewWorkflow(scope constructs.Construct, id *string, config *WorkflowConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/workflow newrelic_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/workflow newrelic_workflow} Resource.
 func NewWorkflow_Override(w Workflow, scope constructs.Construct, id *string, config *WorkflowConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datanewrelicalertchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datanewrelicalertchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/datanewrelicalertchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/alert_channel newrelic_alert_channel}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/alert_channel newrelic_alert_channel}.
 type DataNewrelicAlertChannel interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataNewrelicAlertChannel) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/alert_channel newrelic_alert_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/alert_channel newrelic_alert_channel} Data Source.
 func NewDataNewrelicAlertChannel(scope constructs.Construct, id *string, config *DataNewrelicAlertChannelConfig) DataNewrelicAlertChannel {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDataNewrelicAlertChannel(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/alert_channel newrelic_alert_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/alert_channel newrelic_alert_channel} Data Source.
 func NewDataNewrelicAlertChannel_Override(d DataNewrelicAlertChannel, scope constructs.Construct, id *string, config *DataNewrelicAlertChannelConfig) {
 	_init_.Initialize()
 

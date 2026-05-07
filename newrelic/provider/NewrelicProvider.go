@@ -5,14 +5,14 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/provider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs newrelic}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs newrelic}.
 type NewrelicProvider interface {
 	cdktn.TerraformProvider
 	AccountId() *float64
@@ -505,7 +505,7 @@ func (j *jsiiProxy_NewrelicProvider) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs newrelic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs newrelic} Resource.
 func NewNewrelicProvider(scope constructs.Construct, id *string, config *NewrelicProviderConfig) NewrelicProvider {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewNewrelicProvider(scope constructs.Construct, id *string, config *Newreli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs newrelic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs newrelic} Resource.
 func NewNewrelicProvider_Override(n NewrelicProvider, scope constructs.Construct, id *string, config *NewrelicProviderConfig) {
 	_init_.Initialize()
 

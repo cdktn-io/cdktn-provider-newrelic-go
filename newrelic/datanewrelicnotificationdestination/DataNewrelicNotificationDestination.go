@@ -5,14 +5,14 @@ package datanewrelicnotificationdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datanewrelicnotificationdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/datanewrelicnotificationdestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/notification_destination newrelic_notification_destination}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/notification_destination newrelic_notification_destination}.
 type DataNewrelicNotificationDestination interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -449,7 +449,7 @@ func (j *jsiiProxy_DataNewrelicNotificationDestination) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
 func NewDataNewrelicNotificationDestination(scope constructs.Construct, id *string, config *DataNewrelicNotificationDestinationConfig) DataNewrelicNotificationDestination {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewDataNewrelicNotificationDestination(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/notification_destination newrelic_notification_destination} Data Source.
 func NewDataNewrelicNotificationDestination_Override(d DataNewrelicNotificationDestination, scope constructs.Construct, id *string, config *DataNewrelicNotificationDestinationConfig) {
 	_init_.Initialize()
 

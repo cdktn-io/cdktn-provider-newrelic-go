@@ -5,14 +5,14 @@ package pipelinecloudrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/pipelinecloudrule/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/pipelinecloudrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule}.
 type PipelineCloudRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -413,7 +413,7 @@ func (j *jsiiProxy_PipelineCloudRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule} Resource.
 func NewPipelineCloudRule(scope constructs.Construct, id *string, config *PipelineCloudRuleConfig) PipelineCloudRule {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewPipelineCloudRule(scope constructs.Construct, id *string, config *Pipeli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/pipeline_cloud_rule newrelic_pipeline_cloud_rule} Resource.
 func NewPipelineCloudRule_Override(p PipelineCloudRule, scope constructs.Construct, id *string, config *PipelineCloudRuleConfig) {
 	_init_.Initialize()
 

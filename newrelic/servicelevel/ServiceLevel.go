@@ -5,14 +5,14 @@ package servicelevel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/servicelevel/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/servicelevel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/service_level newrelic_service_level}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/service_level newrelic_service_level}.
 type ServiceLevel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -457,7 +457,7 @@ func (j *jsiiProxy_ServiceLevel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/service_level newrelic_service_level} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/service_level newrelic_service_level} Resource.
 func NewServiceLevel(scope constructs.Construct, id *string, config *ServiceLevelConfig) ServiceLevel {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewServiceLevel(scope constructs.Construct, id *string, config *ServiceLeve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/service_level newrelic_service_level} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/service_level newrelic_service_level} Resource.
 func NewServiceLevel_Override(s ServiceLevel, scope constructs.Construct, id *string, config *ServiceLevelConfig) {
 	_init_.Initialize()
 

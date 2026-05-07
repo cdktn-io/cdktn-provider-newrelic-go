@@ -5,14 +5,14 @@ package syntheticssecurecredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/syntheticssecurecredential/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/syntheticssecurecredential/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential}.
 type SyntheticsSecureCredential interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -461,7 +461,7 @@ func (j *jsiiProxy_SyntheticsSecureCredential) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
 func NewSyntheticsSecureCredential(scope constructs.Construct, id *string, config *SyntheticsSecureCredentialConfig) SyntheticsSecureCredential {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewSyntheticsSecureCredential(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/synthetics_secure_credential newrelic_synthetics_secure_credential} Resource.
 func NewSyntheticsSecureCredential_Override(s SyntheticsSecureCredential, scope constructs.Construct, id *string, config *SyntheticsSecureCredentialConfig) {
 	_init_.Initialize()
 

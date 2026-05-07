@@ -5,14 +5,14 @@ package syntheticscertcheckmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/syntheticscertcheckmonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/syntheticscertcheckmonitor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/synthetics_cert_check_monitor newrelic_synthetics_cert_check_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/synthetics_cert_check_monitor newrelic_synthetics_cert_check_monitor}.
 type SyntheticsCertCheckMonitor interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -624,7 +624,7 @@ func (j *jsiiProxy_SyntheticsCertCheckMonitor) UseUnsupportedLegacyRuntimeInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/synthetics_cert_check_monitor newrelic_synthetics_cert_check_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/synthetics_cert_check_monitor newrelic_synthetics_cert_check_monitor} Resource.
 func NewSyntheticsCertCheckMonitor(scope constructs.Construct, id *string, config *SyntheticsCertCheckMonitorConfig) SyntheticsCertCheckMonitor {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewSyntheticsCertCheckMonitor(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/synthetics_cert_check_monitor newrelic_synthetics_cert_check_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/synthetics_cert_check_monitor newrelic_synthetics_cert_check_monitor} Resource.
 func NewSyntheticsCertCheckMonitor_Override(s SyntheticsCertCheckMonitor, scope constructs.Construct, id *string, config *SyntheticsCertCheckMonitorConfig) {
 	_init_.Initialize()
 

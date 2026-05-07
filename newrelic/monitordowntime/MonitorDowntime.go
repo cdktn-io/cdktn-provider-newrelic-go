@@ -5,14 +5,14 @@ package monitordowntime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/monitordowntime/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/monitordowntime/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/monitor_downtime newrelic_monitor_downtime}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/monitor_downtime newrelic_monitor_downtime}.
 type MonitorDowntime interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -554,7 +554,7 @@ func (j *jsiiProxy_MonitorDowntime) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/monitor_downtime newrelic_monitor_downtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/monitor_downtime newrelic_monitor_downtime} Resource.
 func NewMonitorDowntime(scope constructs.Construct, id *string, config *MonitorDowntimeConfig) MonitorDowntime {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewMonitorDowntime(scope constructs.Construct, id *string, config *MonitorD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/monitor_downtime newrelic_monitor_downtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/monitor_downtime newrelic_monitor_downtime} Resource.
 func NewMonitorDowntime_Override(m MonitorDowntime, scope constructs.Construct, id *string, config *MonitorDowntimeConfig) {
 	_init_.Initialize()
 

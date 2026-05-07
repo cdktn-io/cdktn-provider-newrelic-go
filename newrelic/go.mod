@@ -1,9 +1,9 @@
-module github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14
+module github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15
 
 go 1.25
 
 require (
-	github.com/aws/jsii-runtime-go v1.128.0
-	github.com/open-constructs/cdk-terrain-go/cdktn v0.22.1
+	github.com/aws/jsii-runtime-go v1.129.0
+	github.com/open-constructs/cdk-terrain-go/cdktn v0.23.0
 	github.com/aws/constructs-go/constructs/v10 v10.6.0
 )

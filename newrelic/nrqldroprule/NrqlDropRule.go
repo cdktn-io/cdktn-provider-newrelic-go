@@ -5,14 +5,14 @@ package nrqldroprule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/nrqldroprule/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/nrqldroprule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule}.
 type NrqlDropRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -459,7 +459,7 @@ func (j *jsiiProxy_NrqlDropRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
 func NewNrqlDropRule(scope constructs.Construct, id *string, config *NrqlDropRuleConfig) NrqlDropRule {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewNrqlDropRule(scope constructs.Construct, id *string, config *NrqlDropRul
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/nrql_drop_rule newrelic_nrql_drop_rule} Resource.
 func NewNrqlDropRule_Override(n NrqlDropRule, scope constructs.Construct, id *string, config *NrqlDropRuleConfig) {
 	_init_.Initialize()
 

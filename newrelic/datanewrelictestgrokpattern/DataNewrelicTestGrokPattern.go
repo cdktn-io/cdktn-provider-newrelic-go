@@ -5,14 +5,14 @@ package datanewrelictestgrokpattern
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/datanewrelictestgrokpattern/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/datanewrelictestgrokpattern/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern}.
 type DataNewrelicTestGrokPattern interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -355,7 +355,7 @@ func (j *jsiiProxy_DataNewrelicTestGrokPattern) TestGrok() DataNewrelicTestGrokP
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern} Data Source.
 func NewDataNewrelicTestGrokPattern(scope constructs.Construct, id *string, config *DataNewrelicTestGrokPatternConfig) DataNewrelicTestGrokPattern {
 	_init_.Initialize()
 
@@ -373,7 +373,7 @@ func NewDataNewrelicTestGrokPattern(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/data-sources/test_grok_pattern newrelic_test_grok_pattern} Data Source.
 func NewDataNewrelicTestGrokPattern_Override(d DataNewrelicTestGrokPattern, scope constructs.Construct, id *string, config *DataNewrelicTestGrokPatternConfig) {
 	_init_.Initialize()
 

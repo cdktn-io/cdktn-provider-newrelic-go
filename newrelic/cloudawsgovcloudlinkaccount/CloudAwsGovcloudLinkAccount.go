@@ -5,14 +5,14 @@ package cloudawsgovcloudlinkaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/cloudawsgovcloudlinkaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/cloudawsgovcloudlinkaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account}.
 type CloudAwsGovcloudLinkAccount interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -413,7 +413,7 @@ func (j *jsiiProxy_CloudAwsGovcloudLinkAccount) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
 func NewCloudAwsGovcloudLinkAccount(scope constructs.Construct, id *string, config *CloudAwsGovcloudLinkAccountConfig) CloudAwsGovcloudLinkAccount {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewCloudAwsGovcloudLinkAccount(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/cloud_aws_govcloud_link_account newrelic_cloud_aws_govcloud_link_account} Resource.
 func NewCloudAwsGovcloudLinkAccount_Override(c CloudAwsGovcloudLinkAccount, scope constructs.Construct, id *string, config *CloudAwsGovcloudLinkAccountConfig) {
 	_init_.Initialize()
 

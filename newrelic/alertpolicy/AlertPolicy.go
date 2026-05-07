@@ -5,14 +5,14 @@ package alertpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/alertpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/alertpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_policy newrelic_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_policy newrelic_alert_policy}.
 type AlertPolicy interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -37,6 +37,7 @@ type AlertPolicy interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	EntityGuid() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -243,6 +244,16 @@ func (j *jsiiProxy_AlertPolicy) DependsOn() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_AlertPolicy) EntityGuid() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"entityGuid",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AlertPolicy) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -414,7 +425,7 @@ func (j *jsiiProxy_AlertPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_policy newrelic_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_policy newrelic_alert_policy} Resource.
 func NewAlertPolicy(scope constructs.Construct, id *string, config *AlertPolicyConfig) AlertPolicy {
 	_init_.Initialize()
 
@@ -432,7 +443,7 @@ func NewAlertPolicy(scope constructs.Construct, id *string, config *AlertPolicyC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_policy newrelic_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_policy newrelic_alert_policy} Resource.
 func NewAlertPolicy_Override(a AlertPolicy, scope constructs.Construct, id *string, config *AlertPolicyConfig) {
 	_init_.Initialize()
 

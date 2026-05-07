@@ -5,14 +5,14 @@ package alertmutingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/alertmutingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/alertmutingrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_muting_rule newrelic_alert_muting_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_muting_rule newrelic_alert_muting_rule}.
 type AlertMutingRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -484,7 +484,7 @@ func (j *jsiiProxy_AlertMutingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_muting_rule newrelic_alert_muting_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_muting_rule newrelic_alert_muting_rule} Resource.
 func NewAlertMutingRule(scope constructs.Construct, id *string, config *AlertMutingRuleConfig) AlertMutingRule {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewAlertMutingRule(scope constructs.Construct, id *string, config *AlertMut
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_muting_rule newrelic_alert_muting_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_muting_rule newrelic_alert_muting_rule} Resource.
 func NewAlertMutingRule_Override(a AlertMutingRule, scope constructs.Construct, id *string, config *AlertMutingRuleConfig) {
 	_init_.Initialize()
 

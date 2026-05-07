@@ -5,14 +5,14 @@ package alertcondition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v14/alertcondition/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/alertcondition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_condition newrelic_alert_condition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_condition newrelic_alert_condition}.
 type AlertCondition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_AlertCondition) ViolationCloseTimerInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_condition newrelic_alert_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_condition newrelic_alert_condition} Resource.
 func NewAlertCondition(scope constructs.Construct, id *string, config *AlertConditionConfig) AlertCondition {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewAlertCondition(scope constructs.Construct, id *string, config *AlertCond
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.84.3/docs/resources/alert_condition newrelic_alert_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.1/docs/resources/alert_condition newrelic_alert_condition} Resource.
 func NewAlertCondition_Override(a AlertCondition, scope constructs.Construct, id *string, config *AlertConditionConfig) {
 	_init_.Initialize()
 
