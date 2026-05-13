@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.2/docs/resources/fleet_configuration newrelic_fleet_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/fleet_configuration newrelic_fleet_configuration}.
 type FleetConfiguration interface {
 	cdktn.TerraformResource
 	AgentType() *string
@@ -503,7 +503,7 @@ func (j *jsiiProxy_FleetConfiguration) VersionInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.2/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
 func NewFleetConfiguration(scope constructs.Construct, id *string, config *FleetConfigurationConfig) FleetConfiguration {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewFleetConfiguration(scope constructs.Construct, id *string, config *Fleet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.2/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
 func NewFleetConfiguration_Override(f FleetConfiguration, scope constructs.Construct, id *string, config *FleetConfigurationConfig) {
 	_init_.Initialize()
 

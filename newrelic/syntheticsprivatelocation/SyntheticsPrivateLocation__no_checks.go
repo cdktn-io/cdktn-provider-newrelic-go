@@ -123,6 +123,10 @@ func (j *jsiiProxy_SyntheticsPrivateLocation) validateSetProvisionersParameters(
 	return nil
 }
 
+func (j *jsiiProxy_SyntheticsPrivateLocation) validateSetSharedParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_SyntheticsPrivateLocation) validateSetVerifiedScriptExecutionParameters(val interface{}) error {
 	return nil
 }

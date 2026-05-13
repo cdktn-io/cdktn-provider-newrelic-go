@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.2/docs/resources/synthetics_private_location newrelic_synthetics_private_location}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/synthetics_private_location newrelic_synthetics_private_location}.
 type SyntheticsPrivateLocation interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -71,6 +71,9 @@ type SyntheticsPrivateLocation interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Shared() interface{}
+	SetShared(val interface{})
+	SharedInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -128,6 +131,7 @@ type SyntheticsPrivateLocation interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetShared()
 	ResetVerifiedScriptExecution()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -406,6 +410,26 @@ func (j *jsiiProxy_SyntheticsPrivateLocation) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_SyntheticsPrivateLocation) Shared() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"shared",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SyntheticsPrivateLocation) SharedInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sharedInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SyntheticsPrivateLocation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -457,7 +481,7 @@ func (j *jsiiProxy_SyntheticsPrivateLocation) VerifiedScriptExecutionInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.2/docs/resources/synthetics_private_location newrelic_synthetics_private_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/synthetics_private_location newrelic_synthetics_private_location} Resource.
 func NewSyntheticsPrivateLocation(scope constructs.Construct, id *string, config *SyntheticsPrivateLocationConfig) SyntheticsPrivateLocation {
 	_init_.Initialize()
 
@@ -475,7 +499,7 @@ func NewSyntheticsPrivateLocation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.2/docs/resources/synthetics_private_location newrelic_synthetics_private_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/synthetics_private_location newrelic_synthetics_private_location} Resource.
 func NewSyntheticsPrivateLocation_Override(s SyntheticsPrivateLocation, scope constructs.Construct, id *string, config *SyntheticsPrivateLocationConfig) {
 	_init_.Initialize()
 
@@ -594,6 +618,17 @@ func (j *jsiiProxy_SyntheticsPrivateLocation)SetProvisioners(val *[]interface{})
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SyntheticsPrivateLocation)SetShared(val interface{}) {
+	if err := j.validateSetSharedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"shared",
 		val,
 	)
 }
@@ -982,6 +1017,14 @@ func (s *jsiiProxy_SyntheticsPrivateLocation) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SyntheticsPrivateLocation) ResetShared() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetShared",
 		nil, // no parameters
 	)
 }
