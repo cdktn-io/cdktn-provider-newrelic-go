@@ -27,6 +27,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
 			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "entityGuid", GoGetter: "EntityGuid"},
 			_jsii_.MemberProperty{JsiiProperty: "facetMatchingBehavior", GoGetter: "FacetMatchingBehavior"},
 			_jsii_.MemberProperty{JsiiProperty: "facetMatchingBehaviorInput", GoGetter: "FacetMatchingBehaviorInput"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},

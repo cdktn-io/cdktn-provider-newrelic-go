@@ -7,11 +7,11 @@ package onedashboard
 type OneDashboardPageWidgetAreaChartStyles struct {
 	// gradient block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/one_dashboard#gradient OneDashboard#gradient}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/one_dashboard#gradient OneDashboard#gradient}
 	Gradient *OneDashboardPageWidgetAreaChartStylesGradient `field:"optional" json:"gradient" yaml:"gradient"`
 	// Line interpolation style. Valid values: 'linear', 'smooth', 'stepBefore', 'stepAfter'. Applicable to line widgets.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/one_dashboard#line_interpolation OneDashboard#line_interpolation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/one_dashboard#line_interpolation OneDashboard#line_interpolation}
 	LineInterpolation *string `field:"optional" json:"lineInterpolation" yaml:"lineInterpolation"`
 }
 

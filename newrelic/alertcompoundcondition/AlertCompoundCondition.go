@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/alert_compound_condition newrelic_alert_compound_condition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/alert_compound_condition newrelic_alert_compound_condition}.
 type AlertCompoundCondition interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -39,6 +39,7 @@ type AlertCompoundCondition interface {
 	Enabled() interface{}
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
+	EntityGuid() *string
 	FacetMatchingBehavior() *string
 	SetFacetMatchingBehavior(val *string)
 	FacetMatchingBehaviorInput() *string
@@ -278,6 +279,16 @@ func (j *jsiiProxy_AlertCompoundCondition) EnabledInput() interface{} {
 	_jsii_.Get(
 		j,
 		"enabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AlertCompoundCondition) EntityGuid() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"entityGuid",
 		&returns,
 	)
 	return returns
@@ -554,7 +565,7 @@ func (j *jsiiProxy_AlertCompoundCondition) TriggerExpressionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
 func NewAlertCompoundCondition(scope constructs.Construct, id *string, config *AlertCompoundConditionConfig) AlertCompoundCondition {
 	_init_.Initialize()
 
@@ -572,7 +583,7 @@ func NewAlertCompoundCondition(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.87.3/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
 func NewAlertCompoundCondition_Override(a AlertCompoundCondition, scope constructs.Construct, id *string, config *AlertCompoundConditionConfig) {
 	_init_.Initialize()
 
