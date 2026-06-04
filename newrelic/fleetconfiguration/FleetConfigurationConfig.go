@@ -24,21 +24,21 @@ type FleetConfigurationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The type of agent this configuration is for. Allowed values: NRInfra, NRDOT, FluentBit, NRPrometheusAgent.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/fleet_configuration#agent_type FleetConfiguration#agent_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/fleet_configuration#agent_type FleetConfiguration#agent_type}
 	AgentType *string `field:"required" json:"agentType" yaml:"agentType"`
 	// The type of entities this configuration manages. Allowed values: HOST, KUBERNETESCLUSTER.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/fleet_configuration#managed_entity_type FleetConfiguration#managed_entity_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/fleet_configuration#managed_entity_type FleetConfiguration#managed_entity_type}
 	ManagedEntityType *string `field:"required" json:"managedEntityType" yaml:"managedEntityType"`
 	// The name of the configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/fleet_configuration#name FleetConfiguration#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/fleet_configuration#name FleetConfiguration#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// version block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/fleet_configuration#version FleetConfiguration#version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/fleet_configuration#version FleetConfiguration#version}
 	Version interface{} `field:"required" json:"version" yaml:"version"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/fleet_configuration#id FleetConfiguration#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/fleet_configuration#id FleetConfiguration#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,11 +47,11 @@ type FleetConfigurationConfig struct {
 	//
 	// Required for HOST configurations. Allowed values: LINUX, WINDOWS. Must not be set for KUBERNETESCLUSTER configurations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/fleet_configuration#operating_system FleetConfiguration#operating_system}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/fleet_configuration#operating_system FleetConfiguration#operating_system}
 	OperatingSystem *string `field:"optional" json:"operatingSystem" yaml:"operatingSystem"`
 	// The organization ID. Auto-fetched from the account if not provided.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/resources/fleet_configuration#organization_id FleetConfiguration#organization_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/fleet_configuration#organization_id FleetConfiguration#organization_id}
 	OrganizationId *string `field:"optional" json:"organizationId" yaml:"organizationId"`
 }
 

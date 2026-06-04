@@ -7,14 +7,14 @@ package datanewrelicnotificationdestination
 type DataNewrelicNotificationDestinationScope struct {
 	// The ID of the Scope (Organization UUID for ORGANIZATION scope, Account ID for ACCOUNT scope).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/data-sources/notification_destination#id DataNewrelicNotificationDestination#id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/data-sources/notification_destination#id DataNewrelicNotificationDestination#id}
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"required" json:"id" yaml:"id"`
 	// (Required) The scope type of the destination. One of: (ACCOUNT, ORGANIZATION).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.90.0/docs/data-sources/notification_destination#type DataNewrelicNotificationDestination#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/data-sources/notification_destination#type DataNewrelicNotificationDestination#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 
