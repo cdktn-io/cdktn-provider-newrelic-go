@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/cloud_oci_link_account newrelic_cloud_oci_link_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/cloud_oci_link_account newrelic_cloud_oci_link_account}.
 type CloudOciLinkAccount interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -94,6 +94,9 @@ type CloudOciLinkAccount interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	ResourceTag() *string
+	SetResourceTag(val *string)
+	ResourceTagInput() *string
 	TenantId() *string
 	SetTenantId(val *string)
 	TenantIdInput() *string
@@ -103,6 +106,9 @@ type CloudOciLinkAccount interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	TrustType() *string
+	SetTrustType(val *string)
+	TrustTypeInput() *string
 	UserVaultOcid() *string
 	SetUserVaultOcid(val *string)
 	UserVaultOcidInput() *string
@@ -159,6 +165,8 @@ type CloudOciLinkAccount interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetResourceTag()
+	ResetTrustType()
 	ResetUserVaultOcid()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -577,6 +585,26 @@ func (j *jsiiProxy_CloudOciLinkAccount) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_CloudOciLinkAccount) ResourceTag() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceTag",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudOciLinkAccount) ResourceTagInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceTagInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudOciLinkAccount) TenantId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -627,6 +655,26 @@ func (j *jsiiProxy_CloudOciLinkAccount) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CloudOciLinkAccount) TrustType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"trustType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudOciLinkAccount) TrustTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"trustTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudOciLinkAccount) UserVaultOcid() *string {
 	var returns *string
 	_jsii_.Get(
@@ -648,7 +696,7 @@ func (j *jsiiProxy_CloudOciLinkAccount) UserVaultOcidInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/cloud_oci_link_account newrelic_cloud_oci_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/cloud_oci_link_account newrelic_cloud_oci_link_account} Resource.
 func NewCloudOciLinkAccount(scope constructs.Construct, id *string, config *CloudOciLinkAccountConfig) CloudOciLinkAccount {
 	_init_.Initialize()
 
@@ -666,7 +714,7 @@ func NewCloudOciLinkAccount(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/cloud_oci_link_account newrelic_cloud_oci_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/cloud_oci_link_account newrelic_cloud_oci_link_account} Resource.
 func NewCloudOciLinkAccount_Override(c CloudOciLinkAccount, scope constructs.Construct, id *string, config *CloudOciLinkAccountConfig) {
 	_init_.Initialize()
 
@@ -888,6 +936,17 @@ func (j *jsiiProxy_CloudOciLinkAccount)SetProvisioners(val *[]interface{}) {
 	)
 }
 
+func (j *jsiiProxy_CloudOciLinkAccount)SetResourceTag(val *string) {
+	if err := j.validateSetResourceTagParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resourceTag",
+		val,
+	)
+}
+
 func (j *jsiiProxy_CloudOciLinkAccount)SetTenantId(val *string) {
 	if err := j.validateSetTenantIdParameters(val); err != nil {
 		panic(err)
@@ -895,6 +954,17 @@ func (j *jsiiProxy_CloudOciLinkAccount)SetTenantId(val *string) {
 	_jsii_.Set(
 		j,
 		"tenantId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudOciLinkAccount)SetTrustType(val *string) {
+	if err := j.validateSetTrustTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"trustType",
 		val,
 	)
 }
@@ -1323,6 +1393,22 @@ func (c *jsiiProxy_CloudOciLinkAccount) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudOciLinkAccount) ResetResourceTag() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetResourceTag",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudOciLinkAccount) ResetTrustType() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTrustType",
 		nil, // no parameters
 	)
 }

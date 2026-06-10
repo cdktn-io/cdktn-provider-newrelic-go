@@ -159,7 +159,15 @@ func (j *jsiiProxy_CloudOciLinkAccount) validateSetProvisionersParameters(val *[
 	return nil
 }
 
+func (j *jsiiProxy_CloudOciLinkAccount) validateSetResourceTagParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudOciLinkAccount) validateSetTenantIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudOciLinkAccount) validateSetTrustTypeParameters(val *string) error {
 	return nil
 }
 

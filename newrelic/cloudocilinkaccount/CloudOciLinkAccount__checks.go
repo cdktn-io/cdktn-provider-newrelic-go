@@ -495,7 +495,23 @@ func (j *jsiiProxy_CloudOciLinkAccount) validateSetProvisionersParameters(val *[
 	return nil
 }
 
+func (j *jsiiProxy_CloudOciLinkAccount) validateSetResourceTagParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_CloudOciLinkAccount) validateSetTenantIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CloudOciLinkAccount) validateSetTrustTypeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

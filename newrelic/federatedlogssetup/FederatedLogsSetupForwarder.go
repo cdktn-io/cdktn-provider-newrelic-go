@@ -7,11 +7,11 @@ package federatedlogssetup
 type FederatedLogsSetupForwarder struct {
 	// The type of forwarder. Currently only PIPELINE_CONTROL is supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/federated_logs_setup#type FederatedLogsSetup#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/federated_logs_setup#type FederatedLogsSetup#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// pipeline_control block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.91.0/docs/resources/federated_logs_setup#pipeline_control FederatedLogsSetup#pipeline_control}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/federated_logs_setup#pipeline_control FederatedLogsSetup#pipeline_control}
 	PipelineControl *FederatedLogsSetupForwarderPipelineControl `field:"optional" json:"pipelineControl" yaml:"pipelineControl"`
 }
 
