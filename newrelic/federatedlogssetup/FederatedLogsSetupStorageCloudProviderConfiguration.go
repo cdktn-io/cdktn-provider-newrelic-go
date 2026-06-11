@@ -7,11 +7,11 @@ package federatedlogssetup
 type FederatedLogsSetupStorageCloudProviderConfiguration struct {
 	// The cloud provider. Currently only AWS is supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/federated_logs_setup#provider FederatedLogsSetup#provider}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/federated_logs_setup#provider FederatedLogsSetup#provider}
 	Provider *string `field:"required" json:"provider" yaml:"provider"`
 	// The cloud provider region.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/federated_logs_setup#region FederatedLogsSetup#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/federated_logs_setup#region FederatedLogsSetup#region}
 	Region *string `field:"required" json:"region" yaml:"region"`
 }
 

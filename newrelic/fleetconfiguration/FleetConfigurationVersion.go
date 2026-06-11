@@ -9,7 +9,7 @@ type FleetConfigurationVersion struct {
 	//
 	// Content must be unique across version blocks. Use file() to load from a file: file("${path.module}/config.yaml").
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/fleet_configuration#configuration_content FleetConfiguration#configuration_content}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/fleet_configuration#configuration_content FleetConfiguration#configuration_content}
 	ConfigurationContent *string `field:"required" json:"configurationContent" yaml:"configurationContent"`
 }
 

@@ -63,6 +63,10 @@ func (j *jsiiProxy_NrqlAlertConditionTermOutputReference) validateSetComplexObje
 	return nil
 }
 
+func (j *jsiiProxy_NrqlAlertConditionTermOutputReference) validateSetDisableEventCreationParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NrqlAlertConditionTermOutputReference) validateSetDisableHealthStatusReportingParameters(val interface{}) error {
 	return nil
 }

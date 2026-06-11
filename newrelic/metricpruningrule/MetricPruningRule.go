@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/metric_pruning_rule newrelic_metric_pruning_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/metric_pruning_rule newrelic_metric_pruning_rule}.
 type MetricPruningRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -401,7 +401,7 @@ func (j *jsiiProxy_MetricPruningRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/metric_pruning_rule newrelic_metric_pruning_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/metric_pruning_rule newrelic_metric_pruning_rule} Resource.
 func NewMetricPruningRule(scope constructs.Construct, id *string, config *MetricPruningRuleConfig) MetricPruningRule {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewMetricPruningRule(scope constructs.Construct, id *string, config *Metric
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/metric_pruning_rule newrelic_metric_pruning_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/metric_pruning_rule newrelic_metric_pruning_rule} Resource.
 func NewMetricPruningRule_Override(m MetricPruningRule, scope constructs.Construct, id *string, config *MetricPruningRuleConfig) {
 	_init_.Initialize()
 

@@ -28,6 +28,9 @@ type NrqlAlertConditionTermOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DisableEventCreation() interface{}
+	SetDisableEventCreation(val interface{})
+	DisableEventCreationInput() interface{}
 	DisableHealthStatusReporting() interface{}
 	SetDisableHealthStatusReporting(val interface{})
 	DisableHealthStatusReportingInput() interface{}
@@ -91,6 +94,7 @@ type NrqlAlertConditionTermOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPrediction(value *NrqlAlertConditionTermPrediction)
+	ResetDisableEventCreation()
 	ResetDisableHealthStatusReporting()
 	ResetDuration()
 	ResetOperator()
@@ -139,6 +143,26 @@ func (j *jsiiProxy_NrqlAlertConditionTermOutputReference) CreationStack() *[]*st
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NrqlAlertConditionTermOutputReference) DisableEventCreation() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableEventCreation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NrqlAlertConditionTermOutputReference) DisableEventCreationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableEventCreationInput",
 		&returns,
 	)
 	return returns
@@ -410,6 +434,17 @@ func (j *jsiiProxy_NrqlAlertConditionTermOutputReference)SetComplexObjectIsFromS
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NrqlAlertConditionTermOutputReference)SetDisableEventCreation(val interface{}) {
+	if err := j.validateSetDisableEventCreationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disableEventCreation",
 		val,
 	)
 }
@@ -729,6 +764,14 @@ func (n *jsiiProxy_NrqlAlertConditionTermOutputReference) PutPrediction(value *N
 		n,
 		"putPrediction",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NrqlAlertConditionTermOutputReference) ResetDisableEventCreation() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDisableEventCreation",
+		nil, // no parameters
 	)
 }
 

@@ -26,22 +26,22 @@ type CardinalityManagementConfig struct {
 	//
 	// Use `DEFAULT` to set a single account-wide limit that applies to all metrics, or `PER_METRIC` to set individual limits for one or more named metrics.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/cardinality_management#mode CardinalityManagement#mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/cardinality_management#mode CardinalityManagement#mode}
 	Mode *string `field:"required" json:"mode" yaml:"mode"`
 	// The account-wide cardinality limit — the maximum number of unique dimension-value combinations allowed per metric per day.
 	//
 	// Required when `mode` is `DEFAULT`; must not be set when `mode` is `PER_METRIC`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/cardinality_management#cardinality_limit CardinalityManagement#cardinality_limit}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/cardinality_management#cardinality_limit CardinalityManagement#cardinality_limit}
 	CardinalityLimit *float64 `field:"optional" json:"cardinalityLimit" yaml:"cardinalityLimit"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/cardinality_management#id CardinalityManagement#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/cardinality_management#id CardinalityManagement#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// metric block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/cardinality_management#metric CardinalityManagement#metric}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/cardinality_management#metric CardinalityManagement#metric}
 	Metric interface{} `field:"optional" json:"metric" yaml:"metric"`
 }
 

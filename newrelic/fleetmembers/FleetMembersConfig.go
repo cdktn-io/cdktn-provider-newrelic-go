@@ -24,13 +24,13 @@ type FleetMembersConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The GUID of the fleet to manage entity assignments for.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/fleet_members#fleet_id FleetMembers#fleet_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/fleet_members#fleet_id FleetMembers#fleet_id}
 	FleetId *string `field:"required" json:"fleetId" yaml:"fleetId"`
 	// ring block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/fleet_members#ring FleetMembers#ring}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/fleet_members#ring FleetMembers#ring}
 	Ring interface{} `field:"required" json:"ring" yaml:"ring"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/fleet_members#id FleetMembers#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/fleet_members#id FleetMembers#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

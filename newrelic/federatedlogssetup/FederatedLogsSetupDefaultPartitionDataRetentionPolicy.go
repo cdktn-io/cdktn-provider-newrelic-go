@@ -7,11 +7,11 @@ package federatedlogssetup
 type FederatedLogsSetupDefaultPartitionDataRetentionPolicy struct {
 	// The duration value for retention.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/federated_logs_setup#duration FederatedLogsSetup#duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/federated_logs_setup#duration FederatedLogsSetup#duration}
 	Duration *float64 `field:"required" json:"duration" yaml:"duration"`
 	// The time unit for the retention duration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.92.0/docs/resources/federated_logs_setup#unit FederatedLogsSetup#unit}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/federated_logs_setup#unit FederatedLogsSetup#unit}
 	Unit *string `field:"required" json:"unit" yaml:"unit"`
 }
 
