@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/aws_connection newrelic_aws_connection}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.1/docs/resources/aws_connection newrelic_aws_connection}.
 type AwsConnection interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -581,7 +581,7 @@ func (j *jsiiProxy_AwsConnection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/aws_connection newrelic_aws_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.1/docs/resources/aws_connection newrelic_aws_connection} Resource.
 func NewAwsConnection(scope constructs.Construct, id *string, config *AwsConnectionConfig) AwsConnection {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewAwsConnection(scope constructs.Construct, id *string, config *AwsConnect
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/aws_connection newrelic_aws_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.1/docs/resources/aws_connection newrelic_aws_connection} Resource.
 func NewAwsConnection_Override(a AwsConnection, scope constructs.Construct, id *string, config *AwsConnectionConfig) {
 	_init_.Initialize()
 

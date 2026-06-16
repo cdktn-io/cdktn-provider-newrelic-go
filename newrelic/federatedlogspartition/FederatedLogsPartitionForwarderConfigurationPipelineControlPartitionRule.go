@@ -7,7 +7,7 @@ package federatedlogspartition
 type FederatedLogsPartitionForwarderConfigurationPipelineControlPartitionRule struct {
 	// OTTL expression for routing logs to this partition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.0/docs/resources/federated_logs_partition#expression FederatedLogsPartition#expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.1/docs/resources/federated_logs_partition#expression FederatedLogsPartition#expression}
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
 }
 
