@@ -75,10 +75,6 @@ func (f *jsiiProxy_FleetConfiguration) validateOverrideLogicalIdParameters(newLo
 	return nil
 }
 
-func (f *jsiiProxy_FleetConfiguration) validatePutVersionParameters(value interface{}) error {
-	return nil
-}
-
 func validateFleetConfiguration_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
@@ -96,6 +92,10 @@ func validateFleetConfiguration_IsTerraformResourceParameters(x interface{}) err
 }
 
 func (j *jsiiProxy_FleetConfiguration) validateSetAgentTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_FleetConfiguration) validateSetConfigurationContentParameters(val *string) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.1/docs/resources/fleet_configuration newrelic_fleet_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.2/docs/resources/fleet_configuration newrelic_fleet_configuration}.
 type FleetConfiguration interface {
 	cdktn.TerraformResource
 	AgentType() *string
@@ -20,6 +20,9 @@ type FleetConfiguration interface {
 	AgentTypeInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	ConfigurationContent() *string
+	SetConfigurationContent(val *string)
+	ConfigurationContentInput() *string
 	ConfigurationId() *string
 	// Experimental.
 	Connection() interface{}
@@ -83,8 +86,7 @@ type FleetConfiguration interface {
 	// Experimental.
 	TerraformResourceType() *string
 	TotalVersions() *float64
-	Version() FleetConfigurationVersionList
-	VersionInput() interface{}
+	VersionEntityIds() *[]*string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -128,7 +130,6 @@ type FleetConfiguration interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutVersion(value interface{})
 	ResetId()
 	ResetOperatingSystem()
 	ResetOrganizationId()
@@ -187,6 +188,26 @@ func (j *jsiiProxy_FleetConfiguration) CdktfStack() cdktn.TerraformStack {
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FleetConfiguration) ConfigurationContent() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"configurationContent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FleetConfiguration) ConfigurationContentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"configurationContentInput",
 		&returns,
 	)
 	return returns
@@ -482,28 +503,18 @@ func (j *jsiiProxy_FleetConfiguration) TotalVersions() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_FleetConfiguration) Version() FleetConfigurationVersionList {
-	var returns FleetConfigurationVersionList
+func (j *jsiiProxy_FleetConfiguration) VersionEntityIds() *[]*string {
+	var returns *[]*string
 	_jsii_.Get(
 		j,
-		"version",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_FleetConfiguration) VersionInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"versionInput",
+		"versionEntityIds",
 		&returns,
 	)
 	return returns
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.1/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.2/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
 func NewFleetConfiguration(scope constructs.Construct, id *string, config *FleetConfigurationConfig) FleetConfiguration {
 	_init_.Initialize()
 
@@ -521,7 +532,7 @@ func NewFleetConfiguration(scope constructs.Construct, id *string, config *Fleet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.1/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.2/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
 func NewFleetConfiguration_Override(f FleetConfiguration, scope constructs.Construct, id *string, config *FleetConfigurationConfig) {
 	_init_.Initialize()
 
@@ -539,6 +550,17 @@ func (j *jsiiProxy_FleetConfiguration)SetAgentType(val *string) {
 	_jsii_.Set(
 		j,
 		"agentType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FleetConfiguration)SetConfigurationContent(val *string) {
+	if err := j.validateSetConfigurationContentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"configurationContent",
 		val,
 	)
 }
@@ -1016,17 +1038,6 @@ func (f *jsiiProxy_FleetConfiguration) OverrideLogicalId(newLogicalId *string) {
 		f,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
-	)
-}
-
-func (f *jsiiProxy_FleetConfiguration) PutVersion(value interface{}) {
-	if err := f.validatePutVersionParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		f,
-		"putVersion",
-		[]interface{}{value},
 	)
 }
 
