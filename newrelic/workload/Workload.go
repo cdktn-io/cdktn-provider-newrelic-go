@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.2/docs/resources/workload newrelic_workload}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.0/docs/resources/workload newrelic_workload}.
 type Workload interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -38,6 +38,8 @@ type Workload interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	DynamicFlows() WorkloadDynamicFlowsList
+	DynamicFlowsInput() interface{}
 	EntityGuids() *[]*string
 	SetEntityGuids(val *[]*string)
 	EntityGuidsInput() *[]*string
@@ -78,6 +80,8 @@ type Workload interface {
 	ScopeAccountIds() *[]*float64
 	SetScopeAccountIds(val *[]*float64)
 	ScopeAccountIdsInput() *[]*float64
+	StatusConfigAlertPolicy() WorkloadStatusConfigAlertPolicyOutputReference
+	StatusConfigAlertPolicyInput() *WorkloadStatusConfigAlertPolicy
 	StatusConfigAutomatic() WorkloadStatusConfigAutomaticOutputReference
 	StatusConfigAutomaticInput() *WorkloadStatusConfigAutomatic
 	StatusConfigStatic() WorkloadStatusConfigStaticOutputReference
@@ -132,11 +136,14 @@ type Workload interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutDynamicFlows(value interface{})
 	PutEntitySearchQuery(value interface{})
+	PutStatusConfigAlertPolicy(value *WorkloadStatusConfigAlertPolicy)
 	PutStatusConfigAutomatic(value *WorkloadStatusConfigAutomatic)
 	PutStatusConfigStatic(value *WorkloadStatusConfigStatic)
 	ResetAccountId()
 	ResetDescription()
+	ResetDynamicFlows()
 	ResetEntityGuids()
 	ResetEntitySearchQuery()
 	ResetId()
@@ -144,6 +151,7 @@ type Workload interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetScopeAccountIds()
+	ResetStatusConfigAlertPolicy()
 	ResetStatusConfigAutomatic()
 	ResetStatusConfigStatic()
 	SynthesizeAttributes() *map[string]interface{}
@@ -268,6 +276,26 @@ func (j *jsiiProxy_Workload) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Workload) DynamicFlows() WorkloadDynamicFlowsList {
+	var returns WorkloadDynamicFlowsList
+	_jsii_.Get(
+		j,
+		"dynamicFlows",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Workload) DynamicFlowsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dynamicFlowsInput",
 		&returns,
 	)
 	return returns
@@ -473,6 +501,26 @@ func (j *jsiiProxy_Workload) ScopeAccountIdsInput() *[]*float64 {
 	return returns
 }
 
+func (j *jsiiProxy_Workload) StatusConfigAlertPolicy() WorkloadStatusConfigAlertPolicyOutputReference {
+	var returns WorkloadStatusConfigAlertPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"statusConfigAlertPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Workload) StatusConfigAlertPolicyInput() *WorkloadStatusConfigAlertPolicy {
+	var returns *WorkloadStatusConfigAlertPolicy
+	_jsii_.Get(
+		j,
+		"statusConfigAlertPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Workload) StatusConfigAutomatic() WorkloadStatusConfigAutomaticOutputReference {
 	var returns WorkloadStatusConfigAutomaticOutputReference
 	_jsii_.Get(
@@ -554,7 +602,7 @@ func (j *jsiiProxy_Workload) WorkloadId() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.2/docs/resources/workload newrelic_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.0/docs/resources/workload newrelic_workload} Resource.
 func NewWorkload(scope constructs.Construct, id *string, config *WorkloadConfig) Workload {
 	_init_.Initialize()
 
@@ -572,7 +620,7 @@ func NewWorkload(scope constructs.Construct, id *string, config *WorkloadConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.2/docs/resources/workload newrelic_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.0/docs/resources/workload newrelic_workload} Resource.
 func NewWorkload_Override(w Workload, scope constructs.Construct, id *string, config *WorkloadConfig) {
 	_init_.Initialize()
 
@@ -1070,6 +1118,17 @@ func (w *jsiiProxy_Workload) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (w *jsiiProxy_Workload) PutDynamicFlows(value interface{}) {
+	if err := w.validatePutDynamicFlowsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putDynamicFlows",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_Workload) PutEntitySearchQuery(value interface{}) {
 	if err := w.validatePutEntitySearchQueryParameters(value); err != nil {
 		panic(err)
@@ -1077,6 +1136,17 @@ func (w *jsiiProxy_Workload) PutEntitySearchQuery(value interface{}) {
 	_jsii_.InvokeVoid(
 		w,
 		"putEntitySearchQuery",
+		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_Workload) PutStatusConfigAlertPolicy(value *WorkloadStatusConfigAlertPolicy) {
+	if err := w.validatePutStatusConfigAlertPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putStatusConfigAlertPolicy",
 		[]interface{}{value},
 	)
 }
@@ -1119,6 +1189,14 @@ func (w *jsiiProxy_Workload) ResetDescription() {
 	)
 }
 
+func (w *jsiiProxy_Workload) ResetDynamicFlows() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetDynamicFlows",
+		nil, // no parameters
+	)
+}
+
 func (w *jsiiProxy_Workload) ResetEntityGuids() {
 	_jsii_.InvokeVoid(
 		w,
@@ -1155,6 +1233,14 @@ func (w *jsiiProxy_Workload) ResetScopeAccountIds() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetScopeAccountIds",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Workload) ResetStatusConfigAlertPolicy() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetStatusConfigAlertPolicy",
 		nil, // no parameters
 	)
 }

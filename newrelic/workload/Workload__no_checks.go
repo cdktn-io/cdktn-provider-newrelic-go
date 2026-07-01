@@ -75,7 +75,15 @@ func (w *jsiiProxy_Workload) validateOverrideLogicalIdParameters(newLogicalId *s
 	return nil
 }
 
+func (w *jsiiProxy_Workload) validatePutDynamicFlowsParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_Workload) validatePutEntitySearchQueryParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_Workload) validatePutStatusConfigAlertPolicyParameters(value *WorkloadStatusConfigAlertPolicy) error {
 	return nil
 }
 

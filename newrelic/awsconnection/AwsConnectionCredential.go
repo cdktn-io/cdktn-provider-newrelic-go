@@ -7,7 +7,7 @@ package awsconnection
 type AwsConnectionCredential struct {
 	// assume_role block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.93.2/docs/resources/aws_connection#assume_role AwsConnection#assume_role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.0/docs/resources/aws_connection#assume_role AwsConnection#assume_role}
 	AssumeRole *AwsConnectionCredentialAssumeRole `field:"required" json:"assumeRole" yaml:"assumeRole"`
 }
 
