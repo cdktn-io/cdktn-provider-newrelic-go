@@ -1,3 +1,3 @@
 # `newrelic_group`
 
-Refer to the Terraform Registry for docs: [`newrelic_group`](https://registry.terraform.io/providers/newrelic/newrelic/3.94.0/docs/resources/group).
+Refer to the Terraform Registry for docs: [`newrelic_group`](https://registry.terraform.io/providers/newrelic/newrelic/3.94.2/docs/resources/group).

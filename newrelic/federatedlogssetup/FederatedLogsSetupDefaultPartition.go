@@ -7,11 +7,11 @@ package federatedlogssetup
 type FederatedLogsSetupDefaultPartition struct {
 	// storage block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.0/docs/resources/federated_logs_setup#storage FederatedLogsSetup#storage}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.2/docs/resources/federated_logs_setup#storage FederatedLogsSetup#storage}
 	Storage *FederatedLogsSetupDefaultPartitionStorage `field:"required" json:"storage" yaml:"storage"`
 	// data_retention_policy block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.0/docs/resources/federated_logs_setup#data_retention_policy FederatedLogsSetup#data_retention_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.2/docs/resources/federated_logs_setup#data_retention_policy FederatedLogsSetup#data_retention_policy}
 	DataRetentionPolicy *FederatedLogsSetupDefaultPartitionDataRetentionPolicy `field:"optional" json:"dataRetentionPolicy" yaml:"dataRetentionPolicy"`
 }
 
