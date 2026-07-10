@@ -7,7 +7,7 @@ package workload
 type WorkloadStatusConfigAlertPolicy struct {
 	// Whether the alert policy status configuration is enabled or not.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.2/docs/resources/workload#enabled Workload#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.3/docs/resources/workload#enabled Workload#enabled}
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
 }
 
