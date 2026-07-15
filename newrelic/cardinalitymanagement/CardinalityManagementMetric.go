@@ -7,11 +7,11 @@ package cardinalitymanagement
 type CardinalityManagementMetric struct {
 	// The maximum number of unique dimension-value combinations allowed per day for this metric.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.3/docs/resources/cardinality_management#cardinality_limit CardinalityManagement#cardinality_limit}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/cardinality_management#cardinality_limit CardinalityManagement#cardinality_limit}
 	CardinalityLimit *float64 `field:"required" json:"cardinalityLimit" yaml:"cardinalityLimit"`
 	// The full name of the metric (e.g. `http.server.duration`).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.3/docs/resources/cardinality_management#name CardinalityManagement#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/cardinality_management#name CardinalityManagement#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

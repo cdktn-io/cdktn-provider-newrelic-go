@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.3/docs/resources/account_management newrelic_account_management}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/account_management newrelic_account_management}.
 type AccountManagement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -121,6 +121,7 @@ type AccountManagement interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRegion()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -400,7 +401,7 @@ func (j *jsiiProxy_AccountManagement) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.3/docs/resources/account_management newrelic_account_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/account_management newrelic_account_management} Resource.
 func NewAccountManagement(scope constructs.Construct, id *string, config *AccountManagementConfig) AccountManagement {
 	_init_.Initialize()
 
@@ -418,7 +419,7 @@ func NewAccountManagement(scope constructs.Construct, id *string, config *Accoun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.3/docs/resources/account_management newrelic_account_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/account_management newrelic_account_management} Resource.
 func NewAccountManagement_Override(a AccountManagement, scope constructs.Construct, id *string, config *AccountManagementConfig) {
 	_init_.Initialize()
 
@@ -906,6 +907,14 @@ func (a *jsiiProxy_AccountManagement) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AccountManagement) ResetRegion() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRegion",
 		nil, // no parameters
 	)
 }

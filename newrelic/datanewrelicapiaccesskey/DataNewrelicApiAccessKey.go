@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.3/docs/data-sources/api_access_key newrelic_api_access_key}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/data-sources/api_access_key newrelic_api_access_key}.
 type DataNewrelicApiAccessKey interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -439,7 +439,7 @@ func (j *jsiiProxy_DataNewrelicApiAccessKey) UserIdInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.3/docs/data-sources/api_access_key newrelic_api_access_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/data-sources/api_access_key newrelic_api_access_key} Data Source.
 func NewDataNewrelicApiAccessKey(scope constructs.Construct, id *string, config *DataNewrelicApiAccessKeyConfig) DataNewrelicApiAccessKey {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewDataNewrelicApiAccessKey(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.94.3/docs/data-sources/api_access_key newrelic_api_access_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/data-sources/api_access_key newrelic_api_access_key} Data Source.
 func NewDataNewrelicApiAccessKey_Override(d DataNewrelicApiAccessKey, scope constructs.Construct, id *string, config *DataNewrelicApiAccessKeyConfig) {
 	_init_.Initialize()
 
