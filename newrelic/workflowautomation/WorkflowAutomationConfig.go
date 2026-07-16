@@ -24,21 +24,21 @@ type WorkflowAutomationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The YAML definition of the workflow automation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/workflow_automation#definition WorkflowAutomation#definition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/workflow_automation#definition WorkflowAutomation#definition}
 	Definition *string `field:"required" json:"definition" yaml:"definition"`
 	// The name of the workflow automation. Must match the name in the YAML definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/workflow_automation#name WorkflowAutomation#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/workflow_automation#name WorkflowAutomation#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The scope ID (account ID for ACCOUNT scope, organization ID for ORGANIZATION scope).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/workflow_automation#scope_id WorkflowAutomation#scope_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/workflow_automation#scope_id WorkflowAutomation#scope_id}
 	ScopeId *string `field:"required" json:"scopeId" yaml:"scopeId"`
 	// The scope type. Supported values are: ACCOUNT, ORGANIZATION.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/workflow_automation#scope_type WorkflowAutomation#scope_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/workflow_automation#scope_type WorkflowAutomation#scope_type}
 	ScopeType *string `field:"required" json:"scopeType" yaml:"scopeType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.0/docs/resources/workflow_automation#id WorkflowAutomation#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/workflow_automation#id WorkflowAutomation#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
