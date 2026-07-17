@@ -24,30 +24,30 @@ type DataNewrelicNotificationDestinationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The account ID under which the particular destination belong to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/data-sources/notification_destination#account_id DataNewrelicNotificationDestination#account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/data-sources/notification_destination#account_id DataNewrelicNotificationDestination#account_id}
 	AccountId *float64 `field:"optional" json:"accountId" yaml:"accountId"`
 	// The exact name of the destination. Uses an exact match.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/data-sources/notification_destination#exact_name DataNewrelicNotificationDestination#exact_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/data-sources/notification_destination#exact_name DataNewrelicNotificationDestination#exact_name}
 	ExactName *string `field:"optional" json:"exactName" yaml:"exactName"`
 	// The ID of the destination.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/data-sources/notification_destination#id DataNewrelicNotificationDestination#id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/data-sources/notification_destination#id DataNewrelicNotificationDestination#id}
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// The name of the destination. Uses a contains match.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/data-sources/notification_destination#name DataNewrelicNotificationDestination#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/data-sources/notification_destination#name DataNewrelicNotificationDestination#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// scope block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/data-sources/notification_destination#scope DataNewrelicNotificationDestination#scope}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/data-sources/notification_destination#scope DataNewrelicNotificationDestination#scope}
 	Scope *DataNewrelicNotificationDestinationScope `field:"optional" json:"scope" yaml:"scope"`
 	// secure_url block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/data-sources/notification_destination#secure_url DataNewrelicNotificationDestination#secure_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/data-sources/notification_destination#secure_url DataNewrelicNotificationDestination#secure_url}
 	SecureUrl interface{} `field:"optional" json:"secureUrl" yaml:"secureUrl"`
 }
 

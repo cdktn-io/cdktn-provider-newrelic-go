@@ -7,11 +7,11 @@ package federatedlogspartition
 type FederatedLogsPartitionForwarderConfiguration struct {
 	// The type of forwarder. Must match the parent setup's forwarder type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/federated_logs_partition#type FederatedLogsPartition#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/resources/federated_logs_partition#type FederatedLogsPartition#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// pipeline_control block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/federated_logs_partition#pipeline_control FederatedLogsPartition#pipeline_control}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/resources/federated_logs_partition#pipeline_control FederatedLogsPartition#pipeline_control}
 	PipelineControl *FederatedLogsPartitionForwarderConfigurationPipelineControl `field:"optional" json:"pipelineControl" yaml:"pipelineControl"`
 }
 

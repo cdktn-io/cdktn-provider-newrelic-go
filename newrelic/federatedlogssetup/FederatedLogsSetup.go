@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/federated_logs_setup newrelic_federated_logs_setup}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/resources/federated_logs_setup newrelic_federated_logs_setup}.
 type FederatedLogsSetup interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -539,7 +539,7 @@ func (j *jsiiProxy_FederatedLogsSetup) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/federated_logs_setup newrelic_federated_logs_setup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/resources/federated_logs_setup newrelic_federated_logs_setup} Resource.
 func NewFederatedLogsSetup(scope constructs.Construct, id *string, config *FederatedLogsSetupConfig) FederatedLogsSetup {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewFederatedLogsSetup(scope constructs.Construct, id *string, config *Feder
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.1/docs/resources/federated_logs_setup newrelic_federated_logs_setup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/resources/federated_logs_setup newrelic_federated_logs_setup} Resource.
 func NewFederatedLogsSetup_Override(f FederatedLogsSetup, scope constructs.Construct, id *string, config *FederatedLogsSetupConfig) {
 	_init_.Initialize()
 
