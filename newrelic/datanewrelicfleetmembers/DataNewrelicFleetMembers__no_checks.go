@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataNewrelicFleetMembers) validateOverrideLogicalIdParameters
 	return nil
 }
 
+func (d *jsiiProxy_DataNewrelicFleetMembers) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataNewrelicFleetMembers_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

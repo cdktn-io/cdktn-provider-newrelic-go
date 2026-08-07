@@ -122,6 +122,14 @@ func (w *jsiiProxy_WorkflowAutomation) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (w *jsiiProxy_WorkflowAutomation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (w *jsiiProxy_WorkflowAutomation) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (w *jsiiProxy_WorkflowAutomation) validateMoveToIdParameters(id *string) er
 func (w *jsiiProxy_WorkflowAutomation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (w *jsiiProxy_WorkflowAutomation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SyntheticsSecureCredential) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_SyntheticsSecureCredential) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SyntheticsSecureCredential) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SyntheticsSecureCredential) validateOverrideLogicalIdParamete
 }
 
 func (s *jsiiProxy_SyntheticsSecureCredential) validatePutTimeoutsParameters(value *SyntheticsSecureCredentialTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsSecureCredential) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package datanewreliccloudaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v15/datanewreliccloudaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewreliccloudaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/data-sources/cloud_account newrelic_cloud_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.1/docs/data-sources/cloud_account newrelic_cloud_account}.
 type DataNewrelicCloudAccount interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -44,6 +44,9 @@ type DataNewrelicCloudAccount interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IsDimensionalMetrics() interface{}
+	SetIsDimensionalMetrics(val interface{})
+	IsDimensionalMetricsInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -90,8 +93,22 @@ type DataNewrelicCloudAccount interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccountId()
 	ResetId()
+	ResetIsDimensionalMetrics()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -253,6 +270,26 @@ func (j *jsiiProxy_DataNewrelicCloudAccount) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataNewrelicCloudAccount) IsDimensionalMetrics() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"isDimensionalMetrics",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataNewrelicCloudAccount) IsDimensionalMetricsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"isDimensionalMetricsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataNewrelicCloudAccount) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -344,7 +381,7 @@ func (j *jsiiProxy_DataNewrelicCloudAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/data-sources/cloud_account newrelic_cloud_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.1/docs/data-sources/cloud_account newrelic_cloud_account} Data Source.
 func NewDataNewrelicCloudAccount(scope constructs.Construct, id *string, config *DataNewrelicCloudAccountConfig) DataNewrelicCloudAccount {
 	_init_.Initialize()
 
@@ -362,7 +399,7 @@ func NewDataNewrelicCloudAccount(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.95.2/docs/data-sources/cloud_account newrelic_cloud_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.1/docs/data-sources/cloud_account newrelic_cloud_account} Data Source.
 func NewDataNewrelicCloudAccount_Override(d DataNewrelicCloudAccount, scope constructs.Construct, id *string, config *DataNewrelicCloudAccountConfig) {
 	_init_.Initialize()
 
@@ -429,6 +466,17 @@ func (j *jsiiProxy_DataNewrelicCloudAccount)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataNewrelicCloudAccount)SetIsDimensionalMetrics(val interface{}) {
+	if err := j.validateSetIsDimensionalMetricsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"isDimensionalMetrics",
 		val,
 	)
 }
@@ -748,6 +796,17 @@ func (d *jsiiProxy_DataNewrelicCloudAccount) OverrideLogicalId(newLogicalId *str
 	)
 }
 
+func (d *jsiiProxy_DataNewrelicCloudAccount) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
+	)
+}
+
 func (d *jsiiProxy_DataNewrelicCloudAccount) ResetAccountId() {
 	_jsii_.InvokeVoid(
 		d,
@@ -760,6 +819,14 @@ func (d *jsiiProxy_DataNewrelicCloudAccount) ResetId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataNewrelicCloudAccount) ResetIsDimensionalMetrics() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetIsDimensionalMetrics",
 		nil, // no parameters
 	)
 }

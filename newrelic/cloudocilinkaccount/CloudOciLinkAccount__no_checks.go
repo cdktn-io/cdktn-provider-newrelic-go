@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudOciLinkAccount) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CloudOciLinkAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudOciLinkAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudOciLinkAccount) validateMoveToIdParameters(id *string) e
 }
 
 func (c *jsiiProxy_CloudOciLinkAccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudOciLinkAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

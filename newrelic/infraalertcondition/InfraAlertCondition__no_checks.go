@@ -59,6 +59,10 @@ func (i *jsiiProxy_InfraAlertCondition) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (i *jsiiProxy_InfraAlertCondition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_InfraAlertCondition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_InfraAlertCondition) validatePutCriticalParameters(value *Inf
 }
 
 func (i *jsiiProxy_InfraAlertCondition) validatePutWarningParameters(value *InfraAlertConditionWarning) error {
+	return nil
+}
+
+func (i *jsiiProxy_InfraAlertCondition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

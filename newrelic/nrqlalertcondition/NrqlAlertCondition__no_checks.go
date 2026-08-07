@@ -59,6 +59,10 @@ func (n *jsiiProxy_NrqlAlertCondition) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (n *jsiiProxy_NrqlAlertCondition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NrqlAlertCondition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (n *jsiiProxy_NrqlAlertCondition) validatePutTimeoutsParameters(value *Nrql
 }
 
 func (n *jsiiProxy_NrqlAlertCondition) validatePutWarningParameters(value *NrqlAlertConditionWarning) error {
+	return nil
+}
+
+func (n *jsiiProxy_NrqlAlertCondition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

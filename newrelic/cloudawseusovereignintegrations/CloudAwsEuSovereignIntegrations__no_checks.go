@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudAwsEuSovereignIntegrations) validateInterpolationForAttr
 	return nil
 }
 
+func (c *jsiiProxy_CloudAwsEuSovereignIntegrations) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAwsEuSovereignIntegrations) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CloudAwsEuSovereignIntegrations) validatePutCloudtrailParamet
 }
 
 func (c *jsiiProxy_CloudAwsEuSovereignIntegrations) validatePutXRayParameters(value *CloudAwsEuSovereignIntegrationsXRay) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudAwsEuSovereignIntegrations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

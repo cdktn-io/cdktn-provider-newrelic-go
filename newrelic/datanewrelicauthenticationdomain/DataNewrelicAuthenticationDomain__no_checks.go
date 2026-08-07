@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataNewrelicAuthenticationDomain) validateOverrideLogicalIdPa
 	return nil
 }
 
+func (d *jsiiProxy_DataNewrelicAuthenticationDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataNewrelicAuthenticationDomain_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

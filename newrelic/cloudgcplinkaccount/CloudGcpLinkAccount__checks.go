@@ -122,6 +122,14 @@ func (c *jsiiProxy_CloudGcpLinkAccount) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CloudGcpLinkAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CloudGcpLinkAccount) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -207,6 +215,14 @@ func (c *jsiiProxy_CloudGcpLinkAccount) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func (c *jsiiProxy_CloudGcpLinkAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateCloudGcpLinkAccount_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")
@@ -248,6 +264,14 @@ func validateCloudGcpLinkAccount_IsTerraformResourceParameters(x interface{}) er
 }
 
 func (j *jsiiProxy_CloudGcpLinkAccount) validateSetAccountIdParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CloudGcpLinkAccount) validateSetAudienceParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -417,6 +441,34 @@ func (j *jsiiProxy_CloudGcpLinkAccount) validateSetProvisionersParameters(val *[
 			if !_jsii_.IsAnonymousProxy(v) {
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CloudGcpLinkAccount) validateSetServiceAccountEmailParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CloudGcpLinkAccount) validateSetUseWorkloadIdentityFederationParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 

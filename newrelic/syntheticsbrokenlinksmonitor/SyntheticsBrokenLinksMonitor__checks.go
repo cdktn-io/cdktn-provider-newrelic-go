@@ -122,6 +122,14 @@ func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validateInterpolationForAttribu
 	return nil
 }
 
+func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validatePutTagParameters(value 
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SyntheticsBrokenLinksMonitorTag; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

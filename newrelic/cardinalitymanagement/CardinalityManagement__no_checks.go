@@ -59,6 +59,10 @@ func (c *jsiiProxy_CardinalityManagement) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_CardinalityManagement) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CardinalityManagement) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CardinalityManagement) validateOverrideLogicalIdParameters(ne
 }
 
 func (c *jsiiProxy_CardinalityManagement) validatePutMetricParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CardinalityManagement) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

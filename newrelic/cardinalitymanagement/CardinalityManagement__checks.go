@@ -122,6 +122,14 @@ func (c *jsiiProxy_CardinalityManagement) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_CardinalityManagement) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CardinalityManagement) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (c *jsiiProxy_CardinalityManagement) validatePutMetricParameters(value inte
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CardinalityManagementMetric; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_CardinalityManagement) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

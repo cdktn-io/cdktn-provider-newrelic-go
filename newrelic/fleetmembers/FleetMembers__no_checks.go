@@ -59,6 +59,10 @@ func (f *jsiiProxy_FleetMembers) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (f *jsiiProxy_FleetMembers) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FleetMembers) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FleetMembers) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func (f *jsiiProxy_FleetMembers) validatePutRingParameters(value interface{}) error {
+	return nil
+}
+
+func (f *jsiiProxy_FleetMembers) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

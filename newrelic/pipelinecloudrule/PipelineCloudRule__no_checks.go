@@ -59,6 +59,10 @@ func (p *jsiiProxy_PipelineCloudRule) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (p *jsiiProxy_PipelineCloudRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PipelineCloudRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (p *jsiiProxy_PipelineCloudRule) validateMoveToIdParameters(id *string) err
 }
 
 func (p *jsiiProxy_PipelineCloudRule) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipelineCloudRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

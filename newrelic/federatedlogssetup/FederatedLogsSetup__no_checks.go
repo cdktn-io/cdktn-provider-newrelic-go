@@ -59,6 +59,10 @@ func (f *jsiiProxy_FederatedLogsSetup) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (f *jsiiProxy_FederatedLogsSetup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FederatedLogsSetup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (f *jsiiProxy_FederatedLogsSetup) validatePutForwarderParameters(value *Fed
 }
 
 func (f *jsiiProxy_FederatedLogsSetup) validatePutStorageParameters(value *FederatedLogsSetupStorage) error {
+	return nil
+}
+
+func (f *jsiiProxy_FederatedLogsSetup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

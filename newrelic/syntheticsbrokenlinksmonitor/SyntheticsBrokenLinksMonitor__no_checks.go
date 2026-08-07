@@ -59,6 +59,10 @@ func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validateInterpolationForAttribu
 	return nil
 }
 
+func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validateOverrideLogicalIdParame
 }
 
 func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validatePutTagParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsBrokenLinksMonitor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AwsConnection) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (a *jsiiProxy_AwsConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AwsConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AwsConnection) validatePutSettingsParameters(value interface{
 }
 
 func (a *jsiiProxy_AwsConnection) validatePutTagParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

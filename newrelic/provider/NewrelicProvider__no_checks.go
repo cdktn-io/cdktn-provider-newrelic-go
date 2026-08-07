@@ -15,6 +15,10 @@ func (n *jsiiProxy_NewrelicProvider) validateOverrideLogicalIdParameters(newLogi
 	return nil
 }
 
+func (n *jsiiProxy_NewrelicProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateNewrelicProvider_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataNewrelicTestGrokPattern) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataNewrelicTestGrokPattern) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataNewrelicTestGrokPattern_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

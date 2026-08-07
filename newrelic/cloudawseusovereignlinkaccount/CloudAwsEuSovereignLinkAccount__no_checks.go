@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudAwsEuSovereignLinkAccount) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_CloudAwsEuSovereignLinkAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAwsEuSovereignLinkAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudAwsEuSovereignLinkAccount) validateMoveToIdParameters(id
 }
 
 func (c *jsiiProxy_CloudAwsEuSovereignLinkAccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudAwsEuSovereignLinkAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

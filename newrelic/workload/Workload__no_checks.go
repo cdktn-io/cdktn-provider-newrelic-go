@@ -59,6 +59,10 @@ func (w *jsiiProxy_Workload) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (w *jsiiProxy_Workload) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_Workload) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (w *jsiiProxy_Workload) validatePutStatusConfigAutomaticParameters(value *W
 }
 
 func (w *jsiiProxy_Workload) validatePutStatusConfigStaticParameters(value *WorkloadStatusConfigStatic) error {
+	return nil
+}
+
+func (w *jsiiProxy_Workload) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

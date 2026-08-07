@@ -59,6 +59,10 @@ func (o *jsiiProxy_OneDashboardJson) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardJson) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardJson) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OneDashboardJson) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (o *jsiiProxy_OneDashboardJson) validatePutTimeoutsParameters(value *OneDashboardJsonTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OneDashboardJson) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

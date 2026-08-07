@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudAzureIntegrations) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_CloudAzureIntegrations) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAzureIntegrations) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -204,6 +208,10 @@ func (c *jsiiProxy_CloudAzureIntegrations) validatePutVmsParameters(value *Cloud
 }
 
 func (c *jsiiProxy_CloudAzureIntegrations) validatePutVpnGatewayParameters(value *CloudAzureIntegrationsVpnGateway) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudAzureIntegrations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

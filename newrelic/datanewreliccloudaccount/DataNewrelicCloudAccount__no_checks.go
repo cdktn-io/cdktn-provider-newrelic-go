@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataNewrelicCloudAccount) validateOverrideLogicalIdParameters
 	return nil
 }
 
+func (d *jsiiProxy_DataNewrelicCloudAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataNewrelicCloudAccount_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (j *jsiiProxy_DataNewrelicCloudAccount) validateSetCountParameters(val inte
 }
 
 func (j *jsiiProxy_DataNewrelicCloudAccount) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataNewrelicCloudAccount) validateSetIsDimensionalMetricsParameters(val interface{}) error {
 	return nil
 }
 

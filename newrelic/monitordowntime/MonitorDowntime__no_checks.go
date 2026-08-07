@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitorDowntime) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (m *jsiiProxy_MonitorDowntime) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitorDowntime) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MonitorDowntime) validatePutEndRepeatParameters(value *Monito
 }
 
 func (m *jsiiProxy_MonitorDowntime) validatePutFrequencyParameters(value *MonitorDowntimeFrequency) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitorDowntime) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

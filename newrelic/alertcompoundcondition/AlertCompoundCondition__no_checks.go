@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlertCompoundCondition) validateInterpolationForAttributePara
 	return nil
 }
 
+func (a *jsiiProxy_AlertCompoundCondition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlertCompoundCondition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AlertCompoundCondition) validatePutComponentConditionsParamet
 }
 
 func (a *jsiiProxy_AlertCompoundCondition) validatePutTimeoutsParameters(value *AlertCompoundConditionTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlertCompoundCondition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

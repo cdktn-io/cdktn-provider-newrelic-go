@@ -59,6 +59,10 @@ func (s *jsiiProxy_SyntheticsMultilocationAlertCondition) validateInterpolationF
 	return nil
 }
 
+func (s *jsiiProxy_SyntheticsMultilocationAlertCondition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SyntheticsMultilocationAlertCondition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SyntheticsMultilocationAlertCondition) validatePutCriticalPar
 }
 
 func (s *jsiiProxy_SyntheticsMultilocationAlertCondition) validatePutWarningParameters(value *SyntheticsMultilocationAlertConditionWarning) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsMultilocationAlertCondition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

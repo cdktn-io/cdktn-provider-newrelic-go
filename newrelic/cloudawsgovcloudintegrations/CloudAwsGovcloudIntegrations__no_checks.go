@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrations) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_CloudAwsGovcloudIntegrations) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAwsGovcloudIntegrations) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -152,6 +156,10 @@ func (c *jsiiProxy_CloudAwsGovcloudIntegrations) validatePutSnsParameters(value 
 }
 
 func (c *jsiiProxy_CloudAwsGovcloudIntegrations) validatePutSqsParameters(value *CloudAwsGovcloudIntegrationsSqs) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudAwsGovcloudIntegrations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

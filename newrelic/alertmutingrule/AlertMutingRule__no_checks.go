@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlertMutingRule) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (a *jsiiProxy_AlertMutingRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlertMutingRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AlertMutingRule) validatePutConditionParameters(value *AlertM
 }
 
 func (a *jsiiProxy_AlertMutingRule) validatePutScheduleParameters(value *AlertMutingRuleSchedule) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlertMutingRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

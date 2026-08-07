@@ -59,6 +59,10 @@ func (b *jsiiProxy_BrowserApplication) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (b *jsiiProxy_BrowserApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BrowserApplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BrowserApplication) validateOverrideLogicalIdParameters(newLo
 }
 
 func (b *jsiiProxy_BrowserApplication) validatePutTimeoutsParameters(value *BrowserApplicationTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BrowserApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

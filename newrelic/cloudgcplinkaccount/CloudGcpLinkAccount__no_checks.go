@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudGcpLinkAccount) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CloudGcpLinkAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudGcpLinkAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudGcpLinkAccount) validateMoveToIdParameters(id *string) e
 }
 
 func (c *jsiiProxy_CloudGcpLinkAccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudGcpLinkAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -92,6 +100,10 @@ func validateCloudGcpLinkAccount_IsTerraformResourceParameters(x interface{}) er
 }
 
 func (j *jsiiProxy_CloudGcpLinkAccount) validateSetAccountIdParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudGcpLinkAccount) validateSetAudienceParameters(val *string) error {
 	return nil
 }
 
@@ -120,6 +132,14 @@ func (j *jsiiProxy_CloudGcpLinkAccount) validateSetProjectIdParameters(val *stri
 }
 
 func (j *jsiiProxy_CloudGcpLinkAccount) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudGcpLinkAccount) validateSetServiceAccountEmailParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudGcpLinkAccount) validateSetUseWorkloadIdentityFederationParameters(val interface{}) error {
 	return nil
 }
 

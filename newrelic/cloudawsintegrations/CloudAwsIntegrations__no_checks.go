@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudAwsIntegrations) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_CloudAwsIntegrations) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAwsIntegrations) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -288,6 +292,10 @@ func (c *jsiiProxy_CloudAwsIntegrations) validatePutVpcParameters(value *CloudAw
 }
 
 func (c *jsiiProxy_CloudAwsIntegrations) validatePutXRayParameters(value *CloudAwsIntegrationsXRay) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudAwsIntegrations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

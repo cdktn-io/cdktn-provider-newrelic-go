@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataPartitionRule) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (d *jsiiProxy_DataPartitionRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataPartitionRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataPartitionRule) validateOverrideLogicalIdParameters(newLog
 }
 
 func (d *jsiiProxy_DataPartitionRule) validatePutTimeoutsParameters(value *DataPartitionRuleTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataPartitionRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

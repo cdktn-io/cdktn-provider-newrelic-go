@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) validateInterpolationForAttribut
 	return nil
 }
 
+func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) validateMoveToIdParameters(id *s
 }
 
 func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudAwsGovcloudLinkAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

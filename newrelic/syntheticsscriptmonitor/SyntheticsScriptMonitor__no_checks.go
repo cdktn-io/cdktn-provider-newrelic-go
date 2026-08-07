@@ -59,6 +59,10 @@ func (s *jsiiProxy_SyntheticsScriptMonitor) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_SyntheticsScriptMonitor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SyntheticsScriptMonitor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SyntheticsScriptMonitor) validatePutLocationPrivateParameters
 }
 
 func (s *jsiiProxy_SyntheticsScriptMonitor) validatePutTagParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsScriptMonitor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

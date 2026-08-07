@@ -122,6 +122,14 @@ func (f *jsiiProxy_FederatedLogsPartition) validateInterpolationForAttributePara
 	return nil
 }
 
+func (f *jsiiProxy_FederatedLogsPartition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (f *jsiiProxy_FederatedLogsPartition) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -235,6 +243,14 @@ func (f *jsiiProxy_FederatedLogsPartition) validatePutStorageParameters(value *F
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (f *jsiiProxy_FederatedLogsPartition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

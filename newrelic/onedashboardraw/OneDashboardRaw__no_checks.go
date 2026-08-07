@@ -59,6 +59,10 @@ func (o *jsiiProxy_OneDashboardRaw) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (o *jsiiProxy_OneDashboardRaw) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OneDashboardRaw) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OneDashboardRaw) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (o *jsiiProxy_OneDashboardRaw) validatePutPageParameters(value interface{}) error {
+	return nil
+}
+
+func (o *jsiiProxy_OneDashboardRaw) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

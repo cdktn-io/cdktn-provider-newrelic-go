@@ -59,6 +59,10 @@ func (f *jsiiProxy_FederatedLogsPartition) validateInterpolationForAttributePara
 	return nil
 }
 
+func (f *jsiiProxy_FederatedLogsPartition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FederatedLogsPartition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (f *jsiiProxy_FederatedLogsPartition) validatePutForwarderConfigurationPara
 }
 
 func (f *jsiiProxy_FederatedLogsPartition) validatePutStorageParameters(value *FederatedLogsPartitionStorage) error {
+	return nil
+}
+
+func (f *jsiiProxy_FederatedLogsPartition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudAzureLinkAccount) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_CloudAzureLinkAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAzureLinkAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudAzureLinkAccount) validateMoveToIdParameters(id *string)
 }
 
 func (c *jsiiProxy_CloudAzureLinkAccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudAzureLinkAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

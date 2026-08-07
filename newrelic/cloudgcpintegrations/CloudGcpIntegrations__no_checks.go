@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudGcpIntegrations) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_CloudGcpIntegrations) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudGcpIntegrations) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -176,6 +180,10 @@ func (c *jsiiProxy_CloudGcpIntegrations) validatePutVirtualMachinesParameters(va
 }
 
 func (c *jsiiProxy_CloudGcpIntegrations) validatePutVpcAccessParameters(value *CloudGcpIntegrationsVpcAccess) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudGcpIntegrations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

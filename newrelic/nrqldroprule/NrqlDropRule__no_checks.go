@@ -59,6 +59,10 @@ func (n *jsiiProxy_NrqlDropRule) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (n *jsiiProxy_NrqlDropRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NrqlDropRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NrqlDropRule) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func (n *jsiiProxy_NrqlDropRule) validatePutTimeoutsParameters(value *NrqlDropRuleTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NrqlDropRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

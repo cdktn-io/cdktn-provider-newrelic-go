@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataNewrelicNotificationDestination) validatePutSecureUrlPara
 	return nil
 }
 
+func (d *jsiiProxy_DataNewrelicNotificationDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataNewrelicNotificationDestination_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
