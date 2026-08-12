@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.1/docs/resources/alert_compound_condition newrelic_alert_compound_condition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.2/docs/resources/alert_compound_condition newrelic_alert_compound_condition}.
 type AlertCompoundCondition interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -36,6 +36,9 @@ type AlertCompoundCondition interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	Description() *string
+	SetDescription(val *string)
+	DescriptionInput() *string
 	Enabled() interface{}
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
@@ -90,6 +93,9 @@ type AlertCompoundCondition interface {
 	ThresholdDurationInput() *float64
 	Timeouts() AlertCompoundConditionTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	TitleTemplate() *string
+	SetTitleTemplate(val *string)
+	TitleTemplateInput() *string
 	TriggerExpression() *string
 	SetTriggerExpression(val *string)
 	TriggerExpressionInput() *string
@@ -188,6 +194,7 @@ type AlertCompoundCondition interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccountId()
+	ResetDescription()
 	ResetFacetMatchingBehavior()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -196,6 +203,7 @@ type AlertCompoundCondition interface {
 	ResetRunbookUrl()
 	ResetThresholdDuration()
 	ResetTimeouts()
+	ResetTitleTemplate()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -308,6 +316,26 @@ func (j *jsiiProxy_AlertCompoundCondition) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AlertCompoundCondition) Description() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AlertCompoundCondition) DescriptionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"descriptionInput",
 		&returns,
 	)
 	return returns
@@ -593,6 +621,26 @@ func (j *jsiiProxy_AlertCompoundCondition) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_AlertCompoundCondition) TitleTemplate() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"titleTemplate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AlertCompoundCondition) TitleTemplateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"titleTemplateInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AlertCompoundCondition) TriggerExpression() *string {
 	var returns *string
 	_jsii_.Get(
@@ -614,7 +662,7 @@ func (j *jsiiProxy_AlertCompoundCondition) TriggerExpressionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.1/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.2/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
 func NewAlertCompoundCondition(scope constructs.Construct, id *string, config *AlertCompoundConditionConfig) AlertCompoundCondition {
 	_init_.Initialize()
 
@@ -632,7 +680,7 @@ func NewAlertCompoundCondition(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.1/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.2/docs/resources/alert_compound_condition newrelic_alert_compound_condition} Resource.
 func NewAlertCompoundCondition_Override(a AlertCompoundCondition, scope constructs.Construct, id *string, config *AlertCompoundConditionConfig) {
 	_init_.Initialize()
 
@@ -680,6 +728,17 @@ func (j *jsiiProxy_AlertCompoundCondition)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AlertCompoundCondition)SetDescription(val *string) {
+	if err := j.validateSetDescriptionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"description",
 		val,
 	)
 }
@@ -795,6 +854,17 @@ func (j *jsiiProxy_AlertCompoundCondition)SetThresholdDuration(val *float64) {
 	_jsii_.Set(
 		j,
 		"thresholdDuration",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AlertCompoundCondition)SetTitleTemplate(val *string) {
+	if err := j.validateSetTitleTemplateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"titleTemplate",
 		val,
 	)
 }
@@ -1220,6 +1290,14 @@ func (a *jsiiProxy_AlertCompoundCondition) ResetAccountId() {
 	)
 }
 
+func (a *jsiiProxy_AlertCompoundCondition) ResetDescription() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDescription",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_AlertCompoundCondition) ResetFacetMatchingBehavior() {
 	_jsii_.InvokeVoid(
 		a,
@@ -1264,6 +1342,14 @@ func (a *jsiiProxy_AlertCompoundCondition) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AlertCompoundCondition) ResetTitleTemplate() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetTitleTemplate",
 		nil, // no parameters
 	)
 }

@@ -403,6 +403,14 @@ func (j *jsiiProxy_AlertCompoundCondition) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_AlertCompoundCondition) validateSetDescriptionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_AlertCompoundCondition) validateSetEnabledParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -518,6 +526,14 @@ func (j *jsiiProxy_AlertCompoundCondition) validateSetRunbookUrlParameters(val *
 }
 
 func (j *jsiiProxy_AlertCompoundCondition) validateSetThresholdDurationParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AlertCompoundCondition) validateSetTitleTemplateParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

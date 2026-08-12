@@ -119,6 +119,10 @@ func (j *jsiiProxy_AlertCompoundCondition) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_AlertCompoundCondition) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AlertCompoundCondition) validateSetEnabledParameters(val interface{}) error {
 	return nil
 }
@@ -152,6 +156,10 @@ func (j *jsiiProxy_AlertCompoundCondition) validateSetRunbookUrlParameters(val *
 }
 
 func (j *jsiiProxy_AlertCompoundCondition) validateSetThresholdDurationParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AlertCompoundCondition) validateSetTitleTemplateParameters(val *string) error {
 	return nil
 }
 
