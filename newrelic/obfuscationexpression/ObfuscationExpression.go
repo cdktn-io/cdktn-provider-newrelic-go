@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.2/docs/resources/obfuscation_expression newrelic_obfuscation_expression}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.3/docs/resources/obfuscation_expression newrelic_obfuscation_expression}.
 type ObfuscationExpression interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -462,7 +462,7 @@ func (j *jsiiProxy_ObfuscationExpression) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.2/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.3/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
 func NewObfuscationExpression(scope constructs.Construct, id *string, config *ObfuscationExpressionConfig) ObfuscationExpression {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewObfuscationExpression(scope constructs.Construct, id *string, config *Ob
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.2/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.3/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
 func NewObfuscationExpression_Override(o ObfuscationExpression, scope constructs.Construct, id *string, config *ObfuscationExpressionConfig) {
 	_init_.Initialize()
 
