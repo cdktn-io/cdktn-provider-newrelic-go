@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.3/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.4/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations}.
 type CloudGcpDmIntegrations interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -1231,7 +1231,7 @@ func (j *jsiiProxy_CloudGcpDmIntegrations) VpcAccessInput() *CloudGcpDmIntegrati
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.3/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.4/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
 func NewCloudGcpDmIntegrations(scope constructs.Construct, id *string, config *CloudGcpDmIntegrationsConfig) CloudGcpDmIntegrations {
 	_init_.Initialize()
 
@@ -1249,7 +1249,7 @@ func NewCloudGcpDmIntegrations(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.3/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.96.4/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
 func NewCloudGcpDmIntegrations_Override(c CloudGcpDmIntegrations, scope constructs.Construct, id *string, config *CloudGcpDmIntegrationsConfig) {
 	_init_.Initialize()
 
