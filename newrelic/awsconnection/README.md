@@ -1,3 +1,3 @@
 # `newrelic_aws_connection`
 
-Refer to the Terraform Registry for docs: [`newrelic_aws_connection`](https://registry.terraform.io/providers/newrelic/newrelic/3.96.4/docs/resources/aws_connection).
+Refer to the Terraform Registry for docs: [`newrelic_aws_connection`](https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/aws_connection).
