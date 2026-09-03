@@ -24,23 +24,23 @@ type CloudGcpLinkAccountConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// name of the linked account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/cloud_gcp_link_account#name CloudGcpLinkAccount#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/cloud_gcp_link_account#name CloudGcpLinkAccount#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// project id of the Gcp account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/cloud_gcp_link_account#project_id CloudGcpLinkAccount#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/cloud_gcp_link_account#project_id CloudGcpLinkAccount#project_id}
 	ProjectId *string `field:"required" json:"projectId" yaml:"projectId"`
 	// accountID of newrelic account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/cloud_gcp_link_account#account_id CloudGcpLinkAccount#account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/cloud_gcp_link_account#account_id CloudGcpLinkAccount#account_id}
 	AccountId *float64 `field:"optional" json:"accountId" yaml:"accountId"`
 	// The Workload Identity Federation pool provider audience URI, used for GCP Dimensional Metrics (keyless) linking.
 	//
 	// Format: //iam.googleapis.com/projects/{PROJECT_NUMBER}/locations/global/workloadIdentityPools/{POOL_ID}/providers/{PROVIDER_ID}. Required when use_workload_identity_federation = true.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/cloud_gcp_link_account#audience CloudGcpLinkAccount#audience}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/cloud_gcp_link_account#audience CloudGcpLinkAccount#audience}
 	Audience *string `field:"optional" json:"audience" yaml:"audience"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/cloud_gcp_link_account#id CloudGcpLinkAccount#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/cloud_gcp_link_account#id CloudGcpLinkAccount#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,13 +49,13 @@ type CloudGcpLinkAccountConfig struct {
 	//
 	// The service account must grant the WIF pool the roles/iam.workloadIdentityUser binding. Required when use_workload_identity_federation = true.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/cloud_gcp_link_account#service_account_email CloudGcpLinkAccount#service_account_email}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/cloud_gcp_link_account#service_account_email CloudGcpLinkAccount#service_account_email}
 	ServiceAccountEmail *string `field:"optional" json:"serviceAccountEmail" yaml:"serviceAccountEmail"`
 	// Set to true to link this GCP account for New Relic GCP Dimensional Metrics (v2) using keyless Workload Identity Federation (WIF).
 	//
 	// When true, audience and service_account_email are required. When false (the default), the account is linked using the legacy service-account-key flow.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/cloud_gcp_link_account#use_workload_identity_federation CloudGcpLinkAccount#use_workload_identity_federation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/cloud_gcp_link_account#use_workload_identity_federation CloudGcpLinkAccount#use_workload_identity_federation}
 	UseWorkloadIdentityFederation interface{} `field:"optional" json:"useWorkloadIdentityFederation" yaml:"useWorkloadIdentityFederation"`
 }
 

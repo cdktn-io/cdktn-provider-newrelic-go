@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/one_dashboard newrelic_one_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/one_dashboard newrelic_one_dashboard}.
 type OneDashboard interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -532,7 +532,7 @@ func (j *jsiiProxy_OneDashboard) VariableInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/one_dashboard newrelic_one_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/one_dashboard newrelic_one_dashboard} Resource.
 func NewOneDashboard(scope constructs.Construct, id *string, config *OneDashboardConfig) OneDashboard {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewOneDashboard(scope constructs.Construct, id *string, config *OneDashboar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.0/docs/resources/one_dashboard newrelic_one_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/one_dashboard newrelic_one_dashboard} Resource.
 func NewOneDashboard_Override(o OneDashboard, scope constructs.Construct, id *string, config *OneDashboardConfig) {
 	_init_.Initialize()
 
