@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/fleet_members newrelic_fleet_members}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.3/docs/resources/fleet_members newrelic_fleet_members}.
 type FleetMembers interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_FleetMembers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/fleet_members newrelic_fleet_members} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.3/docs/resources/fleet_members newrelic_fleet_members} Resource.
 func NewFleetMembers(scope constructs.Construct, id *string, config *FleetMembersConfig) FleetMembers {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewFleetMembers(scope constructs.Construct, id *string, config *FleetMember
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/fleet_members newrelic_fleet_members} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.3/docs/resources/fleet_members newrelic_fleet_members} Resource.
 func NewFleetMembers_Override(f FleetMembers, scope constructs.Construct, id *string, config *FleetMembersConfig) {
 	_init_.Initialize()
 

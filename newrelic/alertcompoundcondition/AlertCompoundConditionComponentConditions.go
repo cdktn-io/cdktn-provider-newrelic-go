@@ -7,13 +7,13 @@ package alertcompoundcondition
 type AlertCompoundConditionComponentConditions struct {
 	// The identifier that will be used in the compound alert condition's trigger_expression (e.g., 'A', 'B', 'C').
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/alert_compound_condition#alias AlertCompoundCondition#alias}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.3/docs/resources/alert_compound_condition#alias AlertCompoundCondition#alias}
 	Alias *string `field:"required" json:"alias" yaml:"alias"`
 	// The ID of the existing alert condition to use as a component.
 	//
 	// Composite IDs in the format `<policyID>:<conditionID>` (as exposed by `newrelic_nrql_alert_condition.<name>.id`) are accepted and reduced to the condition ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.2/docs/resources/alert_compound_condition#id AlertCompoundCondition#id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.3/docs/resources/alert_compound_condition#id AlertCompoundCondition#id}
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
