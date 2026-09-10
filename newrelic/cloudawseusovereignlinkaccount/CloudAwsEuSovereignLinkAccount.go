@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.3/docs/resources/cloud_aws_eu_sovereign_link_account newrelic_cloud_aws_eu_sovereign_link_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.5/docs/resources/cloud_aws_eu_sovereign_link_account newrelic_cloud_aws_eu_sovereign_link_account}.
 type CloudAwsEuSovereignLinkAccount interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -462,7 +462,7 @@ func (j *jsiiProxy_CloudAwsEuSovereignLinkAccount) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.3/docs/resources/cloud_aws_eu_sovereign_link_account newrelic_cloud_aws_eu_sovereign_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.5/docs/resources/cloud_aws_eu_sovereign_link_account newrelic_cloud_aws_eu_sovereign_link_account} Resource.
 func NewCloudAwsEuSovereignLinkAccount(scope constructs.Construct, id *string, config *CloudAwsEuSovereignLinkAccountConfig) CloudAwsEuSovereignLinkAccount {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewCloudAwsEuSovereignLinkAccount(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.3/docs/resources/cloud_aws_eu_sovereign_link_account newrelic_cloud_aws_eu_sovereign_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.97.5/docs/resources/cloud_aws_eu_sovereign_link_account newrelic_cloud_aws_eu_sovereign_link_account} Resource.
 func NewCloudAwsEuSovereignLinkAccount_Override(c CloudAwsEuSovereignLinkAccount, scope constructs.Construct, id *string, config *CloudAwsEuSovereignLinkAccountConfig) {
 	_init_.Initialize()
 
