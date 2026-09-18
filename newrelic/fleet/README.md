@@ -1,3 +1,3 @@
 # `newrelic_fleet`
 
-Refer to the Terraform Registry for docs: [`newrelic_fleet`](https://registry.terraform.io/providers/newrelic/newrelic/3.97.5/docs/resources/fleet).
+Refer to the Terraform Registry for docs: [`newrelic_fleet`](https://registry.terraform.io/providers/newrelic/newrelic/3.97.6/docs/resources/fleet).
