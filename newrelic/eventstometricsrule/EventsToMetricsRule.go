@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.98.0/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule}.
 type EventsToMetricsRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -497,7 +497,7 @@ func (j *jsiiProxy_EventsToMetricsRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.98.0/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule} Resource.
 func NewEventsToMetricsRule(scope constructs.Construct, id *string, config *EventsToMetricsRuleConfig) EventsToMetricsRule {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewEventsToMetricsRule(scope constructs.Construct, id *string, config *Even
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.98.0/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule} Resource.
 func NewEventsToMetricsRule_Override(e EventsToMetricsRule, scope constructs.Construct, id *string, config *EventsToMetricsRuleConfig) {
 	_init_.Initialize()
 

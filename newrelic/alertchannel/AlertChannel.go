@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.98.0/docs/resources/alert_channel newrelic_alert_channel}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/alert_channel newrelic_alert_channel}.
 type AlertChannel interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -462,7 +462,7 @@ func (j *jsiiProxy_AlertChannel) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.98.0/docs/resources/alert_channel newrelic_alert_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/alert_channel newrelic_alert_channel} Resource.
 func NewAlertChannel(scope constructs.Construct, id *string, config *AlertChannelConfig) AlertChannel {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewAlertChannel(scope constructs.Construct, id *string, config *AlertChanne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.98.0/docs/resources/alert_channel newrelic_alert_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/alert_channel newrelic_alert_channel} Resource.
 func NewAlertChannel_Override(a AlertChannel, scope constructs.Construct, id *string, config *AlertChannelConfig) {
 	_init_.Initialize()
 
