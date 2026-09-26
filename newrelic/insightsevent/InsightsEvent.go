@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/insights_event newrelic_insights_event}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/insights_event newrelic_insights_event}.
 type InsightsEvent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_InsightsEvent) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/insights_event newrelic_insights_event} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/insights_event newrelic_insights_event} Resource.
 func NewInsightsEvent(scope constructs.Construct, id *string, config *InsightsEventConfig) InsightsEvent {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewInsightsEvent(scope constructs.Construct, id *string, config *InsightsEv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/insights_event newrelic_insights_event} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/insights_event newrelic_insights_event} Resource.
 func NewInsightsEvent_Override(i InsightsEvent, scope constructs.Construct, id *string, config *InsightsEventConfig) {
 	_init_.Initialize()
 

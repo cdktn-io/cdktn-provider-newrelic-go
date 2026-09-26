@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/pathpoint_flow newrelic_pathpoint_flow}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/pathpoint_flow newrelic_pathpoint_flow}.
 type PathpointFlow interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -581,7 +581,7 @@ func (j *jsiiProxy_PathpointFlow) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/pathpoint_flow newrelic_pathpoint_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/pathpoint_flow newrelic_pathpoint_flow} Resource.
 func NewPathpointFlow(scope constructs.Construct, id *string, config *PathpointFlowConfig) PathpointFlow {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewPathpointFlow(scope constructs.Construct, id *string, config *PathpointF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.1/docs/resources/pathpoint_flow newrelic_pathpoint_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/pathpoint_flow newrelic_pathpoint_flow} Resource.
 func NewPathpointFlow_Override(p PathpointFlow, scope constructs.Construct, id *string, config *PathpointFlowConfig) {
 	_init_.Initialize()
 
