@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.3/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations}.
 type CloudGcpDmIntegrations interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -54,6 +54,8 @@ type CloudGcpDmIntegrations interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	EdgeContainer() CloudGcpDmIntegrationsEdgeContainerOutputReference
+	EdgeContainerInput() *CloudGcpDmIntegrationsEdgeContainer
 	FirebaseAppHosting() CloudGcpDmIntegrationsFirebaseAppHostingOutputReference
 	FirebaseAppHostingInput() *CloudGcpDmIntegrationsFirebaseAppHosting
 	FirebaseAuth() CloudGcpDmIntegrationsFirebaseAuthOutputReference
@@ -227,6 +229,7 @@ type CloudGcpDmIntegrations interface {
 	PutDataFlow(value *CloudGcpDmIntegrationsDataFlow)
 	PutDataProc(value *CloudGcpDmIntegrationsDataProc)
 	PutDataStore(value *CloudGcpDmIntegrationsDataStore)
+	PutEdgeContainer(value *CloudGcpDmIntegrationsEdgeContainer)
 	PutFirebaseAppHosting(value *CloudGcpDmIntegrationsFirebaseAppHosting)
 	PutFirebaseAuth(value *CloudGcpDmIntegrationsFirebaseAuth)
 	PutFirebaseDatabase(value *CloudGcpDmIntegrationsFirebaseDatabase)
@@ -275,6 +278,7 @@ type CloudGcpDmIntegrations interface {
 	ResetDataFlow()
 	ResetDataProc()
 	ResetDataStore()
+	ResetEdgeContainer()
 	ResetFirebaseAppHosting()
 	ResetFirebaseAuth()
 	ResetFirebaseDatabase()
@@ -595,6 +599,26 @@ func (j *jsiiProxy_CloudGcpDmIntegrations) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudGcpDmIntegrations) EdgeContainer() CloudGcpDmIntegrationsEdgeContainerOutputReference {
+	var returns CloudGcpDmIntegrationsEdgeContainerOutputReference
+	_jsii_.Get(
+		j,
+		"edgeContainer",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudGcpDmIntegrations) EdgeContainerInput() *CloudGcpDmIntegrationsEdgeContainer {
+	var returns *CloudGcpDmIntegrationsEdgeContainer
+	_jsii_.Get(
+		j,
+		"edgeContainerInput",
 		&returns,
 	)
 	return returns
@@ -1231,7 +1255,7 @@ func (j *jsiiProxy_CloudGcpDmIntegrations) VpcAccessInput() *CloudGcpDmIntegrati
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.3/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
 func NewCloudGcpDmIntegrations(scope constructs.Construct, id *string, config *CloudGcpDmIntegrationsConfig) CloudGcpDmIntegrations {
 	_init_.Initialize()
 
@@ -1249,7 +1273,7 @@ func NewCloudGcpDmIntegrations(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.3/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
 func NewCloudGcpDmIntegrations_Override(c CloudGcpDmIntegrations, scope constructs.Construct, id *string, config *CloudGcpDmIntegrationsConfig) {
 	_init_.Initialize()
 
@@ -1840,6 +1864,17 @@ func (c *jsiiProxy_CloudGcpDmIntegrations) PutDataStore(value *CloudGcpDmIntegra
 	)
 }
 
+func (c *jsiiProxy_CloudGcpDmIntegrations) PutEdgeContainer(value *CloudGcpDmIntegrationsEdgeContainer) {
+	if err := c.validatePutEdgeContainerParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putEdgeContainer",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudGcpDmIntegrations) PutFirebaseAppHosting(value *CloudGcpDmIntegrationsFirebaseAppHosting) {
 	if err := c.validatePutFirebaseAppHostingParameters(value); err != nil {
 		panic(err)
@@ -2199,6 +2234,14 @@ func (c *jsiiProxy_CloudGcpDmIntegrations) ResetDataStore() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDataStore",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudGcpDmIntegrations) ResetEdgeContainer() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEdgeContainer",
 		nil, // no parameters
 	)
 }

@@ -43,6 +43,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dataStore", GoGetter: "DataStore"},
 			_jsii_.MemberProperty{JsiiProperty: "dataStoreInput", GoGetter: "DataStoreInput"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "edgeContainer", GoGetter: "EdgeContainer"},
+			_jsii_.MemberProperty{JsiiProperty: "edgeContainerInput", GoGetter: "EdgeContainerInput"},
 			_jsii_.MemberProperty{JsiiProperty: "firebaseAppHosting", GoGetter: "FirebaseAppHosting"},
 			_jsii_.MemberProperty{JsiiProperty: "firebaseAppHostingInput", GoGetter: "FirebaseAppHostingInput"},
 			_jsii_.MemberProperty{JsiiProperty: "firebaseAuth", GoGetter: "FirebaseAuth"},
@@ -113,6 +115,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putDataFlow", GoMethod: "PutDataFlow"},
 			_jsii_.MemberMethod{JsiiMethod: "putDataProc", GoMethod: "PutDataProc"},
 			_jsii_.MemberMethod{JsiiMethod: "putDataStore", GoMethod: "PutDataStore"},
+			_jsii_.MemberMethod{JsiiMethod: "putEdgeContainer", GoMethod: "PutEdgeContainer"},
 			_jsii_.MemberMethod{JsiiMethod: "putFirebaseAppHosting", GoMethod: "PutFirebaseAppHosting"},
 			_jsii_.MemberMethod{JsiiMethod: "putFirebaseAuth", GoMethod: "PutFirebaseAuth"},
 			_jsii_.MemberMethod{JsiiMethod: "putFirebaseDatabase", GoMethod: "PutFirebaseDatabase"},
@@ -152,6 +155,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDataFlow", GoMethod: "ResetDataFlow"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDataProc", GoMethod: "ResetDataProc"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDataStore", GoMethod: "ResetDataStore"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEdgeContainer", GoMethod: "ResetEdgeContainer"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFirebaseAppHosting", GoMethod: "ResetFirebaseAppHosting"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFirebaseAuth", GoMethod: "ResetFirebaseAuth"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFirebaseDatabase", GoMethod: "ResetFirebaseDatabase"},
@@ -599,6 +603,45 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudGcpDmIntegrationsDataStoreOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-newrelic.cloudGcpDmIntegrations.CloudGcpDmIntegrationsEdgeContainer",
+		reflect.TypeOf((*CloudGcpDmIntegrationsEdgeContainer)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-newrelic.cloudGcpDmIntegrations.CloudGcpDmIntegrationsEdgeContainerOutputReference",
+		reflect.TypeOf((*CloudGcpDmIntegrationsEdgeContainerOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "metricsPollingInterval", GoGetter: "MetricsPollingInterval"},
+			_jsii_.MemberProperty{JsiiProperty: "metricsPollingIntervalInput", GoGetter: "MetricsPollingIntervalInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMetricsPollingInterval", GoMethod: "ResetMetricsPollingInterval"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudGcpDmIntegrationsEdgeContainerOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

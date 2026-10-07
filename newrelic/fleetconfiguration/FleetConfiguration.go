@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/fleet_configuration newrelic_fleet_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.3/docs/resources/fleet_configuration newrelic_fleet_configuration}.
 type FleetConfiguration interface {
 	cdktn.TerraformResource
 	AgentType() *string
@@ -24,6 +24,9 @@ type FleetConfiguration interface {
 	SetConfigurationContent(val *string)
 	ConfigurationContentInput() *string
 	ConfigurationId() *string
+	ConfigurationType() *string
+	SetConfigurationType(val *string)
+	ConfigurationTypeInput() *string
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -51,6 +54,9 @@ type FleetConfiguration interface {
 	IdInput() *string
 	LatestVersionEntityId() *string
 	LatestVersionNumber() *float64
+	LegacyConfig() interface{}
+	SetLegacyConfig(val interface{})
+	LegacyConfigInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -179,7 +185,9 @@ type FleetConfiguration interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetConfigurationType()
 	ResetId()
+	ResetLegacyConfig()
 	ResetOperatingSystem()
 	ResetOrganizationId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -267,6 +275,26 @@ func (j *jsiiProxy_FleetConfiguration) ConfigurationId() *string {
 	_jsii_.Get(
 		j,
 		"configurationId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FleetConfiguration) ConfigurationType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"configurationType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FleetConfiguration) ConfigurationTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"configurationTypeInput",
 		&returns,
 	)
 	return returns
@@ -377,6 +405,26 @@ func (j *jsiiProxy_FleetConfiguration) LatestVersionNumber() *float64 {
 	_jsii_.Get(
 		j,
 		"latestVersionNumber",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FleetConfiguration) LegacyConfig() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"legacyConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FleetConfiguration) LegacyConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"legacyConfigInput",
 		&returns,
 	)
 	return returns
@@ -563,7 +611,7 @@ func (j *jsiiProxy_FleetConfiguration) VersionEntityIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.3/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
 func NewFleetConfiguration(scope constructs.Construct, id *string, config *FleetConfigurationConfig) FleetConfiguration {
 	_init_.Initialize()
 
@@ -581,7 +629,7 @@ func NewFleetConfiguration(scope constructs.Construct, id *string, config *Fleet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.99.3/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.3/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
 func NewFleetConfiguration_Override(f FleetConfiguration, scope constructs.Construct, id *string, config *FleetConfigurationConfig) {
 	_init_.Initialize()
 
@@ -610,6 +658,17 @@ func (j *jsiiProxy_FleetConfiguration)SetConfigurationContent(val *string) {
 	_jsii_.Set(
 		j,
 		"configurationContent",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FleetConfiguration)SetConfigurationType(val *string) {
+	if err := j.validateSetConfigurationTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"configurationType",
 		val,
 	)
 }
@@ -659,6 +718,17 @@ func (j *jsiiProxy_FleetConfiguration)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FleetConfiguration)SetLegacyConfig(val interface{}) {
+	if err := j.validateSetLegacyConfigParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"legacyConfig",
 		val,
 	)
 }
@@ -1117,10 +1187,26 @@ func (f *jsiiProxy_FleetConfiguration) RegisterProviderFeatureUsage(feature cdkt
 	)
 }
 
+func (f *jsiiProxy_FleetConfiguration) ResetConfigurationType() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetConfigurationType",
+		nil, // no parameters
+	)
+}
+
 func (f *jsiiProxy_FleetConfiguration) ResetId() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FleetConfiguration) ResetLegacyConfig() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetLegacyConfig",
 		nil, // no parameters
 	)
 }

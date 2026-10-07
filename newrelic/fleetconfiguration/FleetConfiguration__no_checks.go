@@ -107,6 +107,10 @@ func (j *jsiiProxy_FleetConfiguration) validateSetConfigurationContentParameters
 	return nil
 }
 
+func (j *jsiiProxy_FleetConfiguration) validateSetConfigurationTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FleetConfiguration) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (j *jsiiProxy_FleetConfiguration) validateSetCountParameters(val interface{
 }
 
 func (j *jsiiProxy_FleetConfiguration) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_FleetConfiguration) validateSetLegacyConfigParameters(val interface{}) error {
 	return nil
 }
 

@@ -119,6 +119,10 @@ func (c *jsiiProxy_CloudGcpDmIntegrations) validatePutDataStoreParameters(value 
 	return nil
 }
 
+func (c *jsiiProxy_CloudGcpDmIntegrations) validatePutEdgeContainerParameters(value *CloudGcpDmIntegrationsEdgeContainer) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudGcpDmIntegrations) validatePutFirebaseAppHostingParameters(value *CloudGcpDmIntegrationsFirebaseAppHosting) error {
 	return nil
 }
