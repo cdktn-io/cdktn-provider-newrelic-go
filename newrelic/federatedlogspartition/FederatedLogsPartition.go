@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.4/docs/resources/federated_logs_partition newrelic_federated_logs_partition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.5/docs/resources/federated_logs_partition newrelic_federated_logs_partition}.
 type FederatedLogsPartition interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -40,6 +40,7 @@ type FederatedLogsPartition interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DerivedLifecycleState() *string
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
@@ -341,6 +342,16 @@ func (j *jsiiProxy_FederatedLogsPartition) DependsOn() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_FederatedLogsPartition) DerivedLifecycleState() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"derivedLifecycleState",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_FederatedLogsPartition) Description() *string {
 	var returns *string
 	_jsii_.Get(
@@ -612,7 +623,7 @@ func (j *jsiiProxy_FederatedLogsPartition) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.4/docs/resources/federated_logs_partition newrelic_federated_logs_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.5/docs/resources/federated_logs_partition newrelic_federated_logs_partition} Resource.
 func NewFederatedLogsPartition(scope constructs.Construct, id *string, config *FederatedLogsPartitionConfig) FederatedLogsPartition {
 	_init_.Initialize()
 
@@ -630,7 +641,7 @@ func NewFederatedLogsPartition(scope constructs.Construct, id *string, config *F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.4/docs/resources/federated_logs_partition newrelic_federated_logs_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.5/docs/resources/federated_logs_partition newrelic_federated_logs_partition} Resource.
 func NewFederatedLogsPartition_Override(f FederatedLogsPartition, scope constructs.Construct, id *string, config *FederatedLogsPartitionConfig) {
 	_init_.Initialize()
 

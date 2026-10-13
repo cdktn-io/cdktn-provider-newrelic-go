@@ -1,3 +1,3 @@
 # `newrelic_pathpoint_flow`
 
-Refer to the Terraform Registry for docs: [`newrelic_pathpoint_flow`](https://registry.terraform.io/providers/newrelic/newrelic/3.100.4/docs/resources/pathpoint_flow).
+Refer to the Terraform Registry for docs: [`newrelic_pathpoint_flow`](https://registry.terraform.io/providers/newrelic/newrelic/3.100.5/docs/resources/pathpoint_flow).

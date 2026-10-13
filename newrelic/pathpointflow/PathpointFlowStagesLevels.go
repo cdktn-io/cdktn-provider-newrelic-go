@@ -7,7 +7,7 @@ package pathpointflow
 type PathpointFlowStagesLevels struct {
 	// steps block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.4/docs/resources/pathpoint_flow#steps PathpointFlow#steps}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.5/docs/resources/pathpoint_flow#steps PathpointFlow#steps}
 	Steps interface{} `field:"optional" json:"steps" yaml:"steps"`
 }
 
