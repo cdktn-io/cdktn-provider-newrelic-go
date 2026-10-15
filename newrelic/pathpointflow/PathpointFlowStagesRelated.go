@@ -7,11 +7,11 @@ package pathpointflow
 type PathpointFlowStagesRelated struct {
 	// When true, this stage acts as a source to other stages.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.5/docs/resources/pathpoint_flow#source PathpointFlow#source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.0/docs/resources/pathpoint_flow#source PathpointFlow#source}
 	Source interface{} `field:"optional" json:"source" yaml:"source"`
 	// When true, this stage acts as a target to other stages.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.100.5/docs/resources/pathpoint_flow#target PathpointFlow#target}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.0/docs/resources/pathpoint_flow#target PathpointFlow#target}
 	Target interface{} `field:"optional" json:"target" yaml:"target"`
 }
 

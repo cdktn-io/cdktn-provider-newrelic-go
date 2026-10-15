@@ -1,0 +1,169 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package team
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_Team) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validatePutResourcesParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validatePutTimeoutsParameters(value *TeamTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_Team) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateTeam_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateTeam_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateTeam_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateTeam_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetAliasesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetEntitiesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetEntityManagementModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetManagersParameters(val *[]*float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetMembersParameters(val *[]*float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetParentIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func validateNewTeamParameters(scope constructs.Construct, id *string, config *TeamConfig) error {
+	return nil
+}
+

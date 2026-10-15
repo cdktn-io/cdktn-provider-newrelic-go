@@ -1,3 +1,3 @@
 # `newrelic_notebook`
 
-Refer to the Terraform Registry for docs: [`newrelic_notebook`](https://registry.terraform.io/providers/newrelic/newrelic/3.100.5/docs/resources/notebook).
+Refer to the Terraform Registry for docs: [`newrelic_notebook`](https://registry.terraform.io/providers/newrelic/newrelic/3.101.0/docs/resources/notebook).
