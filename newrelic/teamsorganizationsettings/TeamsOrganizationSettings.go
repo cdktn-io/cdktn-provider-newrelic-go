@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.0/docs/resources/teams_organization_settings newrelic_teams_organization_settings}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/teams_organization_settings newrelic_teams_organization_settings}.
 type TeamsOrganizationSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -488,7 +488,7 @@ func (j *jsiiProxy_TeamsOrganizationSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.0/docs/resources/teams_organization_settings newrelic_teams_organization_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/teams_organization_settings newrelic_teams_organization_settings} Resource.
 func NewTeamsOrganizationSettings(scope constructs.Construct, id *string, config *TeamsOrganizationSettingsConfig) TeamsOrganizationSettings {
 	_init_.Initialize()
 
@@ -506,7 +506,7 @@ func NewTeamsOrganizationSettings(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.0/docs/resources/teams_organization_settings newrelic_teams_organization_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/teams_organization_settings newrelic_teams_organization_settings} Resource.
 func NewTeamsOrganizationSettings_Override(t TeamsOrganizationSettings, scope constructs.Construct, id *string, config *TeamsOrganizationSettingsConfig) {
 	_init_.Initialize()
 

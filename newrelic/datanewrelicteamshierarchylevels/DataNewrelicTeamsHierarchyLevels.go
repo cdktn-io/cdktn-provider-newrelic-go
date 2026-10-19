@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.0/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels}.
 type DataNewrelicTeamsHierarchyLevels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataNewrelicTeamsHierarchyLevels) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.0/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels} Data Source.
 func NewDataNewrelicTeamsHierarchyLevels(scope constructs.Construct, id *string, config *DataNewrelicTeamsHierarchyLevelsConfig) DataNewrelicTeamsHierarchyLevels {
 	_init_.Initialize()
 
@@ -316,7 +316,7 @@ func NewDataNewrelicTeamsHierarchyLevels(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.0/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels} Data Source.
 func NewDataNewrelicTeamsHierarchyLevels_Override(d DataNewrelicTeamsHierarchyLevels, scope constructs.Construct, id *string, config *DataNewrelicTeamsHierarchyLevelsConfig) {
 	_init_.Initialize()
 
