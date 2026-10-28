@@ -5,14 +5,14 @@ package datanewrelicapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/application newrelic_application}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/application newrelic_application}.
 type DataNewrelicApplication interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataNewrelicApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/application newrelic_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/application newrelic_application} Data Source.
 func NewDataNewrelicApplication(scope constructs.Construct, id *string, config *DataNewrelicApplicationConfig) DataNewrelicApplication {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataNewrelicApplication(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/application newrelic_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/application newrelic_application} Data Source.
 func NewDataNewrelicApplication_Override(d DataNewrelicApplication, scope constructs.Construct, id *string, config *DataNewrelicApplicationConfig) {
 	_init_.Initialize()
 

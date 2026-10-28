@@ -7,11 +7,11 @@ package scorecard
 type ScorecardTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/scorecard#key Scorecard#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/scorecard#key Scorecard#key}
 	Key *string `field:"required" json:"key" yaml:"key"`
 	// The tag values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/scorecard#values Scorecard#values}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/scorecard#values Scorecard#values}
 	Values *[]*string `field:"required" json:"values" yaml:"values"`
 }
 

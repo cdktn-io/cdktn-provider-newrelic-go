@@ -5,14 +5,14 @@ package workflowautomation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/workflowautomation/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/workflowautomation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/workflow_automation newrelic_workflow_automation}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/workflow_automation newrelic_workflow_automation}.
 type WorkflowAutomation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -504,7 +504,7 @@ func (j *jsiiProxy_WorkflowAutomation) Yaml() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/workflow_automation newrelic_workflow_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/workflow_automation newrelic_workflow_automation} Resource.
 func NewWorkflowAutomation(scope constructs.Construct, id *string, config *WorkflowAutomationConfig) WorkflowAutomation {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewWorkflowAutomation(scope constructs.Construct, id *string, config *Workf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/workflow_automation newrelic_workflow_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/workflow_automation newrelic_workflow_automation} Resource.
 func NewWorkflowAutomation_Override(w WorkflowAutomation, scope constructs.Construct, id *string, config *WorkflowAutomationConfig) {
 	_init_.Initialize()
 

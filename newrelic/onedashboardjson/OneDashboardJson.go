@@ -5,14 +5,14 @@ package onedashboardjson
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/onedashboardjson/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/onedashboardjson/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/one_dashboard_json newrelic_one_dashboard_json}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/one_dashboard_json newrelic_one_dashboard_json}.
 type OneDashboardJson interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -472,7 +472,7 @@ func (j *jsiiProxy_OneDashboardJson) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/one_dashboard_json newrelic_one_dashboard_json} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/one_dashboard_json newrelic_one_dashboard_json} Resource.
 func NewOneDashboardJson(scope constructs.Construct, id *string, config *OneDashboardJsonConfig) OneDashboardJson {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewOneDashboardJson(scope constructs.Construct, id *string, config *OneDash
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/one_dashboard_json newrelic_one_dashboard_json} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/one_dashboard_json newrelic_one_dashboard_json} Resource.
 func NewOneDashboardJson_Override(o OneDashboardJson, scope constructs.Construct, id *string, config *OneDashboardJsonConfig) {
 	_init_.Initialize()
 

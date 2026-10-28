@@ -5,14 +5,14 @@ package datanewrelicfleetconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicfleetconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicfleetconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/fleet_configuration newrelic_fleet_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/fleet_configuration newrelic_fleet_configuration}.
 type DataNewrelicFleetConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_DataNewrelicFleetConfiguration) VersionEntityIds() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/fleet_configuration newrelic_fleet_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/fleet_configuration newrelic_fleet_configuration} Data Source.
 func NewDataNewrelicFleetConfiguration(scope constructs.Construct, id *string, config *DataNewrelicFleetConfigurationConfig) DataNewrelicFleetConfiguration {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataNewrelicFleetConfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/fleet_configuration newrelic_fleet_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/fleet_configuration newrelic_fleet_configuration} Data Source.
 func NewDataNewrelicFleetConfiguration_Override(d DataNewrelicFleetConfiguration, scope constructs.Construct, id *string, config *DataNewrelicFleetConfigurationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datanewrelicfleetmembers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicfleetmembers/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicfleetmembers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/fleet_members newrelic_fleet_members}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/fleet_members newrelic_fleet_members}.
 type DataNewrelicFleetMembers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataNewrelicFleetMembers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/fleet_members newrelic_fleet_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/fleet_members newrelic_fleet_members} Data Source.
 func NewDataNewrelicFleetMembers(scope constructs.Construct, id *string, config *DataNewrelicFleetMembersConfig) DataNewrelicFleetMembers {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataNewrelicFleetMembers(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/fleet_members newrelic_fleet_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/fleet_members newrelic_fleet_members} Data Source.
 func NewDataNewrelicFleetMembers_Override(d DataNewrelicFleetMembers, scope constructs.Construct, id *string, config *DataNewrelicFleetMembersConfig) {
 	_init_.Initialize()
 

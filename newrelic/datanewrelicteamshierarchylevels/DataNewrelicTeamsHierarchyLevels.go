@@ -5,14 +5,14 @@ package datanewrelicteamshierarchylevels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicteamshierarchylevels/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicteamshierarchylevels/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels}.
 type DataNewrelicTeamsHierarchyLevels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataNewrelicTeamsHierarchyLevels) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels} Data Source.
 func NewDataNewrelicTeamsHierarchyLevels(scope constructs.Construct, id *string, config *DataNewrelicTeamsHierarchyLevelsConfig) DataNewrelicTeamsHierarchyLevels {
 	_init_.Initialize()
 
@@ -316,7 +316,7 @@ func NewDataNewrelicTeamsHierarchyLevels(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/teams_hierarchy_levels newrelic_teams_hierarchy_levels} Data Source.
 func NewDataNewrelicTeamsHierarchyLevels_Override(d DataNewrelicTeamsHierarchyLevels, scope constructs.Construct, id *string, config *DataNewrelicTeamsHierarchyLevelsConfig) {
 	_init_.Initialize()
 

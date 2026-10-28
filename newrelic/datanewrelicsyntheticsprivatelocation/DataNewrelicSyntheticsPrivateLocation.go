@@ -5,14 +5,14 @@ package datanewrelicsyntheticsprivatelocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicsyntheticsprivatelocation/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicsyntheticsprivatelocation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/synthetics_private_location newrelic_synthetics_private_location}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/synthetics_private_location newrelic_synthetics_private_location}.
 type DataNewrelicSyntheticsPrivateLocation interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -358,7 +358,7 @@ func (j *jsiiProxy_DataNewrelicSyntheticsPrivateLocation) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/synthetics_private_location newrelic_synthetics_private_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/synthetics_private_location newrelic_synthetics_private_location} Data Source.
 func NewDataNewrelicSyntheticsPrivateLocation(scope constructs.Construct, id *string, config *DataNewrelicSyntheticsPrivateLocationConfig) DataNewrelicSyntheticsPrivateLocation {
 	_init_.Initialize()
 
@@ -376,7 +376,7 @@ func NewDataNewrelicSyntheticsPrivateLocation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/synthetics_private_location newrelic_synthetics_private_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/synthetics_private_location newrelic_synthetics_private_location} Data Source.
 func NewDataNewrelicSyntheticsPrivateLocation_Override(d DataNewrelicSyntheticsPrivateLocation, scope constructs.Construct, id *string, config *DataNewrelicSyntheticsPrivateLocationConfig) {
 	_init_.Initialize()
 

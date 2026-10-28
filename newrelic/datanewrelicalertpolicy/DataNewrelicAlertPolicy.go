@@ -5,14 +5,14 @@ package datanewrelicalertpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicalertpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicalertpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/alert_policy newrelic_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/alert_policy newrelic_alert_policy}.
 type DataNewrelicAlertPolicy interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataNewrelicAlertPolicy) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/alert_policy newrelic_alert_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/alert_policy newrelic_alert_policy} Data Source.
 func NewDataNewrelicAlertPolicy(scope constructs.Construct, id *string, config *DataNewrelicAlertPolicyConfig) DataNewrelicAlertPolicy {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewDataNewrelicAlertPolicy(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/alert_policy newrelic_alert_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/alert_policy newrelic_alert_policy} Data Source.
 func NewDataNewrelicAlertPolicy_Override(d DataNewrelicAlertPolicy, scope constructs.Construct, id *string, config *DataNewrelicAlertPolicyConfig) {
 	_init_.Initialize()
 

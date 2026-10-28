@@ -5,14 +5,14 @@ package obfuscationexpression
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/obfuscationexpression/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/obfuscationexpression/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/obfuscation_expression newrelic_obfuscation_expression}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/obfuscation_expression newrelic_obfuscation_expression}.
 type ObfuscationExpression interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -462,7 +462,7 @@ func (j *jsiiProxy_ObfuscationExpression) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
 func NewObfuscationExpression(scope constructs.Construct, id *string, config *ObfuscationExpressionConfig) ObfuscationExpression {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewObfuscationExpression(scope constructs.Construct, id *string, config *Ob
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/obfuscation_expression newrelic_obfuscation_expression} Resource.
 func NewObfuscationExpression_Override(o ObfuscationExpression, scope constructs.Construct, id *string, config *ObfuscationExpressionConfig) {
 	_init_.Initialize()
 

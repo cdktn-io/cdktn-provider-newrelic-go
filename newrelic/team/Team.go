@@ -5,14 +5,14 @@ package team
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/team/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/team/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/team newrelic_team}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/team newrelic_team}.
 type Team interface {
 	cdktn.TerraformResource
 	Aliases() *[]*string
@@ -675,7 +675,7 @@ func (j *jsiiProxy_Team) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/team newrelic_team} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/team newrelic_team} Resource.
 func NewTeam(scope constructs.Construct, id *string, config *TeamConfig) Team {
 	_init_.Initialize()
 
@@ -693,7 +693,7 @@ func NewTeam(scope constructs.Construct, id *string, config *TeamConfig) Team {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/team newrelic_team} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/team newrelic_team} Resource.
 func NewTeam_Override(t Team, scope constructs.Construct, id *string, config *TeamConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cloudazurelinkaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/cloudazurelinkaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/cloudazurelinkaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/cloud_azure_link_account newrelic_cloud_azure_link_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/cloud_azure_link_account newrelic_cloud_azure_link_account}.
 type CloudAzureLinkAccount interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -507,7 +507,7 @@ func (j *jsiiProxy_CloudAzureLinkAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/cloud_azure_link_account newrelic_cloud_azure_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/cloud_azure_link_account newrelic_cloud_azure_link_account} Resource.
 func NewCloudAzureLinkAccount(scope constructs.Construct, id *string, config *CloudAzureLinkAccountConfig) CloudAzureLinkAccount {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewCloudAzureLinkAccount(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/cloud_azure_link_account newrelic_cloud_azure_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/cloud_azure_link_account newrelic_cloud_azure_link_account} Resource.
 func NewCloudAzureLinkAccount_Override(c CloudAzureLinkAccount, scope constructs.Construct, id *string, config *CloudAzureLinkAccountConfig) {
 	_init_.Initialize()
 

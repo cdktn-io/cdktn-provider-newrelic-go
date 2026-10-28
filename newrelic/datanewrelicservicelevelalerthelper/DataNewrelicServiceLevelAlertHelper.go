@@ -5,14 +5,14 @@ package datanewrelicservicelevelalerthelper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicservicelevelalerthelper/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicservicelevelalerthelper/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper}.
 type DataNewrelicServiceLevelAlertHelper interface {
 	cdktn.TerraformDataSource
 	AlertType() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataNewrelicServiceLevelAlertHelper) ToleratedBudgetConsumpti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper} Data Source.
 func NewDataNewrelicServiceLevelAlertHelper(scope constructs.Construct, id *string, config *DataNewrelicServiceLevelAlertHelperConfig) DataNewrelicServiceLevelAlertHelper {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataNewrelicServiceLevelAlertHelper(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/service_level_alert_helper newrelic_service_level_alert_helper} Data Source.
 func NewDataNewrelicServiceLevelAlertHelper_Override(d DataNewrelicServiceLevelAlertHelper, scope constructs.Construct, id *string, config *DataNewrelicServiceLevelAlertHelperConfig) {
 	_init_.Initialize()
 

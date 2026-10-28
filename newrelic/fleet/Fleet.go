@@ -5,14 +5,14 @@ package fleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/fleet/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/fleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/fleet newrelic_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/fleet newrelic_fleet}.
 type Fleet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_Fleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/fleet newrelic_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/fleet newrelic_fleet} Resource.
 func NewFleet(scope constructs.Construct, id *string, config *FleetConfig) Fleet {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewFleet(scope constructs.Construct, id *string, config *FleetConfig) Fleet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/fleet newrelic_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/fleet newrelic_fleet} Resource.
 func NewFleet_Override(f Fleet, scope constructs.Construct, id *string, config *FleetConfig) {
 	_init_.Initialize()
 

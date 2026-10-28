@@ -5,14 +5,14 @@ package eventstometricsrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/eventstometricsrule/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/eventstometricsrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule}.
 type EventsToMetricsRule interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -497,7 +497,7 @@ func (j *jsiiProxy_EventsToMetricsRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule} Resource.
 func NewEventsToMetricsRule(scope constructs.Construct, id *string, config *EventsToMetricsRuleConfig) EventsToMetricsRule {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewEventsToMetricsRule(scope constructs.Construct, id *string, config *Even
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/events_to_metrics_rule newrelic_events_to_metrics_rule} Resource.
 func NewEventsToMetricsRule_Override(e EventsToMetricsRule, scope constructs.Construct, id *string, config *EventsToMetricsRuleConfig) {
 	_init_.Initialize()
 

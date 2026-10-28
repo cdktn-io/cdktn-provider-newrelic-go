@@ -5,14 +5,14 @@ package federatedlogssetup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/federatedlogssetup/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/federatedlogssetup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/federated_logs_setup newrelic_federated_logs_setup}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/federated_logs_setup newrelic_federated_logs_setup}.
 type FederatedLogsSetup interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -599,7 +599,7 @@ func (j *jsiiProxy_FederatedLogsSetup) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/federated_logs_setup newrelic_federated_logs_setup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/federated_logs_setup newrelic_federated_logs_setup} Resource.
 func NewFederatedLogsSetup(scope constructs.Construct, id *string, config *FederatedLogsSetupConfig) FederatedLogsSetup {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewFederatedLogsSetup(scope constructs.Construct, id *string, config *Feder
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/federated_logs_setup newrelic_federated_logs_setup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/federated_logs_setup newrelic_federated_logs_setup} Resource.
 func NewFederatedLogsSetup_Override(f FederatedLogsSetup, scope constructs.Construct, id *string, config *FederatedLogsSetupConfig) {
 	_init_.Initialize()
 

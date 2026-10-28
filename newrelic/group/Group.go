@@ -5,14 +5,14 @@ package group
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/group/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/group/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/group newrelic_group}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/group newrelic_group}.
 type Group interface {
 	cdktn.TerraformResource
 	AuthenticationDomainId() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_Group) UserIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/group newrelic_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/group newrelic_group} Resource.
 func NewGroup(scope constructs.Construct, id *string, config *GroupConfig) Group {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewGroup(scope constructs.Construct, id *string, config *GroupConfig) Group
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/group newrelic_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/group newrelic_group} Resource.
 func NewGroup_Override(g Group, scope constructs.Construct, id *string, config *GroupConfig) {
 	_init_.Initialize()
 

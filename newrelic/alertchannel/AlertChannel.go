@@ -5,14 +5,14 @@ package alertchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/alertchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/alertchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/alert_channel newrelic_alert_channel}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/alert_channel newrelic_alert_channel}.
 type AlertChannel interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -462,7 +462,7 @@ func (j *jsiiProxy_AlertChannel) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/alert_channel newrelic_alert_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/alert_channel newrelic_alert_channel} Resource.
 func NewAlertChannel(scope constructs.Construct, id *string, config *AlertChannelConfig) AlertChannel {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewAlertChannel(scope constructs.Construct, id *string, config *AlertChanne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/alert_channel newrelic_alert_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/alert_channel newrelic_alert_channel} Resource.
 func NewAlertChannel_Override(a AlertChannel, scope constructs.Construct, id *string, config *AlertChannelConfig) {
 	_init_.Initialize()
 

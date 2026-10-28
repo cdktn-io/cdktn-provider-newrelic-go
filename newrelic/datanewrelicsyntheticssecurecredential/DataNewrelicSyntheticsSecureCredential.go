@@ -5,14 +5,14 @@ package datanewrelicsyntheticssecurecredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicsyntheticssecurecredential/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicsyntheticssecurecredential/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/synthetics_secure_credential newrelic_synthetics_secure_credential}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/synthetics_secure_credential newrelic_synthetics_secure_credential}.
 type DataNewrelicSyntheticsSecureCredential interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DataNewrelicSyntheticsSecureCredential) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/synthetics_secure_credential newrelic_synthetics_secure_credential} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/synthetics_secure_credential newrelic_synthetics_secure_credential} Data Source.
 func NewDataNewrelicSyntheticsSecureCredential(scope constructs.Construct, id *string, config *DataNewrelicSyntheticsSecureCredentialConfig) DataNewrelicSyntheticsSecureCredential {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewDataNewrelicSyntheticsSecureCredential(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/synthetics_secure_credential newrelic_synthetics_secure_credential} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/synthetics_secure_credential newrelic_synthetics_secure_credential} Data Source.
 func NewDataNewrelicSyntheticsSecureCredential_Override(d DataNewrelicSyntheticsSecureCredential, scope constructs.Construct, id *string, config *DataNewrelicSyntheticsSecureCredentialConfig) {
 	_init_.Initialize()
 

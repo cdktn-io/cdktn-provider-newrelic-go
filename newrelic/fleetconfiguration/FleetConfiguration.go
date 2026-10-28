@@ -5,14 +5,14 @@ package fleetconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/fleetconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/fleetconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/fleet_configuration newrelic_fleet_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/fleet_configuration newrelic_fleet_configuration}.
 type FleetConfiguration interface {
 	cdktn.TerraformResource
 	AgentType() *string
@@ -611,7 +611,7 @@ func (j *jsiiProxy_FleetConfiguration) VersionEntityIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
 func NewFleetConfiguration(scope constructs.Construct, id *string, config *FleetConfigurationConfig) FleetConfiguration {
 	_init_.Initialize()
 
@@ -629,7 +629,7 @@ func NewFleetConfiguration(scope constructs.Construct, id *string, config *Fleet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/fleet_configuration newrelic_fleet_configuration} Resource.
 func NewFleetConfiguration_Override(f FleetConfiguration, scope constructs.Construct, id *string, config *FleetConfigurationConfig) {
 	_init_.Initialize()
 

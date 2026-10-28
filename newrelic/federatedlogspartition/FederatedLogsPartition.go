@@ -5,14 +5,14 @@ package federatedlogspartition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/federatedlogspartition/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/federatedlogspartition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/federated_logs_partition newrelic_federated_logs_partition}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/federated_logs_partition newrelic_federated_logs_partition}.
 type FederatedLogsPartition interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -623,7 +623,7 @@ func (j *jsiiProxy_FederatedLogsPartition) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/federated_logs_partition newrelic_federated_logs_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/federated_logs_partition newrelic_federated_logs_partition} Resource.
 func NewFederatedLogsPartition(scope constructs.Construct, id *string, config *FederatedLogsPartitionConfig) FederatedLogsPartition {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewFederatedLogsPartition(scope constructs.Construct, id *string, config *F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/federated_logs_partition newrelic_federated_logs_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/federated_logs_partition newrelic_federated_logs_partition} Resource.
 func NewFederatedLogsPartition_Override(f FederatedLogsPartition, scope constructs.Construct, id *string, config *FederatedLogsPartitionConfig) {
 	_init_.Initialize()
 

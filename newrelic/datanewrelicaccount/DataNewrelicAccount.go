@@ -5,14 +5,14 @@ package datanewrelicaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/account newrelic_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/account newrelic_account}.
 type DataNewrelicAccount interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataNewrelicAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/account newrelic_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/account newrelic_account} Data Source.
 func NewDataNewrelicAccount(scope constructs.Construct, id *string, config *DataNewrelicAccountConfig) DataNewrelicAccount {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewDataNewrelicAccount(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/account newrelic_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/account newrelic_account} Data Source.
 func NewDataNewrelicAccount_Override(d DataNewrelicAccount, scope constructs.Construct, id *string, config *DataNewrelicAccountConfig) {
 	_init_.Initialize()
 

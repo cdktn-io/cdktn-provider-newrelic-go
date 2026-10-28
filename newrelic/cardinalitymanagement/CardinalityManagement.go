@@ -5,14 +5,14 @@ package cardinalitymanagement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/cardinalitymanagement/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/cardinalitymanagement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/cardinality_management newrelic_cardinality_management}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/cardinality_management newrelic_cardinality_management}.
 type CardinalityManagement interface {
 	cdktn.TerraformResource
 	CardinalityLimit() *float64
@@ -439,7 +439,7 @@ func (j *jsiiProxy_CardinalityManagement) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/cardinality_management newrelic_cardinality_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/cardinality_management newrelic_cardinality_management} Resource.
 func NewCardinalityManagement(scope constructs.Construct, id *string, config *CardinalityManagementConfig) CardinalityManagement {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewCardinalityManagement(scope constructs.Construct, id *string, config *Ca
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/cardinality_management newrelic_cardinality_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/cardinality_management newrelic_cardinality_management} Resource.
 func NewCardinalityManagement_Override(c CardinalityManagement, scope constructs.Construct, id *string, config *CardinalityManagementConfig) {
 	_init_.Initialize()
 

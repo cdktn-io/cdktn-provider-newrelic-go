@@ -5,14 +5,14 @@ package cloudgcplinkaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/cloudgcplinkaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/cloudgcplinkaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/cloud_gcp_link_account newrelic_cloud_gcp_link_account}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/cloud_gcp_link_account newrelic_cloud_gcp_link_account}.
 type CloudGcpLinkAccount interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -510,7 +510,7 @@ func (j *jsiiProxy_CloudGcpLinkAccount) UseWorkloadIdentityFederationInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/cloud_gcp_link_account newrelic_cloud_gcp_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/cloud_gcp_link_account newrelic_cloud_gcp_link_account} Resource.
 func NewCloudGcpLinkAccount(scope constructs.Construct, id *string, config *CloudGcpLinkAccountConfig) CloudGcpLinkAccount {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewCloudGcpLinkAccount(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/cloud_gcp_link_account newrelic_cloud_gcp_link_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/cloud_gcp_link_account newrelic_cloud_gcp_link_account} Resource.
 func NewCloudGcpLinkAccount_Override(c CloudGcpLinkAccount, scope constructs.Construct, id *string, config *CloudGcpLinkAccountConfig) {
 	_init_.Initialize()
 

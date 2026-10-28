@@ -5,14 +5,14 @@ package datanewrelicentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/datanewrelicentity/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/datanewrelicentity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/entity newrelic_entity}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/entity newrelic_entity}.
 type DataNewrelicEntity interface {
 	cdktn.TerraformDataSource
 	AccountId() *float64
@@ -511,7 +511,7 @@ func (j *jsiiProxy_DataNewrelicEntity) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/entity newrelic_entity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/entity newrelic_entity} Data Source.
 func NewDataNewrelicEntity(scope constructs.Construct, id *string, config *DataNewrelicEntityConfig) DataNewrelicEntity {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewDataNewrelicEntity(scope constructs.Construct, id *string, config *DataN
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/data-sources/entity newrelic_entity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/data-sources/entity newrelic_entity} Data Source.
 func NewDataNewrelicEntity_Override(d DataNewrelicEntity, scope constructs.Construct, id *string, config *DataNewrelicEntityConfig) {
 	_init_.Initialize()
 

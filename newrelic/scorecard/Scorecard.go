@@ -5,14 +5,14 @@ package scorecard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v16/scorecard/internal"
+	"github.com/cdktn-io/cdktn-provider-newrelic-go/newrelic/v17/scorecard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/scorecard newrelic_scorecard}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/scorecard newrelic_scorecard}.
 type Scorecard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_Scorecard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/scorecard newrelic_scorecard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/scorecard newrelic_scorecard} Resource.
 func NewScorecard(scope constructs.Construct, id *string, config *ScorecardConfig) Scorecard {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewScorecard(scope constructs.Construct, id *string, config *ScorecardConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.1/docs/resources/scorecard newrelic_scorecard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.6/docs/resources/scorecard newrelic_scorecard} Resource.
 func NewScorecard_Override(s Scorecard, scope constructs.Construct, id *string, config *ScorecardConfig) {
 	_init_.Initialize()
 
