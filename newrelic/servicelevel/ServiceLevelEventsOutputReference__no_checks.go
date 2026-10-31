@@ -75,6 +75,10 @@ func (j *jsiiProxy_ServiceLevelEventsOutputReference) validateSetComplexObjectIs
 	return nil
 }
 
+func (j *jsiiProxy_ServiceLevelEventsOutputReference) validateSetFacetsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ServiceLevelEventsOutputReference) validateSetInternalValueParameters(val *ServiceLevelEvents) error {
 	return nil
 }

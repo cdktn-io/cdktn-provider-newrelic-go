@@ -33,6 +33,9 @@ type ServiceLevelEventsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Facets() *[]*string
+	SetFacets(val *[]*string)
+	FacetsInput() *[]*string
 	// Experimental.
 	Fqn() *string
 	GoodEvents() ServiceLevelEventsGoodEventsOutputReference
@@ -77,6 +80,7 @@ type ServiceLevelEventsOutputReference interface {
 	PutGoodEvents(value *ServiceLevelEventsGoodEvents)
 	PutValidEvents(value *ServiceLevelEventsValidEvents)
 	ResetBadEvents()
+	ResetFacets()
 	ResetGoodEvents()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -158,6 +162,26 @@ func (j *jsiiProxy_ServiceLevelEventsOutputReference) CreationStack() *[]*string
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ServiceLevelEventsOutputReference) Facets() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"facets",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ServiceLevelEventsOutputReference) FacetsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"facetsInput",
 		&returns,
 	)
 	return returns
@@ -300,6 +324,17 @@ func (j *jsiiProxy_ServiceLevelEventsOutputReference)SetComplexObjectIsFromSet(v
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ServiceLevelEventsOutputReference)SetFacets(val *[]*string) {
+	if err := j.validateSetFacetsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"facets",
 		val,
 	)
 }
@@ -560,6 +595,14 @@ func (s *jsiiProxy_ServiceLevelEventsOutputReference) ResetBadEvents() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetBadEvents",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_ServiceLevelEventsOutputReference) ResetFacets() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetFacets",
 		nil, // no parameters
 	)
 }
