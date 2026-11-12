@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.10/docs/resources/api_access_key newrelic_api_access_key}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/api_access_key newrelic_api_access_key}.
 type ApiAccessKey interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -34,6 +34,9 @@ type ApiAccessKey interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	Enabled() interface{}
+	SetEnabled(val interface{})
+	EnabledInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -64,6 +67,9 @@ type ApiAccessKey interface {
 	Notes() *string
 	SetNotes(val *string)
 	NotesInput() *string
+	OwningTeamIds() *[]*string
+	SetOwningTeamIds(val *[]*string)
+	OwningTeamIdsInput() *[]*string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -176,6 +182,7 @@ type ApiAccessKey interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccountId()
+	ResetEnabled()
 	ResetId()
 	ResetIngestType()
 	ResetName()
@@ -183,6 +190,7 @@ type ApiAccessKey interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetOwningTeamIds()
 	ResetUserId()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -276,6 +284,26 @@ func (j *jsiiProxy_ApiAccessKey) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiAccessKey) Enabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiAccessKey) EnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enabledInput",
 		&returns,
 	)
 	return returns
@@ -441,6 +469,26 @@ func (j *jsiiProxy_ApiAccessKey) NotesInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ApiAccessKey) OwningTeamIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"owningTeamIds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiAccessKey) OwningTeamIdsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"owningTeamIdsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApiAccessKey) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -522,7 +570,7 @@ func (j *jsiiProxy_ApiAccessKey) UserIdInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.10/docs/resources/api_access_key newrelic_api_access_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/api_access_key newrelic_api_access_key} Resource.
 func NewApiAccessKey(scope constructs.Construct, id *string, config *ApiAccessKeyConfig) ApiAccessKey {
 	_init_.Initialize()
 
@@ -540,7 +588,7 @@ func NewApiAccessKey(scope constructs.Construct, id *string, config *ApiAccessKe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.10/docs/resources/api_access_key newrelic_api_access_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/api_access_key newrelic_api_access_key} Resource.
 func NewApiAccessKey_Override(a ApiAccessKey, scope constructs.Construct, id *string, config *ApiAccessKeyConfig) {
 	_init_.Initialize()
 
@@ -588,6 +636,17 @@ func (j *jsiiProxy_ApiAccessKey)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApiAccessKey)SetEnabled(val interface{}) {
+	if err := j.validateSetEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enabled",
 		val,
 	)
 }
@@ -662,6 +721,17 @@ func (j *jsiiProxy_ApiAccessKey)SetNotes(val *string) {
 	_jsii_.Set(
 		j,
 		"notes",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApiAccessKey)SetOwningTeamIds(val *[]*string) {
+	if err := j.validateSetOwningTeamIdsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"owningTeamIds",
 		val,
 	)
 }
@@ -1084,6 +1154,14 @@ func (a *jsiiProxy_ApiAccessKey) ResetAccountId() {
 	)
 }
 
+func (a *jsiiProxy_ApiAccessKey) ResetEnabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApiAccessKey) ResetId() {
 	_jsii_.InvokeVoid(
 		a,
@@ -1120,6 +1198,14 @@ func (a *jsiiProxy_ApiAccessKey) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApiAccessKey) ResetOwningTeamIds() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetOwningTeamIds",
 		nil, // no parameters
 	)
 }

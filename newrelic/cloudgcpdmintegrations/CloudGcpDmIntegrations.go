@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.10/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations}.
 type CloudGcpDmIntegrations interface {
 	cdktn.TerraformResource
 	AccountId() *float64
@@ -80,6 +80,8 @@ type CloudGcpDmIntegrations interface {
 	FriendlyUniqueId() *string
 	Functions() CloudGcpDmIntegrationsFunctionsOutputReference
 	FunctionsInput() *CloudGcpDmIntegrationsFunctions
+	GeminiEnterprise() CloudGcpDmIntegrationsGeminiEnterpriseOutputReference
+	GeminiEnterpriseInput() *CloudGcpDmIntegrationsGeminiEnterprise
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -238,6 +240,7 @@ type CloudGcpDmIntegrations interface {
 	PutFirebaseVertexAi(value *CloudGcpDmIntegrationsFirebaseVertexAi)
 	PutFirestore(value *CloudGcpDmIntegrationsFirestore)
 	PutFunctions(value *CloudGcpDmIntegrationsFunctions)
+	PutGeminiEnterprise(value *CloudGcpDmIntegrationsGeminiEnterprise)
 	PutInterconnect(value *CloudGcpDmIntegrationsInterconnect)
 	PutIstio(value *CloudGcpDmIntegrationsIstio)
 	PutKubernetes(value *CloudGcpDmIntegrationsKubernetes)
@@ -287,6 +290,7 @@ type CloudGcpDmIntegrations interface {
 	ResetFirebaseVertexAi()
 	ResetFirestore()
 	ResetFunctions()
+	ResetGeminiEnterprise()
 	ResetId()
 	ResetInterconnect()
 	ResetIstio()
@@ -814,6 +818,26 @@ func (j *jsiiProxy_CloudGcpDmIntegrations) FunctionsInput() *CloudGcpDmIntegrati
 	return returns
 }
 
+func (j *jsiiProxy_CloudGcpDmIntegrations) GeminiEnterprise() CloudGcpDmIntegrationsGeminiEnterpriseOutputReference {
+	var returns CloudGcpDmIntegrationsGeminiEnterpriseOutputReference
+	_jsii_.Get(
+		j,
+		"geminiEnterprise",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudGcpDmIntegrations) GeminiEnterpriseInput() *CloudGcpDmIntegrationsGeminiEnterprise {
+	var returns *CloudGcpDmIntegrationsGeminiEnterprise
+	_jsii_.Get(
+		j,
+		"geminiEnterpriseInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudGcpDmIntegrations) Id() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1255,7 +1279,7 @@ func (j *jsiiProxy_CloudGcpDmIntegrations) VpcAccessInput() *CloudGcpDmIntegrati
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.10/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
 func NewCloudGcpDmIntegrations(scope constructs.Construct, id *string, config *CloudGcpDmIntegrationsConfig) CloudGcpDmIntegrations {
 	_init_.Initialize()
 
@@ -1273,7 +1297,7 @@ func NewCloudGcpDmIntegrations(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.10/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/cloud_gcp_dm_integrations newrelic_cloud_gcp_dm_integrations} Resource.
 func NewCloudGcpDmIntegrations_Override(c CloudGcpDmIntegrations, scope constructs.Construct, id *string, config *CloudGcpDmIntegrationsConfig) {
 	_init_.Initialize()
 
@@ -1963,6 +1987,17 @@ func (c *jsiiProxy_CloudGcpDmIntegrations) PutFunctions(value *CloudGcpDmIntegra
 	)
 }
 
+func (c *jsiiProxy_CloudGcpDmIntegrations) PutGeminiEnterprise(value *CloudGcpDmIntegrationsGeminiEnterprise) {
+	if err := c.validatePutGeminiEnterpriseParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putGeminiEnterprise",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudGcpDmIntegrations) PutInterconnect(value *CloudGcpDmIntegrationsInterconnect) {
 	if err := c.validatePutInterconnectParameters(value); err != nil {
 		panic(err)
@@ -2306,6 +2341,14 @@ func (c *jsiiProxy_CloudGcpDmIntegrations) ResetFunctions() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetFunctions",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudGcpDmIntegrations) ResetGeminiEnterprise() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetGeminiEnterprise",
 		nil, // no parameters
 	)
 }

@@ -155,6 +155,10 @@ func (c *jsiiProxy_CloudGcpDmIntegrations) validatePutFunctionsParameters(value 
 	return nil
 }
 
+func (c *jsiiProxy_CloudGcpDmIntegrations) validatePutGeminiEnterpriseParameters(value *CloudGcpDmIntegrationsGeminiEnterprise) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudGcpDmIntegrations) validatePutInterconnectParameters(value *CloudGcpDmIntegrationsInterconnect) error {
 	return nil
 }

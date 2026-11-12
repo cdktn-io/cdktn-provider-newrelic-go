@@ -111,6 +111,10 @@ func (j *jsiiProxy_ApiAccessKey) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_ApiAccessKey) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApiAccessKey) validateSetIdParameters(val *string) error {
 	return nil
 }
@@ -132,6 +136,10 @@ func (j *jsiiProxy_ApiAccessKey) validateSetNameParameters(val *string) error {
 }
 
 func (j *jsiiProxy_ApiAccessKey) validateSetNotesParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ApiAccessKey) validateSetOwningTeamIdsParameters(val *[]*string) error {
 	return nil
 }
 

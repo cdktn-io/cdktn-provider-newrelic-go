@@ -5,7 +5,7 @@ package scorecard
 
 
 type ScorecardTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.10/docs/resources/scorecard#create Scorecard#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/scorecard#create Scorecard#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
 }
 
