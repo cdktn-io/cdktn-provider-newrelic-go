@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/nrql_macro newrelic_nrql_macro}.
+// Represents a {@link https://registry.terraform.io/providers/newrelic/newrelic/3.102.0/docs/resources/nrql_macro newrelic_nrql_macro}.
 type NrqlMacro interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_NrqlMacro) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/nrql_macro newrelic_nrql_macro} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.102.0/docs/resources/nrql_macro newrelic_nrql_macro} Resource.
 func NewNrqlMacro(scope constructs.Construct, id *string, config *NrqlMacroConfig) NrqlMacro {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewNrqlMacro(scope constructs.Construct, id *string, config *NrqlMacroConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.101.12/docs/resources/nrql_macro newrelic_nrql_macro} Resource.
+// Create a new {@link https://registry.terraform.io/providers/newrelic/newrelic/3.102.0/docs/resources/nrql_macro newrelic_nrql_macro} Resource.
 func NewNrqlMacro_Override(n NrqlMacro, scope constructs.Construct, id *string, config *NrqlMacroConfig) {
 	_init_.Initialize()
 
