@@ -1,3 +1,3 @@
 # `newrelic_teams_organization_settings`
 
-Refer to the Terraform Registry for docs: [`newrelic_teams_organization_settings`](https://registry.terraform.io/providers/newrelic/newrelic/3.102.0/docs/resources/teams_organization_settings).
+Refer to the Terraform Registry for docs: [`newrelic_teams_organization_settings`](https://registry.terraform.io/providers/newrelic/newrelic/3.102.1/docs/resources/teams_organization_settings).
